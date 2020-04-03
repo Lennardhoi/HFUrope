@@ -1,0 +1,29 @@
+state={
+	id=179
+	name="Southern Ontario"
+	provinces={
+		53 437 1519 1680 1934 2682 3430 3549 4524 4887 7099 7457 11482 11481
+	}
+	manpower = 3117017
+	
+	state_category = large_city
+	
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 5
+		}
+		add_core_of = CAN
+		victory_points = {
+			1519 20 
+		}
+		victory_points = {
+			53 10
+		}
+
+	}
+	buildings_max_level_factor=1.000
+}
