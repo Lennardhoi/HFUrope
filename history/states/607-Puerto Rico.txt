@@ -1,28 +1,23 @@
 state={
-	id=626
-	name="STATE_626"
+	id=607
+	name="STATE_607"
 	provinces={
-		10818  10903 11543 11537
+		5137 10608 11538 11535 11536
 	}
-manpower = 444290
+manpower = 1543913
 state_category = rural
 history={
-owner = FRA
+owner = USA
 add_core_of=SWE
 victory_points = {
-10818 1
+10608 1
 }
 buildings = {
 infrastructure = 4
-air_base = 1
-10818 = {
+industrial_complex = 1
+air_base = 4
+10608 = {
 naval_base = 3
-}
-10903 = {
-naval_base = 1
-}
-11543 = {
-naval_base = 1
 }
 }
 }
