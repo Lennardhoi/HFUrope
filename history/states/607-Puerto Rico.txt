@@ -1,6 +1,6 @@
 state={
 	id=607
-	name="STATE_607"
+	name="Puerto Rico"
 	provinces={
 		5137 10608 11538 11535 11536
 	}

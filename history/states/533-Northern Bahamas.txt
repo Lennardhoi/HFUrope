@@ -1,6 +1,6 @@
 state={
 	id=533
-	name="STATE_533"
+	name="Northern Bahamas"
 	provinces={
 		11518 11504 11505 11507 11519 11515 11521 11523
 	}

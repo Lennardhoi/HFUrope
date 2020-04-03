@@ -1,6 +1,6 @@
 state={
 	id=411
-	name="STATE_411"
+	name="Bermuda"
 	provinces={
 		9307 9342 9266
 	}

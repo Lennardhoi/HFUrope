@@ -1,6 +1,6 @@
 state={
 	id=683
-	name="STATE_683"
+	name="French Guiana"
 	provinces={
 		1738 2604 3113 3407 3615 4482 4690 5848 11135 11142 11150 
 	}

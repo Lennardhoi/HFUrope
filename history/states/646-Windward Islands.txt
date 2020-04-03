@@ -1,6 +1,6 @@
 state={
 	id=646
-	name="STATE_646"
+	name="Windward Islands"
 	provinces={
 		11550 10933 11549 11554
 	}

@@ -1,6 +1,6 @@
 state={
 	id=606
-	name="STATE_606"
+	name="Jamaica"
 	provinces={
 		2534 5611 10607 11533
 	}

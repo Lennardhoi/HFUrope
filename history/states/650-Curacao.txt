@@ -1,6 +1,6 @@
 state={
 	id=650
-	name="STATE_650"
+	name="Curacao"
 	provinces={
 		10973  11552  11553
 	}

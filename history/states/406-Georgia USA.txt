@@ -1,6 +1,6 @@
 state={
 	id=406
-	name="STATE_406"
+	name="Georgia"
 	provinces={
 		5445 
 	}

@@ -1,6 +1,6 @@
 state={
 	id=381
-	name="STATE_381"
+	name="South Carolina"
 	provinces={
 		602 2457 3548 3604 9195  11495 
 	}
