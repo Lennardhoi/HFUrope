@@ -10,7 +10,7 @@ buildings = {
 infrastructure = 0
 }
 }
-provinces={
+
 provinces={
 		286 300 1243 1376 2049 6245 11151 
 	}
