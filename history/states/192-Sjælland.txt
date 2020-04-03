@@ -1,6 +1,6 @@
 state= {
 	id=192
-	name="STATE_37"
+	name="Sjælland"
 	manpower = 2034114
 
 	state_category = large_city
@@ -26,7 +26,7 @@ state= {
 			7136 = {
 				naval_base = 3
 			}
-			2999 = {
+			1238 = {
 				naval_base = 1
 			}
 		}
@@ -34,6 +34,6 @@ state= {
 	}
 
 	provinces= {
-		2999 3320 5535 6151 7136 7171 7200 
+		2999 3320 5535 6151 7136 7171 7200 1238 7258 7287 7278 60 6351 4020 7195 11484 7241 11487 11486
 	}
 }
