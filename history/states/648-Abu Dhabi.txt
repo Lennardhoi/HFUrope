@@ -1,21 +1,24 @@
 state={
-	id=649
-	name="STATE_649"
+	id=648
+	name="Abu Dhabi"
 	provinces={
-		2115 3525 11551
+		472 2105 2116 3210 4184 10984 11008 11020 11022 11027 11557
 	}
-manpower = 51600
+manpower = 170200
+resources={
+oil=0
+}
 state_category = pastoral
 history={
 owner = ENG
 add_core_of=SWE
 victory_points = {
-2115 1
+7960 1
 }
 buildings = {
 infrastructure = 2
-2115 = {
-naval_base = 2
+7960 = {
+naval_base = 3
 }
 }
 }
