@@ -2,7 +2,7 @@ state={
 	id=265
 	name="Ohio"
 	provinces={
-		1812 2407 2473 
+		1812 2407 2473 12732
 	}
 	resources={
 		steel=28 # was: 48.000

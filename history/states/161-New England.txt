@@ -2,7 +2,7 @@ state={
 	id=161
 	name="New England"
 	provinces={
-		172 305 883 992 1378 1600 1893 2181 3520 7790 
+		172 305 883 992 1378 1600 1893 2181 3520 7790 14189
 	}
 
 	state_category = metropolis
