@@ -1,0 +1,30 @@
+state={
+	id=344
+	name="STATE_73"
+	manpower = 854300
+	
+	state_category = rural
+	
+	history={
+		victory_points = {
+			6254 1 
+		}
+		owner = CZE
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = CZE
+		add_claim_by = HUN
+
+		1939.3.14 = {
+			owner = HUN
+			controller = HUN
+			remove_claim_by = HUN
+			add_core_of = HUN
+		}
+	}
+
+	provinces={
+		1235 1487 2596 3005 6254 8481 8516 8545 8608 8632 8651 8677 
+	}
+}
