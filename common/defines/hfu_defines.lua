@@ -1,5 +1,6 @@
 --Horst defines:
-
+--zoom
+NDefines.NFrontend.CAMERA_MIN_HEIGHT=40
 --------------------------------------------------------------
 --test
 NDefines_Graphics.NGraphics.BORDER_WIDTH = 1
