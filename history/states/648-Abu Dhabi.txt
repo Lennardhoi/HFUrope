@@ -13,11 +13,11 @@ history={
 owner = ENG
 add_core_of=SWE
 victory_points = {
-7960 1
+11020 1
 }
 buildings = {
 infrastructure = 2
-7960 = {
+11020 = {
 naval_base = 3
 }
 }
