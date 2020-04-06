@@ -2,7 +2,7 @@ state={
 	id=499
 	name="Aegean Islands"
 	provinces={
-		3943 10004 11514 10068 10091 9915 9874
+		3943 10004 11514 10068 9915 9874
 	}
 	manpower = 322600
 	
