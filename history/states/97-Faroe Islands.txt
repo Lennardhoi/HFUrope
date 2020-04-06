@@ -2,7 +2,7 @@ state={
 	id=97
 	name="Faroe Islands"
 	provinces={
-		6631 6633 11465 6653 
+		6633 
 	}
 	manpower = 25900
 	
