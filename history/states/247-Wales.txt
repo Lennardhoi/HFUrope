@@ -1,0 +1,30 @@
+state= {
+	id=247
+	name="STATE_122"
+	manpower = 2309230
+	
+	state_category = city
+	
+	resources={
+		steel=13 # was 11
+		aluminium=5 # was: 3   2 moved from Northern Ireland
+	}
+
+	history=
+	{
+		owner = ENG
+		victory_points = { 7835 5 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			7835 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ENG
+	}
+
+	provinces=
+	{
+872 1998 2255 2368 3304 4229 4293 5571 5939 6085 7443 7496 7506 7521 7646 7701 7748 7774 7782 7835 11489 	}
+}
