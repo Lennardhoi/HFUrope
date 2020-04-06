@@ -1,6 +1,6 @@
 state={
 id=666
-name="STATE_515"
+name="Southern Sahara"
 state_category = pastoral
 impassable = yes
 history={
