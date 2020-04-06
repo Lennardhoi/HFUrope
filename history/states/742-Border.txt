@@ -1,8 +1,8 @@
 state={
 	id=742
-	name="STATE_742"
+	name="Map Border"
 	provinces={
-		 
+		 11584
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
