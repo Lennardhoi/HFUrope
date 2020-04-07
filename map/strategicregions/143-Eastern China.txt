@@ -1,7 +1,0 @@
-strategic_region={
-	id=143
-	name="STRATEGICREGION_143"
-	provinces={
-		
-	}
-}
