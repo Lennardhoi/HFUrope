@@ -2,13 +2,9 @@
 state={
 	id=55
 	name="STATE_581"
-	manpower = 48831
-	
-	state_category = city
-	
 	resources={
-		chromium=40 # was: 44
-		aluminium=35 # was: 30
+		chromium=40.000
+		aluminium=35.000
 	}
 
 	history={
@@ -18,9 +14,13 @@ state={
 
 		}
 		add_core_of = SOV
+
 	}
 
 	provinces={
-		6 9 430 573 613 1658 1962 2663 2938 3742 5157 5274 6567 6604 
+		430 613 1658 1962 2663 2938 3742 5274 6604 
 	}
+	manpower=48831
+	buildings_max_level_factor=1.000
+	state_category=city
 }
