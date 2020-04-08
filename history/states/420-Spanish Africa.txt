@@ -1,0 +1,19 @@
+state={
+id=420
+name="STATE_290"
+manpower = 1
+state_category = pastoral
+history={
+owner = SPR
+add_core_of=SWE
+victory_points = {
+10170 3
+}
+buildings = {
+infrastructure = 3
+}
+}
+provinces={
+		210 1995 2252 4892 5270 6349 10170 10177 10184 10194 10201 10207 10211 10212 10221 10222 10226 10246 10247 
+	}
+}

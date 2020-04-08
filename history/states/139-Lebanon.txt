@@ -1,0 +1,24 @@
+state={
+	id=139
+	name="Lebanon"
+	provinces={
+		2112 
+	}
+manpower = 1104000
+state_category = town
+history={
+owner = FRA
+add_core_of=SWE
+victory_points = {
+2112 5
+}
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+air_base = 5
+2112 = {
+naval_base = 3
+}
+}
+}	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+state={
+	id=204
+	name="STATE_736"
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			5619 1 
+		}
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 2
+			5619 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+	   113 1131 4050 5619 9122 9227 9249 9261 4637
+	}
+	manpower=1063159
+	buildings_max_level_factor=1.000
+}
