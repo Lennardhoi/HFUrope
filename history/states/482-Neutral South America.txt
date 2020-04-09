@@ -10,6 +10,7 @@ state={
 		14216 13364 11570  11568  11569 11571 11564 11572 
 		
 	}
-	manpower=1
+		manpower=1
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 }
