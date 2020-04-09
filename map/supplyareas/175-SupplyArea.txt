@@ -1,8 +1,9 @@
 supply_area={
-	id=175
-	name="SUPPLYAREA_314"
-	value=2
-	states={
-		55 
-	}
-}
+ 	id=175
+ 	name="SUPPLYAREA_314"
+ 	value=2
+ 	states={
+ 		300 
+ 	}
+ }
+

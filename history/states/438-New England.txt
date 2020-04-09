@@ -1,0 +1,46 @@
+state={
+	id=438
+	name="New England"
+	provinces={
+		172 305 883 992 1378 1600 1893 2181 3520 7790 14189
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 4
+			air_base = 10
+			1893 = {
+				naval_base = 8
+
+			}
+			883 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			1893 20 
+		}
+		victory_points = {
+			12459 1 
+		}
+		victory_points = {
+			172 1 
+		}
+
+	}
+
+		manpower=8404713
+
+	
+	buildings_max_level_factor=1.000
+}
