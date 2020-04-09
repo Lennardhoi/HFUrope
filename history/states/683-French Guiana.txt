@@ -1,0 +1,19 @@
+state={
+	id=683
+	name="French Guiana"
+	provinces={
+		1738 2604 3113 3407 3615 4482 4690 5848 11135 11142 11150 
+	}
+manpower = 47341
+state_category = pastoral
+history={
+owner = FRA
+add_core_of=SWE
+buildings = {
+infrastructure = 2
+}
+victory_points = {
+3407 1
+}
+}	buildings_max_level_factor=1.000
+}
