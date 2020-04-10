@@ -152,62 +152,62 @@ units = {
 	# II. Armeekorps
 	division= {	
 		name = "SS-Division Leibstandarte SS Adolf Hitler"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 	division= {	
 		name = "SS-Division Totenkopf"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Das Reich"
 				
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Wiking"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Nibelungen"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Polizei"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Nord"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Prinz Eugen"
-		location = 6334
+		location =2046
 		division_template = "SS-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Florian Geyer"
-		location = 6334
+		location =2046
 		division_template = "Panzer-Division"
 		start_experience_factor = 1
 	}
 division= {	
 		name = "SS-Division Hitlerjugend"
-		location = 6334
+		location =2046
 		division_template = "Panzer-Division"
 		start_experience_factor = 1
 	}

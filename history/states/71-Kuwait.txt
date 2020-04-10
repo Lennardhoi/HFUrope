@@ -2,7 +2,7 @@ state={
 	id=71
 	name="Kuwait"
 	provinces={
-		1516 11540
+		1516 
 	}
 manpower = 80000
 state_category = rural
@@ -13,11 +13,11 @@ history={
 owner = ENG
 add_core_of=SWE
 victory_points = {
-8085 1
+1516 1
 }
 buildings = {
 infrastructure = 4
-8085 = {
+1516 = {
 naval_base = 4
 }
 }

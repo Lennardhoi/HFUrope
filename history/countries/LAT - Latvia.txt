@@ -1,4 +1,4 @@
-﻿capital = 12
+﻿capital = 228
 set_research_slots = 0
 oob = "LAT_1936"
 

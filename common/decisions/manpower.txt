@@ -6,7 +6,7 @@ war_measures = {
     	icon = generic_industry
 
     	allowed = {
-            OR={tag=CAN tag=SAF tag=NZL tag=AST tag=IRE}
+            OR={tag=CAN}
         }
 
         available = {

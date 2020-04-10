@@ -13,7 +13,7 @@ state={
 		owner = DEN
 		buildings = {
 			infrastructure = 4
-			6631 = {
+			6633 = {
 				naval_base = 1
 			}
 		}

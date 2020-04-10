@@ -1,4 +1,4 @@
-﻿capital = 11
+﻿capital = 230
 
 oob = "LIT_1936"
 

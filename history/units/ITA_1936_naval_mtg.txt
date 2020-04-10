@@ -4,10 +4,10 @@ units= {
 	### ITALY ###
 	fleet = {
 		name = "Comando Navale Ionio e Basso Adriatico"			
-		naval_base = 11837 # Taranto, Italy
+		naval_base = 2 # Taranto, Italy
 		task_force = { 
 			name = "I Squadra Navale" # Dipartimento Militare Marittimo 'Ionio e Basso Adriatico' / I Squadra
-			location = 11837 # Taranto, Italy
+			location = 2 # Taranto, Italy
 			# V Divisione Corazzate
 			ship = { name = "RN Caio Duilio" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Andrea Doria Class"  } } } 
 			ship = { name = "RN Andrea Doria" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Andrea Doria Class"  } } } 

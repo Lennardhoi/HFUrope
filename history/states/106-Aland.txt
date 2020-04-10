@@ -12,7 +12,7 @@ state=
 		owner = FIN
 		buildings = {
 			infrastructure = 5
-			9228 = {
+			11470 = {
 				naval_base = 1
 			}
 		}
@@ -20,6 +20,6 @@ state=
 	}
 	
 	provinces={
-		11470 11471 11472 11469 
+		11470 
 	}
 }

@@ -15,7 +15,7 @@ infrastructure = 5
 industrial_complex = 4
 arms_factory = 2
 air_base = 20
-12049 = {
+10637 = {
 naval_base = 2
 }
 

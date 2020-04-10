@@ -1,4 +1,4 @@
-﻿capital = 48
+﻿capital = 13
 oob = "BUL_1936"
 set_research_slots = 3
 add_ideas = {

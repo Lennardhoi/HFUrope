@@ -21,7 +21,7 @@ state={
 			industrial_complex = 2
 			dockyard = 2
 			fuel_silo = 1
-			5900 = {
+			7610 = {
 				naval_base = 8
 
 			}

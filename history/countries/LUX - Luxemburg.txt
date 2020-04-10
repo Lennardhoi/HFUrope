@@ -1,4 +1,4 @@
-﻿capital = 8
+﻿capital = 233
 
 oob = "LUX_1936"
 set_research_slots = 0
