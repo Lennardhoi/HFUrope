@@ -104,20 +104,20 @@ bookmarks = {
 				ITA_greece_war_goal
 			}		
 		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
-			}	
-			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}			
-		}
+		#"JAP"={
+		#	history = "JAP_GATHERING_STORM_DESC"
+		#	ideology = fascism
+		#	ideas = {
+		#		state_shintoism
+		#		JAP_zaibatsus
+		#		JAP_militarism
+		#	}	
+		#	focuses = {
+		#		JAP_the_zero
+		#		JAP_warrior_spirit
+		#		JAP_strike_on_the_southern_resource_area
+		#	}			
+		#}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
@@ -156,50 +156,7 @@ bookmarks = {
 				
 			}
 		}
-		"AST"={
-			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				AST_great_depression_1
-			}
-			focuses = {
-									AST_cac_boomerang
-				AST_squash_the_squanderbugs
-				AST_rats_of_tobruk
-				
-				
-			}
-		}
-		"NZL"={
-			minor = yes
-			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				
-			}
-			focuses = {
-				NZL_bob_semple_tank
-				NZL_the_first_labor_government
-				NZL_maori_conscription
-			}
-		}
-		"SAF"={
-			minor = yes
-			history = "SAF_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				SAF_ossewabrandwag
-				SAF_history_of_segregation
-			}
-			focuses = {
-						SAF_secure_interests_in_africa
-				SAF_armor_effort
-				SAF_desert_equipment
-				
-				
-			}
-		}
+	
 		"RAJ"={
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
@@ -243,41 +200,7 @@ bookmarks = {
 				ROM_preserve_greater_romania
 			}
 		}
-		
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_foreign_threats
-				CHI_army_reform
-				CHI_war_of_resistance
-
-			}
-		}
-		"MAN"={
-			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_develop_aluminum_sources
-			}
-		}
-		
-		
-
-		
+	
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
