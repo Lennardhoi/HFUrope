@@ -57,19 +57,6 @@ leader_traits = {
 		}
 	}
 
-	imperial_sanction = {
-		random = no
-
-		targeted_modifier = {
-			tag = CHI
-			generate_wargoal_tension_against = 0.75
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	emperor_showa = {
 		random = no
 		stability_factor = 0.6 #FOR THE EMPERAH

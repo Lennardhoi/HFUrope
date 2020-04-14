@@ -71,10 +71,6 @@ if = {
 }
 
 # DIPLOMACY
-	set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_integrated_puppet
-	}
 	
 		
 

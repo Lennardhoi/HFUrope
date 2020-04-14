@@ -2,7 +2,7 @@ state={
 	id=449
 	name="Puerto Rico"
 	provinces={
-		5137 10608 11538 11535 11536
+		5137 10608 11538 11535 
 	}
 manpower = 1543913
 state_category = rural

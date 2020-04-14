@@ -93,16 +93,6 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				tag = CHI
-				
-				OR = {
-					date > "1937.1.1"
-					JAP = { is_ai = no }
-				}
-			}
-			
-			modifier = {
-				factor = 10
 				date > "1936.1.3"
 			}
 		}
@@ -147,14 +137,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-				}
-			}
 
 			modifier = {
 				factor = 5
@@ -620,11 +602,7 @@ technologies = {
 				factor = 3
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
+
 		}
 	}
 	
@@ -659,10 +637,6 @@ technologies = {
 				tag = USA
 			}
 			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}
 	
@@ -691,10 +665,6 @@ technologies = {
 				tag = USA
 			}
 			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}	
 	
@@ -1201,13 +1171,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 15
-
-				OR = {
-					tag = CHI
-				}
-			}
-			modifier = {
 				factor = 2
 				date > "1937.1.1"
 			}
@@ -1285,14 +1248,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
 
-				OR = {
-					tag = CHI
-				}
-			}
 			modifier = {
 				factor = 2
 				date > "1938.1.6"

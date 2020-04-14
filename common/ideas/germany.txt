@@ -846,8 +846,7 @@ ideas = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                    			original_TAG = HUN
-					original_TAG = MAN  					
+                    original_TAG = HUN
 				}
 			}
 			available = {
@@ -894,8 +893,7 @@ GER_ckd = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
-                   			original_TAG = HUN 					
+                   	original_TAG = HUN 					
 				}
 			}
 			available = {
@@ -926,12 +924,10 @@ krupp_tank = {
 			allowed = {
 				or = { 
 					original_TAG = GER
-				
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
-                    			original_TAG = HUN 					
+                    original_TAG = HUN 					
 				}
 			}
 						
@@ -987,8 +983,7 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
-                  			original_TAG = HUN 					
+					original_TAG = HUN 					
 				}
 			}
 
@@ -1045,8 +1040,7 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
-                   			original_TAG = HUN 					
+					original_TAG = HUN 					
 				}
 			}
 			available = {
@@ -1093,8 +1087,7 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
-                    			original_TAG = HUN 					
+                    original_TAG = HUN 					
 				}
 			}
 		
@@ -1126,8 +1119,7 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
-                    			original_TAG = HUN 					
+                    original_TAG = HUN 					
 				}
 			}
 
@@ -1175,7 +1167,6 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
                     original_TAG = HUN 					
 				}
 			}
@@ -1231,7 +1222,6 @@ cost = 100
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = MAN 
                     original_TAG = HUN 					
 				}
 			}

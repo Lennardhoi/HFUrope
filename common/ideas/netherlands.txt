@@ -324,8 +324,6 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			available = {
-				country_exists = INS
-				INS = { is_subject_of = HOL }
 			}
 			
 			allowed = {

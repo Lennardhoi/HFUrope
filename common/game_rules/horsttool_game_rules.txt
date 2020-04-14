@@ -7,7 +7,6 @@ horst_host_country = {
 		text = "Germany"
 		desc = ""
 	}
-	
 	option = {
 		name = ITA
 		text = "Italy"
@@ -49,33 +48,8 @@ horst_host_country = {
 		desc = ""
 	}
 	option = {
-		name = SAF
-		text = "South Africa"
-		desc = ""
-	}
-	option = {
 		name = RAJ
 		text = "British Raj"
-		desc = ""
-	}
-	option = {
-		name = AST
-		text = "Australia"
-		desc = ""
-	}
-	option = {
-		name = NZL
-		text = "New Zealand"
-		desc = ""
-	}
-	option = {
-		name = JAP
-		text = "Japan"
-		desc = ""
-	}
-	option = {
-		name = MAN
-		text = "Manchukuo"
 		desc = ""
 	}
 	option = {
@@ -86,21 +60,6 @@ horst_host_country = {
 	option = {
 		name = FRA
 		text = "France"
-		desc = ""
-	}
-	option = {
-		name = BRA
-		text = "Brazil"
-		desc = ""
-	}
-		option = {
-		name = MEX
-		text = "Mexico"
-		desc = ""
-	}
-	option = {
-		name = IRE
-		text = "Ireland"
 		desc = ""
 	}
 	option = {

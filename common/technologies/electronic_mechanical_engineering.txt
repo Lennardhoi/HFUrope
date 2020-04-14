@@ -801,7 +801,6 @@ technologies = {
 				OR = {
 					tag = ENG
 					tag = USA
-					tag = JAP
 				}
 				factor = 3
 			}
@@ -842,7 +841,6 @@ technologies = {
 				OR = {
 					tag = ENG
 					tag = USA
-					tag = JAP
 				}
 				factor = 3
 			}
@@ -884,7 +882,6 @@ technologies = {
 				OR = {
 					tag = ENG
 					tag = USA
-					tag = JAP
 				}
 				factor = 3
 			}

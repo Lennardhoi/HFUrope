@@ -318,21 +318,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			if = {
-				limit = {
-					INS = {
-						is_subject_of = HOL
-						has_full_control_of_state = 335
-						has_full_control_of_state = 672
-					}
-				}
-				INS = {
-					add_autonomy_ratio = {
-						value = -0.025
-						localization = HOL_the_crown_jewel_colony
-					}
-				}
-			}
 		}
 	}
 
@@ -378,20 +363,6 @@ focus_tree = {
 						type = industrial_complex
 						level = 2
 						instant_build = yes
-					}
-				}
-			}
-			if = {
-				limit = {
-					INS = {
-						is_subject_of = HOL
-						has_full_control_of_state = 335
-					}
-				}
-				INS = {
-					add_autonomy_ratio = {
-						value = -0.05
-						localization = HOL_java
 					}
 				}
 			}
@@ -448,20 +419,6 @@ focus_tree = {
 					type = anti_air_building
 					level = 2
 					instant_build = yes
-				}
-			}
-			if = {
-				limit = {
-					INS = {
-						is_subject_of = HOL
-						has_full_control_of_state = 335
-					}
-				}
-				INS = {
-					add_autonomy_ratio = {
-						value = -0.025
-						localization = HOL_reinforce_java
-					}
 				}
 			}
 		}
@@ -569,20 +526,6 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					INS = {
-						is_subject_of = HOL
-						has_full_control_of_state = 672
-					}
-				}
-				INS = {
-					add_autonomy_ratio = {
-						value = -0.05
-						localization = HOL_sumatra
-					}
-				}
-			}
 		}
 	}
 
@@ -660,23 +603,6 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					INS = {
-						is_subject_of = HOL
-						has_full_control_of_state = 667
-						has_full_control_of_state = 334
-						has_full_control_of_state = 668
-						has_full_control_of_state = 673
-					}
-				}
-				INS = {
-					add_autonomy_ratio = {
-						value = -0.05
-						localization = HOL_borneo_and_the_grote_oost
-					}
-				}
-			}
 		}
 	}
 
@@ -689,13 +615,9 @@ focus_tree = {
  	focus = {
 		id = HOL_curtail_colonial_autonomy
 		available = {
-			country_exists = INS
 			NOT = { has_completed_focus = HOL_oranje_boven }
-			INS = { is_subject_of = HOL }
 		}
 		bypass = {
-			INS = { exists = no }
-			owns_state = 335
 		}
 		prerequisite = { focus = HOL_the_crown_jewel_colony }
 		mutually_exclusive = { focus = HOL_the_zuiderzee_works }
@@ -712,15 +634,6 @@ focus_tree = {
 				idea = HOL_curtail_colonial_autonomy_overlord
 				days = 545
 			}
-			INS = {
-				add_timed_idea = {
-					idea = HOL_curtail_colonial_autonomy_subject
-					days = 545
-				}
-				hidden_effect = {
-					country_event = { id = mtg_netherlands.21 hours = 6 }
-				}
-			}
 		}
 	}
 
@@ -732,15 +645,6 @@ focus_tree = {
 		available = {
 			has_capitulated = yes
 			NOT = { has_completed_focus = HOL_oranje_boven }
-			OR = {
-				INS = {
-					is_subject_of = HOL
-					has_autonomy_state = autonomy_integrated_puppet
-					compare_autonomy_progress_ratio < 0.6
-					has_full_control_of_state = 335
-				}
-				has_full_control_of_state = 335
-			}
 		}
 		icon = GFX_focus_hol_continue_the_war_in_batavia
 		x = 1
@@ -753,16 +657,6 @@ focus_tree = {
 		completion_reward = {
 			effect_tooltip = {
 				remove_ideas = HOL_curtail_colonial_autonomy_overlord
-				INS = {
-					every_unit_leader = {
-						set_nationality = HOL
-					}
-				}
-				annex_country = {
-				    target = INS
-				    transfer_troops = yes
-				}
-				set_capital = 335
 			}
 		}
 	}
@@ -822,16 +716,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HOL_expand_the_colonial_army
-			every_state = {
-				limit = {
-					is_core_of = INS
-				}
-				add_state_modifier = {
-					modifier = {
-						local_non_core_manpower = 0.25
-					}
-				}
-			}
 		}
 	}
 
@@ -3311,12 +3195,6 @@ focus_tree = {
 			GER = {
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_germans_ger }
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_germans_ger_trade }
-				if = {
-					limit = {
-						INS = { is_subject_of = HOL }
-					}
-					add_opinion_modifier = { target = INS modifier = HOL_caved_to_the_germans_ger_trade }
-				}
 			}	
 			ENG = {
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_germans_eng }
@@ -3445,12 +3323,6 @@ focus_tree = {
 			GER = {
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_british_ger }
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_british_ger_trade }
-				if = {
-					limit = {
-						INS = { is_subject_of = HOL }
-					}
-					add_opinion_modifier = { target = INS modifier = HOL_caved_to_the_british_ger_trade }
-				}
 			}	
 			ENG = {
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_british_eng }
@@ -4080,7 +3952,6 @@ focus_tree = {
 		available = {
 			NOT = { is_in_faction_with = FRA }
 			NOT = { is_in_faction_with = ENG }
-			NOT = { is_in_faction_with = SAF }
 		}
 		bypass = {
 			has_full_control_of_state = 694
@@ -4097,7 +3968,6 @@ focus_tree = {
 		prerequisite = { focus = HOL_the_united_netherlands }
 		will_lead_to_war_with = FRA
 		will_lead_to_war_with = ENG
-		will_lead_to_war_with = SAF
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 2
@@ -4128,12 +3998,6 @@ focus_tree = {
 			    generator = { 308 691 687 274 422 }
 			    expire = 0
 			    target = ENG
-			}
-			create_wargoal = {
-			    type = take_state_focus
-			    generator = { 681 275 719 }
-			    expire = 0
-			    target = SAF
 			}
 		}
 	}
@@ -5504,7 +5368,6 @@ focus_tree = {
 			has_completed_focus = HOL_unity_through_democracy
 			has_government = democratic
 			is_in_faction_with = ENG
-			is_in_faction_with = AST
 			NOT = { has_war_with = USA }
 			OR = {
 				ENG = { has_full_control_of_state = 336 }

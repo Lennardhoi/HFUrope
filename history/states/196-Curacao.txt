@@ -2,7 +2,7 @@ state={
 	id=196
 	name="Curacao"
 	provinces={
-		10973  11552  11553
+		10973   
 	}
 manpower = 76299
 state_category = rural

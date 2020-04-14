@@ -92,7 +92,6 @@ technologies = {
 				factor = 4
 				OR = {
 					tag = ENG
-					tag = JAP
 				}
 			}
 			modifier = {
@@ -137,7 +136,6 @@ technologies = {
 				factor = 4
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -174,7 +172,6 @@ technologies = {
 				factor = 4
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -558,7 +555,6 @@ technologies = {
 				factor = 4
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -606,7 +602,6 @@ technologies = {
 				factor = 4
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -647,7 +642,6 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 				factor = 4
@@ -724,7 +718,6 @@ technologies = {
 				factor = 3.5
 				OR = {
 					tag = GER
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -772,7 +765,6 @@ technologies = {
 				factor = 3
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -820,7 +812,6 @@ technologies = {
 				factor = 3
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -862,7 +853,6 @@ technologies = {
 				factor = 3
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -920,7 +910,6 @@ technologies = {
 				factor = 2
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -973,7 +962,6 @@ technologies = {
 				factor = 2
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -1009,11 +997,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 25
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -1138,7 +1121,6 @@ technologies = {
 				factor = 2
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -1238,7 +1220,6 @@ early_ship_hull_carrier = {
 				factor = 8
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -1279,7 +1260,6 @@ early_ship_hull_carrier = {
 				factor = 8
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -1320,7 +1300,6 @@ early_ship_hull_carrier = {
 				factor = 8
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -1356,7 +1335,6 @@ early_ship_hull_carrier = {
 				factor = 8
 				OR = {
 					tag = ENG
-					tag = JAP
 					tag = USA
 				}
 			}
@@ -1412,7 +1390,6 @@ early_ship_hull_carrier = {
 			factor = 2
 			modifier = {
 				OR = {
-					tag = JAP
 					tag = USA
 					tag = GER
 				}
@@ -1472,7 +1449,6 @@ early_ship_hull_carrier = {
 			factor = 2
 			modifier = {
 				OR = {
-					tag = JAP
 					tag = USA
 					tag = GER
 				}
@@ -1481,10 +1457,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				has_war = yes
 				factor = 3
-			}
-			modifier = {
-				tag = JAP #Japan wants torpedoes EXTRA HARD
-				factor = 2
 			}
 		}
 		
@@ -1522,7 +1494,6 @@ early_ship_hull_carrier = {
 			factor = 2
 			modifier = {
 				OR = {
-					tag = JAP
 					tag = USA
 					tag = GER
 				}
@@ -1561,7 +1532,6 @@ early_ship_hull_carrier = {
 			factor = 2
 			modifier = {
 				OR = {
-					tag = JAP
 					tag = USA
 					tag = GER
 				}
@@ -1601,10 +1571,6 @@ early_ship_hull_carrier = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -1639,10 +1605,6 @@ early_ship_hull_carrier = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -1671,10 +1633,6 @@ early_ship_hull_carrier = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 		allow_branch = {always=no}
 		categories = {
@@ -2463,7 +2421,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				OR = {
 					tag = GER
-					tag = JAP
 				}
 				factor = 2
 			}
@@ -2506,7 +2463,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				OR = {
 					tag = GER
-					tag = JAP
 				}
 				factor = 2
 			}
@@ -2544,7 +2500,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				OR = {
 					tag = GER
-					tag = JAP
 				}
 				factor = 2
 			}
@@ -2738,7 +2693,6 @@ early_ship_hull_carrier = {
 				OR = {
 					tag = ENG
 					tag = USA
-					tag = JAP
 				}
 				factor = 20
 			}
@@ -2776,11 +2730,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
-				is_historical_focus_on = yes
-				tag = JAP
-				factor = 0.25
-			}
-			modifier = {
 				tag = USA
 				factor = 3
 			}
@@ -2815,11 +2764,6 @@ early_ship_hull_carrier = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
-				is_historical_focus_on = yes
-				tag = JAP
-				factor = 0.25
-			}
-			modifier = {
 				tag = USA
 				factor = 3
 			}
@@ -2849,11 +2793,6 @@ early_ship_hull_carrier = {
 		
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				is_historical_focus_on = yes
-				tag = JAP
-				factor = 0.25
-			}
 			modifier = {
 				tag = USA
 				factor = 3
@@ -2906,10 +2845,6 @@ early_ship_hull_carrier = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -2949,10 +2884,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				has_war = yes
 				factor = 2
-			}
-			modifier = {
-				tag = JAP
-				factor = 5
 			}
 		}
 		
@@ -2997,10 +2928,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				has_war = yes
 				factor = 2
-			}
-			modifier = {
-				tag = JAP
-				factor = 5
 			}
 		}
 		
@@ -3405,15 +3332,6 @@ early_ship_hull_carrier = {
 				factor = 2
 				tag = USA
 			}
-			modifier = {
-				has_war_with = JAP
-				factor = 2
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 			
 			modifier = {
 				factor = 2
@@ -3458,24 +3376,7 @@ early_ship_hull_carrier = {
 				factor = 2
 				tag = USA
 			}
-			modifier = {
-				has_war_with = JAP
-				factor = 2
-			}
-			modifier = {
-				factor = 50
-				tag = JAP
-				OR = {
-					has_war_with = USA
-					CHI = {  
-						OR = { 
-							has_capitulated = yes 
-							exists = no
-		                    is_subject_of = JAP
-						}
-					}
-				}
-			}
+
 			
 			modifier = {
 				factor = 2
@@ -3513,14 +3414,6 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 2
 				tag = USA
-			}
-			modifier = {
-				factor = 2
-				has_war_with = JAP
-			}
-			modifier = {
-				factor = 3
-				tag = JAP
 			}
 			
 			modifier = {

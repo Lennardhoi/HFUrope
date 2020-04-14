@@ -2,7 +2,7 @@ state={
 	id=55
 	name="Azores"
 	provinces={
-		11513 11508 11511 11510 11509 
+		11513 
 	}
 manpower = 212012
 state_category = small_island

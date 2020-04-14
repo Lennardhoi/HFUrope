@@ -44,19 +44,7 @@ ENG_imperial_conference_decision = {
 						}
 						AND = {
 							is_subject_of = ENG
-							tag = SAF
-						}
-						AND = {
-							is_subject_of = ENG
 							tag = RAJ
-						}
-						AND = {
-							is_subject_of = ENG
-							tag = AST
-						}
-						AND = {
-							is_subject_of = ENG
-							tag = NZL
 						}
 					}
 				}

@@ -96,7 +96,6 @@ ideas = {
 			}
 			
 			cancel = {
-				has_war_with = JAP
 			}
 
 			removal_cost = -1

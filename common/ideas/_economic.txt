@@ -257,8 +257,8 @@ wartime_economy = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
-				tag=JAP
-				}
+				always = no
+			}
 			
 			ai_will_do = {
    				factor = 1
@@ -356,16 +356,6 @@ wartime_economy = {
 		export_focus = {
 			
 			available = {
-			
-			
-                
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 			
 			
@@ -435,15 +425,6 @@ wartime_economy = {
 						}
 					}
 				}
-
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 		
 			cost = 150
@@ -499,14 +480,6 @@ wartime_economy = {
 					NOT = {	tag = SOV }
 					NOT = { has_opinion_modifier = MR_pact }
 				}
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 			
 			cost = 150
@@ -527,7 +500,6 @@ wartime_economy = {
 				NOT = {
 					OR={
 						tag=SOV
-						tag=JAP
 						has_idea = wartime_economy
 					}
 				}

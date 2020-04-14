@@ -43,20 +43,7 @@ defined_text = { # Country
 	}
 }
 
-defined_text = { # for shared tree
-	name = GetVietnamOwner
-	text = {
-		trigger = {
-			671 = {
-				is_controlled_by = JAP
-			}
-		}
-		localization_key = CHI_vietnam_JAP
-	}
-	text = {
-		localization_key = CHI_vietnam_FRA
-	}
-}
+
 
 defined_text = { #
 	name = GetWehrmachtAngerLevel
@@ -195,37 +182,6 @@ defined_text = {
 			check_variable = { var = representatives_for_reelection value = 0 compare = greater_than_or_equals }
 		}
 		localization_key = HouseElectionGained
-	}
-}
-defined_text = {
-	name = GET_AUSTRALIA_NEW_ZEALAND_STATUS
-	text = {
-		trigger = {
-			AST = { is_subject_of = ENG }
-			NZL = { is_subject_of = ENG }
-		}
-		localization_key = AST_NZL_PUPPET
-	}
-	text = {
-		trigger = {
-			AND = {
-				AST = { is_subject_of = ENG }
-				NZL = { not = { is_subject_of = ENG } }
-			}
-		}
-		localization_key = AST_democratic
-	}
-	text = {
-		trigger = {
-			AND = {
-				NZL = { is_subject_of = ENG }
-				AST = { not = { is_subject_of = ENG } }
-			}
-		}
-		localization_key = NZL_democratic
-	}
-	text = {
-		localization_key = AST_NZL_NO_PUPPET_FALLBACK
 	}
 }
 

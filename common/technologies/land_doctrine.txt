@@ -2584,14 +2584,6 @@ technologies = {
 				factor = 2
 			}
 
-			modifier = {
-				factor = 0.4
-
-				OR = {
-					tag = CHI
-				}
-			}
-
 		}
 		
 		ai_research_weights = {

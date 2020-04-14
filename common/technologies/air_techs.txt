@@ -161,10 +161,6 @@ technologies = {
 				tag = USA
 			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -277,19 +273,6 @@ technologies = {
 				factor = 2
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 2.5
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 10
-				AND = {
-					is_historical_focus_on = yes
-					tag = JAP
-				}
-			}
 			modifier = {
 				factor = 1.5
 				date > "1941.6.1"
@@ -381,14 +364,12 @@ technologies = {
 				factor = 2
 				OR = {
 					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
 					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -481,14 +462,12 @@ technologies = {
 				factor = 2
 				OR = {
 					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
 					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -535,18 +514,12 @@ technologies = {
 				OR = {
 					has_war_with = ENG
 					has_war_with = USA
-					has_war_with = JAP
 				}
 				factor = 3
 			}
 			modifier = {
 				factor = 5
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -579,14 +552,12 @@ technologies = {
 				factor = 2.5
 				OR = {
 					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
 					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -632,7 +603,6 @@ technologies = {
 				OR = {
 					has_war_with = ENG
 					has_war_with = USA
-					has_war_with = JAP
 				}
 				factor = 3
 			}
@@ -646,11 +616,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -678,14 +643,12 @@ technologies = {
 				factor = 2.5
 				OR = {
 					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
 					has_war_with = USA
-					has_war_with = JAP
 					has_war_with = ENG
 				}
 			}

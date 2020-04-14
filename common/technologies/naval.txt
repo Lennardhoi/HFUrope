@@ -168,11 +168,6 @@ technologies = {
 				factor = 2
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -213,11 +208,6 @@ technologies = {
 				factor = 2
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -257,11 +247,6 @@ technologies = {
 				factor = 2
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -296,11 +281,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
 			}
 		}
 		
@@ -721,11 +701,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
 				tag = ENG
 			}
 		}
@@ -767,27 +742,6 @@ technologies = {
 				factor = 2
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 50
-				tag = JAP
-				OR = {
-					has_war_with = USA
-					CHI = {  
-						OR = { 
-							has_capitulated = yes 
-							exists = no
-		                    is_subject_of = JAP
-						}
-					}
-				}
-			}
-			
 			modifier = {
 				factor = 2
 				tag = ENG
@@ -824,11 +778,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
 			}
 			
 			modifier = {
@@ -870,11 +819,6 @@ technologies = {
 				factor = 5
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -908,11 +852,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 		
@@ -949,11 +888,6 @@ technologies = {
 				factor = 5
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -984,11 +918,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 		

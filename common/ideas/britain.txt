@@ -1639,10 +1639,7 @@ allowed = {
 				or = { original_TAG = FRA
 					original_TAG = ENG
 					original_TAG = CAN
-					original_TAG = SAF 
-					original_TAG = AST
 					original_TAG = RAJ
-                    original_TAG = NZL 					
 				}
 			}
 			
@@ -1677,10 +1674,7 @@ allowed = {
 				or = { original_TAG = FRA
 					original_TAG = ENG
 					original_TAG = CAN
-					original_TAG = SAF 
-					original_TAG = AST
 					original_TAG = RAJ
-                    original_TAG = NZL 					
 				}
 			}
 				
@@ -1711,10 +1705,7 @@ allowed = {
 				or = { original_TAG = FRA
 					original_TAG = ENG
 					original_TAG = CAN
-					original_TAG = SAF 
-					original_TAG = AST
 					original_TAG = RAJ
-                    original_TAG = NZL 					
 				}
 			}
 

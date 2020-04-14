@@ -377,12 +377,6 @@ abandon_colony_tag = {
 			}
 			set_cosmetic_tag = MAL_UK
 		}
-		else_if = {
-			limit = {
-				original_tag = INS
-			}
-			set_cosmetic_tag = INS_HOL
-		}
 	}
 	else = {
 		if = {
@@ -406,18 +400,6 @@ abandon_colony_tag = {
 				}
 			}
 			set_cosmetic_tag = CAN_FREE
-		}
-		else_if = {
-			limit = {
-				original_tag = INS
-				NOT = { has_cosmetic_tag = MAJ_UNIFIED }
-				NOT = {
-					any_country = {
-						has_cosmetic_tag = INS_FREE
-					}
-				}
-			}
-			set_cosmetic_tag = INS_FREE
 		}
 		else_if = {
 			limit = {

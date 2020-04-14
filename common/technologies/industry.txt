@@ -321,11 +321,6 @@ technologies = {
 				factor = 2
 				tag = ENG
 			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -550,10 +545,6 @@ technologies = {
 				tag = ENG
 			}
 			
-			modifier = {
-				factor = 0.25
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -1131,7 +1122,6 @@ technologies = {
 				OR = {
 					tag = GER
 					tag = ITA
-					tag = JAP
 				}
 				has_war = yes
 				factor = 5

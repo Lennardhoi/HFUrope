@@ -84,20 +84,6 @@ defined_text = { #Country
   #  #  #  #  #  #       # # #     #   
 ##   #  #  #  #  ###     # # ###   #   
 
-#State support key
-defined_text = { #Country
-	name = GetStateSupport
-	text = {
-		trigger = {
-			original_tag = CHI
-			any_state = {
-				has_state_flag = majority_political_platform_@PREV
-			}
-		}
-		localization_key = CHI_state_support
-	}
-	text = { localization_key = "" }
-}
 
 #   #  ##  ###  #    ##  ###  ###   ## 
 #   # #  # #  # #   #  # #  # #  # #   
@@ -125,21 +111,6 @@ defined_text = { #Event target scope_<TAG>
 	}
 }
 
-#Warlord support key
-defined_text = { #Event target scope_<TAG>
-	name = GetWarlordSupport
-	text = {
-		trigger = {
-			any_country = {
-				is_chinese_warlord = yes
-				has_country_flag = warlord_supports_@PREV
-			}
-			original_tag = CHI
-		}
-		localization_key = CHI_warlord_support
-	}
-	text = { localization_key = "" }
-}
 
  ##  ### #  # ### ###      ###   ##  ### #  # ###  ## 
 #  #  #  #  # #   #  #     #  # #  #  #  ## #  #  #   
@@ -147,18 +118,6 @@ defined_text = { #Event target scope_<TAG>
 #  #  #  #  # #   #  #     #    #  #  #  #  #  #    # 
  ##   #  #  # ### #  #     #     ##  ### #  #  #  ##  
 
-#Key if other points
-defined_text = { #Country
-	name = GetOtherSupport
-	text = {
-		trigger = {
-			original_tag = CHI
-			NOT = { check_variable = { other_political_support = 0 } }
-		}
-		localization_key = CHI_other_support
-	}
-	text = { localization_key = "" }
-}
 
  ## ###  ##  ### ###  ## 
 #    #  #  #  #  #   #   
@@ -1054,20 +1013,6 @@ defined_text = { #Country
   #  #  #  #  #  #       #   # #  # #  # #  # #  #  #   #    #       #  # #  # #   # #   
 ##   #  #  #  #  ###     #   # #  #  ##   ##  #  # ###  #    #       #  # #  # #   # ### 
 
-#Call after scoping to desired state
-defined_text = { #Country
-	name = GetStateMajorityCountryName
-	text = {
-		trigger = {
-			any_country = {
-				original_tag = CHI
-				PREV = { has_state_flag = majority_political_platform_@PREV }
-			}
-		}
-		localization_key = scope_CHI_GetNameDef
-	}
-	text = { localization_key = "" }
-}
 
  ## ###  ##  ### ###     ###   ##  ### #  # ###  ## 
 #    #  #  #  #  #       #  # #  #  #  ## #  #  #   

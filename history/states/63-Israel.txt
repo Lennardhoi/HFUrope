@@ -18,7 +18,7 @@ naval_base = 3
 }
 }
 victory_points = {
-105521
+10552 1
 }
 victory_points = {
 5622 1

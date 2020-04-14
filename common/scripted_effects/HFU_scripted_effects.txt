@@ -64,19 +64,7 @@ add_opinion_modifier = {
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
-    target = SAF
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
     target = RAJ
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = AST
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = NZL
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
@@ -99,16 +87,6 @@ anti_cross_faction_trade_axis = yes
 CAN = { 
 anti_cross_faction_trade_axis = yes
 }
-AST = { 
-anti_cross_faction_trade_axis = yes
-}
-NZL = { 
-anti_cross_faction_trade_axis = yes
-}
-SAF = { 
-anti_cross_faction_trade_axis = yes
-}
-
 GER = { 
 anti_cross_faction_trade_allies = yes
 }
