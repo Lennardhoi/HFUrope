@@ -278,7 +278,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
-			483 = {
+			473 = {
 
 				add_building_construction = {
 					type = infrastructure
@@ -289,7 +289,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			483 = {
+			473 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -336,7 +336,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
-			18 = {
+			468 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -346,7 +346,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			18 = {
+			468 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -455,7 +455,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			483 = {
+			470 = {
 				add_resource = {
 					type = oil
 					amount = 14
@@ -801,7 +801,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			17 = {
+			682 = {
 				add_resource = {
 					type = steel
 					amount = 20
@@ -2575,19 +2575,19 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			17 = {
+			682 = {
 				add_resource = {
 					type = aluminium
 					amount = 14
 				}
 			}
-			16 = {
+			466 = {
 				add_resource = {
 					type = aluminium
 					amount = 14
 				}
 			}
-			18 = {
+			468 = {
 				add_resource = {
 					type = aluminium
 					amount = 14
@@ -2623,7 +2623,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			483 = {
+			470 = {
 				add_resource = {
 					type = oil
 					amount = 36
@@ -2785,7 +2785,7 @@ focus_tree = {
 
 			if = {
 				limit = { has_tech = radio_detection }
-				20 = {
+				464 = {
 					add_building_construction = {
 						type = radar_station
 						level = 4
@@ -2794,7 +2794,7 @@ focus_tree = {
 					set_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar1
 				}
 
-				483 = {
+				739 = {
 					add_building_construction = {
 						type = radar_station
 						level = 4
@@ -2807,7 +2807,7 @@ focus_tree = {
 					set_technology = {
 						radio_detection = 1
 					}
-					20 = {
+					464 = {
 						add_building_construction = {
 							type = radar_station
 							level = 4
@@ -2816,7 +2816,7 @@ focus_tree = {
 						set_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar1
 					}
 
-					483 = {
+					739 = {
 						add_building_construction = {
 							type = radar_station
 							level = 4

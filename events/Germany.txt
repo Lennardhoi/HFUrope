@@ -1,4 +1,4 @@
- ###########################
+﻿ ###########################
 # German Events
 ###########################
 
@@ -27,45 +27,45 @@ country_event = {
    immediate = {
 
 		
-   HUN = {transfer_state = 287
-          transfer_state = 457
-		  transfer_state = 456
+   HUN = {transfer_state = 76
+          transfer_state = 45
+		  transfer_state = 764
 		 }
 		 
-		 ROM = { remove_state_core = 287 }   #Prevents Hungary from returning Transylvania  -Thrasymachus
+		 ROM = { remove_state_core = 76 }   #Prevents Hungary from returning Transylvania  -Thrasymachus
    if = {
 		limit = {country_exists = BUL }
 		BUL = {
-			transfer_state = 463
-			transfer_state = 187
-			transfer_state = 186
+			transfer_state = 106
+			transfer_state = 731
+			transfer_state = 184
 		}
    }
    else = {
 		ITA = {
-			transfer_state = 463
-			transfer_state = 187
-			transfer_state = 186
+			transfer_state = 106
+			transfer_state = 731
+			transfer_state = 184
 		}
    }
-   ITA = {transfer_state = 458
-          transfer_state = 455
-		  transfer_state = 459
-		  transfer_state = 462
-		  transfer_state = 461
-		  transfer_state = 460
-		  transfer_state = 188
-		  transfer_state = 189
-		  transfer_state = 191
+   ITA = {transfer_state = 103
+          transfer_state = 109
+		  transfer_state = 104
+		  transfer_state = 105
+		  transfer_state = 108
+		  transfer_state = 107
+		  transfer_state = 185
+		  transfer_state = 47
+		  transfer_state = 186
 		  
 
 		  
 		  }
     GER = {
-		transfer_state = 454
+		transfer_state = 102
 		if={
 			limit={
-				192={
+				182={
 					OR= {
 						is_controlled_by = GER
 						is_controlled_by = ITA
@@ -75,12 +75,12 @@ country_event = {
 					}
 				}
 			}
-			transfer_state =192
+			transfer_state =182
 		}
-		else={ENG={transfer_state=192}}
+		else={ENG={transfer_state=182}}
 		if={
 			limit={
-				190={
+				187={
 					OR= {
 						is_controlled_by = GER
 						is_controlled_by = ITA
@@ -90,9 +90,9 @@ country_event = {
 					}
 				}
 			}
-			transfer_state =190
+			transfer_state =187
 		}
-		else={ENG={transfer_state=190}}
+		else={ENG={transfer_state=187}}
 	 }
 
   	
@@ -267,24 +267,24 @@ country_event = {
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact }# pact		
 		custom_effect_tooltip = germany.11.a.tt
-		add_state_claim = 250
-		add_state_claim = 231
-		add_state_claim = 228
+		add_state_claim = 96
+		add_state_claim = 11
+		add_state_claim = 12
+		add_state_claim = 13
+		add_state_claim = 190
+		add_state_claim = 191
+		add_state_claim = 146
+		add_state_claim = 189
+		add_state_claim = 78
+		add_state_claim = 89
+		add_state_claim = 91
+		add_state_claim = 93
+		add_state_claim = 94
+		add_state_claim = 95
+		add_state_claim = 96
 		add_state_claim = 97
-		add_state_claim = 229
-		add_state_claim = 98
-		add_state_claim = 104
-		add_state_claim = 230
-		add_state_claim = 295
-		add_state_claim = 264
-		add_state_claim = 263
-		add_state_claim = 260
-		add_state_claim = 266
-		add_state_claim = 253
-		add_state_claim = 250
-		add_state_claim = 265
-		add_state_claim = 286
-		add_state_claim = 251
+		add_state_claim = 80
+		add_state_claim = 784
 		hidden_effect =  { add_timed_idea = { idea = SOV_molotov_ribbentrop_pact days = 730 } }
 		GER = {
 			country_event = { days = 1 id = germany.12 }
@@ -340,14 +340,14 @@ country_event = {
 	option = {
 		name = germany.14.a
 		
-			SOV = { transfer_state = 250 
-transfer_state = 253 
-transfer_state = 266 
-transfer_state = 260 
- transfer_state = 263 
-transfer_state = 265 
-transfer_state = 264 
-transfer_state = 251 
+			SOV = { transfer_state = 96 
+transfer_state = 95 
+transfer_state = 94 
+transfer_state = 93 
+ transfer_state = 91 
+transfer_state = 97 
+transfer_state = 89 
+transfer_state = 784 
 country_event = germany.15 }
 	}
 }
@@ -399,7 +399,7 @@ country_event = {
 	
 	option = {
 		name = germany.27.a
-		183 = {
+		50 = {
 			add_building_construction = {
 				type = bunker
 				province = 11640
@@ -421,7 +421,7 @@ country_event = {
 				level = 5
 			}
 		}
-		181 = {	
+		42 = {	
 			add_building_construction = {
 				type = bunker
 				province = 3558
@@ -710,7 +710,7 @@ country_event = {
 	option = {
 		name = germany.55.b
 		HUN = { country_event = germany.56 }
-		POL = { transfer_state = 25 } # Give Poland Zaolzie
+		POL = { transfer_state = 72 } # Give Poland Zaolzie
 		
 	}
 	
@@ -752,9 +752,9 @@ country_event = {
 	option = {
 		name = germany.56.a
 		ai_chance = { factor = 100 }
-		transfer_state = 28
-		transfer_state = 27
-		transfer_state = 29
+		transfer_state = 70
+		transfer_state = 71
+		transfer_state = 73
 		hidden_effect = {
 			GER = {
 				annex_country = { target = CZE }
@@ -999,11 +999,11 @@ country_event = {
 	option = {
 		name = germany.119.a
 		POL = {
-			add_state_core = 175
-			add_state_core = 179
-			add_state_core = 173
-			add_state_core = 166
-			add_state_core = 168
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 68
+			add_state_core = 63
+			add_state_core = 5
 		}
 		hidden_effect = {
 			news_event = { days = 1 id = news.236 }

@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = french_focus
 	
 	country = {
@@ -84,7 +84,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			161 = {
+			539 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 7
@@ -92,7 +92,7 @@ focus_tree = {
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			160 = {
+			772 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -100,7 +100,7 @@ focus_tree = {
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			107 = {
+			773 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -237,13 +237,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			122 = {
+			26 = {
 					
 				
 				add_extra_state_shared_building_slots = 2
 				set_state_flag = FRA_industrial_expansion_target
 			}
-			119 = {
+			33 = {
 				
 				add_extra_state_shared_building_slots = 2
 				set_state_flag = FRA_industrial_expansion_target
@@ -367,9 +367,9 @@ focus_tree = {
 		available = {
 			any_state = {
 				OR = {
-					state = 161
-					state = 107
-					state = 158
+					state = 539
+					state = 773
+					state = 660
 				}
 				OWNER = {
 					OR = {
@@ -402,9 +402,9 @@ focus_tree = {
 			every_state = {
 				limit = { 
 					OR = {
-						state = 161
-						state = 107
-						state = 158
+						state = 539
+						state = 773
+						state = 660
 					}
 					is_owned_or_subject_trigger = yes	
 					OR = {	
@@ -421,9 +421,9 @@ focus_tree = {
 			random_state = {
 				limit = { 
 					OR = {
-						state = 161
-						state = 107
-						state = 158
+						state = 539
+						state = 773
+						state = 660
 					}
 					NOT  = {
 						has_state_flag = FRA_industrial_expansion_target
@@ -438,9 +438,9 @@ focus_tree = {
 			random_state = {
 				limit = { 
 					OR = {
-						state = 161
-						state = 107
-						state = 158
+						state = 539
+						state = 773
+						state = 660
 					}
 					is_owned_or_subject_trigger = yes
 					NOT  = {
@@ -519,14 +519,14 @@ focus_tree = {
 		available = {
 			any_state = {
 				OR = {
-					state = 151
-					state = 155
-					state = 150
-					state = 159
-					state = 154
-					state = 152
-					state = 156
-					state = 157
+					state = 272
+					state = 780
+					state = 556
+					state = 779
+					state = 778
+					state = 781
+					state = 776
+					state = 777
 				}	
 				is_owned_or_subject_trigger = yes
 			}
@@ -545,14 +545,14 @@ focus_tree = {
 			random_state = {
 				limit = { 
 					OR = {
-						state = 151
-						state = 155
-						state = 150
-						state = 159
-						state = 154
-						state = 152
-						state = 156
-						state = 157
+						state = 272
+						state = 780
+						state = 556
+						state = 779
+						state = 778
+						state = 781
+						state = 776
+						state = 777
 					}	
 					OWNER = { is_owned_or_subject_trigger = yes }
 					NOT = {
@@ -584,7 +584,7 @@ focus_tree = {
 
 		available = {
 			FRA = {
-				controls_state = 483
+				controls_state = 543
 			}
 		}
 		
@@ -601,7 +601,7 @@ focus_tree = {
 			random_state = {
 				limit = { 
 					OR = {
-						state = 483
+						state = 543
 					}
 					OWNER = { is_owned_or_subject_trigger = yes }	
 					NOT = {
@@ -633,7 +633,7 @@ focus_tree = {
 
 		available = {
 			FRA = {
-				controls_state = 483
+				controls_state = 553
 			}
 		}
 		
@@ -650,7 +650,7 @@ focus_tree = {
 			random_state = {
 				limit = { 
 					OR = {
-						state = 139
+						state = 553
 					}
 					OWNER = { is_owned_or_subject_trigger = yes }	
 					NOT = {
@@ -783,7 +783,7 @@ focus_tree = {
 			add_resource = {
  			 	type = steel
    				amount = 20
-    				state = 161
+    				state = 539
 			}
 			every_owned_state={
 			limit={NOT={is_core_of=ROOT has_state_category=wasteland } is_on_continent=africa
@@ -1448,9 +1448,9 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			add_state_core = 134
-			add_state_core = 133
-			add_state_core = 136
+			add_state_core = 459
+			add_state_core = 460
+			add_state_core = 513
 		}
 	}
 	focus = {
@@ -1899,7 +1899,7 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 25
-			161 = {
+			539 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
@@ -1923,7 +1923,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			134 = {
+			459 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1935,7 +1935,7 @@ focus_tree = {
 					set_state_flag = FRA_colonial_naval_bases
 				}
 			}
-			151 = {
+			272 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1947,7 +1947,7 @@ focus_tree = {
 					set_state_flag = FRA_colonial_naval_bases
 				}
 			}
-			161 = {
+			539 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1959,7 +1959,7 @@ focus_tree = {
 					set_state_flag = FRA_colonial_naval_bases
 				}
 			}
-			483 = {
+			286 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1986,7 +1986,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			161 = {
+			539 = {
 					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
@@ -2011,7 +2011,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			161 = {
+			539 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
@@ -2413,14 +2413,14 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			156 = {
+			776 = {
 				is_controlled_by = EFR
 			}
 		}
 		
 		bypass = {
 			NOT = {
-				156 = {
+				776 = {
 					is_controlled_by = EFR
 				}
 			}
@@ -2452,14 +2452,14 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			139 = {
+			553 = {
 				is_controlled_by = EFR
 			}
 		}
 		
 		bypass = {
 			NOT = {
-				139 = {
+				553 = {
 					is_controlled_by = EFR
 				}
 			}
@@ -2491,14 +2491,14 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			483 = {
+			543 = {
 				is_controlled_by = EFR
 			}
 		}
 		
 		bypass = {
 			NOT = {
-				483 = {
+				543 = {
 					is_controlled_by = EFR
 				}
 			}
@@ -2512,7 +2512,7 @@ focus_tree = {
 			add_resource = {
  			 	type = rubber
    				amount = 30
-    			state = 483
+    			state = 543
 			}
 		}
 	}

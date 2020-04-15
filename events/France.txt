@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # French Events
 ###########################
 
@@ -29,12 +29,12 @@ country_event = {
 			country_event = france.20
 		}
 		EFR = {
-			transfer_state = 122
+			transfer_state = 26
 			every_state = {
 				limit = { is_core_of = FRA }
 				add_core_of = EFR
 			}
-			set_capital = 122
+			set_capital = 26
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no 
@@ -51,7 +51,7 @@ country_event = {
 			clr_country_flag = no_naval_base
 			remove_ideas = FRA_protected_by_the_maginot_line
 			set_country_flag = free_france
-			set_capital = 161
+			set_capital = 539
 		
 		}
 		EFR = { 
@@ -71,69 +71,69 @@ country_event = {
 				add_offsite_building = { type = arms_factory level = resistancetemp }
 			}
 			ITA = { 
-				transfer_state = 123
-				transfer_state = 125
-				transfer_state = 128
-				transfer_state = 130
-				transfer_state = 131
-				transfer_state = 138
+				transfer_state = 735
+				transfer_state = 32
+				transfer_state = 21
+				transfer_state = 1
+				transfer_state = 458
+				transfer_state = 665
 			}
 		}
 		else={
 			EFR = {
-				transfer_state = 123
-				transfer_state = 125
-				transfer_state = 128
-				transfer_state = 130
-				transfer_state = 131
-				transfer_state = 138
+				transfer_state = 735
+				transfer_state = 32
+				transfer_state = 21
+				transfer_state = 1
+				transfer_state = 458
+				transfer_state = 665
 			}
 		}
     	EFR = {
 			add_ideas = extensive_conscription
 			add_ideas = partial_economic_mobilisation
 			
-			#transfer_state = 122
-			transfer_state = 127
+			#transfer_state = 26
+			transfer_state = 22
 			
-			transfer_state = 124
-			transfer_state = 121
-			transfer_state = 119
-			transfer_state = 129
+			transfer_state = 25
+			transfer_state = 20
+			transfer_state = 33
+			transfer_state = 31
 							
 			#Northern Africa
-			transfer_state = 136
+			transfer_state = 513
 			
-			transfer_state = 134
-			transfer_state = 133
-			transfer_state = 137
-			transfer_state = 141
+			transfer_state = 459
+			transfer_state = 460
+			transfer_state = 461
+			transfer_state = 462
 			
-			transfer_state = 142
-			transfer_state = 156
-			transfer_state = 152
-			transfer_state = 157
-			transfer_state = 154
-			transfer_state = 150
-			transfer_state = 159
-			transfer_state = 155
-			transfer_state = 151
-			transfer_state = 148
-			transfer_state = 163
-			transfer_state = 144
-			transfer_state = 145
-			transfer_state = 146
-			transfer_state = 147
-			transfer_state = 139
-			transfer_state = 140
-			transfer_state = 132
-			transfer_state = 135
-			transfer_state = 483
-			transfer_state = 483
-			transfer_state = 483		
-			transfer_state = 483
-			transfer_state = 483
-			transfer_state = 483 #Madagascar
+			transfer_state = 514
+			transfer_state = 776
+			transfer_state = 781
+			transfer_state = 777
+			transfer_state = 778
+			transfer_state = 556
+			transfer_state = 779
+			transfer_state = 780
+			transfer_state = 272
+			transfer_state = 557
+			transfer_state = 268
+			transfer_state = 786
+			transfer_state = 782
+			transfer_state = 515
+			transfer_state = 775
+			transfer_state = 553
+			transfer_state = 554
+			transfer_state = 680
+			transfer_state = 677
+			transfer_state = 286
+			transfer_state = 670
+			transfer_state = 671		
+			transfer_state = 741
+			transfer_state = 728
+			transfer_state = 543 #Madagascar
 		}
 		FRA = {
 			every_owned_state = {
@@ -143,7 +143,7 @@ country_event = {
 				}
 				FRA= {set_state_controller = PREV}
 			}
-			set_capital = 161
+			set_capital = 539
 		}
 	}
 }
@@ -167,9 +167,9 @@ country_event = {
 				set_country_flag = casablanca_capital
 
 			if = {
-			limit = { 137 = { is_owned_by = FRA }
+			limit = { 461 = { is_owned_by = FRA }
 			}
-			set_capital = 137 
+			set_capital = 461 
 		}
 	}
 }
@@ -332,8 +332,8 @@ country_event = {
    option = {
    name = france.146.a
       RAJ = {
-   transfer_state = 483
-   483 = { add_extra_state_shared_building_slots = 1 }
+   transfer_state = 321
+   321 = { add_extra_state_shared_building_slots = 1 }
    }
    }
    }
@@ -349,7 +349,7 @@ country_event = {
    option = {
    name = france.148.a
       ENG = {
-   transfer_state = 483
+   transfer_state = 702
    }
    }
    }

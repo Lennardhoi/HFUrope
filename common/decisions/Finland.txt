@@ -25,8 +25,8 @@ foreign_politics = {
         complete_effect = {
 			SOV = { white_peace = FIN }
 			FIN = { white_peace = SOV }
-			SOV = {transfer_state = 104 
-			       transfer_state= 101}
+			SOV = {transfer_state = 146 
+			       transfer_state= 147}
 			SOV = { country_event = { id = finland.8 } }
 
 		}

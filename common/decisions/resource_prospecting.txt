@@ -7,20 +7,18 @@ prospect_for_resources = {
 			OR = { tag = GER tag = ITA tag = ENG }
 		}
 
-		available = {
-
-			controls_state = 288
+		available = {
+			controls_state = 558
 			num_of_civilian_factories_available_for_projects > 1
 		}
 
 		highlight_states = {
-			state = 83
+			state = 558
 		}
 
-		visible = {
-
-			controls_state = 288
-			83 = {
+		visible = {
+			controls_state = 558
+			558 = {
 				NOT = {
 					has_state_flag = nigeria_rubber_developed
 				}
@@ -41,16 +39,16 @@ prospect_for_resources = {
 			modifier = {
 				tag = ENG
 				has_war = no
-				483 = { CONTROLLER = { is_in_faction_with = ROOT } }
+				336 = { CONTROLLER = { is_in_faction_with = ROOT } }
 				factor = 0
 			}
 		}
 
 		remove_effect = {
-			83 = {
+			558 = {
 				set_state_flag = nigeria_rubber_developed
 			}
-			83 = {
+			558 = {
 				add_resource = {
 					type = rubber
 					amount = 10
@@ -67,21 +65,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 171
+			state = 56
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 406
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 56
 		}
 
-		visible = {
-
-			controls_state = 406
+		visible = {
+			controls_state = 56
 			has_tech = excavation3
-			171 = {
+			56 = {
 				NOT = {
 					has_state_flag = ems_oil_developed
 				}
@@ -102,10 +98,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			171 = {
+			56 = {
 				set_state_flag = ems_oil_developed
 			}
-			171 = {
+			56 = {
 				add_resource = {
 					type = oil
 					amount = 6
@@ -124,20 +120,18 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation5
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 4
 		}
 
 		highlight_states = {
-			state = 3
+			state = 4
 		}
 
-		visible = {
-
-			controls_state = 483
+		visible = {
+			controls_state = 4
 			has_tech = excavation3
-			3 = {
+			4 = {
 				NOT = {
 					has_state_flag = ems_oil_developed
 				}
@@ -158,10 +152,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			3 = {
+			4 = {
 				set_state_flag = ems_oil_developed
 			}
-			3 = {
+			4 = {
 				add_resource = {
 					type = oil
 					amount = 6
@@ -178,21 +172,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 193
+			state = 36
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 401
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 36
 		}
 
-		visible = {
-
-			controls_state = 401
+		visible = {
+			controls_state = 36
 			has_tech = excavation3
-			193 = {
+			36 = {
 				NOT = {
 					has_state_flag = friesland_oil_developed
 				}
@@ -212,8 +204,8 @@ prospect_for_resources = {
 			factor = 10
 		}
 		remove_effect = {
-			193 = { set_state_flag = friesland_oil_developed }
-			193 = {
+			36 = { set_state_flag = friesland_oil_developed }
+			36 = {
 				add_resource = {
 					type = oil
 					amount = 6
@@ -231,20 +223,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 37
+			state = 331
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 35
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 331
 		}
 
-		visible = {
-
-			controls_state = 35
-			37 = {
+		visible = {
+			controls_state = 331
+			331 = {
 				NOT = {
 					has_state_flag = newfoundland_steel_developed
 				}
@@ -271,8 +261,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			37 = { set_state_flag = newfoundland_steel_developed }
-			37 = {
+			331 = { set_state_flag = newfoundland_steel_developed }
+			331 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -291,20 +281,18 @@ prospect_for_resources = {
 		available = {
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 2
-			16 = {
+			466 = {
 				infrastructure > 2
-			}
-
-			controls_state = 114
+			}
+			controls_state = 466
 		}
 		highlight_states = {
-			state = 16
+			state = 466
 		}
 
-		visible = {
-
-			controls_state = 114
-			16 = {
+		visible = {
+			controls_state = 466
+			466 = {
 				NOT = {
 					has_state_flag = quebec_steel_developed
 				}
@@ -320,10 +308,10 @@ prospect_for_resources = {
 			civilian_factory_use = 3
 		}
 		remove_effect = {
-			16 = {
+			466 = {
 				set_state_flag = quebec_steel_developed
 			}
-			16 = {
+			466 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -345,20 +333,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 483
+			state = 372
 		}
 
 		available = {
 			has_tech = excavation2
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 372
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 372
+			372 = {
 				NOT = {
 					has_state_flag = { 
 						flag = arkansas_aluminium_developed 
@@ -378,7 +364,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_arkansas_aluminium_duration value = 30 }
-			483 = {
+			372 = {
 				if = {
 					limit = {
 						NOT = {
@@ -397,7 +383,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			372 = {
 				add_resource = {
 					type = aluminium
 					amount = 12
@@ -430,19 +416,17 @@ prospect_for_resources = {
 			tag = USA
 		}
 		highlight_states = {
-			state = 439
+			state = 358
 		}
 		available = {
 			has_tech = construction2
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 271
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 358
 		}
 
-		visible = {
-
-			controls_state = 271
-			439 = {
+		visible = {
+			controls_state = 358
+			358 = {
 				NOT = {
 					has_state_flag = {
 						flag = new_york_aluminium_developed
@@ -470,7 +454,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_new_york_aluminium_duration value = 30 }
-			439 = {
+			358 = {
 				if = {
 					limit = {
 						NOT = {
@@ -489,7 +473,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			439 = {
+			358 = {
 				add_resource = {
 					type = aluminium
 					amount = 12
@@ -515,20 +499,18 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction2
-
-			controls_state = 483
+			has_tech = construction2
+			controls_state = 368
 			num_of_civilian_factories_available_for_projects > 14
 		}
 
 		highlight_states = {
-			state = 483
+			state = 368
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 368
+			368 = {
 				NOT = {
 					has_state_flag = { 
 						flag = tennessee_aluminium_developed 
@@ -556,7 +538,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_tennessee_aluminium_duration value = 30 }
-			483 = {
+			368 = {
 				if = {
 					limit = {
 						NOT = {
@@ -575,7 +557,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			368 = {
 				add_resource = {
 					type = aluminium
 					amount = 12
@@ -601,20 +583,18 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = construction2
-
-			controls_state = 483
+			has_tech = construction2
+			controls_state = 386
 			num_of_civilian_factories_available_for_projects > 14
 		}
 
 		highlight_states = {
-			state = 483
+			state = 386
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 386
+			386 = {
 				NOT = {
 					has_state_flag = { 
 						flag = washington_aluminium_developed 
@@ -642,7 +622,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_washington_aluminium_duration value = 30 }
-			483 = {
+			386 = {
 				if = {
 					limit = {
 						NOT = {
@@ -661,7 +641,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			386 = {
 				add_resource = {
 					type = aluminium
 					amount = 12
@@ -687,20 +667,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 483
+			state = 387
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 387
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 387
+			387 = {
 				NOT = {
 					has_state_flag = { 
 						flag = idaho_tungsten_developed 
@@ -728,7 +706,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_idaho_tungsten_duration value = 30 }
-			483 = {
+			387 = {
 				if = {
 					limit = {
 						NOT = {
@@ -747,7 +725,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			387 = {
 				add_resource = {
 					type = tungsten
 					amount = 12
@@ -773,20 +751,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 483
+			state = 378
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 378
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 378
+			378 = {
 				NOT = {
 					has_state_flag = { 
 						flag = california_tungsten_developed 
@@ -814,7 +790,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_california_tungsten_duration value = 30 }
-			483 = {
+			378 = {
 				if = {
 					limit = {
 						NOT = {
@@ -833,7 +809,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			378 = {
 				add_resource = {
 					type = tungsten
 					amount = 12
@@ -860,19 +836,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = construction3
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 391
 		}
 
 		highlight_states = {
-			state = 483
+			state = 391
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 391
+			391 = {
 				NOT = {
 					has_state_flag = { 
 						flag = minnesota_steel_developed 
@@ -900,7 +874,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_minnesota_steel_duration value = 30 }
-			483 = {
+			391 = {
 				if = {
 					limit = {
 						NOT = {
@@ -919,7 +893,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			391 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -945,20 +919,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 440
+			state = 360
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 270
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 360
 		}
 
-		visible = {
-
-			controls_state = 270
-			440 = {
+		visible = {
+			controls_state = 360
+			360 = {
 				NOT = {
 					has_state_flag = { 
 						flag = pennsylvania_steel_developed 
@@ -986,7 +958,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_pennsylvania_steel_duration value = 30 }
-			440 = {
+			360 = {
 				if = {
 					limit = {
 						NOT = {
@@ -1005,7 +977,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			440 = {
+			360 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -1033,19 +1005,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = construction3
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 269
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 261
 		}
 
 		highlight_states = {
-			state = 441
+			state = 261
 		}
 
-		visible = {
-
-			controls_state = 269
-			441 = {
+		visible = {
+			controls_state = 261
+			261 = {
 				NOT = {
 					has_state_flag = { 
 						flag = ohio_steel_developed 
@@ -1073,7 +1043,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_ohio_steel_duration value = 30 }
-			441 = {
+			261 = {
 				if = {
 					limit = {
 						NOT = {
@@ -1092,7 +1062,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			441 = {
+			261 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -1118,20 +1088,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 483
+			state = 396
 		}
 
 		available = {
 			has_tech = construction3
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 396
 		}
 
-		visible = {
-
-			controls_state = 483
-			483 = {
+		visible = {
+			controls_state = 396
+			396 = {
 				NOT = {
 					has_state_flag = { 
 						flag = indiana_steel_developed 
@@ -1159,7 +1127,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_indiana_steel_duration value = 30 }
-			483 = {
+			396 = {
 				if = {
 					limit = {
 						NOT = {
@@ -1178,7 +1146,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			396 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -1205,21 +1173,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 483
+			state = 388
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 388
 		}
 
-		visible = {
-
-			controls_state = 483
+		visible = {
+			controls_state = 388
 			has_tech = excavation3
-			483 = {
+			388 = {
 				NOT = {
 					has_state_flag = { 
 						flag = montana_chromium_developed 
@@ -1247,7 +1213,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_montana_chromium_duration value = 30 }
-			483 = {
+			388 = {
 				if = {
 					limit = {
 						NOT = {
@@ -1266,7 +1232,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			388 = {
 				add_resource = {
 					type = chromium
 					amount = 12
@@ -1293,21 +1259,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 483
+			state = 378
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 378
 		}
 
-		visible = {
-
-			controls_state = 483
+		visible = {
+			controls_state = 378
 			has_tech = excavation3
-			483 = {
+			378 = {
 				NOT = {
 					has_state_flag = { 
 						flag = california_chromium_developed 
@@ -1335,7 +1299,7 @@ prospect_for_resources = {
 		remove_effect = {
 			custom_effect_tooltip = repeatable_decision_tt
 			add_to_variable = { var = USA_california_chromium_duration value = 30 }
-			483 = {
+			378 = {
 				if = {
 					limit = {
 						NOT = {
@@ -1354,7 +1318,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			483 = {
+			378 = {
 				add_resource = {
 					type = chromium
 					amount = 12
@@ -1371,7 +1335,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_cornwall_tungsten_deposits_130 = { #123
+	develop_cornwall_tungsten_deposits_1 = { #123
 		
 		icon = tungsten
 
@@ -1381,19 +1345,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation2
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 182
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 123
 		}
 
 		highlight_states = {
-			state = 53
+			state = 123
 		}
 
-		visible = {
-
-			controls_state = 182
-			53 = {
+		visible = {
+			controls_state = 123
+			123 = {
 				NOT = {
 					has_state_flag = cornwall_tungsten_developed
 				}
@@ -1419,8 +1381,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			53 = { set_state_flag = cornwall_tungsten_developed }
-			53 = {
+			123 = { set_state_flag = cornwall_tungsten_developed }
+			123 = {
 				add_resource = {
 					type = tungsten
 					amount = 6
@@ -1428,7 +1390,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_cornwall_tungsten_deposits_208 = { #123
+	develop_cornwall_tungsten_deposits_2 = { #123
 		
 		icon = tungsten
 
@@ -1438,19 +1400,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 4
-
-			controls_state = 182
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 123
 		}
 
 		highlight_states = {
-			state = 53
+			state = 123
 		}
 
-		visible = {
-
-			controls_state = 182
-			53 = {
+		visible = {
+			controls_state = 123
+			123 = {
 				NOT = {
 					has_state_flag = cornwall_tungsten_developed_2
 				}
@@ -1472,8 +1432,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			53 = { set_state_flag = cornwall_tungsten_developed_2 }
-			53 = {
+			123 = { set_state_flag = cornwall_tungsten_developed_2 }
+			123 = {
 				add_resource = {
 					type = tungsten
 					amount = 6
@@ -1482,7 +1442,7 @@ prospect_for_resources = {
 		}
 	}
 
-	develop_caucasus_tungsten_deposits_130 = { #233
+	develop_caucasus_tungsten_deposits_1 = { #233
 		
 		icon = tungsten
 
@@ -1492,19 +1452,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 233
 		}
 
 		highlight_states = {
-			state = 389
+			state = 233
 		}
 
-		visible = {
-
-			controls_state = 483
-			389 = {
+		visible = {
+			controls_state = 233
+			233 = {
 				NOT = {
 					has_state_flag = caucasus_tungsten_developed
 				}
@@ -1531,8 +1489,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			389 = { set_state_flag = caucasus_tungsten_developed }
-			389 = {
+			233 = { set_state_flag = caucasus_tungsten_developed }
+			233 = {
 				add_resource = {
 					type = tungsten
 					amount = 6
@@ -1540,7 +1498,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_caucasus_tungsten_deposits_208 = { #233
+	develop_caucasus_tungsten_deposits_2 = { #233
 		
 		icon = tungsten
 
@@ -1550,19 +1508,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation5
-			num_of_civilian_factories_available_for_projects > 4
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 233
 		}
 
 		highlight_states = {
-			state = 389
+			state = 233
 		}
 
-		visible = {
-
-			controls_state = 483
-			389 = {
+		visible = {
+			controls_state = 233
+			233 = {
 				NOT = {
 					has_state_flag = caucasus_tungsten_developed_2
 				}
@@ -1590,8 +1546,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			389 = { set_state_flag = caucasus_tungsten_developed_2 }
-			389 = {
+			233 = { set_state_flag = caucasus_tungsten_developed_2 }
+			233 = {
 				add_resource = {
 					type = tungsten
 					amount = 10
@@ -1609,20 +1565,18 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 444
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 404
 		}
 
 		highlight_states = {
-			state = 361
+			state = 404
 		}
 
-		visible = {
-
-			controls_state = 444
+		visible = {
+			controls_state = 404
 			has_tech = excavation3
-			361 = {
+			404 = {
 				NOT = {
 					has_state_flag = kyzla_tungsten_developed
 				}
@@ -1649,8 +1603,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			361 = { set_state_flag = kyzla_tungsten_developed }
-			361 = {
+			404 = { set_state_flag = kyzla_tungsten_developed }
+			404 = {
 				add_resource = {
 					type = tungsten
 					amount = 8
@@ -1668,21 +1622,19 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = construction4
-			num_of_civilian_factories_available_for_projects > 4
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 572
 			has_tech = construction3
 		}
 
 		highlight_states = {
-			state = 328
+			state = 572
 		}
 
-		visible = {
-
-			controls_state = 483
+		visible = {
+			controls_state = 572
 			has_tech = construction3
-			328 = {
+			572 = {
 				NOT = {
 					has_state_flag = { 
 						flag = chelyabinsk_steel_developed 
@@ -1712,7 +1664,7 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			328 = { 
+			572 = { 
 				if = {
 					limit = {
 						not = {
@@ -1731,7 +1683,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			328 = {
+			572 = {
 				add_resource = {
 					type = steel
 					amount = 20
@@ -1739,7 +1691,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_zlatoust_steel_deposits_130 = { #573
+	develop_zlatoust_steel_deposits_1 = { #573
 		
 		icon = steel
 
@@ -1749,19 +1701,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = construction3
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 573
 		}
 
 		highlight_states = {
-			state = 318
+			state = 573
 		}
 
-		visible = {
-
-			controls_state = 483
-			318 = {
+		visible = {
+			controls_state = 573
+			573 = {
 				NOT = {
 					has_state_flag = zlatoust_steel_developed
 				}
@@ -1788,8 +1738,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			318 = { set_state_flag = zlatoust_steel_developed }
-			318 = {
+			573 = { set_state_flag = zlatoust_steel_developed }
+			573 = {
 				add_resource = {
 					type = steel
 					amount = 10
@@ -1797,7 +1747,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_zlatoust_steel_deposits_208 = { #573
+	develop_zlatoust_steel_deposits_2 = { #573
 		
 		icon = steel
 
@@ -1807,19 +1757,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = construction4
-			num_of_civilian_factories_available_for_projects > 4
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 573
 		}
 
 		highlight_states = {
-			state = 318
+			state = 573
 		}
 
-		visible = {
-
-			controls_state = 483
-			318 = {
+		visible = {
+			controls_state = 573
+			573 = {
 				NOT = {
 					has_state_flag = zlatoust_steel_developed_2
 				}
@@ -1847,8 +1795,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			318 = { set_state_flag = zlatoust_steel_developed_2 }
-			318 = {
+			573 = { set_state_flag = zlatoust_steel_developed_2 }
+			573 = {
 				add_resource = {
 					type = steel
 					amount = 20
@@ -1865,20 +1813,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 476
+			state = 220
 		}
 
 		available = {
 			has_tech = excavation2
-			num_of_civilian_factories_available_for_projects > 8
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 220
 		}
 
-		visible = {
-
-			controls_state = 483
-			476 = {
+		visible = {
+			controls_state = 220
+			220 = {
 				NOT = {
 					has_state_flag = { 
 						flag = kursk_steel_developed 
@@ -1907,7 +1853,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = SOV_kursk_steel_duration value = 30 }
-			476 = {
+			220 = {
 				if = {
 					limit = {
 						NOT = {
@@ -1926,7 +1872,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			476 = {
+			220 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -1943,7 +1889,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_kursk_steel_deposits_208 = { #220
+	develop_kursk_steel_deposits_2 = { #220
 		
 		icon = steel
 
@@ -1952,20 +1898,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 476
+			state = 220
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 11
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 11
+			controls_state = 220
 		}
 
-		visible = {
-
-			controls_state = 483
-			476 = {
+		visible = {
+			controls_state = 220
+			220 = {
 				NOT = {
 					has_state_flag = { 
 						flag = kursk_steel_developed_2 
@@ -1998,7 +1942,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = SOV_kursk_steel_duration_2 value = 30 }
-			476 = {
+			220 = {
 				if = {
 					limit = {
 						NOT = {
@@ -2017,7 +1961,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			476 = {
+			220 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -2034,7 +1978,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_kursk_steel_deposits_483 = { #220
+	develop_kursk_steel_deposits_3 = { #220
 		
 		icon = steel
 
@@ -2043,20 +1987,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 476
+			state = 220
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 483
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 220
 		}
 
-		visible = {
-
-			controls_state = 483
-			476 = {
+		visible = {
+			controls_state = 220
+			220 = {
 				NOT = {
 					has_state_flag = { 
 						flag = kursk_steel_developed_3 
@@ -2089,7 +2031,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = SOV_kursk_steel_duration_3 value = 30 }
-			476 = {
+			220 = {
 				if = {
 					limit = {
 						NOT = {
@@ -2108,7 +2050,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			476 = {
+			220 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -2134,20 +2076,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 359
+			state = 240
 		}
 
 		available = {
 			has_tech = excavation2
-			num_of_civilian_factories_available_for_projects > 8
-
-			controls_state = 442
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 240
 		}
 
-		visible = {
-
-			controls_state = 442
-			359 = {
+		visible = {
+			controls_state = 240
+			240 = {
 				NOT = {
 					has_state_flag = { 
 						flag = Belgorod_steel_developed 
@@ -2176,7 +2116,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = SOV_Belgorod_steel_duration value = 30 }
-			359 = {
+			240 = {
 				if = {
 					limit = {
 						NOT = {
@@ -2195,7 +2135,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			359 = {
+			240 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -2212,7 +2152,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_Belgorod_steel_deposits_208 = { #240
+	develop_Belgorod_steel_deposits_2 = { #240
 		
 		icon = steel
 
@@ -2221,20 +2161,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 359
+			state = 240
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 11
-
-			controls_state = 442
+			num_of_civilian_factories_available_for_projects > 11
+			controls_state = 240
 		}
 
-		visible = {
-
-			controls_state = 442
-			359 = {
+		visible = {
+			controls_state = 240
+			240 = {
 				NOT = {
 					has_state_flag = { 
 						flag = Belgorod_steel_developed_2 
@@ -2267,7 +2205,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = SOV_Belgorod_steel_duration_2 value = 30 }
-			359 = {
+			240 = {
 				if = {
 					limit = {
 						NOT = {
@@ -2286,7 +2224,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			359 = {
+			240 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -2303,7 +2241,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_Belgorod_steel_deposits_483 = { #240
+	develop_Belgorod_steel_deposits_3 = { #240
 		
 		icon = steel
 
@@ -2312,20 +2250,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 359
+			state = 240
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 14
-
-			controls_state = 442
+			num_of_civilian_factories_available_for_projects > 14
+			controls_state = 240
 		}
 
-		visible = {
-
-			controls_state = 442
-			359 = {
+		visible = {
+			controls_state = 240
+			240 = {
 				NOT = {
 					has_state_flag = { 
 						flag = Belgorod_steel_developed_3 
@@ -2358,7 +2294,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = SOV_Belgorod_steel_duration_3 value = 30 }
-			359 = {
+			240 = {
 				if = {
 					limit = {
 						NOT = {
@@ -2377,7 +2313,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			359 = {
+			240 = {
 				add_resource = {
 					type = steel
 					amount = 12
@@ -2394,7 +2330,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_uralsk_chromium_deposits_130 = { #407
+	develop_uralsk_chromium_deposits_1 = { #407
 		
 		icon = chromium
 
@@ -2404,19 +2340,17 @@ prospect_for_resources = {
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 438
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 407
 		}
 
 		highlight_states = {
-			state = 357
+			state = 407
 		}
 
-		visible = {
-
-			controls_state = 438
-			357 = {
+		visible = {
+			controls_state = 407
+			407 = {
 				NOT = {
 					has_state_flag = uralsk_chromium_developed
 				}
@@ -2443,8 +2377,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			357 = { set_state_flag = uralsk_chromium_developed }
-			357 = {
+			407 = { set_state_flag = uralsk_chromium_developed }
+			407 = {
 				add_resource = {
 					type = chromium
 					amount = 10
@@ -2452,7 +2386,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_uralsk_chromium_deposits_208 = { #407
+	develop_uralsk_chromium_deposits_2 = { #407
 		
 		icon = chromium
 
@@ -2461,20 +2395,18 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
-
-			controls_state = 438
+			has_tech = excavation5
+			controls_state = 407
 			num_of_civilian_factories_available_for_projects > 4
 		}
 
 		highlight_states = {
-			state = 357
+			state = 407
 		}
 
-		visible = {
-
-			controls_state = 438
-			357 = {
+		visible = {
+			controls_state = 407
+			407 = {
 				NOT = {
 					has_state_flag = uralsk_chromium_developed_2
 				}
@@ -2502,8 +2434,8 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			357 = { set_state_flag = uralsk_chromium_developed_2 }
-			357 = {
+			407 = { set_state_flag = uralsk_chromium_developed_2 }
+			407 = {
 				add_resource = {
 					type = chromium
 					amount = 15
@@ -2521,21 +2453,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 76
+			state = 658
 		}
 
 		available = {
 			has_tech = excavation5
-			num_of_civilian_factories_available_for_projects > 6
-
-			controls_state = 287
+			num_of_civilian_factories_available_for_projects > 6
+			controls_state = 658
 		}
 
-		visible = {
-
-			controls_state = 287
+		visible = {
+			controls_state = 658
 			has_tech = excavation5
-			76 = {
+			658 = {
 				NOT = {
 					has_state_flag = abu_dhabi_developed
 				}
@@ -2556,10 +2486,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			76 = {
+			658 = {
 				set_state_flag = abu_dhabi_developed
 			}
-			76 = {
+			658 = {
 				add_resource = {
 					type = oil
 					amount = 8
@@ -2576,21 +2506,19 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_tech = excavation5
-
-			controls_state = 27
+			has_tech = excavation5
+			controls_state = 656
 			num_of_civilian_factories_available_for_projects > 11
 		}
 
 		highlight_states = {
-			state = 71
+			state = 656
 		}
 
-		visible = {
-
-			controls_state = 27
+		visible = {
+			controls_state = 656
 			has_tech = excavation2
-			71 = {
+			656 = {
 				NOT = {
 					has_state_flag = { 
 						flag = kuwait_oil_developed 
@@ -2612,7 +2540,7 @@ prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = kuwait_oil_duration value = 30 }
-			71 = {
+			656 = {
 				if = {
 					limit = {
 						NOT = {
@@ -2631,7 +2559,7 @@ prospect_for_resources = {
 					}
 				}
 			}
-			71 = {
+			656 = {
 				add_resource = {
 					type = oil
 					amount = 18
@@ -2657,21 +2585,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 247
+			state = 413
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 8
-
-			controls_state = 399
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 413
 		}
 
-		visible = {
-
-			controls_state = 399
+		visible = {
+			controls_state = 413
 			has_tech = excavation2
-			247 = {
+			413 = {
 				NOT = {
 					has_state_flag = khuzestan_developed
 				}
@@ -2692,10 +2618,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			247 = {
+			413 = {
 				set_state_flag = khuzestan_developed
 			}
-			247 = {
+			413 = {
 				add_resource = {
 					type = oil
 					amount = 16
@@ -2712,21 +2638,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 248
+			state = 412
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 317
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 412
 		}
 
-		visible = {
-
-			controls_state = 317
+		visible = {
+			controls_state = 412
 			has_tech = excavation3
-			248 = {
+			412 = {
 				NOT = {
 					has_state_flag = fars_developed
 				}
@@ -2747,10 +2671,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			248 = {
+			412 = {
 				set_state_flag = fars_developed
 			}
-			248 = {
+			412 = {
 				add_resource = {
 					type = oil
 					amount = 6
@@ -2767,21 +2691,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 60
+			state = 291
 		}
 
 		available = {
 			has_tech = excavation5
-			num_of_civilian_factories_available_for_projects > 11
-
-			controls_state = 177
+			num_of_civilian_factories_available_for_projects > 11
+			controls_state = 291
 		}
 
-		visible = {
-
-			controls_state = 177
+		visible = {
+			controls_state = 291
 			has_tech = excavation4
-			60 = {
+			291 = {
 				NOT = {
 					has_state_flag = baghdad_developed
 				}
@@ -2802,10 +2724,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			60 = {
+			291 = {
 				set_state_flag = baghdad_developed
 			}
-			60 = {
+			291 = {
 				add_resource = {
 					type = oil
 					amount = 18
@@ -2822,20 +2744,18 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 57
+			state = 676
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 4
-
-			controls_state = 174
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 676
 		}
 
-		visible = {
-
-			controls_state = 174
+		visible = {
+			controls_state = 676
 			has_tech = excavation3
-			57 = {
+			676 = {
 				NOT = {
 					has_state_flag = mosul_developed
 				}
@@ -2856,10 +2776,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			57 = {
+			676 = {
 				set_state_flag = mosul_developed
 			}
-			57 = {
+			676 = {
 				add_resource = {
 					type = oil
 					amount = 28
@@ -2876,21 +2796,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 72
+			state = 457
 		}
 
 		available = {
 			has_tech = excavation3
-			num_of_civilian_factories_available_for_projects > 2
-
-			controls_state = 25
+			num_of_civilian_factories_available_for_projects > 2
+			controls_state = 457
 		}
 
-		visible = {
-
-			controls_state = 25
+		visible = {
+			controls_state = 457
 			has_tech = excavation2
-			72 = {
+			457 = {
 				NOT = {
 					has_state_flag = eastern_desert_developed
 				}
@@ -2911,10 +2829,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			72 = {
+			457 = {
 				set_state_flag = eastern_desert_developed
 			}
-			72 = {
+			457 = {
 				add_resource = {
 					type = oil
 					amount = 6
@@ -2931,21 +2849,19 @@ prospect_for_resources = {
 		}
 
 		highlight_states = {
-			state = 77
+			state = 765
 		}
 
 		available = {
 			has_tech = excavation4
-			num_of_civilian_factories_available_for_projects > 5
-
-			controls_state = 294
+			num_of_civilian_factories_available_for_projects > 5
+			controls_state = 765
 		}
 
-		visible = {
-
-			controls_state = 294
+		visible = {
+			controls_state = 765
 			has_tech = excavation2
-			77 = {
+			765 = {
 				NOT = {
 					has_state_flag = qatar_developed
 				}
@@ -2966,10 +2882,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			77 = {
+			765 = {
 				set_state_flag = qatar_developed
 			}
-			77 = {
+			765 = {
 				add_resource = {
 					type = oil
 					amount = 8

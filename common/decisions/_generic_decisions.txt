@@ -134,12 +134,12 @@ economy_decisions = {
 		days_remove = 200
 
 		available = {
-			controls_state = 483
+			controls_state = 28
 			}
 
 
 		visible = {
-			113 = {
+			28 = {
 				is_owned_by = FRA
 				is_controlled_by = ROOT
 			}
@@ -151,7 +151,7 @@ economy_decisions = {
 		}
 
 		complete_effect = {
-			113 = {
+			28 = {
 				set_building_level = {
 					type = bunker
 					level = 2
@@ -238,22 +238,22 @@ operations = {
 			OR = {tag = ENG tag = GER tag = ITA }
 		}
 		available = {
-			controls_state = 173
-			controls_state = 22
+			controls_state = 446
+			controls_state = 453
 			OR = {
 				NOT = {
-					owns_state = 173
-					owns_state = 22
+					owns_state = 446
+					owns_state = 453
 				}
 				any_country = {
 					has_war_with = ROOT
 					OR = {
-						controls_state = 185
-						controls_state = 483
-						controls_state = 24
-						controls_state = 25
-						controls_state = 166
-						controls_state = 172
+						controls_state = 452
+						controls_state = 447
+						controls_state = 456
+						controls_state = 457
+						controls_state = 454
+						controls_state = 455
 					}
 				}
 			}
@@ -286,14 +286,14 @@ operations = {
 				if = {
 					limit = {
 						NOT = {
-							owns_state = 173
-							owns_state = 22
+							owns_state = 446
+							owns_state = 453
 						}
 					}
 					random_country = {
 						limit = {
-							owns_state = 173
-							owns_state = 22
+							owns_state = 446
+							owns_state = 453
 						}
 						country_event = { id = generic.12 days = 1 }
 					}
@@ -305,8 +305,8 @@ operations = {
 			if = {
 				limit = {
 					OR = {
-						has_full_control_of_state = 173
-						has_full_control_of_state = 22
+						has_full_control_of_state = 446
+						has_full_control_of_state = 453
 					}
 				}
 				set_country_flag = blew_up_suez
@@ -317,8 +317,8 @@ operations = {
 				if = {
 					limit = {
 						ENG = {
-							owns_state = 173
-							owns_state = 22
+							owns_state = 446
+							owns_state = 453
 						}
 					}
 					add_war_support = -0.05
@@ -334,26 +334,26 @@ operations = {
 					is_in_faction_with = ROOT
 					NOT = {
 						OR = {
-							has_full_control_of_state = 25
-							has_full_control_of_state = 24
+							has_full_control_of_state = 457
+							has_full_control_of_state = 456
 						}
 					}
-					NOT = { has_full_control_of_state = 286 }
+					NOT = { has_full_control_of_state = 551 }
 					OR = {
-						divisions_in_state = { state = 222 size > 0 }
-						divisions_in_state = { state = 163 size > 0 }
-						divisions_in_state = { state = 95 size > 0 }
-						divisions_in_state = { state = 224 size > 0 }
+						divisions_in_state = { state = 550 size > 0 }
+						divisions_in_state = { state = 268 size > 0 }
+						divisions_in_state = { state = 269 size > 0 }
+						divisions_in_state = { state = 559 size > 0 }
 					}
 				}
 			}
 			modifier = {
 				factor = 200 # Try to cut the enemy off from the mediterranean if you also occupy Gibraltar
 				OR = {
-					has_full_control_of_state = 483
+					has_full_control_of_state = 118
 					any_other_country = {
 						is_in_faction_with = ROOT
-						has_full_control_of_state = 483
+						has_full_control_of_state = 118
 					}
 				}
 				has_war = yes
@@ -393,11 +393,11 @@ special_projects = {
 		available = {
 			any_country = {
 				is_in_faction_with = ROOT
-				has_full_control_of_state = 173
+				has_full_control_of_state = 446
 			}
 			any_country = {
 				is_in_faction_with = ROOT
-				has_full_control_of_state = 22
+				has_full_control_of_state = 453
 			}
 			num_of_civilian_factories > 15
 		}
@@ -421,11 +421,11 @@ special_projects = {
 				limit = {
 					any_country = {
 						is_in_faction_with = ROOT
-						has_full_control_of_state = 173
+						has_full_control_of_state = 446
 					}
 					any_country = {
 						is_in_faction_with = ROOT
-						has_full_control_of_state = 22
+						has_full_control_of_state = 453
 					}
 				}
 				set_country_flag = rebuilt_suez

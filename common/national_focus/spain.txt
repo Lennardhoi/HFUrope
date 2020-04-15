@@ -1,4 +1,4 @@
-### search_filters = {FOCUS_FILTER_POLITICAL}
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -548,7 +548,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-				413 = {
+				793 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -558,18 +558,7 @@ focus_tree = {
 						}
 					}
 				}
-				426 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-
-						add_building_construction = {
-							type = infrastructure
-							level = 5
-							instant_build = yes
-						}
-					}
-				}
-				411 = {
+				794 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -580,7 +569,7 @@ focus_tree = {
 						}
 					}
 				}
-				425 = {
+				165 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -591,7 +580,7 @@ focus_tree = {
 						}
 					}
 				}
-				408 = {
+				176 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -602,7 +591,18 @@ focus_tree = {
 						}
 					}
 				}
-				427 = {
+				792 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				41 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -638,12 +638,12 @@ focus_tree = {
 					is_controlled_by = ROOT
 					is_core_of = ROOT
 					NOT = {
-						state = 413
-						state = 426
-						state = 411
-						state = 425
-						state = 408
-						state = 427
+						state = 793
+						state = 794
+						state = 165
+						state = 176
+						state = 792
+						state = 41
 					}
 				}
 				add_building_construction = {
@@ -729,25 +729,25 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			408 = {
+			792 = {
 				add_resource = {
 					type = steel
 					amount = 10
 				}
 			}
-			410 = {
+			166 = {
 				add_resource = {
 					type = steel
 					amount = 10
 				}
 			}
-			430 = {
+			173 = {
 				add_resource = {
 					type = steel
 					amount = 10
 				}
 			}
-			427 = {
+			41 = {
 				add_resource = {
 					type = aluminium
 					amount = 10
@@ -961,25 +961,25 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			408 = {
+			792 = {
 				add_resource = {
 					type = steel
 					amount = 10
 				}
 			}
-			410 = {
+			166 = {
 				add_resource = {
 					type = steel
 					amount = 10
 				}
 			}
-			430 = {
+			173 = {
 				add_resource = {
 					type = steel
 					amount = 10
 				}
 			}
-			427 = {
+			41 = {
 				add_resource = {
 					type = aluminium
 					amount = 10
@@ -1297,9 +1297,9 @@ focus_tree = {
 			every_owned_state = {
 				limit = {
 					OR = {
-						state = 411
-						state = 406
-						state = 408
+						state = 165
+						state = 171
+						state = 792
 					}
 				}
 				remove_dynamic_modifier = { modifier = autonomous_state }

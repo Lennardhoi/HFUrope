@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = vichy_french_focus
 	
 	country = {
@@ -356,7 +356,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			114 = {
+			16 = {
 				is_controlled_by = GER
 			}
 		}
@@ -465,13 +465,13 @@ focus_tree = {
 			modifier = {
 				is_historical_focus_on = yes
 				NOT = {
-					GER = { owns_state = 483 } 
+					GER = { owns_state = 219 } 
 				}
 				factor = 0
 			}
 		}
 		available = {
-			114 = {
+			16 = {
 				NOT = {
 					is_controlled_by = ROOT
 				}
@@ -608,7 +608,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			114 = { # Controller of paris is in a war against any communist major
+			16 = { # Controller of paris is in a war against any communist major
 				CONTROLLER = {
 					NOT = {
 						tag = ROOT

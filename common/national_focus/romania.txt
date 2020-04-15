@@ -157,7 +157,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			292 = {
+			46 = {
 				
 				add_resource = {
 					type = oil
@@ -165,7 +165,7 @@ focus_tree = {
 				}
 			}
 			GER = {
-				171 = {
+				56 = {
 					
 					add_resource = {
 						type = oil
@@ -387,7 +387,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			293 = {
+			81 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -398,7 +398,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			293 = {				
+			81 = {				
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -436,7 +436,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			291 = {
+			82 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -451,7 +451,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			291 = {
+			82 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -493,7 +493,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			296 = {
+			79 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -504,7 +504,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			296 = {
+			79 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -533,7 +533,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_full_control_of_state = 483
+			has_full_control_of_state = 46
 		}
 
 		bypass = {
@@ -546,7 +546,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			292 = {
+			46 = {
 				add_resource = {
 					type = oil
 					amount = 24
@@ -941,28 +941,28 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			292 = {
+			46 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			294 = {
+			77 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			289 = {
+			84 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-						296 = {
+						79 = {
 				set_building_level = {
 					type = air_base
 					level = 10
@@ -1646,7 +1646,7 @@ focus = {
 
 		complete_tooltip = {
 			navy_experience = 25
-			292  = {
+			46  = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
@@ -1657,7 +1657,7 @@ focus = {
 
 		completion_reward = {
 			navy_experience = 25
-			292 = {
+			46 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
@@ -1804,7 +1804,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-				292={
+				46={
 				
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

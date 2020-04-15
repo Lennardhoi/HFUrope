@@ -1,4 +1,4 @@
-add_namespace = wtt_news
+﻿add_namespace = wtt_news
 
 
 
@@ -35,8 +35,8 @@ news_event = {
 		trigger = {
 			FROM = {
 				has_country_flag = blew_up_suez
-				owns_state = 173
-				owns_state = 22
+				owns_state = 446
+				owns_state = 453
 			}
 		}
 	}
@@ -47,8 +47,8 @@ news_event = {
 				OR = {
 					NOT = {	has_country_flag = blew_up_suez }
 					NOT = {
-						owns_state = 173
-						owns_state = 22
+						owns_state = 446
+						owns_state = 453
 					}
 				}
 			}
@@ -62,8 +62,8 @@ news_event = {
 		name = wtt_news.40.a
 		trigger = {
 			NOT = { has_country_flag = blew_up_suez }
-			owns_state = 173
-			owns_state = 22
+			owns_state = 446
+			owns_state = 453
 		}
 		if = {
 			limit = {
@@ -77,8 +77,8 @@ news_event = {
 		name = wtt_news.40.b
 		trigger = {
 			has_country_flag = blew_up_suez
-			owns_state = 173
-			owns_state = 22
+			owns_state = 446
+			owns_state = 453
 		}
 		if = {
 			limit = {
@@ -94,8 +94,8 @@ news_event = {
 		trigger = {
 			any_country = {
 				has_war_with = ROOT
-				owns_state = 173
-				owns_state = 22
+				owns_state = 446
+				owns_state = 453
 				has_country_flag = blew_up_suez
 			}
 		}
@@ -105,8 +105,8 @@ news_event = {
 		trigger = {
 			any_country = {
 				has_war_with = ROOT
-				owns_state = 173
-				owns_state = 22
+				owns_state = 446
+				owns_state = 453
 			}
 			has_country_flag = blew_up_suez
 		}
@@ -117,8 +117,8 @@ news_event = {
 		trigger = {
 			any_country = {
 				has_war_with = ROOT
-				owns_state = 173
-				owns_state = 22
+				owns_state = 446
+				owns_state = 453
 				NOT = { has_country_flag = blew_up_suez }
 			}
 			any_other_country = {
@@ -133,8 +133,8 @@ news_event = {
 		trigger = {
 			any_other_country = {
 				has_war_together_with = ROOT
-				owns_state = 173
-				owns_state = 22
+				owns_state = 446
+				owns_state = 453
 				has_country_flag = blew_up_suez
 			}
 			NOT = { has_country_flag = blew_up_suez }
@@ -149,8 +149,8 @@ news_event = {
 			}
 			any_other_country = {
 				has_war_together_with = ROOT
-				owns_state = 173
-				owns_state = 22
+				owns_state = 446
+				owns_state = 453
 				NOT = { has_country_flag = blew_up_suez }
 			}
 			NOT = { has_country_flag = blew_up_suez }
@@ -168,8 +168,8 @@ news_event = {
 			NOT = {
 				any_other_country = {
 					has_war_together_with = ROOT
-					owns_state = 173
-					owns_state = 22
+					owns_state = 446
+					owns_state = 453
 					has_country_flag = blew_up_suez
 				}
 			}
@@ -187,7 +187,7 @@ news_event = {
 		trigger = {
 			FROM = {
 				has_country_flag = blew_up_panama
-				owns_state = 216
+				owns_state = 685
 			}
 		}
 	}
@@ -197,7 +197,7 @@ news_event = {
 			FROM = {
 				OR = {
 					NOT = {	has_country_flag = blew_up_panama }
-					NOT = { owns_state = 216 }
+					NOT = { owns_state = 685 }
 				}
 			}
 		}
@@ -210,7 +210,7 @@ news_event = {
 		name = wtt_news.41.a
 		trigger = {
 			NOT = { has_country_flag = blew_up_panama }
-			owns_state = 216
+			owns_state = 685
 		}
 		if = {
 			limit = {
@@ -224,7 +224,7 @@ news_event = {
 		name = wtt_news.41.b
 		trigger = {
 			has_country_flag = blew_up_panama
-			owns_state = 216
+			owns_state = 685
 		}
 		if = {
 			limit = {
@@ -240,7 +240,7 @@ news_event = {
 		trigger = {
 			any_country = {
 				has_war_with = ROOT
-				owns_state = 216
+				owns_state = 685
 				has_country_flag = blew_up_panama
 			}
 		}
@@ -250,7 +250,7 @@ news_event = {
 		trigger = {
 			any_country = {
 				has_war_with = ROOT
-				owns_state = 216
+				owns_state = 685
 			}
 			has_country_flag = blew_up_panama
 		}
@@ -261,7 +261,7 @@ news_event = {
 		trigger = {
 			any_country = {
 				has_war_with = ROOT
-				owns_state = 216
+				owns_state = 685
 				NOT = { has_country_flag = blew_up_panama }
 			}
 			any_other_country = {
@@ -276,7 +276,7 @@ news_event = {
 		trigger = {
 			any_other_country = {
 				has_war_together_with = ROOT
-				owns_state = 216
+				owns_state = 685
 				has_country_flag = blew_up_panama
 			}
 			NOT = { has_country_flag = blew_up_panama }
@@ -291,7 +291,7 @@ news_event = {
 			}
 			any_other_country = {
 				has_war_together_with = ROOT
-				owns_state = 216
+				owns_state = 685
 				NOT = { has_country_flag = blew_up_panama }
 			}
 			NOT = { has_country_flag = blew_up_panama }
@@ -309,7 +309,7 @@ news_event = {
 			NOT = {
 				any_other_country = {
 					has_war_together_with = ROOT
-					owns_state = 216
+					owns_state = 685
 					has_country_flag = blew_up_panama
 				}
 			}

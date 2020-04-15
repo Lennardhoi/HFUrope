@@ -246,7 +246,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			198 = {
+			43 = {
 				add_resource = {
 					type = aluminium
 					amount = 16
@@ -306,14 +306,14 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_core = 287
-			add_state_core = 288
+			add_state_core = 76
+			add_state_core = 83
 			
-			add_state_core = 30
-			add_state_core = 457
-			add_state_core = 456
-			add_state_claim = 291
-			add_state_core = 29
+			add_state_core = 664
+			add_state_core = 45
+			add_state_core = 764
+			add_state_claim = 82
+			add_state_core = 73
 		}
 	}
 
@@ -337,7 +337,7 @@ focus_tree = {
 		}
 
 		bypass = {
-				owns_state = 162
+				owns_state = 664
 		}
 
 		cancel_if_invalid = yes
@@ -349,7 +349,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			transfer_state = 30	
+			transfer_state = 664	
 			CZE = { country_event = { id = DOD_hungary.80 } }
 		}
 	}
@@ -371,13 +371,13 @@ focus_tree = {
 
 		available = {
 			OR = {
-				owns_state = 162
-				owns_state = 109
-				owns_state = 483
-				owns_state = 483
-				owns_state = 483
-				owns_state = 60
-				owns_state = 72
+				owns_state = 664
+				owns_state = 73
+				owns_state = 76
+				owns_state = 84
+				owns_state = 83
+				owns_state = 82
+				owns_state = 45
 			}
 		}
 
@@ -510,14 +510,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			200 = {
+			155 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			198 = {
+			43 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -525,7 +525,7 @@ focus_tree = {
 				}
 
 			}
-			199 = {
+			154 = {
 				
 				add_building_construction = {
 					type = infrastructure
@@ -627,7 +627,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					198 = {
+					43 = {
 						free_building_slots = {
 							building = industrial_complex
 							size > 1
@@ -635,7 +635,7 @@ focus_tree = {
 						}
 					}
 				}
-				198 = {
+				43 = {
 					add_extra_state_shared_building_slots = 3
 				}
 			}
@@ -911,7 +911,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			198 = {
+			43 = {
 				add_resource = {
 					type = aluminium
 					amount = 16

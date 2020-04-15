@@ -38,7 +38,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			103 = {
+			150 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 						type = infrastructure
@@ -46,7 +46,7 @@ focus_tree = {
 						instant_build = yes
 				}
 			}
-			105 = {
+			111 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 						type = infrastructure
@@ -69,7 +69,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			102 = {
+			149 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 						type = industrial_complex
@@ -92,7 +92,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			103 = {
+			150 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 						type = industrial_complex
@@ -115,7 +115,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			105 = {
+			111 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 						type = industrial_complex
@@ -170,7 +170,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			105 = {
+			111 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 						type = arms_factory
@@ -275,7 +275,7 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 			
-			105 = {
+			111 = {
 				add_building_construction = {
 						type = air_base
 						level = 2
@@ -357,7 +357,7 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 			
-			105 = {
+			111 = {
 				add_building_construction = {
 						type = air_base
 						level = 2
@@ -409,7 +409,7 @@ focus_tree = {
 		
 		completion_reward = {
 			navy_experience = 25
-			105 = {
+			111 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 						type = dockyard
@@ -502,7 +502,7 @@ focus_tree = {
 
 		completion_reward = {
 		add_ideas = deterrence
-			105 = {
+			111 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 						type = arms_factory
@@ -576,16 +576,16 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		bypass = {
-		NOT = { 104 = { is_controlled_by = FIN }
+		NOT = { 146 = { is_controlled_by = FIN }
 			}
 		}
 		
 		available = {
-			104 = { is_controlled_by = FIN }
+			146 = { is_controlled_by = FIN }
 		}
 		
 		completion_reward = {
-		104 = {
+		146 = {
 				add_building_construction = {
 							type = bunker
 							level = 2

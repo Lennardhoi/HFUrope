@@ -130,29 +130,29 @@ increase_occupation_cost_effect = {
 }
 
 FRA_congress_of_paris_italian_claims_setup_effect = {
-	add_state_claim = 65
-	add_state_claim = 483
-	add_state_claim = 68
-	add_state_claim = 72
-	add_state_claim = 74
-	add_state_claim = 80
-	add_state_claim = 96
-	add_state_claim = 95
-	add_state_claim = 87
-	add_state_claim = 89
-	add_state_claim = 90
+	add_state_claim = 452
+	add_state_claim = 447
+	add_state_claim = 446
+	add_state_claim = 457
+	add_state_claim = 456
+	add_state_claim = 551
+	add_state_claim = 549
+	add_state_claim = 269
+	add_state_claim = 547
+	add_state_claim = 548
+	add_state_claim = 546
 }
 
 FRA_congress_of_paris_portugese_claims_setup_effect = {
-	add_state_claim = 11
-	add_state_claim = 483
-	add_state_claim = 483
-	add_state_claim = 483
-	add_state_claim = 483
-	add_state_claim = 483
-	add_state_claim = 483
-	add_state_claim = 483
-	add_state_claim = 483
+	add_state_claim = 295
+	add_state_claim = 771
+	add_state_claim = 770
+	add_state_claim = 545
+	add_state_claim = 542
+	add_state_claim = 541
+	add_state_claim = 681
+	add_state_claim = 275
+	add_state_claim = 719
 }
 
 FRA_right_wing_riot_effect = {
@@ -176,40 +176,40 @@ FRA_transfer_indochina_effect = {
 	
 	if = {
 		limit = {
-			483 = { CONTROLLER = { original_tag = FRA } }
-			483 = { CONTROLLER = { original_tag = FRA } }
+			671 = { CONTROLLER = { original_tag = FRA } }
+			286 = { CONTROLLER = { original_tag = FRA } }
 		}
-		transfer_state = 483
-		transfer_state = 483
+		transfer_state = 671
+		transfer_state = 286
 	}
 	
 	if = {
-		limit = { 483 = { CONTROLLER = { original_tag = FRA } } }
-		transfer_state = 483
+		limit = { 741 = { CONTROLLER = { original_tag = FRA } } }
+		transfer_state = 741
 	}
 	
 	if = {
-		limit = { 483 = { CONTROLLER = { original_tag = FRA } } }
-		transfer_state = 483
+		limit = { 670 = { CONTROLLER = { original_tag = FRA } } }
+		transfer_state = 670
 	}
 }
 
 FRA_transfer_syria_effect = {
 	
 	if = {
-		limit = { 139 = { CONTROLLER = { original_tag = FRA } } }
-		transfer_state = 139
+		limit = { 553 = { CONTROLLER = { original_tag = FRA } } }
+		transfer_state = 553
 	}
 	
 	if = {
 		limit = {
-			132 = { CONTROLLER = { original_tag = FRA } }
-			135 = { CONTROLLER = { original_tag = FRA } }
-			140 = { CONTROLLER = { original_tag = FRA } }
+			680 = { CONTROLLER = { original_tag = FRA } }
+			677 = { CONTROLLER = { original_tag = FRA } }
+			554 = { CONTROLLER = { original_tag = FRA } }
 		}
-		transfer_state = 132
-		transfer_state = 135
-		transfer_state = 140
+		transfer_state = 680
+		transfer_state = 677
+		transfer_state = 554
 	}
 }
 
@@ -217,31 +217,31 @@ FRA_transfer_north_africa_effect = {
 	
 	if = {
 		limit = { 
-			131 = { CONTROLLER = { original_tag = FRA } } 
-			138 = { CONTROLLER = { original_tag = FRA } } 
+			458 = { CONTROLLER = { original_tag = FRA } } 
+			665 = { CONTROLLER = { original_tag = FRA } } 
 		}
-		transfer_state = 131
-		transfer_state = 138
+		transfer_state = 458
+		transfer_state = 665
 	}
 	
 	if = {
 		limit = { 
-			137 = { CONTROLLER = { original_tag = FRA } } 
-			141 = { CONTROLLER = { original_tag = FRA } } 
+			461 = { CONTROLLER = { original_tag = FRA } } 
+			462 = { CONTROLLER = { original_tag = FRA } } 
 		}
-		transfer_state = 137
-		transfer_state = 141
+		transfer_state = 461
+		transfer_state = 462
 	}
 	
 	if = {
 		limit = {
-			136 = { CONTROLLER = { original_tag = FRA } }
-			134 = { CONTROLLER = { original_tag = FRA } }
-			133 = { CONTROLLER = { original_tag = FRA } }
+			513 = { CONTROLLER = { original_tag = FRA } }
+			459 = { CONTROLLER = { original_tag = FRA } }
+			460 = { CONTROLLER = { original_tag = FRA } }
 		}
-		transfer_state = 136
-		transfer_state = 134
-		transfer_state = 133
+		transfer_state = 513
+		transfer_state = 459
+		transfer_state = 460
 	}
 }
 
@@ -249,100 +249,100 @@ FRA_transfer_central_africa_effect = {
 	
 	if = {
 		limit = { 
-			160 = { CONTROLLER = { original_tag = FRA } } 
+			772 = { CONTROLLER = { original_tag = FRA } } 
 		}
-		transfer_state = 160
+		transfer_state = 772
 	}
 	
 	if = {
 		limit = { 
-			161 = { CONTROLLER = { original_tag = FRA } } 
+			539 = { CONTROLLER = { original_tag = FRA } } 
 		}
-		transfer_state = 161
+		transfer_state = 539
 	}
 	
 	if = {
 		limit = {
-			158 = { CONTROLLER = { original_tag = FRA } }	
+			660 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 158
+		transfer_state = 660
 	}
 	
 	if = {
 		limit = {
-			107 = { CONTROLLER = { original_tag = FRA } }	
+			773 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 107
+		transfer_state = 773
 	}
 	
 	if = {
 		limit = {
-			153 = { CONTROLLER = { original_tag = FRA } }	
+			774 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 153
+		transfer_state = 774
 	}
 }
 FRA_transfer_western_africa_effect = {
 	if = {
 		limit = { 
-			152 = { CONTROLLER = { original_tag = FRA } } 
+			781 = { CONTROLLER = { original_tag = FRA } } 
 		}
-		transfer_state = 152
+		transfer_state = 781
 	}
 	
 	if = {
 		limit = { 
-			156 = { CONTROLLER = { original_tag = FRA } } 
+			776 = { CONTROLLER = { original_tag = FRA } } 
 		}
-		transfer_state = 156
+		transfer_state = 776
 	}
 	
 	if = {
 		limit = {
-			157 = { CONTROLLER = { original_tag = FRA } }	
+			777 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 157
+		transfer_state = 777
 	}
 	
 	if = {
 		limit = {
-			154 = { CONTROLLER = { original_tag = FRA } }	
+			778 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 154
+		transfer_state = 778
 	}
 	
 	if = {
 		limit = {
-			159 = { CONTROLLER = { original_tag = FRA } }	
+			779 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 159
+		transfer_state = 779
 	}
 	
 	if = {
 		limit = {
-			150 = { CONTROLLER = { original_tag = FRA } }	
+			556 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 150
+		transfer_state = 556
 	}
 	
 	if = {
 		limit = {
-			155 = { CONTROLLER = { original_tag = FRA } }	
+			780 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 155
+		transfer_state = 780
 	}
 	
 	if = {
 		limit = {
-			151 = { CONTROLLER = { original_tag = FRA } }	
+			272 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 151
+		transfer_state = 272
 	}
 	
 	if = {
 		limit = {
-			148 = { CONTROLLER = { original_tag = FRA } }	
+			557 = { CONTROLLER = { original_tag = FRA } }	
 		}
-		transfer_state = 148
+		transfer_state = 557
 	}
 }

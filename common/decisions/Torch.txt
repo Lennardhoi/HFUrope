@@ -49,8 +49,8 @@ operations = {
 		days_remove = 15
 		complete_effect = {
 		
-		FRA = {transfer_state = 137
-		       transfer_state = 141
+		FRA = {transfer_state = 461
+		       transfer_state = 462
 			  }
 		hidden_effect = {
 			EFR={
@@ -81,19 +81,19 @@ operations = {
 		remove_effect = {
 			if = {
     limit = {
-        138 = {is_fully_controlled_by = EFR}
-		130 = {is_fully_controlled_by = EFR}
-		131 = {is_fully_controlled_by = EFR}
-		125 = {is_fully_controlled_by = EFR}
-		128 = {is_fully_controlled_by = EFR}
+        665 = {is_fully_controlled_by = EFR}
+		1 = {is_fully_controlled_by = EFR}
+		458 = {is_fully_controlled_by = EFR}
+		32 = {is_fully_controlled_by = EFR}
+		21 = {is_fully_controlled_by = EFR}
 		
     }   
     
-            ITA = { transfer_state = 138
-			        transfer_state = 130
-					transfer_state = 131
-					transfer_state = 125
-                    transfer_state = 128				
+            ITA = { transfer_state = 665
+			        transfer_state = 1
+					transfer_state = 458
+					transfer_state = 32
+                    transfer_state = 21				
 					}
    }
 

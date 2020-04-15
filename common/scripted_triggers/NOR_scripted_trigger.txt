@@ -3,9 +3,9 @@ NOR_axis = {
 	tooltip="Norway is controlled by our Faction"
 	count_triggers={
 	amount=3
-	236={is_controlled_by_ROOT_or_ally = yes}
-	237={is_controlled_by_ROOT_or_ally = yes}
-	234={is_controlled_by_ROOT_or_ally = yes}
-	235={is_controlled_by_ROOT_or_ally = yes}
+	142={is_controlled_by_ROOT_or_ally = yes}
+	110={is_controlled_by_ROOT_or_ally = yes}
+	144={is_controlled_by_ROOT_or_ally = yes}
+	143={is_controlled_by_ROOT_or_ally = yes}
 	}
 	}}

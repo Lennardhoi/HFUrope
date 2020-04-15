@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # Spanish Events
 ###########################
 
@@ -121,7 +121,7 @@ country_event = {
 	option = {
 		ai_chance = { factor = 1 }
 		name = spain.8.a
-		set_capital = 427
+		set_capital = 41
 		
 	}
 

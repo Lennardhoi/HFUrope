@@ -180,11 +180,11 @@ on_actions = {
 
 
 							OR = {
-							state = 327# moscow
-							state = 310 #Leningrad
-							state = 362 #Stalingrad
-							state = 403 #Kiev
-							state = 337 #Minsk	
+							state = 219# moscow
+							state = 195 #Leningrad
+							state = 217 #Stalingrad
+							state = 202 #Kiev
+							state = 206 #Minsk	
 							}
 
 
@@ -193,23 +193,23 @@ on_actions = {
 
 
 				GER = {clear_variable=barb_factory_output
-					if={limit={NOT={SOV={controls_state = 312}}}
+					if={limit={NOT={SOV={controls_state = 202}}}
 					add_to_variable={barb_factory_output=0.025}
 					} 
 
-					if={limit={NOT={SOV={controls_state = 33}}}
+					if={limit={NOT={SOV={controls_state = 206}}}
 					add_to_variable={barb_factory_output=0.025}
 					} 
 
-					if={limit={NOT={SOV={controls_state = 149}}}
+					if={limit={NOT={SOV={controls_state = 195}}}
 					add_to_variable={barb_factory_output=0.05}
 					} 
 
-					if={limit={NOT={SOV={controls_state = 443}}}
+					if={limit={NOT={SOV={controls_state = 217}}}
 					add_to_variable={barb_factory_output=0.05}
 					} 
 
-					if={limit={NOT={SOV={controls_state = 483}}}
+					if={limit={NOT={SOV={controls_state = 219}}}
 					add_to_variable={barb_factory_output=0.10}
 					} 
 

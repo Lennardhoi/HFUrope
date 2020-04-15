@@ -1,4 +1,4 @@
-add_namespace = britain 
+﻿add_namespace = britain 
 
 # Burma road china
 country_event = {
@@ -51,7 +51,7 @@ country_event = {
 			DEN = { surrender_progress > 0.1 }
 			NOR = { surrender_progress > 0.1 }
 			AND = {
-				237 = { is_controlled_by = GER }
+				110 = { is_controlled_by = GER }
 				NOT = { is_in_faction_with = GER }
 			}
 		}

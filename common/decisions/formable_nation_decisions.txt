@@ -11,17 +11,17 @@ form_greater_german_reich_category = {
 
 		available = {
 			is_subject = no
-			has_full_control_of_state = 322
-			has_full_control_of_state = 341
-			has_full_control_of_state = 483
-			has_full_control_of_state = 441
-			has_full_control_of_state = 127
-			has_full_control_of_state = 118
-			has_full_control_of_state = 483
-			has_full_control_of_state = 208
-			has_full_control_of_state = 3
-			has_full_control_of_state = 483
-			has_full_control_of_state = 389
+			has_full_control_of_state = 85
+			has_full_control_of_state = 86
+			has_full_control_of_state = 188
+			has_full_control_of_state = 762
+			has_full_control_of_state = 69
+			has_full_control_of_state = 74
+			has_full_control_of_state = 4
+			has_full_control_of_state = 152
+			has_full_control_of_state = 153
+			has_full_control_of_state = 28
+			has_full_control_of_state = 8
 			
 			all_owned_state = {
 				is_fully_controlled_by = ROOT
@@ -41,8 +41,8 @@ form_greater_german_reich_category = {
 					FRA = { has_capitulated = yes }
 				}
 				AND = {
-					owns_state = 210
-					has_full_control_of_state = 210
+					owns_state = 16
+					has_full_control_of_state = 16
 				}
 			}
 		}
