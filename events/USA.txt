@@ -33,8 +33,8 @@ country_event = {
 				if = { limit = { 331 = { is_controlled_by = ENG } }
 					remove_state_core = 331
 				}
-				if = { limit = { 73 = { is_controlled_by = ENG } } 
-					remove_state_core = 73
+				if = { limit = { 308 = { is_controlled_by = ENG } } 
+					remove_state_core = 308
 				}
 				if = { limit = { 693 = { is_controlled_by = ENG } } 
 					remove_state_core = 693
