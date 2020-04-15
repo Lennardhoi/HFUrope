@@ -15,7 +15,7 @@
 
 
 FRA_controls_north_africa = {
-	461 = {
+	137 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -23,7 +23,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	462 = {
+	141 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -31,7 +31,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	459 = {
+	134 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -39,7 +39,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	513 = {
+	136 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -47,7 +47,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	460 = {
+	133 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -55,7 +55,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	458 = {
+	131 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -63,7 +63,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	665 = {
+	138 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -73,7 +73,7 @@ FRA_controls_north_africa = {
 	}
 }
 FRA_controls_syria = {
-	680 = {
+	132 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -81,7 +81,7 @@ FRA_controls_syria = {
 			}
 		}
 	}
-	677 = {
+	135 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -89,7 +89,7 @@ FRA_controls_syria = {
 			}
 		}
 	}
-	554 = {
+	140 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -97,7 +97,7 @@ FRA_controls_syria = {
 			}
 		}
 	}
-	553 = {
+	139 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -108,7 +108,7 @@ FRA_controls_syria = {
 }
 
 FRA_controls_indochina = {
-	671 = {
+	483 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -116,7 +116,7 @@ FRA_controls_indochina = {
 			}
 		}
 	}
-	670 = {
+	483 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -124,7 +124,7 @@ FRA_controls_indochina = {
 			}
 		}
 	}
-	286 = {
+	483 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -132,7 +132,7 @@ FRA_controls_indochina = {
 			}
 		}
 	}
-	741 = {
+	483 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -142,7 +142,7 @@ FRA_controls_indochina = {
 	}
 }
 FRA_controls_west_africa = {
-	557 = {
+	148 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -150,7 +150,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	272 = {
+	151 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -158,7 +158,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	556 = {
+	150 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -166,7 +166,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	780 = {
+	155 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -174,7 +174,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	779 = {
+	159 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -182,7 +182,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	778 = {
+	154 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -190,7 +190,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	781 = {
+	152 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -198,7 +198,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	776 = {
+	156 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -209,7 +209,7 @@ FRA_controls_west_africa = {
 }
 
 FRA_controls_central_africa = {
-	774 = {
+	153 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -217,7 +217,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	660 = {
+	158 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -225,7 +225,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	773 = {
+	107 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -233,7 +233,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	772 = {
+	160 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -241,7 +241,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	539 = {
+	161 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {

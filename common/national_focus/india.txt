@@ -1405,21 +1405,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			435 = {
+			483 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			430 = {
+			483 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			431 = {
+			483 = {
 				set_building_level = {
 					type = air_base
 					level = 10
@@ -1523,7 +1523,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			429 = {
+			280 = {
 				add_resource = {
 					type = steel
 					amount = 24
@@ -1566,7 +1566,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			432 = {
+			483 = {
 				add_resource = {
 					type = oil
 					amount = 20
@@ -1857,7 +1857,7 @@ focus_tree = {
 
 		completion_reward = {
 			
-					430={set_building_level = {
+					483={set_building_level = {
 						type = naval_base
 						level = 20
 						instant_build = yes
@@ -2606,10 +2606,10 @@ focus_tree = {
 
 		available = {
 			date > 1941.6.1
-			RAJ = {has_full_control_of_state = 289}
-			RAJ = {has_full_control_of_state = 724}
-			RAJ = {has_full_control_of_state = 670}
-			RAJ = {has_full_control_of_state = 741}
+			RAJ = {has_full_control_of_state = 483}
+			RAJ = {has_full_control_of_state = 483}
+			RAJ = {has_full_control_of_state = 483}
+			RAJ = {has_full_control_of_state = 483}
 		}
 
 		bypass = {

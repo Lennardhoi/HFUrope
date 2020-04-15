@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Soviet Events
 ###########################
 
@@ -21,7 +21,7 @@ limit = {
 				original_tag = SOV 
 			} 
 			
-			561 = { add_manpower = -30000 }
+			483 = { add_manpower = -30000 }
 			army_experience = 10
 		}		
 
@@ -44,7 +44,7 @@ limit = {
 				original_tag = SOV 
 			} 
 			
-			561 = { add_manpower = -20000 }
+			483 = { add_manpower = -20000 }
 					add_political_power = -25
 		army_experience = 5
 			

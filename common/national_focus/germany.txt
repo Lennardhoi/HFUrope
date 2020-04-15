@@ -59,7 +59,7 @@ focus_tree = {
 			#add_ideas = todt
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = todt
-			50 = {
+			183 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					custom_effect_tooltip = GER_west_wall_forts
@@ -92,14 +92,14 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { 42 = { is_demilitarized_zone = yes } }
+				limit = { 181 = { is_demilitarized_zone = yes } }
 				custom_effect_tooltip = GER_west_wall_tt
 			}
-			42 = {
+			181 = {
 				custom_effect_tooltip = GER_west_wall_forts
 			}
 			hidden_effect = {
-				42 = {
+				181 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -154,57 +154,49 @@ focus_tree = {
     days = 45
 }
 
-                    66 = {
+                    175 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					68 = {
+					173 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					54 = {
+					180 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					51 = {
+					176 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					42 = {
+					181 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					56 = {
+					171 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					59 = {
-						add_building_construction = {
-							type = anti_air_building
-							level = 3
-							instant_build = yes
-						}
-					}
-					
-					58 = {
+					170 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -212,7 +204,7 @@ focus_tree = {
 						}
 					}
 					
-					61  = {
+					165 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -220,7 +212,7 @@ focus_tree = {
 						}
 					}
 					
-					62 = {
+					169  = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -228,7 +220,7 @@ focus_tree = {
 						}
 					}
 					
-					63 = {
+					167 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -236,7 +228,7 @@ focus_tree = {
 						}
 					}
 					
-					57 = {
+					166 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -244,7 +236,15 @@ focus_tree = {
 						}
 					}
 					
-					64 = {
+					174 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 3
+							instant_build = yes
+						}
+					}
+					
+					172 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 5
@@ -252,7 +252,7 @@ focus_tree = {
 						}
 					}
 					
-					65 = {
+					185 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -260,7 +260,7 @@ focus_tree = {
 						}
 					}
 					
-					60 = {
+					177 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -268,7 +268,7 @@ focus_tree = {
 						}
 					}
 					
-					55 = {
+					178 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -276,7 +276,7 @@ focus_tree = {
 						}
 					}
 					
-					51 = {
+					176 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -284,16 +284,7 @@ focus_tree = {
 						}
 					}
 					
-					42 = {
-						add_building_construction = {
-							type = anti_air_building
-							level = 3
-							instant_build = yes
-						}
-					}
-					
-					
-					50 = {
+					181 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -302,7 +293,7 @@ focus_tree = {
 					}
 					
 					
-					52 = {
+					183 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -310,7 +301,8 @@ focus_tree = {
 						}
 					}
 					
-					53 = {
+					
+					184 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -318,21 +310,29 @@ focus_tree = {
 						}
 					}
 					
-					153 = {
+					182 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
 							instant_build = yes
 						}
 					}
-					152 = {
-						add_building_construction = {
-							type = anti_air_building
-							level = 3
-							instant_build = yes
-						}
-					}
+					
 					4 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 3
+							instant_build = yes
+						}
+					}
+					2 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 3
+							instant_build = yes
+						}
+					}
+					3 = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
@@ -369,17 +369,17 @@ focus_tree = {
 					is_in_faction_with = GER
 				}
 				OR = {
-					has_full_control_of_state = 191
-					has_full_control_of_state = 209
-					has_full_control_of_state = 210
-					has_full_control_of_state = 207
-					has_full_control_of_state = 206
-					has_full_control_of_state = 204
-					has_full_control_of_state = 194
-					has_full_control_of_state = 202
-					has_full_control_of_state = 203
-					has_full_control_of_state = 226
-					has_full_control_of_state = 200
+					has_full_control_of_state = 254
+					has_full_control_of_state = 483
+					has_full_control_of_state = 483
+					has_full_control_of_state = 37
+					has_full_control_of_state = 33
+					has_full_control_of_state = 483
+					has_full_control_of_state = 483
+					has_full_control_of_state = 312
+					has_full_control_of_state = 448
+					has_full_control_of_state = 483
+					has_full_control_of_state = 483
 				}
 			}
 		}
@@ -402,11 +402,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 191 
+						has_full_control_of_state = 254 
 					}
 				}
 				hidden_effect = {
-					191 = {
+					98 = {
 						add_building_construction = {
 							type = bunker
 							level = 2
@@ -423,11 +423,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 209
+						has_full_control_of_state = 483
 					}
 				}
 				hidden_effect = {
-					209 = {
+					315 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -450,11 +450,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 210 
+						has_full_control_of_state = 483 
 					}
 				}
 				hidden_effect = {
-					210 = {
+					325 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -483,11 +483,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 207 
+						has_full_control_of_state = 37 
 					}
 				}
 				hidden_effect = {
-					207 = {
+					331 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -522,11 +522,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 206 
+						has_full_control_of_state = 33 
 					}
 				}
 				hidden_effect = {
-					206 = {
+					337 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -549,11 +549,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 204 
+						has_full_control_of_state = 483 
 					}
 				}
 				hidden_effect = {
-					204 = {
+					349 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -570,11 +570,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 194 
+						has_full_control_of_state = 483 
 					}
 				}
 				hidden_effect = {
-					194 = {
+					352 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -603,11 +603,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 202 
+						has_full_control_of_state = 312 
 					}
 				}
 				hidden_effect = {
-					202 = {
+					403 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -642,11 +642,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 203 
+						has_full_control_of_state = 448 
 					}
 				}
 				hidden_effect = {
-					203 = {
+					366 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -681,11 +681,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 226 
+						has_full_control_of_state = 483 
 					}
 				}
 				hidden_effect = {
-					226 = {
+					372 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -708,11 +708,11 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 200 
+						has_full_control_of_state = 483 
 					}
 				}
 				hidden_effect = {
-					200 = {
+					378 = {
 						add_building_construction = {
 							type = bunker
 							level = 3
@@ -966,7 +966,7 @@ focus_tree = {
 				uses = 1
 				category = synth_resources
 			}
-			65 = {
+			185 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery
@@ -974,7 +974,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			68 = {
+			173 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery
@@ -1048,7 +1048,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = GER_autobahn_tt
 			hidden_effect = {
-				64 = {
+				172 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -1058,7 +1058,7 @@ focus_tree = {
 						}
 					}
 				}
-				59 = {
+				170 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -1069,7 +1069,7 @@ focus_tree = {
 						}
 					}
 				}
-				60 = {
+				177 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -1079,7 +1079,7 @@ focus_tree = {
 						}
 					}
 				}
-				54 = {
+				180 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -1496,7 +1496,7 @@ random_owned_controlled_state = {
 			
 			}
 								
-				55 = {
+				178 = {
 
 					set_building_level = {
 						type = air_base
@@ -1505,7 +1505,7 @@ random_owned_controlled_state = {
 					}
 					
 				}
-				57 = {
+				174 = {
 
 					set_building_level = {
 						type = air_base
@@ -1514,7 +1514,7 @@ random_owned_controlled_state = {
 					}
 					
 				}
-				50 = {
+				183 = {
 
 					set_building_level = {
 						type = air_base
@@ -1882,16 +1882,16 @@ random_owned_controlled_state = {
 		available = {
 		}
 		bypass = {
-			42 = { is_demilitarized_zone = no }
-			51 = { is_demilitarized_zone = no }
+			181 = { is_demilitarized_zone = no }
+			176 = { is_demilitarized_zone = no }
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		completion_reward = {
-			42 = { set_demilitarized_zone = no }
-			51 = { set_demilitarized_zone = no }
+			181 = { set_demilitarized_zone = no }
+			176 = { set_demilitarized_zone = no }
 			add_political_power = 120
 			add_war_support = 0.1 
 			army_experience = 5
@@ -2001,7 +2001,7 @@ random_owned_controlled_state = {
 								signal_company = { x = 0 y = 4 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 							}
 							}
-				763 = {
+				164 = {
 					for_loop_effect = {
 					end = 2 				
 					create_unit = {
@@ -2065,9 +2065,9 @@ random_owned_controlled_state = {
 					AUS = {
 						has_civil_war = no
 						OR = {
-							owns_state = 4
-							owns_state = 152
-							owns_state = 153
+							owns_state = 483
+							owns_state = 208
+							owns_state = 3
 						}
 					}
 				}
@@ -2078,13 +2078,13 @@ random_owned_controlled_state = {
 				#custom_effect_tooltip = anschluss_mefo_bills_tt
 			}
 			
+		3 = {
+				add_core_of = GER
+		}
+		2 = {
+				add_core_of = GER
+		}
 		4 = {
-				add_core_of = GER
-		}
-		152 = {
-				add_core_of = GER
-		}
-		153 = {
 				add_core_of = GER
 		}
 		AUS = {
@@ -2153,9 +2153,9 @@ random_owned_controlled_state = {
 			LIT = {set_equipment_fraction = 0}
 			LAT = {set_equipment_fraction = 0}
 			SOV = {
-			transfer_state = 78 
-			transfer_state = 80
-			transfer_state = 766
+			transfer_state = 295 
+			transfer_state = 286
+			transfer_state = 290
 			annex_country = {
 				target = LAT
 			}
@@ -2265,17 +2265,17 @@ available = {
 						add_timed_idea = { idea = GER_barbarossa days = 100 }
 					}
 					
-			hidden_effect={41={set_building_level = {type = infrastructure
+			hidden_effect={427={set_building_level = {type = infrastructure
   			 		level = 10}
 					}
-				118 = {
+				478 = {
 				
 				set_building_level = {
 					type = anti_air_building
 					level = 0
 					instant_build = yes
 				}
-				118 = {
+				478 = {
 				
 				add_building_construction = {
 					type = anti_air_building
@@ -2316,11 +2316,11 @@ available = {
 		available = { 
 			Date > 1941.6.1
 	
-		    or = { 763 = { is_controlled_by = Sov  }
-			       15 = { is_controlled_by = FRA }
-			       16 = { is_controlled_by = FRA }
-			       29 = { is_controlled_by = FRA }
-			        2 = { not ={ is_controlled_by = ITA}}
+		    or = { 164 = { is_controlled_by = Sov  }
+			       111 = { is_controlled_by = FRA }
+			       114 = { is_controlled_by = FRA }
+			       109 = { is_controlled_by = FRA }
+			        208 = { not ={ is_controlled_by = ITA}}
 			     }
 			
 			
@@ -2394,7 +2394,7 @@ available = {
 					}
 					priority = 1
 				}}
-			64={for_loop_effect = {
+			172={for_loop_effect = {
 					end = 50 				
 					create_unit = {
 						division = "name = \"Volkssturm\" division_template = \"Volkssturm\" start_experience_factor = 0.17" 
@@ -2468,9 +2468,9 @@ available = {
 		relative_position_id = GER_anschluss
 		cost = 10
 		bypass = {
-			188 = { is_owned_by = GER }
-			85 = { is_owned_by = GER }
-			86 = { is_owned_by = GER }
+			483 = { is_owned_by = GER }
+			252 = { is_owned_by = GER }
+			255 = { is_owned_by = GER }
 		}
 		ai_will_do = {
 			factor = 10	
@@ -2481,14 +2481,14 @@ available = {
 		}	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			188 = { add_claim_by = GER }
-			85 = { add_claim_by = GER }
-			86 = { add_claim_by = GER }
-			762 ={ add_claim_by = GER }
+			483 = { add_claim_by = GER }
+			252 = { add_claim_by = GER }
+			255 = { add_claim_by = GER }
+			261 ={ add_claim_by = GER }
 			
 			GER = { 
-				transfer_state = 188
-				add_state_core = 188
+				transfer_state = 483
+				add_state_core = 483
 			}
 			add_named_threat = { threat = 3 name = GER_demand_memel_threat }
 			LIT = {
@@ -2545,9 +2545,9 @@ available = {
 			target = POL
 		}
 				
-						add_state_core = 85
-						add_state_core = 762
-						add_state_core = 86
+						add_state_core = 252
+						add_state_core = 261
+						add_state_core = 255
 			}
 POL = {
 					country_event = { id = germany.86 }
@@ -2561,7 +2561,7 @@ POL = {
 				add_war_support = 0.1 #just not cricket
 			}
 		ENG = { country_event = britain.24
-		        125 = {
+		        49 = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = arms_factory
@@ -2570,7 +2570,7 @@ POL = {
 			}
 			set_state_flag = shadow_scheme_2AF
 		}
-		129 = {
+		46 = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = arms_factory
@@ -2680,7 +2680,7 @@ POL = {
 			}
 		
 		 SWE = {
-					give_resource_rights = { receiver = GER state = 666 }
+					give_resource_rights = { receiver = GER state = 483 }
 					
 					}
 		}
@@ -2817,10 +2817,10 @@ POL = {
 					country_event = germany.40
 				}
 				
-						69 = { add_core_of = GER }
-		GER = { transfer_state = 69 }
-		74 = { add_core_of = GER }
-		GER = { transfer_state = 74 }
+						22 = { add_core_of = GER }
+		GER = { transfer_state = 22 }
+		24 = { add_core_of = GER }
+		GER = { transfer_state = 24 }
 		set_country_flag = sudetenland_acquired
 		add_war_support = 0.1
 		add_stability = 0.05
@@ -2828,8 +2828,8 @@ POL = {
 						USA = {
 			set_country_flag = { flag = USA_munich_window days = 60 value = 1 }
 		}
-						72 = { add_core_of = POL }
-		POL = { transfer_state = 72 }
+						25 = { add_core_of = POL }
+		POL = { transfer_state = 25 }
 				HUN = { add_timed_idea = { idea = SPA_preparing_for_war days = 365 } }
 				ROM = { add_timed_idea = { idea = SPA_preparing_for_war days = 365 } }
 				BUL = { add_timed_idea = { idea = SPA_preparing_for_war days = 365 } }
@@ -2846,8 +2846,8 @@ POL = {
 		bypass = {
 			OR = {
 				AND = {
-					NOT = { CZE = { controls_state = 664 } }
-					NOT = { owns_state = 664 }
+					NOT = { CZE = { controls_state = 162 } }
+					NOT = { owns_state = 162 }
 				}
 				HUN = { is_friend_or_potential_friend_of_GER = no }
 				CZE = { is_puppet_of = GER }
@@ -2867,7 +2867,7 @@ POL = {
 			HUN = {
 				country_event = { id = germany.51 }
 				add_opinion_modifier = { target = GER modifier = GER_first_vienna_award_GER }
-				transfer_state = 664 
+				transfer_state = 30 
 			}
 			every_other_country = {
 				limit = {
@@ -2919,12 +2919,12 @@ POL = {
 							is_subject_of = HUN
 						}
 						HUN = {
-							owns_state = 9#Prague - AH annexed CZE
+							owns_state = 120#Prague - AH annexed CZE
 						}
 					}
 				}
-				add_state_claim = 9
-				add_state_claim = 75
+				add_state_claim = 23
+				add_state_claim = 26
 			}
 			if = {
 				limit = { NOT = { country_exists = CZE } }
@@ -2940,8 +2940,8 @@ POL = {
 		icon = GFX_goal_generic_SS_focus
 		prerequisite = { focus = GER_around_maginot }
 		available = {
-			has_full_control_of_state = 8
-			has_full_control_of_state = 28
+			has_full_control_of_state = 389
+			has_full_control_of_state = 483
 		}
 		bypass = {
 		}
@@ -2955,15 +2955,15 @@ POL = {
 		}
 		
 		completion_reward = {
-			add_state_core = 8
-			add_state_core = 28
+			add_state_core = 233
+			add_state_core = 113
 			if = {
 				limit = {
-					NOT = { owns_state = 28 }
+					NOT = { owns_state = 483 }
 				}
-				transfer_state = 28
+				transfer_state = 113
 			}
-			28 = { set_state_name = "Elsass-Lothringen" }
+			113 = { set_state_name = "Elsass-Lothringen" }
 			set_province_name = { id = 9503 name = "Strassburg" }
 			set_province_name = { id = 678 name = "Mulhausen" }
 			FRA = {
@@ -3464,16 +3464,16 @@ focus = {
 			NOT={has_idea=GER_barbarossa}
 			count_triggers={
 			amount=4
-			14= {is_controlled_by_ROOT_or_ally=no}
-			30= {is_controlled_by_ROOT_or_ally=no}
-			16= {is_controlled_by_ROOT_or_ally=no}
-			15= {is_controlled_by_ROOT_or_ally=no}
-			6= {is_controlled_by_ROOT_or_ally=no}
-			29= {is_controlled_by_ROOT_or_ally=no}
-			35= {is_controlled_by_ROOT_or_ally=no}
-			36= {is_controlled_by_ROOT_or_ally=no}
-			7= {is_controlled_by_ROOT_or_ally=no}
-			785= {is_controlled_by_ROOT_or_ally=no}
+			115= {is_controlled_by_ROOT_or_ally=no}
+			162= {is_controlled_by_ROOT_or_ally=no}
+			114= {is_controlled_by_ROOT_or_ally=no}
+			111= {is_controlled_by_ROOT_or_ally=no}
+			5= {is_controlled_by_ROOT_or_ally=no}
+			109= {is_controlled_by_ROOT_or_ally=no}
+			195= {is_controlled_by_ROOT_or_ally=no}
+			193= {is_controlled_by_ROOT_or_ally=no}
+			194= {is_controlled_by_ROOT_or_ally=no}
+			110= {is_controlled_by_ROOT_or_ally=no}
 			}
 		}
 		#allow_branch={always=no}
@@ -3572,7 +3572,7 @@ focus = {
             
 				
 						add_ideas = GER_atlantikwall_idea
-						99 = {
+						34 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3584,7 +3584,7 @@ focus = {
 					}
 			}
 			
-						58 = {
+						165 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3596,7 +3596,7 @@ focus = {
 					}
 			}
 			
-						59 = {
+						170 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3608,7 +3608,7 @@ focus = {
 					}
 			}
 			
-						56 = {
+						171 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3620,7 +3620,7 @@ focus = {
 					}
 			}
 			
-						36 = {
+						193 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3632,7 +3632,7 @@ focus = {
 					}
 			}
 			
-						7 = {
+						194 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3644,7 +3644,7 @@ focus = {
 					}
 			}
 			
-						35 = {
+						195 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3656,7 +3656,7 @@ focus = {
 					}
 			}
 			
-						6 = {
+						5 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3668,7 +3668,7 @@ focus = {
 					}
 			}
 			
-						29 = {
+						109 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3680,7 +3680,7 @@ focus = {
 					}
 			}
 			
-						785 = {
+						110 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3692,7 +3692,7 @@ focus = {
 					}
 			}
 			
-						15 = {
+						111 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3704,7 +3704,7 @@ focus = {
 					}
 			}
 			
-						14 = {
+						115 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3716,7 +3716,7 @@ focus = {
 					}
 			}
 			
-						30 = {
+						162 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3728,7 +3728,7 @@ focus = {
 					}
 			}
 			
-								23 = {
+								120 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3741,7 +3741,7 @@ focus = {
 			}
 			
 			
-								19 = {
+								126 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3760,35 +3760,11 @@ focus = {
 								tag = GER
 								is_in_faction_with = GER
 							}
-							has_full_control_of_state = 142
+							has_full_control_of_state = 373
 						}
 					}
 			
-								142 = {
-								set_building_level = {
-						type = coastal_bunker
-						level = 1
-						province = {
-							all_provinces = yes
-		limit_to_coastal = yes
-							level < 1
-						}
-					}
-			}
-			}
-			
-						if = {
-					limit = {
-						any_country = {
-							OR = {
-								tag = GER
-								is_in_faction_with = GER
-							}
-							has_full_control_of_state = 143
-						}
-					}
-			
-								143 = {
+								236 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -3808,11 +3784,35 @@ focus = {
 								tag = GER
 								is_in_faction_with = GER
 							}
-							has_full_control_of_state = 144
+							has_full_control_of_state = 385
 						}
 					}
 			
-								144 = {
+								235 = {
+								set_building_level = {
+						type = coastal_bunker
+						level = 1
+						province = {
+							all_provinces = yes
+		limit_to_coastal = yes
+							level < 1
+						}
+					}
+			}
+			}
+			
+						if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 483
+						}
+					}
+			
+								234 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1

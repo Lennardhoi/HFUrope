@@ -561,7 +561,7 @@ focus_tree = {
 		
 		completion_reward = {
 			navy_experience = 25
-		110 = {
+		237 = {
 					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
@@ -875,7 +875,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-					110 = {
+					237 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -930,7 +930,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-					110 = {
+					237 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -980,7 +980,7 @@ focus_tree = {
 		}		
 
 		completion_reward = {
-					110 = {
+					237 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1033,7 +1033,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-					110 = {
+					237 = {
 									add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1088,7 +1088,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			142 = {
+			236 = {
 							add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1404,7 +1404,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		}		
 				bypass = {
 		AND = {
-		NOR = { controls_state = 110 }
+		NOR = { controls_state = 379 }
 		date > 1940.7.1
 		}
 		}
@@ -1468,7 +1468,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		}	
 		bypass = {
 		AND = {
-		NOR = { controls_state = 110 }
+		NOR = { controls_state = 379 }
 		date > 1940.7.1
 		}
 		}		
@@ -1504,7 +1504,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		}		
 				bypass = {
 		AND = {
-		NOR = { controls_state = 110 }
+		NOR = { controls_state = 379 }
 		date > 1940.7.1
 		}
 		}
@@ -1534,7 +1534,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		}		
 				bypass = {
 		AND = {
-		NOR = { controls_state = 110 }
+		NOR = { controls_state = 379 }
 		date > 1940.7.1
 		}
 		}
@@ -1573,7 +1573,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		}	
 		bypass = {
 		AND = {
-		NOR = { controls_state = 110 }
+		NOR = { controls_state = 379 }
 		date > 1940.7.1
 		}
 		}		
@@ -1606,7 +1606,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		}		
 		bypass = {
 		AND = {
-		NOR = { controls_state = 110 }
+		NOR = { controls_state = 379 }
 		date > 1940.7.1
 		}
 		}
