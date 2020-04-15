@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # French Events
 ###########################
 
@@ -34,7 +34,7 @@ country_event = {
 				limit = { is_core_of = FRA }
 				add_core_of = EFR
 			}
-			set_capital = 26
+			set_capital = 122
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no 
@@ -51,7 +51,7 @@ country_event = {
 			clr_country_flag = no_naval_base
 			remove_ideas = FRA_protected_by_the_maginot_line
 			set_country_flag = free_france
-			set_capital = 539
+			set_capital = 161
 		
 		}
 		EFR = { 
@@ -143,7 +143,7 @@ country_event = {
 				}
 				FRA= {set_state_controller = PREV}
 			}
-			set_capital = 539
+			set_capital = 161
 		}
 	}
 }
@@ -167,9 +167,9 @@ country_event = {
 				set_country_flag = casablanca_capital
 
 			if = {
-			limit = { 461 = { is_owned_by = FRA }
+			limit = { 137 = { is_owned_by = FRA }
 			}
-			set_capital = 461 
+			set_capital = 137 
 		}
 	}
 }
@@ -333,7 +333,7 @@ country_event = {
    name = france.146.a
       RAJ = {
    transfer_state = 321
-   321 = { add_extra_state_shared_building_slots = 1 }
+   483 = { add_extra_state_shared_building_slots = 1 }
    }
    }
    }

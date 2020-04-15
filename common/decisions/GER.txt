@@ -68,10 +68,10 @@ operations = {
 				exists = yes
 			}
 			EFR = {
-				owns_state = 553
-				owns_state = 554
-				owns_state = 680
-				owns_state = 677
+				owns_state = 139
+				owns_state = 140
+				owns_state = 132
+				owns_state = 135
 			}
 		}
 	
@@ -80,11 +80,11 @@ operations = {
 		available = {
 			any_country = {
 				is_in_faction_with = ROOT
-				controls_state = 455
+				controls_state = 64
 			}
 			any_country = {
 				is_in_faction_with = ROOT
-				controls_state = 454
+				controls_state = 63
 			}
 		}
 		
@@ -104,16 +104,16 @@ operations = {
 			transfer_state = 554
 			transfer_state = 680
 			transfer_state = 677
-			553 = {
+			139 = {
 				set_demilitarized_zone = no
 			}
-			554 = {
+			140 = {
 				set_demilitarized_zone = no
 			}
-			680 = {
+			132 = {
 				set_demilitarized_zone = no
 			}
-			677 = {
+			135 = {
 				set_demilitarized_zone = no
 			}
 		}
@@ -130,10 +130,10 @@ operations = {
 		}
 
 		available = {
-			219 = { is_controlled_by_ROOT_or_ally = yes }
-			195 = { is_controlled_by_ROOT_or_ally = yes }
-			202 = { is_controlled_by_ROOT_or_ally = yes }
-			217 = { is_controlled_by_ROOT_or_ally = yes }
+			327 = { is_controlled_by_ROOT_or_ally = yes }
+			310 = { is_controlled_by_ROOT_or_ally = yes }
+			403 = { is_controlled_by_ROOT_or_ally = yes }
+			362 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 
 		days_mission_timeout = 180
@@ -173,7 +173,7 @@ special_projects = {
 			has_dlc = "La Resistance"
 		}
 		available = {
-			110 = {
+			237 = {
 				CONTROLLER = {
 					OR = {
 						tag = ROOT
@@ -209,7 +209,7 @@ special_projects = {
 		
 		available = {
 			#has_war = yes
-			controls_state = 28
+			controls_state = 113
 			NOT={has_idea=GER_dismantle_czechoslovakian_forts}
 		}
 
@@ -221,14 +221,14 @@ special_projects = {
 		}
 		visible = {
 			#has_war = yes
-			controls_state = 28
+			controls_state = 113
 		}
 		days_remove = 180
 		modifier = {
 			civilian_factory_use = 5
 		}
 		remove_effect = {
-			28 = {
+			113 = {
 				set_building_level = {
 					type = bunker
 					level = 2
@@ -255,10 +255,10 @@ special_projects = {
 
 		available = {
 			#has_war = yes
-			controls_state = 69 # Sudetenland
-			controls_state = 74 # Eastern Sudetenland
-			controls_state = 9 # Bohemia
-			controls_state = 75 # Moravia
+			controls_state = 22 # Sudetenland
+			controls_state = 24 # Eastern Sudetenland
+			controls_state = 23 # Bohemia
+			controls_state = 26 # Moravia
 			NOT={has_idea=GER_dismantle_maginot}
 		}
 
@@ -270,17 +270,17 @@ special_projects = {
 		}
 		visible = {
 			#has_war = yes
-			controls_state = 69 # Sudetenland
-			controls_state = 74 # Eastern Sudetenland
-			controls_state = 9 # Bohemia
-			controls_state = 75 # Moravia
+			controls_state = 22 # Sudetenland
+			controls_state = 24 # Eastern Sudetenland
+			controls_state = 23 # Bohemia
+			controls_state = 26 # Moravia
 		}
 		days_remove = 180
 		modifier = {
 			civilian_factory_use = 3
 		}
 		remove_effect = {
-			69 = {
+			22 = {
 				set_building_level = {
 					type = bunker
 					level = 1
@@ -291,7 +291,7 @@ special_projects = {
 					}
 				}
 			}
-			74 = {
+			24 = {
 				set_building_level = {
 					type = bunker
 					level = 1
@@ -302,7 +302,7 @@ special_projects = {
 					}
 				}
 			}
-			9 = {
+			23 = {
 				set_building_level = {
 					type = bunker
 					level = 1
@@ -313,7 +313,7 @@ special_projects = {
 					}
 				}
 			}
-			75 = {
+			26 = {
 				set_building_level = {
 					type = bunker
 					level = 1
@@ -326,7 +326,7 @@ special_projects = {
 			}
 			if = {
 				limit = {
-					72 = {
+					25 = {
 						controller = {
 							OR = {
 								tag = ROOT
@@ -334,7 +334,7 @@ special_projects = {
 							}
 						}
 					}
-					71 = {
+					27 = {
 						controller = {
 							OR = {
 								tag = ROOT
@@ -343,7 +343,7 @@ special_projects = {
 						}
 					}
 				}
-				72 = {
+				25 = {
 					set_building_level = {
 						type = bunker
 						level = 1
@@ -354,30 +354,7 @@ special_projects = {
 						}
 					}
 				}
-				71 = {
-					set_building_level = {
-						type = bunker
-						level = 1
-						province = {
-							all_provinces = yes
-							limit_to_border = no
-							level > 1
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					70 = {
-						controller = {
-							OR = {
-								tag = ROOT
-								is_subject_of = ROOT
-							}
-						}
-					}
-				}
-				70 = {
+				27 = {
 					set_building_level = {
 						type = bunker
 						level = 1
@@ -391,15 +368,7 @@ special_projects = {
 			}
 			if = {
 				limit = {
-					73 = {
-						controller = {
-							OR = {
-								tag = ROOT
-								is_subject_of = ROOT
-							}
-						}
-					}
-					664 = {
+					28 = {
 						controller = {
 							OR = {
 								tag = ROOT
@@ -408,7 +377,7 @@ special_projects = {
 						}
 					}
 				}
-				73 = {
+				28 = {
 					set_building_level = {
 						type = bunker
 						level = 1
@@ -419,7 +388,38 @@ special_projects = {
 						}
 					}
 				}
-				664 = {
+			}
+			if = {
+				limit = {
+					29 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
+					}
+					30 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
+					}
+				}
+				29 = {
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = {
+							all_provinces = yes
+							limit_to_border = no
+							level > 1
+						}
+					}
+				}
+				30 = {
 					set_building_level = {
 						type = bunker
 						level = 1

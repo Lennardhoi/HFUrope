@@ -50,7 +50,7 @@
 			}
 		}
 		completion_reward = {
-			217 = {
+			362 = {
 				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
 					type = industrial_complex
@@ -79,7 +79,7 @@ focus = {
 
 		
 		completion_reward = {
-		590 = {
+		333 = {
 				
 				
 			
@@ -87,19 +87,19 @@ focus = {
 		add_resource = {
               type = steel
                amount = 100
-               state = 582
+               state = 338
                            }
 		
 		add_resource = {
               type = aluminium
                amount = 70
-               state = 582
+               state = 338
                            }
 		
 		add_resource = {
               type = tungsten
                amount = 30
-               state = 582
+               state = 338
                            }
 		
 		}
@@ -267,7 +267,7 @@ focus = {
 							}
 							}
 							}
-				249 = {
+				329 = {
 					for_loop_effect = {
 					end = 30				
 					create_unit = {
@@ -408,7 +408,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			209 = {
+			315 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -425,7 +425,7 @@ focus = {
 				#	instant_build = yes
 				#}
 			}
-			210 = {
+			325 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -436,7 +436,7 @@ focus = {
 					}
 				}
 			}
-			207 = {
+			331 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -459,7 +459,7 @@ focus = {
 					}
 				}
 			}
-			206 = {
+			337 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -470,7 +470,7 @@ focus = {
 					}
 				}
 			}
-			202 = {
+			403 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -488,7 +488,7 @@ focus = {
 				}
 
 			}
-			203 = {
+			366 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -499,7 +499,7 @@ focus = {
 					}
 				}
 			}
-			192 = {
+			377 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -541,7 +541,7 @@ focus = {
 		completion_reward = {
 			army_experience = 20
 			
-			195 = {
+			310 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
@@ -609,7 +609,7 @@ focus = {
 		completion_reward = {
 			army_experience = 20
 			
-			217 = {
+			362 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
@@ -676,7 +676,7 @@ focus = {
 		completion_reward = {
 			army_experience = 20
 			
-			219 = {
+			327 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
@@ -783,7 +783,7 @@ focus = {
 			army_experience = 40
 			if = {
 				limit = {
-					653 = {
+					308 = {
 						OR = {
 							NOT = { is_controlled_by = SOV }
 							AND = {
@@ -814,7 +814,7 @@ focus = {
 					set_state_flag = SOV_production_effort_2AF
 				}
 			}
-			653 = {
+			308 = {
 				if = {
 					limit = { 
 						is_controlled_by = SOV
@@ -835,7 +835,7 @@ focus = {
 			}
 			if = {
 				limit = {
-					572 = {
+					328 = {
 						OR = {
 							NOT = { is_controlled_by = SOV }
 							AND = {
@@ -866,7 +866,7 @@ focus = {
 					set_state_flag = SOV_production_effort_2AF
 				}
 			}
-			572 = {
+			328 = {
 				if = {
 					limit = { 
 						is_controlled_by = SOV
@@ -910,7 +910,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-			229 = {
+			394 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -918,14 +918,14 @@ focus = {
 				}
 			
 			}
-			400 = {		
+			309 = {		
 				add_building_construction = {
 					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
 			}
-			566 = {
+			483 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1014,7 +1014,7 @@ focus = {
 
 		completion_reward = {
 			if = {
-				564 = {
+				483 = {
 					add_building_construction = {
 						type = infrastructure
 						level = 3
@@ -1022,7 +1022,7 @@ focus = {
 					}
 				
 				}
-				586 = {
+				388 = {
 	
 					add_building_construction = {
 						type = infrastructure
@@ -1032,7 +1032,7 @@ focus = {
 					
 				}				
 			}
-			401 = {
+			354 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1040,7 +1040,7 @@ focus = {
 				}
 	
 			}
-			213 = {
+			299 = {
 				
 				add_building_construction = {
 					type = infrastructure
@@ -1072,7 +1072,7 @@ focus = {
 			add_resource = {
 				type = rubber
 				amount = 42
-				state = 404
+				state = 361
 			}
 		}
 	}
@@ -1182,7 +1182,7 @@ focus = {
 			}
 			if = {
 				limit = {
-					SOV = { has_full_control_of_state = 219 }
+					SOV = { has_full_control_of_state = 327 }
 				}
 				custom_effect_tooltip = SOV_night_witches_tt
 				hidden_effect = {
@@ -1399,7 +1399,7 @@ focus = {
 
 		completion_reward = {
 			navy_experience = 100
-			195 = {
+			310 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
@@ -1408,7 +1408,7 @@ focus = {
 				}
 				set_state_flag = SOV_expand_red_fleet_2dockyards
 			}
-			137 = {
+			384 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
@@ -1512,7 +1512,7 @@ focus = {
 		}
 		completion_reward = {
 				add_ideas = SOV_scientist_defect
-				195 = {
+				310 = {
 				
 				
 			}
@@ -1666,7 +1666,7 @@ focus = {
 								signal_company = { x = 0 y = 4 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 							}
 							}
-				219 = {
+				327 = {
 					for_loop_effect = {
 					end = 5 				
 					create_unit = {

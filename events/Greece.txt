@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Greek Events
 ###########################
 
@@ -13,9 +13,9 @@ country_event = {
 		text = greece.2.d_GER_demand
 		trigger = {
 			OR = {
-				731 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
-				185 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
-				47 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
+				187 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
+				188 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
+				189 = { has_state_flag = GER_second_ljubljana_award_GER_demand }
 			}
 		}
 	}

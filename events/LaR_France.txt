@@ -1,4 +1,4 @@
-﻿add_namespace = lar_fra_inefficient_economy
+add_namespace = lar_fra_inefficient_economy
 
 country_event = {
 	id = lar_fra_inefficient_economy.1
@@ -45,7 +45,7 @@ country_event = {
 			add_resource = {
  			 	type = rubber
    				amount = 30
-    			state = 543
+    			state = 483
 			}
 		}
 		if = {

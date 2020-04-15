@@ -107,7 +107,7 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
+			CZE = { controls_state = 23 }
 		}
 
 		bypass = {
@@ -124,7 +124,7 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			9 = {
+			23 = {
 				add_building_construction = { type = bunker province = 6440 level = 3 instant_build = yes }
 				add_building_construction = { type = bunker province = 6418 level = 3 instant_build = yes }
 				add_building_construction = { type = bunker province = 6592 level = 3 instant_build = yes }
@@ -157,12 +157,12 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 69 }
+			CZE = { controls_state = 22 }
 		}
 
 		bypass = {
 			NOT = {			
-				69 = {
+				22 = {
 					any_province_building_level = {
 						province = {
 							all_provinces = yes
@@ -172,7 +172,7 @@ focus_tree = {
 						level < 3
 					}
 				}
-				9 = {
+				23 = {
 					any_province_building_level = {
 						province = {
 							id = 445
@@ -183,7 +183,7 @@ focus_tree = {
 						level < 3
 					}
 				}
-				74 = {
+				24 = {
 					any_province_building_level = {
 						province = {
 							id = 421
@@ -196,7 +196,7 @@ focus_tree = {
 						level < 3
 					}
 				}
-				70 = {
+				28 = {
 					any_province_building_level = {
 						province = {
 							id = 9539
@@ -221,8 +221,8 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 5
 			if = {
-				limit = { controls_state = 69 }
-				69 = {
+				limit = { controls_state = 22 }
+				22 = {
 					set_building_level = {
 						type = bunker
 						level = 3
@@ -236,8 +236,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 9 }
-				9 = {
+				limit = { controls_state = 23 }
+				23 = {
 					set_building_level = {
 						type = bunker
 						level = 3
@@ -252,8 +252,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 74 }
-				74 = {
+				limit = { controls_state = 24 }
+				24 = {
 					set_building_level = {
 						type = bunker
 						level = 3
@@ -270,8 +270,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 70 }
-				70 = {
+				limit = { controls_state = 28 }
+				28 = {
 					set_building_level = {
 						type = bunker
 						level = 3
@@ -314,12 +314,12 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 69 }
+			CZE = { controls_state = 22 }
 		}
 
 		bypass = {
 			NOT = {			
-				69 = {
+				22 = {
 					any_province_building_level = {
 						province = {
 							all_provinces = yes
@@ -329,7 +329,7 @@ focus_tree = {
 						level < 5
 					}
 				}
-				9 = {
+				23 = {
 					any_province_building_level = {
 						province = {
 							id = 445
@@ -340,7 +340,7 @@ focus_tree = {
 						level < 5
 					}
 				}
-				74 = {
+				24 = {
 					any_province_building_level = {
 						province = {
 							id = 421
@@ -353,7 +353,7 @@ focus_tree = {
 						level < 5
 					}
 				}
-				70 = {
+				28 = {
 					any_province_building_level = {
 						province = {
 							id = 9539
@@ -378,8 +378,8 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 5
 			if = {
-				limit = { controls_state = 69 }
-				69 = {
+				limit = { controls_state = 22 }
+				22 = {
 					set_building_level = {
 						type = bunker
 						level = 5
@@ -393,8 +393,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 9 }
-				9 = {
+				limit = { controls_state = 23 }
+				23 = {
 					set_building_level = {
 						type = bunker
 						level = 5
@@ -409,8 +409,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 74 }
-				74 = {
+				limit = { controls_state = 24 }
+				24 = {
 					set_building_level = {
 						type = bunker
 						level = 5
@@ -427,8 +427,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 70 }
-				70 = {
+				limit = { controls_state = 28 }
+				28 = {
 					set_building_level = {
 						type = bunker
 						level = 5
@@ -471,12 +471,12 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 69 }
+			CZE = { controls_state = 22 }
 		}
 
 		bypass = {
 			NOT = {			
-				69 = {
+				22 = {
 					any_province_building_level = {
 						province = {
 							all_provinces = yes
@@ -486,7 +486,7 @@ focus_tree = {
 						level < 7
 					}
 				}
-				9 = {
+				23 = {
 					any_province_building_level = {
 						province = {
 							id = 445
@@ -497,7 +497,7 @@ focus_tree = {
 						level < 7
 					}
 				}
-				74 = {
+				24 = {
 					any_province_building_level = {
 						province = {
 							id = 421
@@ -510,7 +510,7 @@ focus_tree = {
 						level < 7
 					}
 				}
-				70 = {
+				28 = {
 					any_province_building_level = {
 						province = {
 							id = 9539
@@ -535,8 +535,8 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 5
 			if = {
-				limit = { controls_state = 69 }
-				69 = {
+				limit = { controls_state = 22 }
+				22 = {
 					set_building_level = {
 						type = bunker
 						level = 7
@@ -550,8 +550,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 9 }
-				9 = {
+				limit = { controls_state = 23 }
+				23 = {
 					set_building_level = {
 						type = bunker
 						level = 7
@@ -566,8 +566,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 74 }
-				74 = {
+				limit = { controls_state = 24 }
+				24 = {
 					set_building_level = {
 						type = bunker
 						level = 7
@@ -584,8 +584,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { controls_state = 70 }
-				70 = {
+				limit = { controls_state = 28 }
+				28 = {
 					set_building_level = {
 						type = bunker
 						level = 7
@@ -632,8 +632,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 664 }
-			CZE = { controls_state = 73 }
+			CZE = { controls_state = 30 }
+			CZE = { controls_state = 29 }
 		}
 
 		bypass = {
@@ -650,7 +650,7 @@ focus_tree = {
 
 		completion_reward = {       
 			army_experience = 5
-			664 = {
+			30 = {
 				add_building_construction = { type = bunker province = 3565 level = 3 instant_build = yes }
 				add_building_construction = { type = bunker province = 3716 level = 3 instant_build = yes }
 				add_building_construction = { type = bunker province = 6561 level = 3 instant_build = yes }
@@ -659,7 +659,7 @@ focus_tree = {
 				add_building_construction = { type = bunker province = 11679 level = 3 instant_build = yes }
 			}
 			
-			73 = {
+			29 = {
 				add_building_construction = { type = bunker province = 11691 level = 3 instant_build = yes }
 				add_building_construction = { type = bunker province = 3548 level = 3 instant_build = yes }
 			}
@@ -685,8 +685,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 71 }
-			CZE = { controls_state = 72 }
+			CZE = { controls_state = 27 }
+			CZE = { controls_state = 25 }
 		}
 
 		bypass = {
@@ -703,11 +703,11 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			72 = {
+			25 = {
 				add_building_construction = { type = bunker province = 9567 level = 2 instant_build = yes }
 				add_building_construction = { type = bunker province = 9551 level = 2 instant_build = yes }
 			}
-			71 = {      
+			27 = {      
 				add_building_construction = { type = bunker province = 581 level = 2 instant_build = yes }
 				add_building_construction = { type = bunker province = 3550 level = 2 instant_build = yes }
 				add_building_construction = { type = bunker province = 3581 level = 2 instant_build = yes }
@@ -732,10 +732,10 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 70 }
-			CZE = { controls_state = 75 }
-			CZE = { controls_state = 664 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 28 }
+			CZE = { controls_state = 26 }
+			CZE = { controls_state = 30 }
 		}
 
 		bypass = {
@@ -752,16 +752,16 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			664 = {
+			30 = {
 				add_building_construction = { type = bunker province = 6573 level = 2 instant_build = yes }
 			}
-			70 = {
+			28 = {
 				add_building_construction = { type = bunker province = 9692 level = 2 instant_build = yes }
 			}
-			75 = {
+			26 = {
 				add_building_construction = { type = bunker province = 3569 level = 2 instant_build = yes }
 			}
-			9 = {
+			23 = {
 				add_building_construction = { type = bunker province = 6418 level = 2 instant_build = yes }
 				add_building_construction = { type = bunker province = 11542 level = 3 instant_build = yes }
 			}
@@ -830,8 +830,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 75 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 26 }
 		}
 
 		bypass = {
@@ -847,7 +847,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			9 = {
+			23 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -855,7 +855,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			75 = {
+			26 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -881,8 +881,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 75 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 26 }
 		}
 
 		bypass = {
@@ -898,7 +898,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			9 = {
+			23 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -906,7 +906,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			75 = {
+			26 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -932,8 +932,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 75 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 26 }
 		}
 
 		bypass = {
@@ -949,7 +949,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			9 = {
+			23 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -957,7 +957,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			75 = {
+			26 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -992,8 +992,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 70 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 28 }
 		}
 
 		bypass = {
@@ -1009,7 +1009,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			9 = {
+			23 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1017,7 +1017,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			70 = {
+			28 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1048,8 +1048,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 71 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 27 }
 		}
 
 		bypass = {
@@ -1065,7 +1065,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			9 = {
+			23 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1073,7 +1073,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			71 = {
+			27 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1104,8 +1104,8 @@ focus_tree = {
 		}
 
 		available = {
-			CZE = { controls_state = 9 }
-			CZE = { controls_state = 73 }
+			CZE = { controls_state = 23 }
+			CZE = { controls_state = 29 }
 		}
 
 		bypass = {
@@ -1121,7 +1121,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			9 = {
+			23 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1129,7 +1129,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			73 = {
+			29 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex

@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = french_focus
 	
 	country = {
@@ -84,7 +84,7 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			539 = {
+			161 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 7
@@ -92,7 +92,7 @@
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			772 = {
+			160 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -100,7 +100,7 @@
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			773 = {
+			107 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -237,13 +237,13 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			26 = {
+			122 = {
 					
 				
 				add_extra_state_shared_building_slots = 2
 				set_state_flag = FRA_industrial_expansion_target
 			}
-			33 = {
+			119 = {
 				
 				add_extra_state_shared_building_slots = 2
 				set_state_flag = FRA_industrial_expansion_target
@@ -367,9 +367,9 @@
 		available = {
 			any_state = {
 				OR = {
-					state = 539
-					state = 773
-					state = 660
+					state = 161
+					state = 107
+					state = 158
 				}
 				OWNER = {
 					OR = {
@@ -402,9 +402,9 @@
 			every_state = {
 				limit = { 
 					OR = {
-						state = 539
-						state = 773
-						state = 660
+						state = 161
+						state = 107
+						state = 158
 					}
 					is_owned_or_subject_trigger = yes	
 					OR = {	
@@ -421,9 +421,9 @@
 			random_state = {
 				limit = { 
 					OR = {
-						state = 539
-						state = 773
-						state = 660
+						state = 161
+						state = 107
+						state = 158
 					}
 					NOT  = {
 						has_state_flag = FRA_industrial_expansion_target
@@ -438,9 +438,9 @@
 			random_state = {
 				limit = { 
 					OR = {
-						state = 539
-						state = 773
-						state = 660
+						state = 161
+						state = 107
+						state = 158
 					}
 					is_owned_or_subject_trigger = yes
 					NOT  = {
@@ -519,14 +519,14 @@
 		available = {
 			any_state = {
 				OR = {
-					state = 272
-					state = 780
-					state = 556
-					state = 779
-					state = 778
-					state = 781
-					state = 776
-					state = 777
+					state = 151
+					state = 155
+					state = 150
+					state = 159
+					state = 154
+					state = 152
+					state = 156
+					state = 157
 				}	
 				is_owned_or_subject_trigger = yes
 			}
@@ -545,14 +545,14 @@
 			random_state = {
 				limit = { 
 					OR = {
-						state = 272
-						state = 780
-						state = 556
-						state = 779
-						state = 778
-						state = 781
-						state = 776
-						state = 777
+						state = 151
+						state = 155
+						state = 150
+						state = 159
+						state = 154
+						state = 152
+						state = 156
+						state = 157
 					}	
 					OWNER = { is_owned_or_subject_trigger = yes }
 					NOT = {
@@ -584,7 +584,7 @@
 
 		available = {
 			FRA = {
-				controls_state = 543
+				controls_state = 483
 			}
 		}
 		
@@ -601,7 +601,7 @@
 			random_state = {
 				limit = { 
 					OR = {
-						state = 543
+						state = 483
 					}
 					OWNER = { is_owned_or_subject_trigger = yes }	
 					NOT = {
@@ -633,7 +633,7 @@
 
 		available = {
 			FRA = {
-				controls_state = 553
+				controls_state = 139
 			}
 		}
 		
@@ -650,7 +650,7 @@
 			random_state = {
 				limit = { 
 					OR = {
-						state = 553
+						state = 139
 					}
 					OWNER = { is_owned_or_subject_trigger = yes }	
 					NOT = {
@@ -783,7 +783,7 @@
 			add_resource = {
  			 	type = steel
    				amount = 20
-    				state = 539
+    				state = 161
 			}
 			every_owned_state={
 			limit={NOT={is_core_of=ROOT has_state_category=wasteland } is_on_continent=africa
@@ -1448,9 +1448,9 @@
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			add_state_core = 459
-			add_state_core = 460
-			add_state_core = 513
+			add_state_core = 134
+			add_state_core = 133
+			add_state_core = 136
 		}
 	}
 	focus = {
@@ -1899,7 +1899,7 @@
 
 		completion_reward = {
 			navy_experience = 25
-			539 = {
+			161 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
@@ -1923,7 +1923,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			459 = {
+			134 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1935,7 +1935,7 @@
 					set_state_flag = FRA_colonial_naval_bases
 				}
 			}
-			272 = {
+			151 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1947,7 +1947,7 @@
 					set_state_flag = FRA_colonial_naval_bases
 				}
 			}
-			539 = {
+			161 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1959,7 +1959,7 @@
 					set_state_flag = FRA_colonial_naval_bases
 				}
 			}
-			286 = {
+			483 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1986,7 +1986,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			539 = {
+			161 = {
 					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
@@ -2011,7 +2011,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			539 = {
+			161 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
@@ -2413,14 +2413,14 @@
 			factor = 1
 		}
 		available = {
-			776 = {
+			156 = {
 				is_controlled_by = EFR
 			}
 		}
 		
 		bypass = {
 			NOT = {
-				776 = {
+				156 = {
 					is_controlled_by = EFR
 				}
 			}
@@ -2452,14 +2452,14 @@
 			factor = 1
 		}
 		available = {
-			553 = {
+			139 = {
 				is_controlled_by = EFR
 			}
 		}
 		
 		bypass = {
 			NOT = {
-				553 = {
+				139 = {
 					is_controlled_by = EFR
 				}
 			}
@@ -2491,14 +2491,14 @@
 			factor = 1
 		}
 		available = {
-			543 = {
+			483 = {
 				is_controlled_by = EFR
 			}
 		}
 		
 		bypass = {
 			NOT = {
-				543 = {
+				483 = {
 					is_controlled_by = EFR
 				}
 			}
@@ -2512,7 +2512,7 @@
 			add_resource = {
  			 	type = rubber
    				amount = 30
-    			state = 543
+    			state = 483
 			}
 		}
 	}

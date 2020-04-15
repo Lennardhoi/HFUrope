@@ -7,9 +7,9 @@ Fra_move_capital_gabon={
 		}
 	visible={has_war=yes}
 	available={
-	539={is_capital=no}}
+	161={is_capital=no}}
 	complete_effect={
-	set_capital=539
+	set_capital=161
 	}
 	}
 
@@ -124,7 +124,7 @@ VIC_concessions_to_the_germans = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				controls_state = 16
+				controls_state = 114
 				add = 10
 			}
 		}
@@ -134,14 +134,14 @@ VIC_concessions_to_the_germans = {
 			if = {
 				limit = {
 					NOT = {
-						controls_state = 16
+						controls_state = 114
 					}
 				}
 				increase_occupation_cost_effect = yes
 			}
 			if = {
 				limit = {
-					controls_state = 16
+					controls_state = 114
 					has_idea = FRA_mandatory_work_service
 				}
 				remove_ideas = FRA_mandatory_work_service

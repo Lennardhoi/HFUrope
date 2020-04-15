@@ -109,8 +109,8 @@ SOV_mrp = {
 				transfer_state = 146 
 				transfer_state= 147
 				country_event = { id = finland.8 }
-				146 = { remove_core_of = FIN }
-				147 = { remove_core_of = FIN }
+				104 = { remove_core_of = FIN }
+				101 = { remove_core_of = FIN }
 				activate_decision = war_bonds
 			}
 			hidden_effect = {
@@ -184,12 +184,12 @@ SOV_great_patriotic_war = {
 		visible = {
 			has_war = yes
 			OR = {
-				controls_state = 189
-				controls_state = 11
-				controls_state = 190
-				controls_state = 12
-				controls_state = 191
-				controls_state = 13
+				controls_state = 230
+				controls_state = 231
+				controls_state = 229
+				controls_state = 228
+				controls_state = 98
+				controls_state = 97
 			}
 			has_country_flag = SOV_scorched_earth
 		}
@@ -201,9 +201,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					controls_state = 189
+					controls_state = 230
 				}
-				189 = {
+				230 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -212,9 +212,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					controls_state = 11
+					controls_state = 231
 				}
-				11 = {
+				231 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -223,9 +223,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					controls_state = 190
+					controls_state = 229
 				}
-				190 = {
+				229 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -234,9 +234,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					controls_state = 12
+					controls_state = 228
 				}
-				12 = {
+				228 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -245,9 +245,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					controls_state = 191
+					controls_state = 98
 				}
-				191 = {
+				98 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -256,9 +256,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					controls_state = 13
+					controls_state = 97
 				}
-				13 = {
+				97 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -380,18 +380,18 @@ SOV_great_patriotic_war = {
 		visible = {
 			has_war = yes
 			OR = {
-				420 = { CONTROLLER = { has_war_with = SOV } }
-				419 = { CONTROLLER = { has_war_with = SOV } }
-				353 = { CONTROLLER = { has_war_with = SOV } }
-				354 = { CONTROLLER = { has_war_with = SOV } }
-				137 = { CONTROLLER = { has_war_with = SOV } }
-				218 = { CONTROLLER = { has_war_with = SOV } }
 				238 = { CONTROLLER = { has_war_with = SOV } }
-				237 = { CONTROLLER = { has_war_with = SOV } }
-				236 = { CONTROLLER = { has_war_with = SOV } }
-				231 = { CONTROLLER = { has_war_with = SOV } }#sneaky QA naval invasion check
-				233 = { CONTROLLER = { has_war_with = SOV } }
-				234 = { CONTROLLER = { has_war_with = SOV } }
+				239 = { CONTROLLER = { has_war_with = SOV } }
+				483 = { CONTROLLER = { has_war_with = SOV } }
+				483 = { CONTROLLER = { has_war_with = SOV } }
+				384 = { CONTROLLER = { has_war_with = SOV } }
+				376 = { CONTROLLER = { has_war_with = SOV } }
+				380 = { CONTROLLER = { has_war_with = SOV } }
+				379 = { CONTROLLER = { has_war_with = SOV } }
+				373 = { CONTROLLER = { has_war_with = SOV } }
+				390 = { CONTROLLER = { has_war_with = SOV } }#sneaky QA naval invasion check
+				389 = { CONTROLLER = { has_war_with = SOV } }
+				483 = { CONTROLLER = { has_war_with = SOV } }
 			}
 			has_country_flag = SOV_scorched_earth
 		}
@@ -403,9 +403,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					229 = { is_controlled_by = SOV}
+					394 = { is_controlled_by = SOV}
 				}
-				229 = {
+				394 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -414,9 +414,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					230 = { is_controlled_by = SOV}
+					395 = { is_controlled_by = SOV}
 				}
-				230 = {
+				395 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -425,9 +425,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					231 = { is_controlled_by = SOV}
+					390 = { is_controlled_by = SOV}
 				}
-				231 = {
+				390 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -436,9 +436,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					232 = { is_controlled_by = SOV}
+					387 = { is_controlled_by = SOV}
 				}
-				232 = {
+				387 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -447,9 +447,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					233 = { is_controlled_by = SOV}
+					389 = { is_controlled_by = SOV}
 				}
-				233 = {
+				389 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -458,9 +458,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					234 = { is_controlled_by = SOV}
+					483 = { is_controlled_by = SOV}
 				}
-				234 = {
+				483 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -469,9 +469,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					235 = { is_controlled_by = SOV}
+					385 = { is_controlled_by = SOV}
 				}
-				235 = {
+				385 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -502,16 +502,16 @@ SOV_great_patriotic_war = {
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 			OR = {
-				227 = { CONTROLLER = { has_war_with = SOV } }
-				228 = { CONTROLLER = { has_war_with = SOV } }
-				218 = { CONTROLLER = { has_war_with = SOV } }
-				245 = { CONTROLLER = { has_war_with = SOV } }
-				237 = { CONTROLLER = { has_war_with = SOV } }
-				236 = { CONTROLLER = { has_war_with = SOV } }
-				231 = { CONTROLLER = { has_war_with = SOV } }#sneaky QA naval invasion check
-				238 = { CONTROLLER = { has_war_with = SOV } }
-				260 = { CONTROLLER = { has_war_with = SOV } }
-				239 = { CONTROLLER = { has_war_with = SOV } }
+				371 = { CONTROLLER = { has_war_with = SOV } }
+				367 = { CONTROLLER = { has_war_with = SOV } }
+				376 = { CONTROLLER = { has_war_with = SOV } }
+				369 = { CONTROLLER = { has_war_with = SOV } }
+				379 = { CONTROLLER = { has_war_with = SOV } }
+				373 = { CONTROLLER = { has_war_with = SOV } }
+				390 = { CONTROLLER = { has_war_with = SOV } }#sneaky QA naval invasion check
+				380 = { CONTROLLER = { has_war_with = SOV } }
+				404 = { CONTROLLER = { has_war_with = SOV } }
+				353 = { CONTROLLER = { has_war_with = SOV } }
 			}
 		}
 
@@ -522,9 +522,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					245 = { is_controlled_by = SOV}
+					369 = { is_controlled_by = SOV}
 				}
-				245 = {
+				369 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -533,9 +533,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					217 = { is_controlled_by = SOV}
+					362 = { is_controlled_by = SOV}
 				}
-				217 = {
+				362 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -544,9 +544,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					218 = { is_controlled_by = SOV}
+					376 = { is_controlled_by = SOV}
 				}
-				218 = {
+				376 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -555,9 +555,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					238 = { is_controlled_by = SOV}
+					380 = { is_controlled_by = SOV}
 				}
-				238 = {
+				380 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -566,9 +566,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					237 = { is_controlled_by = SOV}
+					379 = { is_controlled_by = SOV}
 				}
-				237 = {
+				379 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -577,9 +577,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					236 = { is_controlled_by = SOV}
+					373 = { is_controlled_by = SOV}
 				}
-				236 = {
+				373 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -588,9 +588,9 @@ SOV_great_patriotic_war = {
 			}
 			if = {
 				limit = {
-					265 = { is_controlled_by = SOV}
+					402 = { is_controlled_by = SOV}
 				}
-				265 = {
+				402 = {
 					damage_building = {
 						type = infrastructure
 						damage = 3
@@ -621,12 +621,12 @@ SOV_great_patriotic_war = {
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 			OR = {
-				207 = { CONTROLLER = { has_war_with = SOV } }
-				210 = { CONTROLLER = { has_war_with = SOV } }
-				241 = { CONTROLLER = { has_war_with = SOV } }
-				193 = { CONTROLLER = { has_war_with = SOV } }
-				225 = { CONTROLLER = { has_war_with = SOV } }
-				240 = { CONTROLLER = { has_war_with = SOV } }
+				331 = { CONTROLLER = { has_war_with = SOV } }
+				325 = { CONTROLLER = { has_war_with = SOV } }
+				343 = { CONTROLLER = { has_war_with = SOV } }
+				401 = { CONTROLLER = { has_war_with = SOV } }
+				355 = { CONTROLLER = { has_war_with = SOV } }
+				359 = { CONTROLLER = { has_war_with = SOV } }
 			}
 		}
 
@@ -638,14 +638,14 @@ SOV_great_patriotic_war = {
 			every_state = {
 				limit = {
 					OR = {
-						state = 220
-						state = 222
-						state = 224
-						state = 243
-						state = 205
-						state = 242
-						state = 246
-						state = 219
+						state = 476
+						state = 350
+						state = 348
+						state = 339
+						state = 334
+						state = 332
+						state = 321
+						state = 327
 					}
 					is_controlled_by = SOV
 				}
@@ -674,9 +674,9 @@ SOV_great_patriotic_war = {
 		}
 	visible={has_war_with=GER}
 	available={
-	249={is_capital=no}}
+	329={is_capital=no}}
 	complete_effect={
-	set_capital=249
+	set_capital=329
 	}
 	}
 	SOV_move_capital_stalingrad={
@@ -687,9 +687,9 @@ SOV_great_patriotic_war = {
 		}
 	visible={has_war_with=GER}
 	available={
-	217={is_capital=no}}
+	362={is_capital=no}}
 	complete_effect={
-	set_capital=217
+	set_capital=362
 	}
 	}
 	SOV_move_capital_leningrad={
@@ -700,9 +700,9 @@ SOV_great_patriotic_war = {
 		}
 	visible={has_war_with=GER}
 	available={
-	195={is_capital=no}}
+	310={is_capital=no}}
 	complete_effect={
-	set_capital=195
+	set_capital=310
 	}
 	}
 	SOV_move_capital_moscow={
@@ -713,9 +713,9 @@ SOV_great_patriotic_war = {
 		}
 	visible={has_war_with=GER}
 	available={
-	219={is_capital=no}}
+	327={is_capital=no}}
 	complete_effect={
-	set_capital=219
+	set_capital=327
 	}
 	}
 	
@@ -731,7 +731,7 @@ SOV_great_patriotic_war = {
 
 		#Fail trigger
 		available = {
-			NOT = { controls_state = 217 }
+			NOT = { controls_state = 362 }
 		}
 
 		days_mission_timeout = 180
@@ -743,7 +743,7 @@ SOV_great_patriotic_war = {
 		activation = {
 			has_war_with = GER
 			has_civil_war = no
-			217 = {
+			362 = {
 				is_controlled_by = ROOT
 				OR = {
 					any_neighbor_state = {
@@ -761,12 +761,12 @@ SOV_great_patriotic_war = {
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			217 = { save_event_target_as = state }			
+			362 = { save_event_target_as = state }			
 			country_event = wtt_soviet_hold_city.1
 		}
 		#Fail
 		complete_effect = {
-			217 = { save_event_target_as = state }			
+			362 = { save_event_target_as = state }			
 			country_event = wtt_soviet_hold_city.2
 		}
 	}
@@ -782,7 +782,7 @@ SOV_great_patriotic_war = {
 
 		#Fail trigger
 		available = {
-			NOT = { controls_state = 195 }
+			NOT = { controls_state = 310 }
 		}
 
 		days_mission_timeout = 180
@@ -794,7 +794,7 @@ SOV_great_patriotic_war = {
 		activation = {
 			has_war_with = GER
 			has_civil_war = no
-			195 = {
+			310 = {
 				is_controlled_by = ROOT
 				OR = {
 					any_neighbor_state = {
@@ -812,12 +812,12 @@ SOV_great_patriotic_war = {
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			195 = { save_event_target_as = state }
+			310 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.3
 		}
 		#Fail
 		complete_effect = {
-			195 = { save_event_target_as = state }
+			310 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.4
 		}
 	}
@@ -833,7 +833,7 @@ SOV_great_patriotic_war = {
 
 		#Fail trigger
 		available = {
-			NOT = { controls_state = 219 }
+			NOT = { controls_state = 327 }
 		}
 
 		days_mission_timeout = 180
@@ -845,7 +845,7 @@ SOV_great_patriotic_war = {
 		activation = {
 			has_war_with = GER
 			has_civil_war = no
-			219 = {
+			327 = {
 				is_controlled_by = ROOT
 				OR = {
 					any_neighbor_state = {
@@ -863,12 +863,12 @@ SOV_great_patriotic_war = {
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			219 = { save_event_target_as = state }
+			327 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.5
 		}
 		#Fail
 		complete_effect = {
-			219 = { save_event_target_as = state }
+			327 = { save_event_target_as = state }
 			country_event = wtt_soviet_hold_city.6
 		}
 	}

@@ -17,7 +17,7 @@ focus_tree = {
 		id = VEN_remove_Atlantikwall
 		icon = GFX_goal_generic_SS_focus
 		available = {
-		GER={has_completed_focus=GER_atlantikwall OR={date>1942.1.1 NOT={448={is_controlled_by = ITA}}}}
+		GER={has_completed_focus=GER_atlantikwall OR={date>1942.1.1 NOT={214={is_controlled_by = ITA}}}}
 			
 		
 		
@@ -56,11 +56,11 @@ focus_tree = {
        	
 	available = { 
 		or = {
-		ENG = {NOT = {has_full_control_of_state = 126 }}
-		ENG = {NOT = {has_full_control_of_state = 127 }}
-		ENG = {NOT = {has_full_control_of_state = 123 }}
-		ENG = {NOT = {has_full_control_of_state = 338 }}
-		ENG = {NOT = {has_full_control_of_state = 129 }}
+		ENG = {NOT = {has_full_control_of_state = 50 }}
+		ENG = {NOT = {has_full_control_of_state = 52 }}
+		ENG = {NOT = {has_full_control_of_state = 53 }}
+		ENG = {NOT = {has_full_control_of_state = 51 }}
+		ENG = {NOT = {has_full_control_of_state = 46 }}
 		}
 	
 	}

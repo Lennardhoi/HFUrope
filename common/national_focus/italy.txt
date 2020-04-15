@@ -28,9 +28,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		bypass = {
-			550 = { NOT = { is_owned_and_controlled_by = ITA } }
+			222 = { NOT = { is_owned_and_controlled_by = ITA } }
 			# Need province based trigger for this to work
-			#550 = {		
+			#222 = {		
 			#	NOT = { 
 			#		free_building_slots = {
 			#			building = infrastructure
@@ -44,9 +44,9 @@ focus_tree = {
 			#		} 
 			#	}
 			#}
-			559 = { NOT = { is_owned_and_controlled_by = ITA } }
+			224 = { NOT = { is_owned_and_controlled_by = ITA } }
 			# Need province based trigger for this to work
-			#559 = {
+			#224 = {
 			#	NOT = { 
 			#		free_building_slots = {
 			#			building = infrastructure
@@ -63,15 +63,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			if = { limit = { 550 = { is_owned_and_controlled_by = ITA } }
-				550 = {
+			if = { limit = { 222 = { is_owned_and_controlled_by = ITA } }
+				222 = {
 					add_building_construction = {
 						type = infrastructure
 						level = 2
 						instant_build = yes
 					}
 				}
-				550 = {
+				222 = {
 					add_building_construction = {
 						type = naval_base
 						level = 3
@@ -81,15 +81,15 @@ focus_tree = {
 				}
 			}
 
-			if = { limit = { 559 = { is_owned_and_controlled_by = ITA } }
-				559 = {
+			if = { limit = { 224 = { is_owned_and_controlled_by = ITA } }
+				224 = {
 						add_building_construction = {
 							type = infrastructure
 							level = 3
 							instant_build = yes
 						}
 				}
-      	559 = {
+      	224 = {
 					add_building_construction = {
 						type = naval_base
 						level = 4
@@ -395,10 +395,10 @@ focus_tree = {
 		available = { 				
 			NOT = {
 				ITA = {
-				has_full_control_of_state = 451
-				has_full_control_of_state = 450
-				has_full_control_of_state = 449
-				has_full_control_of_state = 448
+				has_full_control_of_state = 215
+				has_full_control_of_state = 216
+				has_full_control_of_state = 221
+				has_full_control_of_state = 214
 				}
 			}
 			}
@@ -412,10 +412,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 164
+							has_full_control_of_state = 213
 						}
 					}
-			164 = {
+			213 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 5
@@ -435,10 +435,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 114
+							has_full_control_of_state = 210
 						}
 					}
-			114 = {
+			210 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -459,10 +459,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 115
+							has_full_control_of_state = 212
 						}
 					}
-			115 = {
+			212 = {
 												set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -481,10 +481,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 182
+							has_full_control_of_state = 192
 						}
 					}
-			182 = 	{
+			192 = 	{
 												set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -503,10 +503,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 1
+							has_full_control_of_state = 130
 						}
 					}
-			1 = { 
+			130 = { 
 								set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -526,10 +526,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 183
+							has_full_control_of_state = 59
 						}
 					}
-			183 = 	{
+			59 = 	{
 												set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -549,10 +549,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 177
+							has_full_control_of_state = 416
 						}
 					}
-			177 = 	{
+			416 = 	{
 												set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -572,10 +572,10 @@ focus_tree = {
 								tag = ITA
 								is_in_faction_with = ITA
 							}
-							has_full_control_of_state = 116
+							has_full_control_of_state = 58
 						}
 					}
-			116 = 	{
+			58 = 	{
 												set_building_level = {
 						type = coastal_bunker
 						level = 2
@@ -607,16 +607,16 @@ focus_tree = {
 				available = { 				
 			NOT = {
 				ITA = {
-				has_full_control_of_state = 451
-				has_full_control_of_state = 450
-				has_full_control_of_state = 449
-				has_full_control_of_state = 448
+				has_full_control_of_state = 215
+				has_full_control_of_state = 216
+				has_full_control_of_state = 221
+				has_full_control_of_state = 214
 				}
 			}
 			}
 		
 		completion_reward = {
-			31 = {
+			129 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -627,7 +627,7 @@ focus_tree = {
 						}
 					}
 			}
-		22 = {
+		127 = {
 			set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -638,7 +638,7 @@ focus_tree = {
 						}
 					}
 		}
-		21 = {
+		128 = {
 												set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -649,7 +649,7 @@ focus_tree = {
 						}
 					}
 		}
-	158 = {
+	225 = {
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -660,7 +660,7 @@ limit_to_coastal = yes
 						}
 					}
 			}
-	162 = { 
+	206 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -671,7 +671,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-	2 = { 
+	208 = { 
 									set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -683,7 +683,7 @@ limit_to_coastal = yes
 					}
 	}
  
-	117 = {
+	209 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -694,7 +694,7 @@ limit_to_coastal = yes
 						}
 					}
 	}
-	156 = { 
+	211 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -705,7 +705,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-		157 = { 
+		226 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -716,7 +716,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-		161 = { 
+		205 = { 
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -727,7 +727,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-		160 = { 
+		202 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -738,7 +738,7 @@ limit_to_coastal = yes
 						}
 					}
 			}
-		736 = {
+		204 = {
 											set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -749,7 +749,7 @@ limit_to_coastal = yes
 						}
 					}
 			}
-	    103 = { 
+	    458 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -760,7 +760,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-		105 = {
+		462 = {
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -771,7 +771,7 @@ limit_to_coastal = yes
 						}
 					}
 			}
-		44 = { 
+		1 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -782,7 +782,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-		185 = { 
+		188 = { 
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -793,7 +793,7 @@ limit_to_coastal = yes
 						}
 					}
 		}
-		186 = { 
+		191 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -804,7 +804,7 @@ limit_to_coastal = yes
 						}
 					}
 		}		
-		47 = {
+		189 = {
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -815,7 +815,7 @@ limit_to_coastal = yes
 						}
 					}
 			}
-		731 = {
+		187 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -826,7 +826,7 @@ limit_to_coastal = yes
 						}
 					}
 			}
-		184 = { 
+		186 = { 
 										set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -837,7 +837,7 @@ limit_to_coastal = yes
 						}
 					}
 				}
-		187 = {
+		190 = {
 								set_building_level = {
 						type = coastal_bunker
 						level = 1
@@ -867,12 +867,12 @@ limit_to_coastal = yes
 		
 				available = { 				
 surrender_progress > 0.70 
-controls_state = 159
+controls_state = 203
 date > 1941.6.1
 			}
 		
 		completion_reward = {
-			159 = {
+			203 = {
 								set_building_level = {
 						type = bunker
 						level = 10
@@ -920,7 +920,7 @@ date > 1941.6.1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			2 = {
+			208 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -930,7 +930,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			117 = {
+			209 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -940,7 +940,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			156 = {
+			211 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -950,7 +950,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			157 = {
+			226 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -960,7 +960,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			158 = {
+			225 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -970,7 +970,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			159 = {
+			203 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -980,7 +980,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			160 = {
+			202 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -990,7 +990,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			161 = {
+			205 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1000,7 +1000,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			162 = {
+			206 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1022,11 +1022,11 @@ date > 1941.6.1
 		prerequisite = { focus = ITA_italian_highways }
 		available = {
 			ITA = {
-				controls_state = 449
+				controls_state = 221
 			}
 		}
 		bypass = {
-			449 = {
+			221 = {
 				has_state_flag = sirte_oil_developed
 			}
 		}
@@ -1046,7 +1046,7 @@ date > 1941.6.1
 			add_resource = {
 				type = oil
 				amount = 8
-				state = 449
+				state = 221
 			}
 		}
 	}
@@ -1058,7 +1058,7 @@ date > 1941.6.1
 		prerequisite = { focus = ITA_prospect_for_oil }
 		available = {
 			ITA = {
-				controls_state = 449
+				controls_state = 221
 			}
 		}
 		x = -1
@@ -1078,7 +1078,7 @@ date > 1941.6.1
 				add_resource = {
 				type = oil
 				amount = 25
-				state = 449
+				state = 221
 			}
 			}	
 		
@@ -1104,7 +1104,7 @@ date > 1941.6.1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			450  = {
+			216  = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1130,7 +1130,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			661 = {
+			218 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1150,27 +1150,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			449 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = anti_air_building
-						level = 2
-						instant_build = yes
-					}
-					set_building_level = {
-						type = air_base
-						level = 10
-						instant_build = yes
-					}
-				}
-			}
-			451 = {
+			221 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1190,7 +1170,27 @@ date > 1941.6.1
 					}
 				}
 			}
-			448 = {
+			215 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 2
+						instant_build = yes
+					}
+					set_building_level = {
+						type = air_base
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			214 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1223,7 +1223,7 @@ date > 1941.6.1
 			
 			date>1941.8.1
 			ITA = {
-				AND = {controls_state = 449 controls_state = 2}
+				AND = {controls_state = 221 controls_state = 208}
 				
 				
 			}
@@ -1243,13 +1243,13 @@ date > 1941.6.1
 		add_resource = {
 			type = oil
 			amount = 15
-			state = 46
+			state = 292
 		}
 		
 		add_resource = {
 			type = oil
 			amount = -15
-			state = 449
+			state = 221
 		}	
 		}
 	}	
@@ -1263,7 +1263,7 @@ date > 1941.6.1
 			
 			date>1941.7.1
 			ITA = {
-				AND = {controls_state = 291 controls_state = 676 controls_state = 115 controls_state = 449}
+				AND = {controls_state = 60 controls_state = 57 controls_state = 212 controls_state = 221}
 				
 				
 			}
@@ -1282,40 +1282,40 @@ date > 1941.6.1
 		completion_reward = {
 		
 		
-		if={limit={676 = {
+		if={limit={57 = {
 					has_state_flag = mosul_developed
 				}}
 		add_resource = {
 			type = oil
 			amount = 28
-			state = 46
+			state = 292
 		}
 		add_resource = {
 			type = oil
 			amount = -28
-			state = 676
+			state = 57
 		}
 		} else = {
 			add_resource = {
 				type = oil
 				amount = 14
-				state = 46
+				state = 292
 			}
 			add_resource = {
 				type = oil
 				amount = -14
-				state = 676
+				state = 57
 			}
 		}
 		add_resource = {
 			type = oil
 			amount = 7
-			state = 46
+			state = 292
 		}
 		add_resource = {
 			type = oil
 			amount = -7
-			state = 291
+			state = 60
 		}
 		}
 	}
@@ -1328,7 +1328,7 @@ date > 1941.6.1
 			
 			date>1941.9.1
 			ITA = {
-				AND = {controls_state = 661 controls_state = 2}
+				AND = {controls_state = 218 controls_state = 208}
 				
 				
 			}
@@ -1348,13 +1348,13 @@ date > 1941.6.1
 		add_resource = {
 			type = rubber
 			amount = 20
-			state = 2
+			state = 208
 		}
 		
 		add_resource = {
 			type = rubber
 			amount = -20
-			state = 661
+			state = 218
 		}	
 		}
 	}
@@ -1366,7 +1366,7 @@ date > 1941.6.1
 			
 			date>1941.10.1
 			ITA = {
-				AND = {controls_state = 676 controls_state = 2}
+				AND = {controls_state = 57 controls_state = 208}
 				
 				
 			}
@@ -1383,40 +1383,40 @@ date > 1941.6.1
 			factor = 1
 		}	
 		completion_reward = {
-		if={limit={676 = {
+		if={limit={57 = {
 					has_state_flag = mosul_developed
 				}}
 		add_resource = {
 			type = oil
 			amount = 28
-			state = 46
+			state = 292
 		}
 		add_resource = {
 			type = oil
 			amount = -28
-			state = 676
+			state = 57
 		}
 		} else = {
 			add_resource = {
 				type = oil
 				amount = 14
-				state = 46
+				state = 292
 			}
 			add_resource = {
 				type = oil
 				amount = -14
-				state = 676
+				state = 57
 			}
 		}
 		add_resource = {
 			type = oil
 			amount = 6
-			state = 46
+			state = 292
 		}
 		add_resource = {
 			type = oil
 			amount = -6
-			state = 291
+			state = 60
 		}
 		
 		}
@@ -1430,7 +1430,7 @@ date > 1941.6.1
 			
 			date>1941.12.1
 			ITA = {
-				AND = {controls_state = 661 controls_state = 2}
+				AND = {controls_state = 218 controls_state = 208}
 				
 				
 			}
@@ -1450,13 +1450,13 @@ date > 1941.6.1
 		add_resource = {
 			type = rubber
 			amount = 25
-			state = 2
+			state = 208
 		}
 		
 		add_resource = {
 			type = rubber
 			amount = -25
-			state = 661
+			state = 218
 		}	
 		}
 	}
@@ -1468,7 +1468,7 @@ focus = {
 			
 			date>1941.11.1
 			ITA = {
-				AND = {controls_state = 449 controls_state = 2}
+				AND = {controls_state = 221 controls_state = 208}
 				
 				
 			}
@@ -1488,13 +1488,13 @@ focus = {
 		add_resource = {
 			type = oil
 			amount = 18
-			state = 46
+			state = 292
 		}
 		
 		add_resource = {
 			type = oil
 			amount = -18
-			state = 449
+			state = 221
 		}
 		}
 	}	
@@ -1745,7 +1745,7 @@ focus = {
 			navy_experience = 50
 			random_owned_controlled_state = {
 				limit = {
-					NOT={OR={state=115 state=114}}
+					NOT={OR={state=212 state=210}}
 					is_core_of=ROOT
 					
 					free_building_slots = {
@@ -1764,7 +1764,7 @@ focus = {
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of=ROOT
-					NOT={OR={state=115 state=114}}
+					NOT={OR={state=212 state=210}}
 					
 					free_building_slots = {
 						building = dockyard
@@ -1992,7 +1992,7 @@ focus = {
 			}
 			random_owned_controlled_state = {
 				limit = {
-					NOT={OR={state=115 state=114}}
+					NOT={OR={state=212 state=210}}
 					is_core_of=ROOT
 					
 					free_building_slots = {
@@ -2282,8 +2282,8 @@ focus = {
 		}
 
 		completion_reward = {
-			add_state_claim = 102
-			add_state_claim = 103
+			add_state_claim = 454
+			add_state_claim = 458
 			add_named_threat = { threat = 4 name = ITA_slovenia_dalmatia_claims_threat }
 			USA = {
 				set_country_flag = { flag = USA_yugoslavia_window days = 60 value = 1 }
@@ -2570,7 +2570,7 @@ focus = {
 
 			hidden_effect = {
 				news_event = { hours = 6 id = news.186 } 
-			102 = {	add_claim_by  = GER}
+			454 = {	add_claim_by  = GER}
 			}
 		}
 
@@ -2583,10 +2583,10 @@ focus = {
 		prerequisite = { focus = ITA_greece_war_goal }
 		available = {
  
-		446={is_controlled_by_ROOT_or_ally = yes}
-		116={is_controlled_by_ROOT_or_ally = yes}
-		183={is_controlled_by_ROOT_or_ally = yes}
-		182={is_controlled_by_ROOT_or_ally = yes}
+		68={is_controlled_by_ROOT_or_ally = yes}
+		58={is_controlled_by_ROOT_or_ally = yes}
+		59={is_controlled_by_ROOT_or_ally = yes}
+		192={is_controlled_by_ROOT_or_ally = yes}
 			
 		}
 		

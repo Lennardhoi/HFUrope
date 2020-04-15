@@ -1,4 +1,4 @@
-﻿add_namespace = iran
+add_namespace = iran
 
 country_event = {
 	id = iran.2
@@ -17,11 +17,11 @@ SOV = {
 PER = {set_equipment_fraction = 0}
 annex_country = { target = PER transfer_troops = no }
 
-416 = { add_core_of = SOV }
-419 = { add_core_of = SOV }
-418 = { add_core_of = SOV }
-266 = { add_core_of = SOV }
-420 = { add_core_of = SOV }
+240 = { add_core_of = SOV }
+239 = { add_core_of = SOV }
+242 = { add_core_of = SOV }
+241 = { add_core_of = SOV }
+238 = { add_core_of = SOV }
 
 
 		
@@ -55,25 +55,25 @@ transfer_state = 411
 transfer_state = 412
 transfer_state = 414
 transfer_state = 410
-413 = {
+247 = {
 	add_compliance = 100
 }
-421 = {
+243 = {
 	add_compliance = 100
 }
-417 = {
+244 = {
 	add_compliance = 100
 }
-411 = {
+245 = {
 	add_compliance = 100
 }
-412 = {
+248 = {
 	add_compliance = 100
 }
-414 = {
+246 = {
 	add_compliance = 100
 }
-410 = {
+249 = {
 	add_compliance = 100
 }
 
