@@ -381,12 +381,12 @@ USA_congress = {
 	USA_statehood_for_alaska = {
 		icon = infiltrate_state
 		available = {
-			463 = {
+			483 = {
 				not = { is_core_of = ROOT }
 			}
 		}
 		visible = {
-			463 = {
+			483 = {
 				is_fully_controlled_by = USA
 			}
 		}
@@ -404,19 +404,19 @@ USA_congress = {
 		}
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 463
+			add_state_core = 483
 			USA_calc_stars = yes
 		}
 	}
 	USA_statehood_for_hawaii = {
 		icon = infiltrate_state
 		available = {
-			629 = {
+			483 = {
 				not = { is_core_of = ROOT }
 			}
 		}
 		visible = {
-			629 = {
+			483 = {
 				is_fully_controlled_by = USA
 			}
 		}
@@ -434,19 +434,19 @@ USA_congress = {
 		}
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 629
+			add_state_core = 483
 			USA_calc_stars = yes
 		}
 	}
 	USA_statehood_for_puerto_rico = {
 		icon = infiltrate_state
 		available = {
-			686 = {
+			449 = {
 				not = { is_core_of = ROOT }
 			}
 		}
 		visible = {
-			686 = {
+			449 = {
 				is_fully_controlled_by = USA
 			}
 		}
@@ -464,7 +464,7 @@ USA_congress = {
 		}
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 686
+			add_state_core = 449
 			USA_calc_stars = yes
 		}
 	}

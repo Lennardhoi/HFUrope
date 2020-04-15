@@ -82,7 +82,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			417 = {
+			244 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -123,7 +123,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			419 = {
+			239 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -159,7 +159,7 @@ focus_tree = {
 		}		
 
 		completion_reward = {
-			419 = {
+			239 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -195,7 +195,7 @@ focus_tree = {
 		}		
 
 		completion_reward = {
-			421 = {
+			243 = {
 				
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -235,7 +235,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			412 = {
+			248 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 6
@@ -270,7 +270,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			413 = {	
+			247 = {	
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex

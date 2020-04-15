@@ -587,12 +587,12 @@ focus_tree = {
 			add_resource = {
 				type = steel
 				amount = 16
-				state = 48
+				state = 13
 			}
 			add_resource = {
 				type = tungsten
 				amount = 8
-				state = 48
+				state = 13
 			}
 		}
 	}
@@ -615,12 +615,12 @@ focus_tree = {
 			add_resource = {
 				type = aluminium
 				amount = 6
-				state = 211
+				state = 12
 			}
 			add_resource = {
 				type = oil
 				amount = 10
-				state = 211
+				state = 12
 			}
 		}
 	}

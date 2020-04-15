@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Finland Events
 ###########################
 
@@ -78,8 +78,8 @@ country_event = {
 			base = 9
 		}
 		white_peace = FIN
-		transfer_state = 146
-		transfer_state = 147
+		transfer_state = 104
+		transfer_state = 101
 	}
 
 }
