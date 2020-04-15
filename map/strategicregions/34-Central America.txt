@@ -2,6 +2,6 @@ strategic_region={
 	id=34
 	name="STRATEGICREGION_34"
 	provinces={
-		2903 6107 11063 11101 11560 
+		2903 6107 11063 11101  
 	}
 }
