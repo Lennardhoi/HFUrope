@@ -88,10 +88,10 @@ country_event = {
 		ai_chance = {
 			factor = 80
 		}
-		FRA = { transfer_state = 553 }
-		FRA = { transfer_state = 554 }
-		FRA = { transfer_state = 680 }
-		FRA = { transfer_state = 677 }
+		FRA = { transfer_state = 139 }
+		FRA = { transfer_state = 140 }
+		FRA = { transfer_state = 132 }
+		FRA = { transfer_state = 135 }
 	}
 }
 
@@ -121,15 +121,15 @@ country_event = {
 		ai_chance = {
 			factor = 80
 		}
-		FRA = { transfer_state = 776 }
-		FRA = { transfer_state = 777 }
-		FRA = { transfer_state = 781 }
-		FRA = { transfer_state = 778 }
-		FRA = { transfer_state = 556 }
-		FRA = { transfer_state = 779 }
-		FRA = { transfer_state = 780 }
-		FRA = { transfer_state = 272 }
-		FRA = { transfer_state = 557 }
+		FRA = { transfer_state = 156 }
+		FRA = { transfer_state = 157 }
+		FRA = { transfer_state = 152 }
+		FRA = { transfer_state = 154 }
+		FRA = { transfer_state = 150 }
+		FRA = { transfer_state = 159 }
+		FRA = { transfer_state = 155 }
+		FRA = { transfer_state = 151 }
+		FRA = { transfer_state = 148 }
 	}
 }
 
@@ -159,6 +159,6 @@ country_event = {
 		ai_chance = {
 			factor = 80
 		}
-		FRA = { transfer_state = 543 }
+		FRA = { transfer_state = 483 }
 	}
 }

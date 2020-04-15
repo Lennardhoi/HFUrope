@@ -2153,9 +2153,9 @@ random_owned_controlled_state = {
 			LIT = {set_equipment_fraction = 0}
 			LAT = {set_equipment_fraction = 0}
 			SOV = {
-			transfer_state = 78 
-			transfer_state = 80
-			transfer_state = 766
+			transfer_state = 295 
+			transfer_state = 286
+			transfer_state = 290
 			annex_country = {
 				target = LAT
 			}
@@ -2468,7 +2468,7 @@ available = {
 		relative_position_id = GER_anschluss
 		cost = 10
 		bypass = {
-			483 = { is_owned_by = GER }
+			232 = { is_owned_by = GER }
 			252 = { is_owned_by = GER }
 			255 = { is_owned_by = GER }
 		}
@@ -2481,14 +2481,14 @@ available = {
 		}	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			483 = { add_claim_by = GER }
+			232 = { add_claim_by = GER }
 			252 = { add_claim_by = GER }
 			255 = { add_claim_by = GER }
 			261 ={ add_claim_by = GER }
 			
 			GER = { 
-				transfer_state = 188
-				add_state_core = 483
+				transfer_state = 232
+				add_state_core = 232
 			}
 			add_named_threat = { threat = 3 name = GER_demand_memel_threat }
 			LIT = {
@@ -2680,7 +2680,7 @@ POL = {
 			}
 		
 		 SWE = {
-					give_resource_rights = { receiver = GER state = 483 }
+					give_resource_rights = { receiver = GER state = 431 }
 					
 					}
 		}
@@ -2818,9 +2818,9 @@ POL = {
 				}
 				
 						22 = { add_core_of = GER }
-		GER = { transfer_state = 69 }
+		GER = { transfer_state = 22 }
 		24 = { add_core_of = GER }
-		GER = { transfer_state = 74 }
+		GER = { transfer_state = 24 }
 		set_country_flag = sudetenland_acquired
 		add_war_support = 0.1
 		add_stability = 0.05
@@ -2829,7 +2829,7 @@ POL = {
 			set_country_flag = { flag = USA_munich_window days = 60 value = 1 }
 		}
 						25 = { add_core_of = POL }
-		POL = { transfer_state = 72 }
+		POL = { transfer_state = 25 }
 				HUN = { add_timed_idea = { idea = SPA_preparing_for_war days = 365 } }
 				ROM = { add_timed_idea = { idea = SPA_preparing_for_war days = 365 } }
 				BUL = { add_timed_idea = { idea = SPA_preparing_for_war days = 365 } }
@@ -2867,7 +2867,7 @@ POL = {
 			HUN = {
 				country_event = { id = germany.51 }
 				add_opinion_modifier = { target = GER modifier = GER_first_vienna_award_GER }
-				transfer_state = 664 
+				transfer_state = 30 
 			}
 			every_other_country = {
 				limit = {
@@ -2961,7 +2961,7 @@ POL = {
 				limit = {
 					NOT = { owns_state = 113 }
 				}
-				transfer_state = 28
+				transfer_state = 113
 			}
 			113 = { set_state_name = "Elsass-Lothringen" }
 			set_province_name = { id = 9503 name = "Strassburg" }

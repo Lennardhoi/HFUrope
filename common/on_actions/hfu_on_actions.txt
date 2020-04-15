@@ -180,7 +180,7 @@ on_actions = {
 
 
 							OR = {
-							state = 327# moscow
+							state = 327 # moscow
 							state = 310 #Leningrad
 							state = 362 #Stalingrad
 							state = 403 #Kiev

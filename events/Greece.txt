@@ -88,40 +88,40 @@ country_event = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_BUL_184
 			}
-			BUL = { transfer_state = 184 }
+			BUL = { transfer_state = 186 }
 		}
 
 		if = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_ITA_185
 			}
-			ITA = { transfer_state = 185 }
+			ITA = { transfer_state = 188 }
 		}
 		if = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_ITA_186
 			}
-			ITA = { transfer_state = 186 }
+			ITA = { transfer_state = 191 }
 		}
 		if = {
 			limit = {
 				has_global_flag = GER_second_ljubljana_award_ITA_47
 			}
-			ITA = { transfer_state = 47 }
+			ITA = { transfer_state = 189 }
 		}
 
 		if = {
 			limit = { 
 				has_global_flag = GER_second_ljubljana_award_GER_731
 			}
-			GER = { transfer_state = 731 }
+			GER = { transfer_state = 187 }
 		}
 		if = {
 			limit = { 
 				has_global_flag = GER_second_ljubljana_award_GER_185
 				NOT = { has_global_flag = GER_second_ljubljana_award_GER_731 }
 			}
-			GER = { transfer_state = 185 }
+			GER = { transfer_state = 188 }
 		}
 		if = {
 			limit = { 
@@ -129,7 +129,7 @@ country_event = {
 				NOT = { has_global_flag = GER_second_ljubljana_award_GER_731 }
 				NOT = { has_global_flag = GER_second_ljubljana_award_GER_185 }
 			}
-			GER = { transfer_state = 47 }
+			GER = { transfer_state = 189 }
 		}
 	}
 	

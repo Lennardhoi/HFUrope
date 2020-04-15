@@ -460,12 +460,12 @@ focus_tree = {
 			
 			effect_tooltip = {
 				custom_effect_tooltip = USA_destroyers_for_bases_tt
-				transfer_state = 696
-				transfer_state = 331
-				transfer_state = 308
-				transfer_state = 693
-				transfer_state = 689
-				transfer_state = 691
+				transfer_state = 54
+				transfer_state = 37
+				transfer_state = 73
+				transfer_state = 483
+				transfer_state = 67
+				transfer_state = 79
 				
 			}
 		}

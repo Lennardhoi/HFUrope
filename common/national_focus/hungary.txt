@@ -349,7 +349,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			transfer_state = 664	
+			transfer_state = 30	
 			CZE = { country_event = { id = DOD_hungary.80 } }
 		}
 	}
