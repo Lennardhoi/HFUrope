@@ -2,6 +2,7 @@ version="1.9.1"
 tags={
 	"Balance"
 }
+replace_path="tutorial"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"

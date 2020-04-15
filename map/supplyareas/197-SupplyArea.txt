@@ -4,7 +4,7 @@ supply_area={
  	value=12
  	states={
  		415 417
-		472 476 478 483#no clue where it is
+		  483#no clue where it is
  	}
  }
 
