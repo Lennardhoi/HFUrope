@@ -278,7 +278,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
-			483 = {
+			17 = {
 
 				add_building_construction = {
 					type = infrastructure
@@ -289,7 +289,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			483 = {
+			17 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -455,7 +455,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			483 = {
+			17 = {
 				add_resource = {
 					type = oil
 					amount = 14
@@ -2623,7 +2623,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			483 = {
+			17 = {
 				add_resource = {
 					type = oil
 					amount = 36
@@ -2788,21 +2788,11 @@ focus_tree = {
 				20 = {
 					add_building_construction = {
 						type = radar_station
-						level = 4
+						level = 5
 						instant_build = yes
 					}
 					set_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar1
 				}
-
-				483 = {
-					add_building_construction = {
-						type = radar_station
-						level = 4
-						instant_build = yes
-					}
-					set_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar2
-				}
-
 				else = {
 					set_technology = {
 						radio_detection = 1
@@ -2810,19 +2800,10 @@ focus_tree = {
 					20 = {
 						add_building_construction = {
 							type = radar_station
-							level = 4
+							level = 5
 							instant_build = yes
 						}
 						set_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar1
-					}
-
-					483 = {
-						add_building_construction = {
-							type = radar_station
-							level = 4
-							instant_build = yes
-						}
-						set_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar2
 					}
 				}
 			}
