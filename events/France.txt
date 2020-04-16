@@ -88,11 +88,8 @@ country_event = {
 			diplomatic_relation = { country = ENG relation = non_aggression_pact }
 			diplomatic_relation = { country = USA relation = non_aggression_pact }
 			diplomatic_relation = { country = FRA relation = non_aggression_pact }
-			diplomatic_relation = { country = SAF relation = non_aggression_pact }
 			diplomatic_relation = { country = CAN relation = non_aggression_pact }
 			diplomatic_relation = { country = RAJ relation = non_aggression_pact }
-			diplomatic_relation = { country = AST relation = non_aggression_pact }
-			diplomatic_relation = { country = NZL relation = non_aggression_pact }
 			diplomatic_relation = { country = GER relation = non_aggression_pact }
 		}	
 		if = { 
@@ -141,7 +138,6 @@ country_event = {
 			transfer_state = 153
 			transfer_state = 158
 			transfer_state = 149
-		    transfer_state = 483
 			transfer_state = 143
 			transfer_state = 11
 			transfer_state = 8
@@ -410,10 +406,9 @@ country_event = {
 
    option = {
    name = france.146.a
-      RAJ = {
-   transfer_state = 483
+   
    321 = { add_extra_state_shared_building_slots = 1 }
-   }
+   
    }
    }
    
@@ -427,10 +422,8 @@ country_event = {
 
    option = {
    name = france.147.a
-      SAF = {
-   transfer_state = 483
    321 = { add_extra_state_shared_building_slots = 1 }
-   }
+   
    }
    }
 
@@ -444,8 +437,6 @@ country_event = {
 
    option = {
    name = france.148.a
-      ENG = {
-   transfer_state = 483
-   }
+     
    }
    }

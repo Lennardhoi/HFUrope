@@ -39,6 +39,7 @@ country_event = {
 		 }
 		 
 		 ROM = { remove_state_core = 287 }   #Prevents Hungary from returning Transylvania  -Thrasymachus
+		 ROM = { remove_state_core = 294 }
    if = {
 		limit = {country_exists = BUL }
 		BUL = {

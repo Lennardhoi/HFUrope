@@ -96,7 +96,7 @@ on_actions = {
 				set_country_flag = achievement_has_dropped_nuke
 			}
 			
-			}
+			
 			if = {
 				limit = {
 					tag = SWE
