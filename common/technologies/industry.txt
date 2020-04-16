@@ -321,6 +321,8 @@ technologies = {
 				factor = 2
 				tag = ENG
 			}
+			
+			
 
 			modifier = {
 				factor = 0
@@ -503,7 +505,7 @@ technologies = {
 	
 	dispersed_industry = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
@@ -544,6 +546,7 @@ technologies = {
 				factor = 0.25
 				tag = ENG
 			}
+			
 			
 
 			modifier = {

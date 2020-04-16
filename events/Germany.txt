@@ -714,23 +714,7 @@ country_event = {
 		
 	}
 	
-	option = {
-		name = germany.55.c
-		add_political_power = -30
 
-		if = {
-			limit = { country_exists = CZE }
-			annex_country = { target = CZE }
-		}
-		if = {
-			limit = { has_global_flag = GER_HUN_CZE_split }
-			HUN = { country_event = DOD_hungary.106 }
-		}
-		hidden_effect = {
-			country_event = { hours = 6 id = news.62 }
-		}
-		
-	}
 }
 
 # Hungary asked to partition Czechoslovakia
@@ -760,13 +744,7 @@ country_event = {
 				annex_country = { target = CZE }
 				add_to_faction = HUN				
 			}
-			HUN = {
-				add_ai_strategy = {
-					type = alliance
-					id = "GER"
-					value = 200
-				}
-			}
+			
 		}
 		hidden_effect = {
 			country_event = { hours = 6 id = news.61 }

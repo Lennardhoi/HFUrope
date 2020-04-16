@@ -596,7 +596,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		
+		category_line_artillery = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+		}
 		category_all_infantry = {
 			max_organisation = 5
 		}
@@ -871,7 +874,7 @@ technologies = {
 		category_front_line = {
 			 soft_attack = 0.2
 		}
-		supply_consumption_factor = 0.10
+		
 		enable_tactic = tactic_barrage
 			
 		doctrine = yes	
@@ -1770,6 +1773,7 @@ technologies = {
 		category_army = {
 			breakthrough = 0.10
 			soft_attack = 0.05
+			max_organisation = 7
 		}
 		
 		enable_tactic = tactic_planned_attack
@@ -2407,9 +2411,7 @@ technologies = {
 			leads_to_tech = pocket_defence 
 			research_cost_coeff = 1
 		}
-		infantry = {
-			combat_width = -0.4
-		}
+		
 
 		land_reinforce_rate = 0.02
 		minimum_training_level = -0.1		
@@ -2547,9 +2549,10 @@ technologies = {
 			default_morale = 0.05
 		}
 		
-		army_core_defence_factor = 0.075
-	    army_core_attack_factor = 0.075
-
+		army_core_defence_factor = 0.2
+	    army_core_attack_factor = 0.2
+        army_attack_factor = -0.1
+		army_defence_factor = -0.1
 		enable_tactic = tactic_relentless_assault
 		enable_tactic = tactic_human_wave_tactics
 		path = {
@@ -2584,6 +2587,8 @@ technologies = {
 				factor = 2
 			}
 
+			
+
 		}
 		
 		ai_research_weights = {
@@ -2600,6 +2605,9 @@ technologies = {
 		}
 		category_all_armor = {
 			default_morale = 0.1
+		}
+		category_all_infantry = {
+			defense = 0.10
 		}
 		xp_research_type = army
 		xp_research_cost = 100
@@ -2701,8 +2709,7 @@ technologies = {
 		supply_consumption_factor = -0.20
 		
 		
-
-		
+        attrition = -0.1 #take 10% less attrition losses
 		enable_tactic = tactic_overwhelming_fire
 		enable_tactic = tactic_default_overwhelming_fire
 		
@@ -2869,11 +2876,11 @@ technologies = {
 		org_loss_when_moving = -0.2
 		land_reinforce_rate = 0.05
 		category_army = {
-			default_morale = 0.10
+			default_morale = 0.15
 		}
 		enable_tactic = tactic_backhand_blow
         infantry = {
-			max_strength = 5
+			max_strength = 8
 		}
 		doctrine = yes	
 		research_cost = 4.25
@@ -2917,7 +2924,10 @@ technologies = {
 		
 		enable_tactic = tactic_human_wave_tactics
 		
-		
+		infantry = {
+			combat_width = -0.4
+		}
+
 		path = {
 			leads_to_tech = human_infantry_offensive
 			research_cost_coeff = 1
