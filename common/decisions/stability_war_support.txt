@@ -19,6 +19,7 @@ crisis = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 
@@ -82,6 +83,7 @@ crisis = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 
@@ -148,6 +150,7 @@ crisis = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 		available = {
@@ -267,6 +270,7 @@ crisis = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 		available = {
@@ -396,6 +400,7 @@ crisis = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 
@@ -453,6 +458,7 @@ crisis = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 		available = {
@@ -581,6 +587,7 @@ demobilization = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 		icon = generic_industry
@@ -673,6 +680,7 @@ demobilization = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 		activation = {
@@ -812,6 +820,7 @@ demobilization = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 
@@ -878,6 +887,7 @@ demobilization = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 		activation = {
