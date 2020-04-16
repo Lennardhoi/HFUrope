@@ -36,6 +36,7 @@ country_event = {
           transfer_state = 459
 		  transfer_state = 458
 		  transfer_state = 455
+		  set_capital=455
 		 }
 		 
 		 ROM = { remove_state_core = 287 }   #Prevents Hungary from returning Transylvania  -Thrasymachus

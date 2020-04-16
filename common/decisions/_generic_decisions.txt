@@ -19,7 +19,8 @@ political_actions = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
+				tag = CRO
 			}
 		}
 
@@ -78,6 +79,7 @@ political_actions = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 
@@ -185,6 +187,7 @@ propaganda_efforts = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}		available = {
 			NOT = { has_country_flag = war_propaganda_campaign_running }
@@ -387,7 +390,9 @@ special_projects = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
+				tag = CRO
+				
 			}
 		}		
 		available = {
@@ -461,6 +466,7 @@ war_measures = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
         available = {
@@ -594,6 +600,7 @@ economy_decisions = {
 				tag = USA
 				tag = CAN
 				tag = EFR	
+				tag = CRO
 			}
 		}
 
