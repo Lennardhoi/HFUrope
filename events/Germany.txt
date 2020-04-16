@@ -29,7 +29,13 @@ country_event = {
 		
    HUN = {transfer_state = 287
           transfer_state = 457
-		  transfer_state = 456
+		  transfer_state = 494
+		 }
+
+   CRO = {transfer_state = 492
+          transfer_state = 459
+		  transfer_state = 458
+		  transfer_state = 455
 		 }
 		 
 		 ROM = { remove_state_core = 287 }   #Prevents Hungary from returning Transylvania  -Thrasymachus
@@ -37,32 +43,38 @@ country_event = {
 		limit = {country_exists = BUL }
 		BUL = {
 			transfer_state = 463
-			transfer_state = 187
+			transfer_state = 496
 			transfer_state = 186
+			transfer_state = 294
 		}
    }
    else = {
 		ITA = {
 			transfer_state = 463
-			transfer_state = 187
+			transfer_state = 496
 			transfer_state = 186
+			
 		}
    }
-   ITA = {transfer_state = 458
-          transfer_state = 455
-		  transfer_state = 459
-		  transfer_state = 462
-		  transfer_state = 461
-		  transfer_state = 460
-		  transfer_state = 188
-		  transfer_state = 189
-		  transfer_state = 191
-		  
+   ITA = {
+   transfer_state = 493
+   transfer_state = 490
+   transfer_state = 462
+   transfer_state = 495
+   transfer_state = 188
+   transfer_state = 189
+   transfer_state = 191
+   
 
 		  
 		  }
     GER = {
 		transfer_state = 454
+		transfer_state = 461
+		transfer_state = 460 
+		transfer_state = 456
+		transfer_state = 187
+		transfer_state = 497
 		if={
 			limit={
 				192={
