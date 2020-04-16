@@ -386,7 +386,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 0.2
 		}
@@ -510,7 +510,7 @@ focus_tree = {
 		prerequisite = {focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -576,7 +576,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -625,7 +625,7 @@ focus_tree = {
 		prerequisite = {focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -734,6 +734,8 @@ focus_tree = {
 		}
 		available = {
 			
+				num_of_factories > 75
+			
 		}
 		x = 0
 		y = 1
@@ -798,15 +800,77 @@ focus_tree = {
 
 	#### END ####
 
+	focus = {
+		id = FRA_begin_rearmament
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 13
+		y = 0
+		offset = {
+			x = 0
+			y = 0
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_support > 0.12
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+		
+			}
+		}
+	}
 
 	focus = {
 		id = FRA_defensive_focus
 		icon = GFX_goal_generic_defence
 		mutually_exclusive = { focus = FRA_aggressive_focus }
-		x = 12
-		y = 0
-		cost = 10
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = FRA_begin_rearmament }
 		available_if_capitulated = yes
+		relative_position_id = FRA_begin_rearmament
 		ai_will_do = {
 			factor = 1
 		}
@@ -1009,10 +1073,12 @@ focus_tree = {
 		id = FRA_aggressive_focus
 		icon = GFX_goal_generic_major_war
 		mutually_exclusive = { focus = FRA_defensive_focus }
-		x = 14
-		y = 0
-		cost = 10
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = FRA_begin_rearmament
 		available_if_capitulated = yes
+		prerequisite = { focus = FRA_begin_rearmament }
 		ai_will_do = {
 			factor = 0.2
 		}
@@ -2233,7 +2299,8 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Charles de Gaulle"}
+			has_capitulated = yes
+			has_legitimacy > 40
 		}
 		
 		bypass = {
@@ -2262,7 +2329,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			
+			has_capitulated = yes
 			has_country_leader = { ruling_only = yes name = "Charles de Gaulle"}
 		}
 		
@@ -2281,37 +2348,10 @@ focus_tree = {
 				add_manpower = 100000
 				add_legitimacy = 15
 			}
-			
 			add_equipment_to_stockpile = {
-				type = convoy
-				amount = 200
+				type = infantry_equipment
+				amount = 10000
 			}
-			add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 2500
-         producer = FRA
-}
-add_equipment_to_stockpile = {
-         type = anti_air_equipment_1
-         amount = 1000
-         producer = FRA
-}
-add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 25000
-         producer = FRA
-}
-
-add_equipment_to_stockpile = {
-         type = motorized_equipment_1
-         amount = 500
-         producer = FRA
-}
-add_equipment_to_stockpile = {
-         type = anti_tank_equipment
-         amount = 800
-         producer = FRA
-}		
 		}
 	}
 	focus = {
@@ -2368,7 +2408,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2407,7 +2447,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2446,7 +2486,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2492,7 +2532,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2530,7 +2570,7 @@ add_equipment_to_stockpile = {
 			factor = 1
 		}
 		available = {
-
+			has_legitimacy > 90
 		}
 		
 		bypass = {
@@ -2557,7 +2597,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_appeal_to_the_french_nation
 		
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}

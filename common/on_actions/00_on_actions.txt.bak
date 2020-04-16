@@ -95,7 +95,11 @@ on_actions = {
 				goto_state = FROM
 				set_country_flag = achievement_has_dropped_nuke
 			}
-			
+			if = {
+				limit = {
+					FROM = { state = 483 }					
+				}
+				set_country_flag = achievement_has_nuked_california
 			}
 			if = {
 				limit = {
@@ -421,6 +425,14 @@ on_actions = {
 				}
 				set_global_flag = fall_of_poland
 				retire_country_leader = yes
+			}if = {
+				limit = { 
+					original_tag = FRA
+				}
+				set_global_flag = achievement_france_surrender
+				set_global_flag = fall_of_france
+				GER = { country_event = {id=france.14 days=3} }
+				FRA = { country_event = {id=france.31 days=20} }
 			}
 			if = {
 				limit = {
@@ -506,24 +518,6 @@ on_actions = {
 	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
 	on_state_control_changed = {
 		effect = {
-			if = {
-				limit = {
-				NOT = {FRA ={has_country_flag = lel}}
-			      	count_triggers = {
-                    amount = 5
-                   112 = { is_controlled_by = GER}
-                   109 = { is_controlled_by = GER}
-				   114 = { is_controlled_by = GER}
-				   110 = { is_controlled_by = GER}
-				   116 = { is_controlled_by = GER}
-                   113 = { is_controlled_by = GER}
-				   111 = { is_controlled_by = GER}
-				   118 = { is_controlled_by = GER}
-				   117 = { is_controlled_by = GER}
-}
-				}
-				country_event = {days = 9 id=france.13}
-			}
 			if = {
 				limit = {
 					OR = {

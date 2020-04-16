@@ -1,7 +1,27 @@
 ideas = {
 
 	country = {
+        
+		FRA_snakemodding = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
 
+			allowed_civil_war = {
+				tag = FRA #stays with main country
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factor = 10
+				production_factory_efficiency_gain_factor = 10
+				
+			}
+		}
+		
 		FRA_full_employment = {
 			picture = generic_production_bonus
 			allowed = {
@@ -17,6 +37,25 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = -0.25
+			}
+		}
+		FRA_no_training_queue = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = FRA
+				
+			}
+			cancel={NOT={amount_manpower_in_deployment_queue > 10}}
+			allowed_civil_war = {
+				tag = FRA #stays with main country
+			}
+			removal_cost = -1
+			on_remove={set_equipment_fraction = 0}
+			modifier = {
+				industrial_capacity_factory = -0.5
+				consumer_goods_factor = 0.5
+				stability_factor = -0.5
+				training_time_factor = 1000
 			}
 		}
 		FRA_worker_shortage = {
@@ -54,6 +93,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
+				
 			}
 		}
 		FRA_inefficient_economy_2 = {
@@ -1102,7 +1142,6 @@ ideas = {
 			}
 			modifier = {
 				conscription = -0.003
-				war_support_factor = -0.05
 			}
 		}
 
@@ -1124,7 +1163,7 @@ ideas = {
 			modifier = {
 				political_power_cost = 0.4
 				stability_factor = -0.10
-				surrender_limit = -0.5
+
 			}
 		}
 
@@ -1184,7 +1223,7 @@ ideas = {
 			picture = generic_wall_line
 			
 			modifier = {
-				
+			    surrender_limit = 0.5
 				max_planning = 0.25
 				planning_speed = -0.25
 				conversion_cost_civ_to_mil_factor=2
@@ -1432,6 +1471,42 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 				stability_factor = 0.1
 				consumer_goods_factor = 0.05
+			}
+		}
+
+		FRA_Civs = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = -0.4
+				production_speed_industrial_complex_factor = 0.2
+			}
+		}
+
+		Phoney_War = {
+			picture = chi_incompetent_officers
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
 			}
 		}
 

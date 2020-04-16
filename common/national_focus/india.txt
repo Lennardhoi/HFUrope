@@ -537,7 +537,7 @@ focus_tree = {
 				}
 	
 				random_owned_controlled_state = {
-					prioritize = { 439 }
+					prioritize = { 271 }
 					create_unit = {
 						division = "name = \"Red Eagles Division\" division_template = \"Red Eagles Division\" start_experience_factor = 0.75" 
 						owner = RAJ
@@ -769,7 +769,7 @@ focus_tree = {
 				}
 	
 				random_owned_controlled_state = {
-					prioritize = { 439 }
+					prioritize = { 271 }
 					create_unit = {
 						division = "name = \"1. Gorkha Rifles\" division_template = \"Gorkha Rifles\" start_experience_factor = 1.0" 
 						owner = RAJ
@@ -894,7 +894,7 @@ focus_tree = {
 						}
 		
 					random_owned_controlled_state = {
-							prioritize = { 439 }
+							prioritize = { 271 }
 							create_unit = { 
 								division = "name = \"1. Sikh Regiment\" division_template = \"Sikh Regiment\" start_experience_factor = 0.5" 
 								owner = RAJ
@@ -1405,21 +1405,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			483 = {
+			273 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			483 = {
+			276 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			483 = {
+			272 = {
 				set_building_level = {
 					type = air_base
 					level = 10
@@ -1566,7 +1566,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			483 = {
+			271 = {
 				add_resource = {
 					type = oil
 					amount = 20
@@ -1857,11 +1857,11 @@ focus_tree = {
 
 		completion_reward = {
 			
-					483={set_building_level = {
+					278={set_building_level = {
 						type = naval_base
 						level = 20
 						instant_build = yes
-						province = 11929
+						province = 200
 					}}
 				
 		}
