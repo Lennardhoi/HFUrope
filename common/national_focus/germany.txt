@@ -62,30 +62,48 @@ focus_tree = {
 			183 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					custom_effect_tooltip = GER_west_wall_forts
+					custom_effect_tooltip = "Adds level 3 forts to every province on the French border"
 					hidden_effect = {
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 11640
+							province = 8807
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 6712
+							province = 4438
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 6542
+							province = 8696
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 3530
+							province = 8640
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4015
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 5557
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 5514
 							instant_build = yes
 						}
 					}
@@ -96,35 +114,39 @@ focus_tree = {
 				custom_effect_tooltip = GER_west_wall_tt
 			}
 			181 = {
-				custom_effect_tooltip = GER_west_wall_forts
-			}
-			hidden_effect = {
-				181 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = "Adds level 3 forts to every province on the French border"
+					hidden_effect = {
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 3558
+							province = 8448
 							instant_build = yes
 						}
 						
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 563
+							province = 8462
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 11531
+							province = 8427
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 9575
+							province = 8411
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4629
 							instant_build = yes
 						}
 					}
@@ -363,25 +385,6 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = GER_flak_36 }
 		available = {
-			any_country = {
-				OR = {
-					tag = GER
-					is_in_faction_with = GER
-				}
-				OR = {
-					has_full_control_of_state = 98
-					has_full_control_of_state = 315
-					has_full_control_of_state = 325
-					has_full_control_of_state = 331
-					has_full_control_of_state = 337
-					has_full_control_of_state = 349
-					has_full_control_of_state = 352
-					has_full_control_of_state = 403
-					has_full_control_of_state = 366
-					has_full_control_of_state = 372
-					has_full_control_of_state = 378
-				}
-			}
 		}
 		x = 0
 		y = 2
@@ -394,7 +397,6 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = GER_ostwall_idea
 			custom_effect_tooltip = GER_ostwall_forts
-			custom_effect_tooltip = GER_ostwall_forts_2
 			if = {
 				limit = { 
 					any_country = {
@@ -410,7 +412,10 @@ focus_tree = {
 						add_building_construction = {
 							type = bunker
 							level = 2
-							province = 4640
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -423,21 +428,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 315
+						has_full_control_of_state = 164 
 					}
 				}
 				hidden_effect = {
-					315 = {
+					164 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 415
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3310
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -450,27 +452,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 325 
+						has_full_control_of_state = 168 
 					}
 				}
 				hidden_effect = {
-					325 = {
+					168 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 3333
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 11259
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 9386
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -483,33 +476,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 331 
+						has_full_control_of_state = 265 
 					}
 				}
 				hidden_effect = {
-					331 = {
+					265 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 323
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 11241
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 11220
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3331
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -522,21 +500,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 337 
+						has_full_control_of_state = 258 
 					}
 				}
 				hidden_effect = {
-					337 = {
+					258 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 9289
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3378
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -549,15 +524,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 349 
+						has_full_control_of_state = 262 
 					}
 				}
 				hidden_effect = {
-					349 = {
+					262 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 6373
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -570,27 +548,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 352 
+						has_full_control_of_state = 29 
 					}
 				}
 				hidden_effect = {
-					352 = {
+					29 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 6319
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 9249
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3507
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -603,33 +572,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 403 
+						has_full_control_of_state = 296 
 					}
 				}
 				hidden_effect = {
-					403 = {
+					296 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 9568
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3543
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 525
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3494
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -642,93 +596,18 @@ focus_tree = {
 							tag = GER
 							is_in_faction_with = GER
 						}
-						has_full_control_of_state = 366 
+						has_full_control_of_state = 292 
 					}
 				}
 				hidden_effect = {
-					366 = {
+					292 = {
 						add_building_construction = {
 							type = bunker
-							level = 3
-							province = 11454
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 488
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3468
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 6478
-							instant_build = yes
-						}
-					}
-				}
-			}
-			if = {
-				limit = { 
-					any_country = {
-						OR = {
-							tag = GER
-							is_in_faction_with = GER
-						}
-						has_full_control_of_state = 372 
-					}
-				}
-				hidden_effect = {
-					372 = {
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 9433
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 11437
-							instant_build = yes
-						}
-					}
-				}
-			}
-			if = {
-				limit = { 
-					any_country = {
-						OR = {
-							tag = GER
-							is_in_faction_with = GER
-						}
-						has_full_control_of_state = 378 
-					}
-				}
-				hidden_effect = {
-					378 = {
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 11405
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 6596
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 11700
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
 							instant_build = yes
 						}
 					}
@@ -2001,7 +1880,7 @@ random_owned_controlled_state = {
 								signal_company = { x = 0 y = 4 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 							}
 							}
-				164 = {
+				172 = {
 					for_loop_effect = {
 					end = 2 				
 					create_unit = {
@@ -3540,7 +3419,7 @@ focus = {
 	}
 	
 	
-		focus = {
+	focus = {
 		id = GER_atlantikwall
 		icon = GFX_focus_generic_coastal_fort
 		prerequisite = { focus = GER_four_year_plan }
@@ -3557,203 +3436,195 @@ focus = {
 			}
 			
 			completion_reward = {
-
-				FRA={ every_owned_state= {
-               limit={is_coastal=yes is_on_continent = europe }
-                add_state_modifier = {
-                    modifier = { max_dig_in=10 }              
-                }}}
-		every_controlled_state= {
-               limit={is_coastal=yes is_on_continent = europe  OR={is_core_of=HOL is_core_of=BEL is_core_of=DEN} ##needs work
-			}
-                add_state_modifier = {
-                    modifier = { max_dig_in=10 }              
-                }}
-            
-				
-						add_ideas = GER_atlantikwall_idea
-						34 = {
-								set_building_level = {
+				FRA={ 
+					every_owned_state= {
+						limit={is_coastal=yes is_on_continent = europe }
+						add_state_modifier = {
+							modifier = { max_dig_in=10 }              
+						}
+					}
+				}
+				every_controlled_state= {
+					limit={
+						is_coastal=yes
+						is_on_continent = europe
+						OR={
+							is_core_of=HOL
+							is_core_of=BEL
+							is_core_of=DEN
+						} ##needs work
+					}
+					add_state_modifier = {
+						modifier = { max_dig_in=10 }              
+					}
+				}
+				add_ideas = GER_atlantikwall_idea
+				34 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						165 = {
-								set_building_level = {
+				}
+				165 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						170 = {
-								set_building_level = {
+				}
+				170 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						171 = {
-								set_building_level = {
+				}
+				171 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						193 = {
-								set_building_level = {
+				}
+				193 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						194 = {
-								set_building_level = {
+				}
+				194 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						195 = {
-								set_building_level = {
+				}
+				195 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						5 = {
-								set_building_level = {
+				}
+				5 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						109 = {
-								set_building_level = {
+				}
+				109 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						110 = {
-								set_building_level = {
+				}
+				110 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						111 = {
-								set_building_level = {
+				}
+				111 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						115 = {
-								set_building_level = {
+				}
+				115 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-								limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						162 = {
-								set_building_level = {
+				}
+				162 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-								120 = {
-								set_building_level = {
+				}
+				120 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-			
-								126 = {
-								set_building_level = {
+				}
+				126 = {
+					set_building_level = {
 						type = coastal_bunker
 						level = 1
 						province = {
 							all_provinces = yes
-		limit_to_coastal = yes
+							limit_to_coastal = yes
 							level < 1
 						}
 					}
-			}
-			
-						if = {
+				}
+				if = {
 					limit = {
 						any_country = {
 							OR = {
@@ -3763,21 +3634,19 @@ focus = {
 							has_full_control_of_state = 236
 						}
 					}
-			
-								236 = {
-								set_building_level = {
-						type = coastal_bunker
-						level = 1
-						province = {
-							all_provinces = yes
-		limit_to_coastal = yes
-							level < 1
+					236 = {
+						set_building_level = {
+							type = coastal_bunker
+							level = 1
+							province = {
+								all_provinces = yes
+								limit_to_coastal = yes
+								level < 1
+							}
 						}
 					}
-			}
-			}
-			
-						if = {
+				}
+				if = {
 					limit = {
 						any_country = {
 							OR = {
@@ -3787,21 +3656,19 @@ focus = {
 							has_full_control_of_state = 235
 						}
 					}
-			
-								235 = {
-								set_building_level = {
-						type = coastal_bunker
-						level = 1
-						province = {
-							all_provinces = yes
-		limit_to_coastal = yes
-							level < 1
+					235 = {
+						set_building_level = {
+							type = coastal_bunker
+							level = 1
+							province = {
+								all_provinces = yes
+								limit_to_coastal = yes
+								level < 1
+							}
 						}
 					}
-			}
-			}
-			
-						if = {
+				}
+				if = {
 					limit = {
 						any_country = {
 							OR = {
@@ -3811,21 +3678,18 @@ focus = {
 							has_full_control_of_state = 234
 						}
 					}
-			
-								234 = {
-								set_building_level = {
-						type = coastal_bunker
-						level = 1
-						province = {
-							all_provinces = yes
-		limit_to_coastal = yes
-							level < 1
+					234 = {
+						set_building_level = {
+							type = coastal_bunker
+							level = 1
+							province = {
+								all_provinces = yes
+								limit_to_coastal = yes
+								level < 1
+							}
 						}
 					}
+				}
 			}
-			}
-			
-			}
-			
-			}
+		}
 	

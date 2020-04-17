@@ -873,13 +873,18 @@ date > 1941.6.1
 		
 		completion_reward = {
 			203 = {
-								set_building_level = {
-						type = bunker
-						level = 10
-						province = 3780
-					}
+				set_building_level = {
+					type = bunker
+					level = 10
+					province = 9198
+				}
+				set_building_level = {
+					type = bunker
+					level = 10
+					province = 2417
+				}
 		
-		}
+			}
 		}
 		}
 		
@@ -1125,7 +1130,7 @@ date > 1941.6.1
 					add_building_construction = {
 						type = naval_base
 						level = 4
-						province = 11954
+						province = 10558
 						instant_build = yes
 					}
 				}

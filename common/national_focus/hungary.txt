@@ -1905,7 +1905,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					}
 				}	
 				random_owned_controlled_state = {
-					prioritize = { 43 }
+					prioritize = { 198 }
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					create_unit = {
 						division = "name = \"1. Light Division\" division_template = \"Light Division\" start_experience_factor = 1.0" 
