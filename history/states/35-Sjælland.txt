@@ -1,6 +1,6 @@
 state= {
 	id=35
-	name="SjÃ¦lland"
+	name="STATE_37"
 	manpower = 2034114
 
 	state_category = large_city
@@ -12,7 +12,7 @@ state= {
 			6151 20 
 		}
 		victory_points = {
-			7136 5
+			4020 5
 		}
 		buildings = {
 			infrastructure = 8
@@ -23,7 +23,7 @@ state= {
 			6151 = {
 				naval_base = 8
 			}
-			7136 = {
+			4020 = {
 				naval_base = 3
 			}
 			1238 = {

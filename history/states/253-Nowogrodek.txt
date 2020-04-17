@@ -6,6 +6,9 @@ state={
 		victory_points = {
 			5909 1
 		}
+		victory_points = {
+			7488 3
+		}
 		owner = POL
 		buildings = {
 			infrastructure = 5
