@@ -2,7 +2,7 @@
 state={
 	id=356
 	#name="STATE_287"
-	name="New state added"
+	name="Voronezh"
 	manpower = 567983
 	
 	state_category = town

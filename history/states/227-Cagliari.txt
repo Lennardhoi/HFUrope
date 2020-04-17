@@ -1,7 +1,7 @@
 state=
 {
 	id=227
-	name="Southern Sardinia"
+	name="Cagliari"
 	manpower = 991922
 	
 	state_category = town

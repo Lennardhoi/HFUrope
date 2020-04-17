@@ -1,7 +1,7 @@
 state=
 {
 	id=454
-	name="STATE_102"
+	name="Maribor"
 	manpower = 641132
 	
 	state_category = large_town

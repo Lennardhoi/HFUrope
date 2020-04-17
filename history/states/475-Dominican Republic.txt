@@ -1,6 +1,6 @@
 state={
 	id=475
-	name="STATE_594"
+	name="Dominican Republic"
 	provinces={
 		2555 3269 3590 3751 4851 10448 10517 
 	}

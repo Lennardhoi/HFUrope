@@ -1,6 +1,6 @@
 state={
 	id=474
-	name="STATE_593"
+	name="Haiti"
 	provinces={
 		4902 10599 
 	}
