@@ -2400,6 +2400,11 @@ available = {
 
 		}	
 		completion_reward = {
+			add_resource = {
+    				type = rubber
+   				amount = -25
+    				state = 172
+			}
 			hidden_effect = {
 				GER = {
 					add_intel = {
@@ -2413,7 +2418,6 @@ available = {
 				SOV = { add_ideas = war_in_our_neigbour }
 			}
 			army_experience=70
-			remove_resource_rights = 724
 			
 			add_named_threat = { threat = 5 name = GER_danzig_or_war }
 				

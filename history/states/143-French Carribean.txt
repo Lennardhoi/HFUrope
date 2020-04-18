@@ -5,6 +5,9 @@ state={
 		10818  10903 11543 11537
 	}
 manpower = 444290
+resources={
+		chromium=90
+	}
 state_category = rural
 history={
 owner = FRA
