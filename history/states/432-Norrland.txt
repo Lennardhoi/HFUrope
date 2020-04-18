@@ -1,6 +1,6 @@
 state={
 	id=432
-	name="Norrland"
+	name="STATE_38"
 	manpower=1
 	resources={
 		#steel=40 # was: 62

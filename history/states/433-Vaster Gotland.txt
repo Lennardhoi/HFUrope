@@ -1,7 +1,7 @@
 
 state={
 	id=433
-	name="VÃ¤stergÃ¶tland"
+	name="STATE_140"
 	manpower = 1
 	state_category = city
 	
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = SWE
 		victory_points = {
-			11114 1 
+			4317 1 
 		}
 		victory_points = {
 			2369 10 

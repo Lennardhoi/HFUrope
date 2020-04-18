@@ -1,6 +1,6 @@
 state={
 	id=451
-	name="Zulia"
+	name="STATE_489"
 	provinces={
 		130 177 1125 2136 
 	}
@@ -16,16 +16,9 @@ state={
 		
 		add_core_of = VEN
 		victory_points = {
-			177 5 
+			1125  1
 		}
-				buildings = {
-			infrastructure = 7
-			
-			177 = {
-				naval_base = 1
-			}
-			
-		}
+				
 	}
 	buildings_max_level_factor=1.000
 }
