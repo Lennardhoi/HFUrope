@@ -874,7 +874,9 @@ ideas = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                    			original_TAG = HUN 					
+                    			original_TAG = HUN
+								original_TAG = CRO
+								
 				}
 			}
 			available = {
@@ -921,7 +923,8 @@ GER_ckd = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                   			original_TAG = HUN 					
+                   			original_TAG = HUN 	
+							original_TAG = CRO
 				}
 			}
 			available = {
@@ -956,7 +959,8 @@ krupp_tank = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                    			original_TAG = HUN 					
+                    			original_TAG = HUN 			
+								original_TAG = CRO
 				}
 			}
 						
@@ -1012,7 +1016,8 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                  			original_TAG = HUN 					
+                  			original_TAG = HUN 		
+							original_TAG = CRO
 				}
 			}
 
@@ -1069,7 +1074,8 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                   			original_TAG = HUN 					
+                   			original_TAG = HUN 	
+							original_TAG = CRO
 				}
 			}
 			available = {
@@ -1116,7 +1122,8 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                    			original_TAG = HUN 					
+                    			original_TAG = HUN 	
+								original_TAG = CRO
 				}
 			}
 		
@@ -1148,7 +1155,8 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM 
-                    			original_TAG = HUN 					
+                    			original_TAG = HUN 		
+								original_TAG = CRO
 				}
 			}
 
@@ -1196,7 +1204,9 @@ equipment_bonus = {
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM 
-                    			original_TAG = HUN 					
+                    			original_TAG = HUN 	
+								original_TAG = CRO
+			
 				}
 			}
 			
@@ -1251,7 +1261,9 @@ cost = 100
 					original_TAG = SPR 
 					original_TAG = BUL
 					original_TAG = ROM
-                   			original_TAG = HUN 					
+                   			original_TAG = HUN 	
+							original_TAG = CRO
+							
 				}
 			}
 			

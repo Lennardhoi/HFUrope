@@ -88,9 +88,60 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CRO_mountain_brigades
-				bonus = 0.75
-				uses = 1
+				bonus = 1
+				uses = 2
 				category = mountaineers_tech
+					custom_effect_tooltip = ROM_mountain_artillery_tech_tt
+			hidden_effect = { set_technology = { mountain_gun = 1 } }
+			}
+		}
+	}
+	
+	focus = {
+		id = CRO_special_forces
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = CRO_mountain_brigades }
+	
+		relative_position_id = CRO_officer_training		
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers3
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CRO_develop_tanks
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = CRO_special_forces }
+	
+		relative_position_id = CRO_officer_training		
+		x = 0
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
 			}
 		}
 	}
@@ -128,110 +179,52 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CRO_army_maneuvers
-				bonus = 0.5
-				uses = 1
+				bonus = 1
+				uses = 2
 				category = land_doctrine
 			}
 		}
 	}
 
-	focus = {
-		id = CRO_supremacy_of_offense
-		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = CRO_army_maneuvers }
-		mutually_exclusive = { focus = CRO_supremacy_of_defense }
-		x = -2
-		y = 1
-		relative_position_id = CRO_army_maneuvers
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 30
-		}
-
-		available = {
-			OR = {
-				has_tech = mobile_warfare
-				has_tech = superior_firepower
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CRO_supremacy_of_offense
-				bonus = 0.5
-				uses = 2
-				category = cat_mobile_warfare
-				category = cat_superior_firepower
-			}
-		}
-	}
-
-	focus = {
-		id = CRO_supremacy_of_defense
-		icon = GFX_goal_generic_position_armies
-		prerequisite = { focus = CRO_army_maneuvers }
-		mutually_exclusive = { focus = CRO_supremacy_of_offense }
-		x = 0
-		y = 1
-		relative_position_id = CRO_army_maneuvers
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 60
-		}
-
-		available = {
-			OR = {
-				has_tech = grand_battle_plan
-				has_tech = mass_assault
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CRO_supremacy_of_defense
-				bonus = 0.5
-				uses = 2
-				category = cat_grand_battle_plan
-				category = cat_mass_assault
-			}
-		}
-	}
-
-	focus = {
-		id = CRO_artillery_regiments
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = CRO_supremacy_of_offense focus = CRO_supremacy_of_defense }
-		x = -1
+focus = {
+		id = CRO_proffesional_army
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = CRO_officer_training }
+		x = 2
 		y = 2
-		relative_position_id = CRO_army_maneuvers
+		relative_position_id = CRO_officer_training
+
+		cost = 10
+
+		
+
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CRO_army_maneuvers
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = CRO_prepare_for_war
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = CRO_officer_training }
+		x = 2
+		y = 3
+		relative_position_id = CRO_officer_training
 
 		cost = 10
 
@@ -256,9 +249,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = YUG_artillery_regiments
+			add_offsite_building = { type = arms_factory level = 2 }
 		}
-	}	
+	}
 	
 	focus = {
 		id = CRO_small_arms
@@ -293,8 +286,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CRO_small_arms
-				bonus = 0.50
-				uses = 1
+				bonus = 1
+				uses = 2
 				category = infantry_weapons
 			}
 		}
@@ -333,8 +326,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CRO_domestic_artillery_production
-				bonus = 0.50
-				uses = 1
+				bonus = 1
+				uses = 2
 				category = artillery
 			}
 		}
@@ -373,187 +366,18 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CRO_anti_tank_defenses
-				bonus = 0.75
-				uses = 1
+				bonus = 1
+				uses = 2
 				category = cat_anti_tank
 			}
 		}
 	}	
-	focus = {
-		id = CRO_motorization_effort
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = CRO_army_maneuvers }
-		bypass = { has_tech = motorised_infantry }
-		relative_position_id = CRO_army_maneuvers
-		x = 2
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 0.75
-				technology = motorised_infantry
-			}
-		}
-	}	
-	focus = {
-		id = CRO_armored_cavalry
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = CRO_motorization_effort }
-		x = 4
-		y = 3
-		relative_position_id = CRO_officer_training
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 40
-			modifier = {
-				factor = 1.5
-				is_in_faction_with = GER
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = YUG_mechanized_focus
-				bonus = 0.5
-				uses = 1
-				category = cat_mechanized_equipment
-			}
-		}
-	}
-
-	focus = {
-		id = CRO_tank_conversions
-		icon = GFX_goal_generic_production2
-		prerequisite = { focus = CRO_armored_cavalry }
-		mutually_exclusive = { focus = CRO_modern_tanks }
-		x = 2
-		y = 4
-		relative_position_id = CRO_officer_training
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				is_in_faction_with = GER
-			}
-		}
-
-		available = {
-			has_dlc = "Death or Dishonor"
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_ideas = YUG_idea_tank_conversions
-		}
-	}
-
-	focus = {
-		id = CRO_modern_tanks
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = CRO_armored_cavalry }
-		mutually_exclusive = { focus = CRO_tank_conversions }
-		x = 0
-		y = 4
-		relative_position_id = CRO_officer_training
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-			modifier = {
-				factor = 3
-				is_in_faction_with = GER
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = YUG_modern_tanks
-				bonus = 0.5
-				uses = 1
-				category = armor
-			}
-		}
-	}	
 	
-	focus = {
-		id = CRO_special_forces
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = CRO_anti_tank_defenses }
-		prerequisite = { focus = CRO_artillery_regiments }
-		relative_position_id = CRO_officer_training		
-		x = -2
-		y = 4
-		cost = 10
+	
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 0.5
-				uses = 1
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = motorised_infantry
-				technology = tech_mountaineers3
-			}
-		}
-	}
+	
+
 
 
 
@@ -765,13 +589,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = New_economy
+		id = CRO_war_economy
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = CRO_production_effort_3 }
 		prerequisite = { focus = CRO_construction_effort_3 }
 		relative_position_id = CRO_production_effort_3
 		available = {
-			date > 1939.1.1	
+			CRO = {controls_state = 455 }
 		}
 		x = -1
 		y = 1
@@ -786,24 +610,18 @@ focus_tree = {
 
 		
 
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-		}		
+			
 
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 4 }
 			add_offsite_building = { type = industrial_complex level= 4 }
+			add_ideas = CRO_war_production
 		}
 	}
 
 	focus = {
 		id = CRO_Science
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_research
 		prerequisite = { focus = CRO_industrial_effort }
 		relative_position_id = CRO_industrial_effort
 		
@@ -814,86 +632,12 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = infrastructure_effort_tt
-				all_owned_state = {			
-					free_building_slots = {
-						building = infrastructure
-						size < 1
-					}
-				}
-			}
-		}
+		
 
-		complete_tooltip = {
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-		}
+		
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 1
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
+			add_research_slot = 1
 		}
 	}
 
@@ -930,8 +674,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CRO_nuclear_effort
-		icon = GFX_focus_wonderweapons
+		id = CRO_rockets
+		icon = GFX_focus_rocketry
 		prerequisite = { focus = CRO_Science }
 		relative_position_id = CRO_Science
 		x = -2
@@ -941,20 +685,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = GER_rocketry_idea
 			add_tech_bonus = {
-				name = nuclear_bonus
-				ahead_reduction = 0.5
-				category = nuclear
+				name = GER_rocketry_focus
+				bonus = 1.0
+				uses = 2
+				category = rocketry
 			}
+			
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
+		
 	}
 
 	focus = {
@@ -988,20 +729,15 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = secret_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = electronics
-				category = rocketry
+				category = radar_tech
+				
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
+		
 	}
 
 	focus = {
@@ -1016,7 +752,75 @@ available = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 120
+			custom_effect_tooltip = "Croatian soldiers and officers will rise up against the yugoslavians."
+			
+	        add_political_power = 150
+			
+			hidden_effect={
+				
+                     CRO = {set_province_controller = 1595 }
+
+
+
+
+					division_template = {
+							name = "Home gaurd" # Rifle Division
+							
+
+							regiments = {
+								infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+	artillery_brigade = { x = 3 y = 0 }
+	    artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+
+							}
+							support = {
+								recon = { x = 0 y = 0 } 		
+								engineer = { x = 0 y = 1 } 	
+								artillery = { x = 0 y = 2 } 
+								logistics_company = { x = 0 y = 3 }
+								signal_company = { x = 0 y = 4 }	
+							}
+							}
+				455 = {
+					for_loop_effect = {
+					end = 5 				
+					create_unit = {
+						division = "name = \"Home gaurd\" division_template = \"Home gaurd\" start_experience_factor = 1.0" 
+						owner = CRO
+						}
+					}}
+					
+					491 = {
+					for_loop_effect = {
+					end = 2 				
+					create_unit = {
+						division = "name = \"Home gaurd\" division_template = \"Home gaurd\" start_experience_factor = 1.0" 
+						owner = CRO
+						}
+					}}
+			}
+		
+		
+		army_experience = 100
+
+		
+		
+	
 		}
 	}
 
@@ -1277,19 +1081,21 @@ available = {
 
 
 	focus = {
-		id = CRO_ideological_fanaticism_ustasha
+		id = CRO_invite_serbian_officers
 		icon = GFX_goal_CRO_ustasha_fanaticism
-		prerequisite = { focus = CRO_paramilitarism }
-		prerequisite = { focus = CRO_integrate_muslim_croats_focus }
-		relative_position_id = CRO_political_effort
-		x = 3
-		y = 5
+		prerequisite = { focus = CRO_anti_tank_defenses focus = CRO_develop_tanks focus = CRO_prepare_for_war  }
+		relative_position_id = CRO_officer_training
+		available = {
+			CRO = {controls_state = 455 }
+		}
+		x = 0
+		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
+			add_ideas = YUG_idea_serbian_general_staff
 
 		}
 	}	

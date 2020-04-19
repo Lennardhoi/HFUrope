@@ -117,6 +117,26 @@ ideas = {
 				conscription_factor = 0.1
 			}
 		}
+		CRO_war_production = {
+
+			picture = generic_local_self_management
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+
 	}
 
 	political_advisor = {
@@ -159,7 +179,7 @@ ideas = {
 					}
 				}
 			}
-			traits = { backroom_backstabber }
+			traits = { war_industrialist }
 		}
 		CRO_ante_vokic = {
 
@@ -227,7 +247,7 @@ ideas = {
 				original_tag = CRO
 			}
 
-			traits = { army_chief_offensive_3 }
+			traits = { army_chief_offensive_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -316,22 +336,7 @@ ideas = {
 				factor = 1
 			}
 		}
-		CRO_djuro_jakcin2 = {
-
-			allowed = {
-				original_tag = CRO
-			}
-			available = {
-				NOT = {
-					has_idea = CRO_djuro_jakcin
-				}
-			}
-			traits = { navy_screen_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
+	
 	}
 
 
@@ -343,7 +348,7 @@ ideas = {
 				original_tag = CRO
 			}
 
-			traits = { army_artillery_2 }
+			traits = { army_commando_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -396,23 +401,7 @@ ideas = {
 			}
 		}
 
-		CRO_djuro_jakcin = {
-		ledger = army
-
-			allowed = {
-				original_tag = CRO
-			}
-			available = {
-				NOT = {
-					has_idea = CRO_djuro_jakcin2
-				}
-			}
-			traits = { navy_screen_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		
 	}
 
 	theorist = {
@@ -432,36 +421,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		CRO_ivan_crnkovic = {
-		ledger = army
+		
 
-			picture = generic_navy_europe_2
-
-			allowed = {
-				original_tag = CRO
-			}
-
-			research_bonus = {
-				naval_doctrine = 0.07
-			}
-
-			traits = { naval_theorist }
-		}
-
-		CRO_mihajlo_tomasic = {
-		ledger = army
-
-			picture = generic_air_europe_2
-
-			allowed = {
-				original_tag = CRO
-			}
-
-			research_bonus = {
-				naval_doctrine = 0.07
-			}
-
-			traits = { naval_theorist }
-		}
-	}
+		
 }
