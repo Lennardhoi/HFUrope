@@ -3577,7 +3577,7 @@
 3576;195;142;204;land;false;forest;1
 3577;247;112;203;land;false;plains;1
 3578;248;106;228;land;false;plains;1
-3579;203;178;149;land;true;hills;1
+3579;203;178;149;land;false;hills;1
 3580;221;217;193;land;false;forest;1
 3581;250;188;135;land;false;forest;1
 3582;182;146;190;land;false;hills;1
@@ -3594,7 +3594,7 @@
 3593;195;152;164;land;false;desert;1
 3594;192;138;188;land;false;plains;1
 3595;243;246;222;land;false;plains;1
-3596;206;118;236;land;true;mountain;1
+3596;206;118;236;land;false;mountain;1
 3597;245;147;219;land;true;plains;1
 3598;213;244;160;land;false;desert;1
 3599;200;174;162;land;true;forest;1
@@ -4760,7 +4760,7 @@
 4759;215;251;159;land;false;plains;1
 4760;215;179;165;land;false;plains;1
 4761;170;124;249;land;false;mountain;1
-4762;238;79;216;land;false;mountain;1
+4762;238;79;216;land;true;mountain;1
 4763;208;236;90;land;false;forest;1
 4764;197;162;242;land;false;mountain;1
 4765;157;141;215;land;false;hills;1
@@ -9427,7 +9427,7 @@
 9426;249;174;129;land;false;plains;1
 9427;176;205;172;land;false;desert;1
 9428;169;225;201;land;false;mountain;1
-9429;163;222;174;land;true;hills;1
+9429;163;222;174;land;false;hills;1
 9430;93;212;208;land;false;plains;1
 9431;149;159;202;land;false;plains;1
 9432;198;156;180;land;false;plains;1
@@ -9678,7 +9678,7 @@
 9677;240;194;188;land;false;mountain;1
 9678;157;178;198;land;false;plains;1
 9679;203;176;153;land;false;hills;1
-9680;90;212;205;land;true;plains;1
+9680;90;212;205;land;false;plains;1
 9681;96;240;192;land;false;mountain;1
 9682;162;180;160;land;false;plains;1
 9683;179;157;228;land;false;plains;1
@@ -9733,9 +9733,9 @@
 9732;250;213;144;land;false;mountain;1
 9733;254;236;147;land;false;plains;1
 9734;249;233;84;land;true;hills;1
-9735;172;164;238;land;true;urban;1
+9735;172;164;238;land;false;urban;1
 9736;189;192;250;land;true;plains;1
-9737;230;212;60;land;true;mountain;1
+9737;230;212;60;land;false;mountain;1
 9738;221;230;235;land;true;plains;1
 9739;135;219;151;land;false;mountain;1
 9740;197;173;172;land;true;hills;1
