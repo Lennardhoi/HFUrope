@@ -36,8 +36,8 @@ country_event = {
      hidden=yes
 	option = { # Agree
 	    FRA ={set_country_flag =lel}
-		EFR ={transfer_state =121}
 		EFR ={inherit_technology = FRA}
+		EFR ={transfer_state =121}
 		FRA = {set_equipment_fraction = 0}	
 	GER = { country_event = {id=france.14 days=2} }
 	}
@@ -62,7 +62,14 @@ country_event = {
 		add_timed_idea={idea=GER_triumph_in_france days=730}
 		
 		
-		
+		GER={
+			set_variable={collabo=has_collaboration@FRA}
+			multiply_variable={collabo=100}
+
+		}
+		FRA={transfer_navy = {
+   			target = VEN
+		}}
 		
 		EFR ={annex_country = { target = FRA transfer_troops = no }}
 	    
@@ -157,7 +164,17 @@ country_event = {
         target = FRA
         type = annex_everything
              }
+	every_owned_state = {
+					limit = {
+						is_core_of = FRA
+					}
+					add_compliance = GER.collabo
+				}	
         }
+	VEN={transfer_navy = {
+   	 target = FRA
+	}}	
+    
 	FRA = {set_equipment_fraction = 0}	
 	FRA = { country_event = {id=france.187 days=10} }
 	GER = { country_event = {id=france.15 days=10} }

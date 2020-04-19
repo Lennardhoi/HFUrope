@@ -511,15 +511,15 @@ on_actions = {
 				NOT = {FRA ={has_country_flag = lel}}
 			      	count_triggers = {
                     amount = 5
-                   112 = { is_controlled_by = GER}
-                   109 = { is_controlled_by = GER}
-				   114 = { is_controlled_by = GER}
-				   110 = { is_controlled_by = GER}
-				   116 = { is_controlled_by = GER}
-                   113 = { is_controlled_by = GER}
-				   111 = { is_controlled_by = GER}
-				   118 = { is_controlled_by = GER}
-				   117 = { is_controlled_by = GER}
+                   		   112 = { NOT={is_controlled_by = FRA}}
+                   		   109 = { NOT={is_controlled_by = FRA}}
+				   114 = { NOT={is_controlled_by = FRA}}
+				   110 = { NOT={is_controlled_by = FRA}}
+				   116 = { NOT={is_controlled_by = FRA}}
+                   		   113 = { NOT={is_controlled_by = FRA}}
+				   111 = { NOT={is_controlled_by = FRA}}
+				   118 = { NOT={is_controlled_by = FRA}}
+				   117 = { NOT={is_controlled_by = FRA}}
 }
 				}
 				country_event = {days = 9 id=france.13}
