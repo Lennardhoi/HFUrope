@@ -8,7 +8,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7195;5535;sea;12224;-1;-1;-1;-1;;denmark
 6351;11486;sea;13615;-1;-1;-1;-1;;denmark
 6351;7287;sea;13615;-1;-1;-1;-1;;denmark
-11846;7287;sea;13615;-1;-1;-1;-1;;denmark
+7278;7287;sea;13615;-1;-1;-1;-1;;denmark
 7287;11486;sea;12224;-1;-1;-1;-1;;denmark
 3320;7278;sea;12224;-1;-1;-1;-1;;denmark
 3320;60;sea;12578;-1;-1;-1;-1;;denmark
