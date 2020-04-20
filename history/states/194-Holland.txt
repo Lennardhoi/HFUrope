@@ -1,9 +1,7 @@
+
 state={
 	id=194
 	name="Holland"
-	provinces={
-		3037 5549 7659 7688 7804 7848 7853 7896 
-	}
 	resources={
 		steel=4.000
 	}
@@ -39,10 +37,10 @@ state={
 
 	}
 
-	state_category=metropolis
-
+	provinces={
+		8072 3037 5549 7659 7688 7804 7848 7853 7896 8006 
+	}
 	manpower=4123000
-
-
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

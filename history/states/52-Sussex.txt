@@ -1,14 +1,16 @@
 
 state={
 	id=52
-	name="STATE_127" # Sussex
-	manpower = 3193383
-	state_category = large_city
+	name="STATE_127"
 
 	history={
 		owner = ENG
-		victory_points = { 731 20 }
-		victory_points = { 5645 15 }
+		victory_points = {
+			731 20 
+		}
+		victory_points = {
+			5645 15 
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 1
@@ -21,21 +23,30 @@ state={
 			731 = {
 				naval_base = 6
 				coastal_bunker = 3
+
 			}
 			5645 = {
 				naval_base = 10
+
 			}
+
 		}
 		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3
 				industrial_complex = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		731 920 2672 5510 5645 5843 7846 7883 7894 7895 7902 7903 7924 7933 7934 7945 8006
+		731 920 2672 5510 5645 5843 7846 7883 7894 7895 7902 7903 7924 7933 7934 7945 
 	}
+	manpower=3193383
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }
