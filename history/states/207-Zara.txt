@@ -3,9 +3,9 @@ state=
 	id=207
 	name="STATE_163"
 	manpower = 18001
-	
+
 	state_category = enclave
-	
+
 	history={
 		owner = ITA
 		buildings = {
@@ -15,8 +15,8 @@ state=
 			}
 		}
 		add_core_of = YUG
-	} 
-	provinces={	
-		5208 9512 11496 
+	}
+	provinces={
+		5208 9512 11496
 	}
 }

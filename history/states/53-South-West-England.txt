@@ -6,10 +6,10 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
-			1317 10 
+			1317 10
 		}
 		victory_points = {
-			8081 1 
+			8081 1
 		}
 		buildings = {
 			infrastructure = 7
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1317 5891 6032 6278 7893 7901 7932 7969 7979 7991 7992 7993 8021 8035 8036 8049 8081 
+		1317 5891 6032 6278 7893 7901 7932 7969 7979 7991 7992 7993 8021 8035 8036 8049 8081
 	}
 	manpower=1221013
 	buildings_max_level_factor=1.000

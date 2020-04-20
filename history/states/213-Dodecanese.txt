@@ -5,14 +5,14 @@ state={
 		10155 11524
 	}
 	manpower = 120000
-	
+
 	state_category = small_island
-	
+
 	history=
 	{
 		owner = ITA
 		victory_points = {
-			10155 1 
+			10155 1
 		}
 		buildings = {
 			infrastructure = 5

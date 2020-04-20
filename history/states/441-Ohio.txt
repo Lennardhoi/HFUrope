@@ -2,7 +2,7 @@ state={
 	id=441
 	name="Ohio"
 	provinces={
-		1812 2407 2473 
+		1812 2407 2473
 	}
 	resources={
 		steel=380 # was: 48.000
@@ -12,7 +12,7 @@ state={
 		rubber=40
 		chromium=100
 	}
-	
+
 	state_category = metropolis
 
 	history={
@@ -26,7 +26,7 @@ state={
 		add_core_of = USA
 
 		victory_points = {
-			1812 10 
+			1812 10
 		}
 	}
 

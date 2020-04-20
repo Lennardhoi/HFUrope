@@ -2,13 +2,13 @@ state={
 	id=5
 	name="STATE_6"
 	provinces={
-		7 1099 2203 2673 3058 3103 3228 4747 7980 7995 8037 8038 8058 8089 8090 8103 8152 
+		7 1099 2203 2673 3058 3103 3228 4747 7980 7995 8037 8038 8058 8089 8090 8103 8152
 	}
 	manpower = 4747700
 	resources={
 		steel=25 # was: 48
 	}
-	
+
 	state_category = metropolis
 
 	history={
@@ -30,9 +30,9 @@ state={
 				naval_base = 8
 			}
 		}
-		
+
 		add_extra_state_shared_building_slots = 2
-		
+
 		add_core_of = BEL
 	}
 	buildings_max_level_factor=1.000

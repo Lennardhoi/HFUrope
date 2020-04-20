@@ -2,10 +2,10 @@ state={
 	id=238
 	name="Gilan"
 	provinces={
-		574 1017 1416 3164 4899 5407 10026 
+		574 1017 1416 3164 4899 5407 10026
 	}
 	manpower = 1314948
-	
+
 	state_category = rural
 
 	history={

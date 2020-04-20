@@ -15,14 +15,14 @@ state={
 
 		}
 		victory_points = {
-			8306 5 
+			8306 5
 		}
 		add_core_of = LUX
 
 	}
 
 	provinces={
-		8115 8306 
+		8115 8306
 	}
 	manpower=294748
 	buildings_max_level_factor=1.000

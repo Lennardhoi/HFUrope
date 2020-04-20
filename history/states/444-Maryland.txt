@@ -2,19 +2,19 @@ state={
 	id=444
 	name="Maryland"
 	provinces={
-		486 1513 1664 3825 
+		486 1513 1664 3825
 	}
 	manpower = 2118394
-	
+
 	state_category = city
 
 	history={
 		owner = USA
 		victory_points = {
-			1513 40 
+			1513 40
 		}
 		victory_points = {
-			3825 5 
+			3825 5
 		}
 		buildings = {
 			infrastructure = 7

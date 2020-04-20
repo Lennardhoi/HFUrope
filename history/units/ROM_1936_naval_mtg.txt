@@ -3,18 +3,18 @@ units= {
 
 	##### NAVAL UNITS #####
 	fleet = {
-		name = "Flota Romania de Mare"			
+		name = "Flota Romania de Mare"
 		naval_base = 5230 # Constanta
-		task_force = {				
-			name = "Flota Romania de Mare"			
+		task_force = {
+			name = "Flota Romania de Mare"
 			location = 5230 # Constanta
 			ship = { name = "NMS Marasti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Marasti Class" } } }
 			ship = { name = "NMS Marasesti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Marasti Class" } } }
 			ship = { name = "NMS Regele Ferdinand" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
 			ship = { name = "NMS Regina Maria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
-		}				
+		}
 	}
-} 
+}
 
 
 
@@ -31,7 +31,7 @@ instant_effect = {
 			creator = "ROM"
 			version_name = "Delfinul Class"
 		}
-		name = "NMS Delfinul" 
+		name = "NMS Delfinul"
 		requested_factories = 1
 		progress = 0.50
 		amount = 1

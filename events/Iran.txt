@@ -5,110 +5,110 @@ country_event = {
 	title = iran.2.t
 	desc = iran.2.d
 	picture = GFX_report_event_soviet_tanks_snow
-	
+
 	is_triggered_only = yes
-	
-option = {
-name = iran.2.a  
 
-white_peace = PER
+	option = {
+		name = iran.2.a
 
-SOV = {
-PER = {set_equipment_fraction = 0}
-annex_country = { target = PER transfer_troops = no }
+		white_peace = PER
 
-240 = { add_core_of = SOV }
-239 = { add_core_of = SOV }
-242 = { add_core_of = SOV }
-241 = { add_core_of = SOV }
-238 = { add_core_of = SOV }
+		SOV = {
+			PER = {set_equipment_fraction = 0}
+			annex_country = { target = PER transfer_troops = no }
 
-
-		
-	
-}
+			240 = { add_core_of = SOV }
+			239 = { add_core_of = SOV }
+			242 = { add_core_of = SOV }
+			241 = { add_core_of = SOV }
+			238 = { add_core_of = SOV }
 
 
-}
-	
+
+
+		}
+
+
 	}
-	
-	
-	
+
+}
+
+
+
 country_event = {
 	id = iran.3
 	title = iran.3.t
 	desc = iran.3.d
 	picture = GFX_report_event_soviet_tanks_snow
-	
+
 	is_triggered_only = yes
-	
-option = {
-name = iran.3.a  
-	
 
-ENG = {
-transfer_state = 247
-transfer_state = 243
-transfer_state = 244
-transfer_state = 245
-transfer_state = 248
-transfer_state = 246
-transfer_state = 249
-247 = {
-	add_compliance = 100
-}
-243 = {
-	add_compliance = 100
-}
-244 = {
-	add_compliance = 100
-}
-245 = {
-	add_compliance = 100
-}
-248 = {
-	add_compliance = 100
-}
-246 = {
-	add_compliance = 100
-}
-249 = {
-	add_compliance = 100
-}
+	option = {
+		name = iran.3.a
 
 
+		ENG = {
+			transfer_state = 247
+			transfer_state = 243
+			transfer_state = 244
+			transfer_state = 245
+			transfer_state = 248
+			transfer_state = 246
+			transfer_state = 249
+			247 = {
+				add_compliance = 100
+			}
+			243 = {
+				add_compliance = 100
+			}
+			244 = {
+				add_compliance = 100
+			}
+			245 = {
+				add_compliance = 100
+			}
+			248 = {
+				add_compliance = 100
+			}
+			246 = {
+				add_compliance = 100
+			}
+			249 = {
+				add_compliance = 100
+			}
+
+
+		}
+
+
+	}
+
 }
 
 
-}
-	
-}	
-	
-	
-	country_event = {
+country_event = {
 	id = iran.4
 	title = iran.4.t
 	desc = iran.4.d
 	picture = GFX_report_event_soviet_tanks_snow
-	
+
 	is_triggered_only = yes
-	
-option = {
-name = iran.4.a  
+
+	option = {
+		name = iran.4.a
 
 
-if = { 
-limit = { tag = ENG }
-ENG = { country_event = { id = iran.3 } }
-}
-else_if = { 
+		if = {
+			limit = { tag = ENG }
+			ENG = { country_event = { id = iran.3 } }
+		}
+		else_if = {
 
-  SOV = { country_event = { id = iran.2}} 
-}
+			SOV = { country_event = { id = iran.2}}
+		}
 
 
-}
-	
 	}
-	
+
+}
+

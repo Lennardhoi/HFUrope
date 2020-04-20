@@ -2,7 +2,7 @@ state={
 	id=128
 	name="STATE_21" # Provence
 	provinces={
-		1018 1342 2375 3288 4158 4303 4463 5772 6057 6210 9371 9436 9466 9491 9544 
+		1018 1342 2375 3288 4158 4303 4463 5772 6057 6210 9371 9436 9466 9491 9544
 	}
 	resources={
 		aluminium=60 # was: 120
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
-			6210 1 
+			6210 1
 		}
 		victory_points = {
 			4158 10

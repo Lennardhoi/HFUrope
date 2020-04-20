@@ -13,10 +13,10 @@ state={
 	history={
 		owner = PER
 		victory_points = {
-			477 1 
+			477 1
 		}
 		victory_points = {
-			2621 3 
+			2621 3
 		}
 		buildings = {
 			infrastructure = 2
@@ -26,6 +26,6 @@ state={
 		}
 		add_core_of = PER
 	}
-	
+
 	buildings_max_level_factor=1.000
 }

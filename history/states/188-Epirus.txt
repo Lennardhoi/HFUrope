@@ -3,9 +3,9 @@ state={
 	id=188
 	name="STATE_185"
 	manpower = 760900
-	
+
 	state_category = town
-	
+
 	resources={
 		#chromium=14 # moved to South Tyrol
 		#steel = 14 # was: 20   moved to Campania

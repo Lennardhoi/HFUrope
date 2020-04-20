@@ -12,78 +12,78 @@ country_event = {
 	is_triggered_only = yes
 	immediate = {
 		if={limit={ENG={has_war=no}}
-		GER={declare_war_on = {
-    target = ENG
-    type = annex_everything
-	}}		
+			GER={declare_war_on = {
+					target = ENG
+					type = annex_everything
+					}}
 		}
 		ENG={
-		add_offsite_building = { type = arms_factory level = 1 }
-		add_offsite_building = { type = industrial_complex level = 1 }
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
 		}
 		if={limit = {
-					OR={
+				OR={
 					tag=HOL
 					tag=DEN
 					tag=NOR
-					
-					
-				}}
+
+
+					}}
 			transfer_navy={target=ENG}
-		
-		every_owned_state={limit={is_core_of=ROOT}
-		add_state_modifier = {
-    							modifier = {
-       							local_building_slots_factor = 0.5
-  							}
-						}
-		GER={set_state_owner=PREV}}
-		if={limit={tag=DEN}USA = { transfer_state = 31}
-		ENG = { transfer_state =  32
-		        transfer_state = 33 }
-		GER={set_province_controller=6361}
+
+			every_owned_state={limit={is_core_of=ROOT}
+				add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 0.5
+					}
 				}
-		ENG={annex_country={target=ROOT transfer_troops=yes}}
-		if={limit={tag=HOL} 
-		ENG={	set_state_controller=197#suriname
-			set_state_controller=196#curacao
+				GER={set_state_owner=PREV}}
+			if={limit={tag=DEN}USA = { transfer_state = 31}
+				ENG = { transfer_state =  32
+					transfer_state = 33 }
+				GER={set_province_controller=6361}
+			}
+			ENG={annex_country={target=ROOT transfer_troops=yes}}
+			if={limit={tag=HOL}
+				ENG={	set_state_controller=197#suriname
+					set_state_controller=196#curacao
+				}
+			}
 		}
-		}
-		}
-		
+
 		else_if={limit = {
 				tag=BEL
-				}
+			}
 			transfer_navy={target=ENG}
 			every_owned_state={limit={is_core_of=ROOT}
-			add_state_modifier = {
-    							modifier = {
-       							local_building_slots_factor = 0.5
-  							}
-						}
-			GER={set_state_owner=PREV}}
+				add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 0.5
+					}
+				}
+				GER={set_state_owner=PREV}}
 			FRA={annex_country={target=ROOT transfer_troops=yes}
-			set_state_controller=8#congo sometimes goes to GER on cap
-			set_state_controller=7
-			set_state_controller=11
-			set_state_controller=9
-			set_state_controller=10
+				set_state_controller=8#congo sometimes goes to GER on cap
+				set_state_controller=7
+				set_state_controller=11
+				set_state_controller=9
+				set_state_controller=10
 			}
-			
+
 		}
 		else_if={limit = {
 				OR={tag=POL tag=LUX
-				}}
+					}}
 			transfer_navy={target=ENG}
 			transfer_state=483 #Pitcairn Island West of Chile
 			every_owned_state={limit={is_core_of=ROOT}
-			add_state_modifier = {
-    							modifier = {
-       							local_building_slots_factor = 0.5
-  							}
-						}
-			GER={set_state_owner=PREV}}
+				add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 0.5
+					}
+				}
+				GER={set_state_owner=PREV}}
 			ENG={annex_country={target=ROOT transfer_troops=yes}}
 		}
 	}
-	}
+}

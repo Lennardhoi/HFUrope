@@ -9,11 +9,11 @@ set_stability = 0.90
 set_war_support = 0.6
 
 set_variable = {
-    var = min_fuel
-    value = 0.800
+	var = min_fuel
+	value = 0.800
 }
-	set_technology = {
-	tech_support = 1		
+set_technology = {
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -28,7 +28,7 @@ set_variable = {
 	interwar_antitank = 1
 	tech_recon = 1
 
-	}
+}
 
 create_country_leader = {
 	name = "Ante Pavelic"

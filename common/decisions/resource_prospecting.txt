@@ -1,6 +1,6 @@
 prospect_for_resources = {
 	develop_nigeria_rubber_plantations = { #558
-		
+
 		icon = rubber
 
 		allowed = {
@@ -59,7 +59,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_ems_oil_fields = { #56
-		
+
 		icon = oil
 
 		allowed = {
@@ -115,7 +115,7 @@ prospect_for_resources = {
 	}
 
 	develop_matzen_oil_fields = { #4
-		
+
 		icon = oil
 
 		allowed = {
@@ -170,7 +170,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_friesland_oil_fields = { #36
-		
+
 		icon = oil
 
 		allowed = {
@@ -218,12 +218,12 @@ prospect_for_resources = {
 					type = oil
 					amount = 6
 				}
-				
+
 			}
 		}
 	}
 	develop_newfoundland_steel = { #331
-		
+
 		icon = steel
 
 		allowed = {
@@ -281,7 +281,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_quebec_steel = { #466
-		
+
 		icon = steel
 
 		allowed = {
@@ -337,7 +337,7 @@ prospect_for_resources = {
 	}
 
 	develop_arkansas_aluminium_deposits = { #372
-		
+
 		icon = aluminium
 
 		allowed = {
@@ -360,8 +360,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = arkansas_aluminium_developed 
+					has_state_flag = {
+						flag = arkansas_aluminium_developed
 						value = 5
 					}
 				}
@@ -423,7 +423,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_new_york_aluminium_deposits = { #358
-		
+
 		icon = aluminium
 
 		allowed = {
@@ -507,7 +507,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_tennessee_aluminium_deposits = { #368
-		
+
 		icon = aluminium
 
 		allowed = {
@@ -530,8 +530,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = tennessee_aluminium_developed 
+					has_state_flag = {
+						flag = tennessee_aluminium_developed
 						value = 5
 					}
 				}
@@ -593,7 +593,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_washington_aluminium_deposits = { #386
-		
+
 		icon = aluminium
 
 		allowed = {
@@ -616,8 +616,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = washington_aluminium_developed 
+					has_state_flag = {
+						flag = washington_aluminium_developed
 						value = 5
 					}
 				}
@@ -679,7 +679,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_idaho_tungsten_deposits = { #387
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -702,8 +702,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = idaho_tungsten_developed 
+					has_state_flag = {
+						flag = idaho_tungsten_developed
 						value = 5
 					}
 				}
@@ -765,7 +765,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_california_tungsten_deposits = { #378
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -788,8 +788,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = california_tungsten_developed 
+					has_state_flag = {
+						flag = california_tungsten_developed
 						value = 5
 					}
 				}
@@ -851,7 +851,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_minnesota_steel_deposits = { #391
-		
+
 		icon = steel
 
 		allowed = {
@@ -874,8 +874,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = minnesota_steel_developed 
+					has_state_flag = {
+						flag = minnesota_steel_developed
 						value = 5
 					}
 				}
@@ -937,7 +937,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_pennsylvania_steel_deposits = { #360
-		
+
 		icon = steel
 
 		allowed = {
@@ -960,8 +960,8 @@ prospect_for_resources = {
 			controls_state = 440
 			440 = {
 				NOT = {
-					has_state_flag = { 
-						flag = pennsylvania_steel_developed 
+					has_state_flag = {
+						flag = pennsylvania_steel_developed
 						value = 5
 					}
 				}
@@ -1024,7 +1024,7 @@ prospect_for_resources = {
 	}
 
 	develop_ohio_steel_deposits = { #261
-		
+
 		icon = steel
 
 		allowed = {
@@ -1047,8 +1047,8 @@ prospect_for_resources = {
 			controls_state = 441
 			441 = {
 				NOT = {
-					has_state_flag = { 
-						flag = ohio_steel_developed 
+					has_state_flag = {
+						flag = ohio_steel_developed
 						value = 5
 					}
 				}
@@ -1110,7 +1110,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_indiana_steel_deposits = { #396
-		
+
 		icon = steel
 
 		allowed = {
@@ -1133,8 +1133,8 @@ prospect_for_resources = {
 			controls_state = 483
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = indiana_steel_developed 
+					has_state_flag = {
+						flag = indiana_steel_developed
 						value = 5
 					}
 				}
@@ -1197,7 +1197,7 @@ prospect_for_resources = {
 	}
 
 	develop_montana_chromium_deposits = { #388
-		
+
 		icon = chromium
 
 		allowed = {
@@ -1221,8 +1221,8 @@ prospect_for_resources = {
 			has_tech = excavation3
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = montana_chromium_developed 
+					has_state_flag = {
+						flag = montana_chromium_developed
 						value = 5
 					}
 				}
@@ -1285,7 +1285,7 @@ prospect_for_resources = {
 	}
 
 	develop_california_chromium_deposits = { #378
-		
+
 		icon = chromium
 
 		allowed = {
@@ -1309,8 +1309,8 @@ prospect_for_resources = {
 			has_tech = excavation3
 			483 = {
 				NOT = {
-					has_state_flag = { 
-						flag = california_chromium_developed 
+					has_state_flag = {
+						flag = california_chromium_developed
 						value = 5
 					}
 				}
@@ -1372,7 +1372,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_cornwall_tungsten_deposits_1 = { #123
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -1429,7 +1429,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_cornwall_tungsten_deposits_2 = { #123
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -1483,7 +1483,7 @@ prospect_for_resources = {
 	}
 
 	develop_caucasus_tungsten_deposits_1 = { #233
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -1541,7 +1541,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_caucasus_tungsten_deposits_2 = { #233
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -1600,7 +1600,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_kyzyl_tungsten_deposits = { #404 State not found
-		
+
 		icon = tungsten
 
 		allowed = {
@@ -1658,8 +1658,8 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_chelyabinsk_steel_deposits = { #572 
-		
+	develop_chelyabinsk_steel_deposits = { #572
+
 		icon = steel
 
 		allowed = {
@@ -1684,15 +1684,15 @@ prospect_for_resources = {
 			has_tech = construction3
 			328 = {
 				NOT = {
-					has_state_flag = { 
-						flag = chelyabinsk_steel_developed 
+					has_state_flag = {
+						flag = chelyabinsk_steel_developed
 						value = 3
 					}
 				}
 			}
 		}
 
-		
+
 
 		cost = 10
 		days_remove = 90
@@ -1712,21 +1712,21 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			328 = { 
+			328 = {
 				if = {
 					limit = {
 						not = {
-							has_state_flag = chelyabinsk_steel_developed 
+							has_state_flag = chelyabinsk_steel_developed
 						}
 					}
 					set_state_flag = {
-						flag = chelyabinsk_steel_developed 
+						flag = chelyabinsk_steel_developed
 						value = 1
 					}
 				}
 				else = {
 					modify_state_flag = {
-						flag = chelyabinsk_steel_developed 
+						flag = chelyabinsk_steel_developed
 						value = 1
 					}
 				}
@@ -1740,7 +1740,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_zlatoust_steel_deposits_1 = { #573
-		
+
 		icon = steel
 
 		allowed = {
@@ -1798,7 +1798,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_zlatoust_steel_deposits_2 = { #573
-		
+
 		icon = steel
 
 		allowed = {
@@ -1857,7 +1857,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_kursk_steel_deposits = { #220
-		
+
 		icon = steel
 
 		allowed = {
@@ -1880,8 +1880,8 @@ prospect_for_resources = {
 			controls_state = 476
 			476 = {
 				NOT = {
-					has_state_flag = { 
-						flag = kursk_steel_developed 
+					has_state_flag = {
+						flag = kursk_steel_developed
 						value = 5
 					}
 				}
@@ -1944,7 +1944,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_kursk_steel_deposits_2 = { #220
-		
+
 		icon = steel
 
 		allowed = {
@@ -1967,12 +1967,12 @@ prospect_for_resources = {
 			controls_state = 476
 			476 = {
 				NOT = {
-					has_state_flag = { 
-						flag = kursk_steel_developed_2 
+					has_state_flag = {
+						flag = kursk_steel_developed_2
 						value = 5
 					}
 				}
-				has_state_flag = { 
+				has_state_flag = {
 					flag = kursk_steel_developed
 					value = 5
 				}
@@ -2035,7 +2035,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_kursk_steel_deposits_3 = { #220
-		
+
 		icon = steel
 
 		allowed = {
@@ -2058,12 +2058,12 @@ prospect_for_resources = {
 			controls_state = 476
 			476 = {
 				NOT = {
-					has_state_flag = { 
-						flag = kursk_steel_developed_3 
+					has_state_flag = {
+						flag = kursk_steel_developed_3
 						value = 5
 					}
 				}
-				has_state_flag = { 
+				has_state_flag = {
 					flag = kursk_steel_developed_2
 					value = 5
 				}
@@ -2126,7 +2126,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_Belgorod_steel_deposits = { #240
-		
+
 		icon = steel
 
 		allowed = {
@@ -2149,8 +2149,8 @@ prospect_for_resources = {
 			controls_state = 359
 			359 = {
 				NOT = {
-					has_state_flag = { 
-						flag = Belgorod_steel_developed 
+					has_state_flag = {
+						flag = Belgorod_steel_developed
 						value = 5
 					}
 				}
@@ -2213,7 +2213,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_Belgorod_steel_deposits_2 = { #240
-		
+
 		icon = steel
 
 		allowed = {
@@ -2236,12 +2236,12 @@ prospect_for_resources = {
 			controls_state = 359
 			359 = {
 				NOT = {
-					has_state_flag = { 
-						flag = Belgorod_steel_developed_2 
+					has_state_flag = {
+						flag = Belgorod_steel_developed_2
 						value = 5
 					}
 				}
-				has_state_flag = { 
+				has_state_flag = {
 					flag = Belgorod_steel_developed
 					value = 5
 				}
@@ -2304,7 +2304,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_Belgorod_steel_deposits_3 = { #240
-		
+
 		icon = steel
 
 		allowed = {
@@ -2327,12 +2327,12 @@ prospect_for_resources = {
 			controls_state = 359
 			359 = {
 				NOT = {
-					has_state_flag = { 
-						flag = Belgorod_steel_developed_3 
+					has_state_flag = {
+						flag = Belgorod_steel_developed_3
 						value = 5
 					}
 				}
-				has_state_flag = { 
+				has_state_flag = {
 					flag = Belgorod_steel_developed_2
 					value = 5
 				}
@@ -2395,7 +2395,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_uralsk_chromium_deposits_1 = { #407
-		
+
 		icon = chromium
 
 		allowed = {
@@ -2453,7 +2453,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_uralsk_chromium_deposits_2 = { #407
-		
+
 		icon = chromium
 
 		allowed = {
@@ -2510,10 +2510,10 @@ prospect_for_resources = {
 				}
 			}
 		}
-	}	
-	
+	}
+
 	develop_abu_dhabi_oil_fields  = { #658
-		
+
 		icon = oil
 
 		allowed = {
@@ -2568,7 +2568,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_kuwait_oil_fields = { #656
-		
+
 		icon = oil
 
 		allowed = {
@@ -2592,8 +2592,8 @@ prospect_for_resources = {
 			has_tech = excavation2
 			71 = {
 				NOT = {
-					has_state_flag = { 
-						flag = kuwait_oil_developed 
+					has_state_flag = {
+						flag = kuwait_oil_developed
 						value = 5
 					}
 				}
@@ -2649,7 +2649,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_khuzestan_oil_fields   = { #413
-		
+
 		icon = oil
 
 		allowed = {
@@ -2704,7 +2704,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_fars_oil_fields = { #412
-		
+
 		icon = oil
 
 		allowed = {
@@ -2759,7 +2759,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_baghdad_oil_fields  = { #291
-		
+
 		icon = oil
 
 		allowed = {
@@ -2814,7 +2814,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_mosul_oil_fields   = { #676
-		
+
 		icon = oil
 
 		allowed = {
@@ -2868,7 +2868,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_eastern_desert_oil_fields   = { #457
-		
+
 		icon = oil
 
 		allowed = {
@@ -2923,7 +2923,7 @@ prospect_for_resources = {
 		}
 	}
 	develop_qatar_oil_fields   = { #765
-		
+
 		icon = oil
 
 		allowed = {

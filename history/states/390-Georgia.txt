@@ -6,10 +6,10 @@ state={
 	history={
 		owner = SOV
 		victory_points = {
-			9769 5 
+			9769 5
 		}
 		victory_points = {
-			4774 3 
+			4774 3
 		}
 		buildings = {
 			infrastructure = 3
@@ -34,7 +34,7 @@ state={
 	}
 
 	provinces={
-		922 941 2969 4774 5209 5306 5906 6222 9583 9610 9627 9640 9670 9769 9797 
+		922 941 2969 4774 5209 5306 5906 6222 9583 9610 9627 9640 9670 9769 9797
 	}
 	manpower=2949413
 	buildings_max_level_factor=1.000

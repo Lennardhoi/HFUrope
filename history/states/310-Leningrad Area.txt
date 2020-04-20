@@ -4,17 +4,17 @@ state={
 	id=310
 	name="STATE_195"
 	manpower = 3750158
-	
+
 	state_category = metropolis
 
 	history={
 		owner = SOV
 		victory_points = {
 			2937 100.0
-			
+
 		}
 		victory_points = {
-		
+
 			6728  50.0
 		}
 		buildings = {
@@ -37,6 +37,6 @@ state={
 	}
 
 	provinces={
-		1547 1947 2937 4561 5285 5986 6720 6728 6740 6746 6752 6763 6769 
+		1547 1947 2937 4561 5285 5986 6720 6728 6740 6746 6752 6763 6769
 	}
 }

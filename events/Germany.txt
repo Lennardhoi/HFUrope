@@ -1,4 +1,4 @@
- ###########################
+###########################
 # German Events
 ###########################
 
@@ -12,113 +12,113 @@ add_namespace = germany
 
 
 country_event = {
-   id = germany.vienna
-   title = germany.vienna.t
-   desc = germany.vienna.d
-   
-   fire_only_once = yes
-   trigger = {
+	id = germany.vienna
+	title = germany.vienna.t
+	desc = germany.vienna.d
+
+	fire_only_once = yes
+	trigger = {
 		YUG = { has_capitulated = yes}
-		
+
 		GRE = { has_capitulated = yes}
 	}
-   
-   
-   immediate = {
 
-		
-   HUN = {transfer_state = 287
-          transfer_state = 457
-		  transfer_state = 494
-		 }
 
-   CRO = {transfer_state = 492
-          transfer_state = 459
-		  transfer_state = 458
-		  transfer_state = 455
-		  set_capital=455
-		 }
-		 
-		 ROM = { remove_state_core = 287 }   #Prevents Hungary from returning Transylvania  -Thrasymachus
-		 ROM = { remove_state_core = 294 }
-   if = {
-		limit = {country_exists = BUL }
-		BUL = {
-			transfer_state = 463
-			transfer_state = 496
-			transfer_state = 186
-			transfer_state = 294
+	immediate = {
+
+
+		HUN = {transfer_state = 287
+			transfer_state = 457
+			transfer_state = 494
 		}
-   }
-   else = {
+
+		CRO = {transfer_state = 492
+			transfer_state = 459
+			transfer_state = 458
+			transfer_state = 455
+			set_capital=455
+		}
+
+		ROM = { remove_state_core = 287 }   #Prevents Hungary from returning Transylvania  -Thrasymachus
+		ROM = { remove_state_core = 294 }
+		if = {
+			limit = {country_exists = BUL }
+			BUL = {
+				transfer_state = 463
+				transfer_state = 496
+				transfer_state = 186
+				transfer_state = 294
+			}
+		}
+		else = {
+			ITA = {
+				transfer_state = 463
+				transfer_state = 496
+				transfer_state = 186
+
+			}
+		}
 		ITA = {
-			transfer_state = 463
-			transfer_state = 496
-			transfer_state = 186
-			
-		}
-   }
-   ITA = {
-   transfer_state = 493
-   transfer_state = 490
-   transfer_state = 462
-   transfer_state = 495
-   transfer_state = 188
-   transfer_state = 189
-   transfer_state = 191
-   
+			transfer_state = 493
+			transfer_state = 490
+			transfer_state = 462
+			transfer_state = 495
+			transfer_state = 188
+			transfer_state = 189
+			transfer_state = 191
 
-		  
-		  }
-    GER = {
-		transfer_state = 454
-		transfer_state = 461
-		transfer_state = 460 
-		transfer_state = 456
-		transfer_state = 187
-		transfer_state = 497
-		if={
-			limit={
-				192={
-					OR= {
-						is_controlled_by = GER
-						is_controlled_by = ITA
-						is_controlled_by = ROM
-						is_controlled_by = HUN
-						is_controlled_by = BUL
+
+
+		}
+		GER = {
+			transfer_state = 454
+			transfer_state = 461
+			transfer_state = 460
+			transfer_state = 456
+			transfer_state = 187
+			transfer_state = 497
+			if={
+				limit={
+					192={
+						OR= {
+							is_controlled_by = GER
+							is_controlled_by = ITA
+							is_controlled_by = ROM
+							is_controlled_by = HUN
+							is_controlled_by = BUL
+						}
 					}
 				}
+				transfer_state =192
 			}
-			transfer_state =192
-		}
-		else={ENG={transfer_state=192}}
-		if={
-			limit={
-				190={
-					OR= {
-						is_controlled_by = GER
-						is_controlled_by = ITA
-						is_controlled_by = ROM
-						is_controlled_by = HUN
-						is_controlled_by = BUL
+			else={ENG={transfer_state=192}}
+			if={
+				limit={
+					190={
+						OR= {
+							is_controlled_by = GER
+							is_controlled_by = ITA
+							is_controlled_by = ROM
+							is_controlled_by = HUN
+							is_controlled_by = BUL
+						}
 					}
 				}
+				transfer_state =190
 			}
-			transfer_state =190
+			else={ENG={transfer_state=190}}
 		}
-		else={ENG={transfer_state=190}}
-	 }
 
-  	
 
- }	
-  
-	option = { 
-		
+
 	}
-		
-  
- }
+
+	option = {
+
+	}
+
+
+}
 
 
 
@@ -139,7 +139,7 @@ country_event = {
 
 
 
-  
+
 
 
 
@@ -154,9 +154,9 @@ country_event = {
 	title = germany.4.t
 	desc = germany.4.d
 	picture = GFX_report_event_german_speech
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.4.a
 	}
@@ -166,12 +166,12 @@ country_event = {
 	is_triggered_only = yes
 	hidden=yes
 	immediate={GER={add_timed_idea = {
-   					idea = GER_mefo_bills_2
-    					days = 638
-					}}}
+				idea = GER_mefo_bills_2
+				days = 638
+				}}}
 }
 #anti_comintern_pact
-# nations are asked to join pact, agreeing = relations with GER and hit with SOV 
+# nations are asked to join pact, agreeing = relations with GER and hit with SOV
 
 country_event = {
 	id = germany.5
@@ -180,7 +180,7 @@ country_event = {
 	picture = GFX_report_event_japan_europe_pact
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.5.a		#join
 		ai_chance = {
@@ -209,12 +209,12 @@ country_event = {
 		add_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
 		SOV  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
 	}
-	
+
 	option = {
 		name = germany.5.b		#refuse
 		trigger = { NOT = { is_puppet_of = GER } }
-		ai_chance = { 
-			factor = 25 
+		ai_chance = {
+			factor = 25
 		}
 		GER =  { add_opinion_modifier = { target = ROOT modifier = refused_anti_comintern_pact_opinion } }
 	}
@@ -229,18 +229,18 @@ country_event = {
 	title = germany.6.t
 	desc = germany.6.d
 	picture = GFX_report_event_hitler_croatia_handshake
-	
+
 
 	is_triggered_only = yes
-	
+
 	option = {
-		name = germany.6.a		#join	
+		name = germany.6.a		#join
 		remove_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
 		add_opinion_modifier = { target = GER modifier = tripartite_pact_opinion }
 		remove_opinion_modifier = { target = SOV modifier = pact_against_us }
 		add_opinion_modifier = { target = SOV modifier = worse_pact_against_us }
 	}
-	
+
 	option = {
 		name = germany.6.b		#refuse
 		trigger = { NOT = { is_puppet_of = GER } }
@@ -259,17 +259,17 @@ country_event = {
 	title = germany.11.t
 	desc = germany.11.d
 	picture = GFX_report_event_molotov_ribentrop_handshake
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.11.a	#sounds good
-		ai_chance = { 
-			factor = 90 
+		ai_chance = {
+			factor = 90
 			modifier = {
 				factor = 0
 				GER = {
-					OR = { 
+					OR = {
 						has_wargoal_against = SOV
 						is_justifying_wargoal_against = SOV
 					}
@@ -279,7 +279,7 @@ country_event = {
 				}
 			}
 		}
-		add_opinion_modifier = { target = GER modifier = MR_pact }# pact		
+		add_opinion_modifier = { target = GER modifier = MR_pact }# pact
 		custom_effect_tooltip = germany.11.a.tt
 		add_state_claim = 250
 		add_state_claim = 231
@@ -308,7 +308,7 @@ country_event = {
 		}
 		set_global_flag = sov_yes_pact
 	}
-	
+
 }
 
 # Soviets Sign MR Pact
@@ -317,15 +317,15 @@ country_event = {
 	title = germany.12.t
 	desc = germany.12.d
 	picture = GFX_report_event_molotov_signing_pact
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.12.a	#neat
 		every_other_country = {
 			limit = {
 				NOT = { tag = GER }
-				has_government = fascism 
+				has_government = fascism
 			}
 			add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 		}
@@ -346,23 +346,23 @@ country_event = {
 	title = germany.14.t
 	desc = germany.14.d
 	picture = GFX_report_event_german_troops
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
-		
+
 
 	option = {
 		name = germany.14.a
-		
-			SOV = { transfer_state = 250 
-transfer_state = 253 
-transfer_state = 266 
-transfer_state = 260 
- transfer_state = 263 
-transfer_state = 265 
-transfer_state = 264 
-transfer_state = 251 
-country_event = germany.15 }
+
+		SOV = { transfer_state = 250
+			transfer_state = 253
+			transfer_state = 266
+			transfer_state = 260
+			transfer_state = 263
+			transfer_state = 265
+			transfer_state = 264
+			transfer_state = 251
+			country_event = germany.15 }
 	}
 }
 
@@ -375,11 +375,11 @@ country_event = {
 	picture = GFX_report_event_soviet_german_soldier_handshake
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.12.a
 		hidden_effect = {
-		news_event = { hours = 6 id = news.33 }
+			news_event = { hours = 6 id = news.33 }
 		}
 	}
 }
@@ -390,9 +390,9 @@ country_event = {
 	title = germany.22.t
 	desc = germany.22.d
 	picture = GFX_report_event_vienna_award_hungary
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.22.a
 		hidden_effect = {
@@ -410,7 +410,7 @@ country_event = {
 	picture = GFX_report_event_bunker_01
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.27.a
 		183 = {
@@ -435,12 +435,12 @@ country_event = {
 				level = 5
 			}
 		}
-		181 = {	
+		181 = {
 			add_building_construction = {
 				type = bunker
 				province = 3558
 				level = 5
-			}		
+			}
 			add_building_construction = {
 				type = bunker
 				province = 563
@@ -466,9 +466,9 @@ country_event = {
 	title = germany.28.t
 	desc = germany.28.d
 	picture = GFX_report_event_hitler_parade
-	
+
 	is_triggered_only = yes
-	
+
 	option = { # Accept
 		name = germany.28.a
 		ai_chance = {
@@ -515,14 +515,14 @@ country_event = {
 		}
 	}
 	picture = GFX_report_event_german_politician_speech
-	
+
 	is_triggered_only = yes
-	
+
 	option = { # Abandon the Czechs
 		name = germany.40.a
 
 		trigger = {
-			NOT = { has_war_with = GER } 
+			NOT = { has_war_with = GER }
 			is_puppet = no # can't do anything if puppet
 		}
 		if = {
@@ -547,14 +547,14 @@ country_event = {
 			}
 			ENG = {
 				diplomatic_relation = {
-   					country = CZE
-   					relation = guarantee
-   					active = no
-  				}
+					country = CZE
+					relation = guarantee
+					active = no
+				}
 			}
 		}
 	}
-	
+
 }
 
 # France (Britain Backs Down)
@@ -565,7 +565,7 @@ country_event = {
 	picture = GFX_report_event_chamberlain_announce
 
 	is_triggered_only = yes
-	
+
 	option = { # Follow Britain's lead
 		name = germany.41.a
 		ai_chance = {
@@ -584,12 +584,12 @@ country_event = {
 				factor = 0
 			}
 		}
-		CZE = { 
+		CZE = {
 			country_event = germany.46
 			add_opinion_modifier = { target = FRA modifier = western_betrayal }
 		}
 	}
-	
+
 }
 
 # Czechoslovakia (Abandoned)
@@ -598,9 +598,9 @@ country_event = {
 	title = germany.46.t
 	desc = germany.46.d
 	picture = GFX_report_event_czech_soldiers_01
-	
+
 	is_triggered_only = yes
-	
+
 	option = { # Surrender the Sudetenland
 		name = germany.46.a
 		GER = { country_event = germany.50 }
@@ -613,9 +613,9 @@ country_event = {
 	title = germany.40.t
 	desc = germany.50.d
 	picture = GFX_report_event_german_politician_speech
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.50.a
 		hidden_effect = {
@@ -630,9 +630,9 @@ country_event = {
 	title = germany.51.t
 	desc = germany.51.d
 	picture = GFX_report_event_vienna_award_negotiations
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.51.a
 	}
@@ -644,9 +644,9 @@ country_event = {
 	title = germany.52.t
 	desc = germany.52.d
 	picture = GFX_report_event_polish_tanks_01
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.52.a
 	}
@@ -658,9 +658,9 @@ country_event = {
 	title = germany.53.t
 	desc = germany.53.d
 	picture = GFX_report_event_german_politician_speech
-	
+
 	is_triggered_only = yes
-	
+
 	option = { # Agree
 		name = germany.53.a
 		GER = { country_event = germany.55 }
@@ -718,16 +718,16 @@ country_event = {
 		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
 	}
 	picture = GFX_report_event_german_inspect_troops
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.55.b
 		HUN = { country_event = germany.56 }
 		POL = { transfer_state = 25 } # Give Poland Zaolzie
-		
+
 	}
-	
+
 
 }
 
@@ -744,9 +744,9 @@ country_event = {
 		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
 	}
 	picture = GFX_report_event_german_inspect_troops
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.56.a
 		ai_chance = { factor = 100 }
@@ -756,9 +756,9 @@ country_event = {
 		hidden_effect = {
 			GER = {
 				annex_country = { target = CZE }
-				add_to_faction = HUN				
+				add_to_faction = HUN
 			}
-			
+
 		}
 		hidden_effect = {
 			country_event = { hours = 6 id = news.61 }
@@ -772,9 +772,9 @@ country_event = {
 	title = germany.74.t
 	desc = germany.74.d
 	picture = GFX_report_event_fascist_speech
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.74.a
 		#add_ideas = elyesa_bazna
@@ -787,28 +787,28 @@ country_event = {
 	title = germany.75.t
 	desc = germany.75.d
 	picture = GFX_report_event_physics_lab_01
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.75.a	#sounds good
-		
-		if = { 
-		limit = { tag = SOV }
-		add_tech_bonus = {
-			name = med_armor_bonus
-			ahead_reduction = 2
-			category = cat_medium_armor
-		}
-		add_tech_bonus = {
-			name = armor_bonus
-			bonus = 1.0
-			uses = 2
-			category = armor
-		}
+
+		if = {
+			limit = { tag = SOV }
+			add_tech_bonus = {
+				name = med_armor_bonus
+				ahead_reduction = 2
+				category = cat_medium_armor
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
 		}
 	}
-	
+
 }
 
 
@@ -821,7 +821,7 @@ country_event = {
 	picture = GFX_report_event_radar_01
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.78.a
 	}
@@ -839,13 +839,13 @@ country_event = {
 	trigger = {
 		NOT = { has_war_with = GER }
 	}
-	
+
 	option = {
 		name = germany.86.b
 
-		GER = { country_event = { id = germany.88 days = 1 } 
-			
-		}		
+		GER = { country_event = { id = germany.88 days = 1 }
+
+		}
 		hidden_effect = {
 			news_event = { hours = 1 id = news.204 }
 		}
@@ -861,23 +861,23 @@ country_event = {
 	picture = GFX_report_event_polish_tanks_02
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.88.a
 	}
 }
 
-# Flight of Rudolf No Hindenburg 
+# Flight of Rudolf No Hindenburg
 country_event = {
 	id = germany.107
 	title = germany.107.t
 	desc = germany.107.d
 	picture = GFX_report_event_airplane_crash
-	
+
 	is_triggered_only = yes
-	
-	immediate = { 
-		set_country_flag = flight_of_hess 
+
+	immediate = {
+		set_country_flag = flight_of_hess
 		if = {
 			limit = {
 				has_idea = rudolf_hess
@@ -897,11 +897,11 @@ country_event = {
 	title = germany.108.t
 	desc = germany.108.d
 	picture = GFX_report_event_airplane_crash
-	
+
 	is_triggered_only = yes
-	
-	immediate = { 
-		set_country_flag = flight_of_hess 
+
+	immediate = {
+		set_country_flag = flight_of_hess
 		if = {
 			limit = {
 				has_idea = rudolf_hess
@@ -921,11 +921,11 @@ country_event = {
 	title = germany.107.t
 	desc = germany.109.d
 	picture = GFX_report_event_hindenburg_flames
-	
+
 	is_triggered_only = yes
-	
-	immediate = { 
-		set_country_flag = flight_of_hess 
+
+	immediate = {
+		set_country_flag = flight_of_hess
 		if = {
 			limit = {
 				has_idea = rudolf_hess
@@ -945,11 +945,11 @@ country_event = {
 	title = germany.108.t
 	desc = germany.110.d
 	picture = GFX_report_event_hindenburg_flames
-	
+
 	is_triggered_only = yes
-	
-	immediate = { 
-		set_country_flag = flight_of_hess 
+
+	immediate = {
+		set_country_flag = flight_of_hess
 		if = {
 			limit = {
 				has_idea = rudolf_hess
@@ -966,11 +966,11 @@ country_event = {
 # (Hidden)
 country_event = {
 	id = germany.112
-	
+
 	is_triggered_only = yes
 
 	hidden = yes
-	
+
 	immediate = {
 		every_other_country = {
 		}
@@ -1022,9 +1022,9 @@ country_event = {
 	id = germany.121
 	title = germany.121.t
 	desc = germany.121.d
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = germany.121.a
 	}

@@ -1,15 +1,15 @@
-	 focus_tree = {
+focus_tree = {
 	id = soviet_focus
 
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = SOV
 		}
 	}
-	
+
 	default = no
 
 	focus = {
@@ -62,7 +62,7 @@
 		}
 	}
 
-focus = {
+	focus = {
 		id = SOV_start_five_year_plan
 		icon = GFX_sov_stalin_writing
 		x = 1
@@ -75,42 +75,42 @@ focus = {
 
 		available_if_capitulated = yes
 
-		
 
-		
+
+
 		completion_reward = {
-		333 = {
-				
-				
-			
+			333 = {
 
-		add_resource = {
-              type = steel
-               amount = 100
-               state = 338
-                           }
-		
-		add_resource = {
-              type = aluminium
-               amount = 70
-               state = 338
-                           }
-		
-		add_resource = {
-              type = tungsten
-               amount = 30
-               state = 338
-                           }
-		
-		}
-	}}
-     focus = {
+
+
+
+				add_resource = {
+					type = steel
+					amount = 100
+					state = 338
+				}
+
+				add_resource = {
+					type = aluminium
+					amount = 70
+					state = 338
+				}
+
+				add_resource = {
+					type = tungsten
+					amount = 30
+					state = 338
+				}
+
+			}
+			}}
+	focus = {
 		id = SOV_move_industry_to_urals
 		icon = GFX_sov_stakhonovite
 		prerequisite = {focus =SOV_defense_of_leningrad focus =SOV_defense_of_stalingrad focus = SOV_defense_of_moscow}
 		x = 12
 		y = 5
-		
+
 		cost = 1
 		ai_will_do = {
 			factor = 10
@@ -122,31 +122,31 @@ focus = {
 
 		available = {
 			OR={has_war_with = GER
-			date>1941.6.22
-			#hidden_trigger = {
-  			VEN={has_completed_focus = VEN_hurensohn_sealion}
-			#}
-		}	
+				date>1941.6.22
+				#hidden_trigger = {
+					VEN={has_completed_focus = VEN_hurensohn_sealion}
+					#}
+			}
 		}
 
 		bypass = {
-			
+
 		}
 		select_effect = {
 			hidden_effect={activate_mission=SOV_relocation}
 		}
 		completion_reward = {
 			custom_effect_tooltip="This will start the industry relocation. Every 10 days two civilian factories and two military factories will be moved from states at the front to the Ural."
-					
+
 		}
 		completion_reward = {
 			add_ideas=Fast_Training
-			add_ideas = SOV_the_great_war	
+			add_ideas = SOV_the_great_war
 			#add_political_power = 100
-            			
+
 		}
 	}
- 
+
 	focus = {
 		id = SOV_great_figher
 		icon = GFX_Goal_Positive_heroism
@@ -162,12 +162,12 @@ focus = {
 				NOT = { has_war_with = GER }
 			}
 		}
-		
+
 		completion_reward = {
-		 
-			 add_timed_idea= {idea=Order_227 days=365}
-                      
-					
+
+			add_timed_idea= {idea=Order_227 days=365}
+
+
 		}
 	}
 	focus = {
@@ -186,12 +186,12 @@ focus = {
 				NOT = { has_war_with = GER }
 			}
 		}
-		
+
 		completion_reward = {
-		 
-			 add_timed_idea= {idea=SOV_winter_offensive days=45}
-                      
-					
+
+			add_timed_idea= {idea=SOV_winter_offensive days=45}
+
+
 		}
 	}
 	focus = {
@@ -210,87 +210,87 @@ focus = {
 				NOT = { has_war_with = GER }
 			}
 		}
-		
+
 		completion_reward = {
-		hidden_effect={
-							if={
-							limit={NOT={has_tech=mass_assault}}
-							
-							division_template = {
-							name = "Winterskaya Diviziya"			# Rifle Division
-							division_names_group = SOV_MEC_01
+			hidden_effect={
+				if={
+					limit={NOT={has_tech=mass_assault}}
 
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry= { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-								infantry = { x = 0 y = 3 }
-								infantry = { x = 0 y = 4 }
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-								infantry = { x = 1 y = 3 }
-								infantry = { x = 1 y = 4 }
-								
-							}
-							support = {
-								anti_air = { x = 0 y = 0 } 		
-								engineer = { x = 0 y = 1 } 
-								artillery = { x = 0 y = 2 } 
-								
-							}
-							}}
-							else={
-							division_template = {
-							name = "Winterskaya Diviziya"			# Rifle Division
-							division_names_group = SOV_MEC_01
+					division_template = {
+						name = "Winterskaya Diviziya"			# Rifle Division
+						division_names_group = SOV_MEC_01
 
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry= { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-								infantry = { x = 0 y = 3 }
-								infantry = { x = 0 y = 4 }
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-								infantry = { x = 1 y = 3 }
-								infantry = { x = 1 y = 4 }
-								cavalry = { x = 2 y = 0 }
-								cavalry = { x = 2 y = 1 }
-							}
-							support = {
-								anti_air = { x = 0 y = 0 } 		
-								engineer = { x = 0 y = 1 } 
-								artillery = { x = 0 y = 2 } 
-								
-							}
-							}
-							}
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry= { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+							infantry = { x = 0 y = 4 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 1 y = 3 }
+							infantry = { x = 1 y = 4 }
+
+						}
+						support = {
+							anti_air = { x = 0 y = 0 }
+							engineer = { x = 0 y = 1 }
+							artillery = { x = 0 y = 2 }
+
+						}
+						}}
+				else={
+					division_template = {
+						name = "Winterskaya Diviziya"			# Rifle Division
+						division_names_group = SOV_MEC_01
+
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry= { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+							infantry = { x = 0 y = 4 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 1 y = 3 }
+							infantry = { x = 1 y = 4 }
+							cavalry = { x = 2 y = 0 }
+							cavalry = { x = 2 y = 1 }
+						}
+						support = {
+							anti_air = { x = 0 y = 0 }
+							engineer = { x = 0 y = 1 }
+							artillery = { x = 0 y = 2 }
+
+						}
+					}
+				}
 				329 = {
 					for_loop_effect = {
-					end = 30				
-					create_unit = {
-						division = "name = \"Winterskaya Diviziya\" division_template = \"Winterskaya Diviziya\" start_experience_factor = 0.3" 
-						owner = SOV
+						end = 30
+						create_unit = {
+							division = "name = \"Winterskaya Diviziya\" division_template = \"Winterskaya Diviziya\" start_experience_factor = 0.3"
+							owner = SOV
 						}
-					}}
-			}	
-		custom_effect_tooltip="25 20w Infantry Divisions will spawn in Kazan "
-		add_timed_idea= {idea=SOV_winter_defensive days=60}
-		
-		
-		
+						}}
+			}
+			custom_effect_tooltip="25 20w Infantry Divisions will spawn in Kazan "
+			add_timed_idea= {idea=SOV_winter_defensive days=60}
+
+
+
 		}
 	}
-     focus = {
+	focus = {
 		id = SOV_great_patriotic_general
 		icon = GFX_anti_communism
 		relative_position_id = SOV_great_figher
 		prerequisite = { focus = SOV_winter_defensive focus = SOV_winter_offensive }
 		x = -2
 		y = 2
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 10
@@ -301,31 +301,31 @@ focus = {
 		}
 
 		available = {
-			
+
 			date>1942.3.1
-			
+
 		}
 
 		bypass = {
-			
+
 		}
-		
+
 		completion_reward = {
-			
+
 			SOV = { country_event = {
-                    id = soviet.1488
-                    hours = 10
-                   
-                                    }
-		         }
+					id = soviet.1488
+					hours = 10
+
+				}
+			}
+		}
 	}
-  }
-	
-   
-    focus = {
+
+
+	focus = {
 		id = SOV_great_industry
 		icon = GFX_goal_wheat
-		
+
 		relative_position_id = SOV_great_figher
 		x = 2
 		y = 2
@@ -340,25 +340,25 @@ focus = {
 		}
 
 		available = {
-		
-			
+
+
 		}
 
 		bypass = {
-			
+
 		}
-		
+
 		completion_reward = {
-			 
-			 
-			
-             add_ideas = officers_purged_2
-             
+
+
+
+			add_ideas = officers_purged_2
+
 		}
 	}
-    
-	
-    
+
+
+
 	focus = {
 		id = SOV_modifiers
 		icon = GFX_Goal_Great_Purge2
@@ -376,33 +376,33 @@ focus = {
 		}
 
 		available = {
-		date>1942.1.1
-			
+			date>1942.1.1
+
 		}
 
 		bypass = {
-			
+
 		}
-		
+
 		completion_reward = {
-		 
-        	
-              remove_ideas = officers_purged
-                                      					
+
+
+			remove_ideas = officers_purged
+
 		}
 	}
 
 
 
 
-focus = {
+	focus = {
 		id = SOV_improve_stalin_line
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = SOV_production_effort focus= SOV_southern_thrust}
 		available = { }
 		x = 12
 		y = 3
-		
+
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -629,18 +629,18 @@ focus = {
 		icon = GFX_focus_SOV_defense_of_moscow
 		prerequisite = { focus = SOV_improve_stalin_line }
 		available = {
-			
+
 		}
 		x = 14
 		y = 4
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
-		}	
+		}
 		completion_reward = {
 			army_experience = 20
-			
+
 			310 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
@@ -685,7 +685,7 @@ focus = {
 						level = 5
 						province = 1647
 						instant_build = yes
-					}	
+					}
 				}
 			}
 		}
@@ -695,18 +695,18 @@ focus = {
 		icon = GFX_focus_SOV_defense_of_moscow
 		prerequisite = { focus = SOV_improve_stalin_line }
 		available = {
-			
+
 		}
 		x = 10
 		y = 4
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
-		}	
+		}
 		completion_reward = {
 			army_experience = 20
-			
+
 			362 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
@@ -779,32 +779,32 @@ focus = {
 		icon = GFX_focus_SOV_defense_of_moscow
 		prerequisite = { focus = SOV_extra_tech_slot_early focus=SOV_southern_thrust }
 		available = {
-			
+
 		}
 		x = 12
 		y = 4
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
-		}	
+		}
 		completion_reward = {
 			army_experience = 20
 			399={set_building_level = {
-				type = air_base
-				level = 20
-				instant_build = yes
-				}}
+					type = air_base
+					level = 20
+					instant_build = yes
+					}}
 			317={set_building_level = {
-				type = air_base
-				level = 20
-				instant_build = yes
-			  	}}
+					type = air_base
+					level = 20
+					instant_build = yes
+					}}
 			323={set_building_level = {
-				type = air_base
-				level = 20
-				instant_build = yes
-			  	}}
+					type = air_base
+					level = 20
+					instant_build = yes
+					}}
 			327 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
@@ -874,7 +874,7 @@ focus = {
 						province = 7134
 						instant_build = yes
 					}
-					
+
 				}
 			}
 		}
@@ -885,8 +885,8 @@ focus = {
 		text = extra_tech_slot
 		relative_position_id = SOV_start_five_year_plan
 		prerequisite = { focus = SOV_start_five_year_plan }
-		
-		
+
+
 		x = 1
 		y = 1
 		cost = 10
@@ -907,7 +907,7 @@ focus = {
 		prerequisite = { focus = SOV_peoples_commissariat }
 		x = 11
 		y = 2
-		
+
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -959,7 +959,7 @@ focus = {
 					}
 				}
 				random_owned_controlled_state = {
-					limit = { 
+					limit = {
 						free_building_slots = {
 							building = arms_factory
 							size > 1
@@ -971,13 +971,13 @@ focus = {
 						type = arms_factory
 						level = 2
 						instant_build = yes
-					}	
+					}
 					set_state_flag = SOV_production_effort_2AF
 				}
 			}
 			308 = {
 				if = {
-					limit = { 
+					limit = {
 						is_controlled_by = SOV
 						free_building_slots = {
 							building = arms_factory
@@ -1011,7 +1011,7 @@ focus = {
 					}
 				}
 				random_owned_controlled_state = {
-					limit = { 
+					limit = {
 						free_building_slots = {
 							building = arms_factory
 							size > 1
@@ -1023,13 +1023,13 @@ focus = {
 						type = arms_factory
 						level = 2
 						instant_build = yes
-					}							
+					}
 					set_state_flag = SOV_production_effort_2AF
 				}
 			}
 			328 = {
 				if = {
-					limit = { 
+					limit = {
 						is_controlled_by = SOV
 						free_building_slots = {
 							building = arms_factory
@@ -1078,9 +1078,9 @@ focus = {
 					level = 3
 					instant_build = yes
 				}
-			
+
 			}
-			309 = {		
+			309 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1102,7 +1102,7 @@ focus = {
 		prerequisite = {  focus = SOV_great_purge}
 		x = 12
 		y = 1
-		
+
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1114,8 +1114,8 @@ focus = {
 			add_ideas = peoples_commissariat_focus
 		}
 	}
-	
-	
+
+
 	focus = {
 		id = SOV_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
@@ -1123,7 +1123,7 @@ focus = {
 		relative_position_id = SOV_start_five_year_plan
 		x = -1
 		y = 1
-		
+
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1159,7 +1159,7 @@ focus = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
-					instant_build = yes						
+					instant_build = yes
 				}
 			}
 			388 = {
@@ -1168,24 +1168,24 @@ focus = {
 					level = 3
 					instant_build = yes
 				}
-					
-			}				
+
+			}
 			354 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
-	
+
 			}
 			299 = {
-				
+
 				add_building_construction = {
 					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
-				
+
 			}
 		}
 	}
@@ -1238,7 +1238,7 @@ focus = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_focus_SOV_worker_cluture
 		prerequisite = { focus = SOV_stalin_constitution }
-		
+
 		x = -2
 		y = 1
 		relative_position_id = SOV_stalin_constitution
@@ -1261,7 +1261,7 @@ focus = {
 		prerequisite = { focus = SOV_workers_culture }
 		x = 4
 		y = 4
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -1334,7 +1334,7 @@ focus = {
 		id = SOV_positive_heroism
 		icon = GFX_focus_SOV_postive_heroism
 		prerequisite = { focus = SOV_stalin_constitution }
-		
+
 		x = 0
 		y = 1
 		relative_position_id = SOV_stalin_constitution
@@ -1347,7 +1347,7 @@ focus = {
 
 		completion_reward = {
 			custom_effect_tooltip = available_military_high_command
-			show_ideas_tooltip = konstantin_rokossovsky 
+			show_ideas_tooltip = konstantin_rokossovsky
 			custom_effect_tooltip = available_theorist
 			show_ideas_tooltip = georgy_zhukov
 			# REVISIT Might want to add more
@@ -1424,7 +1424,7 @@ focus = {
 			factor = 1
 		}
 
-		available_if_capitulated = yes	
+		available_if_capitulated = yes
 
 		completion_reward = {
 			air_experience = 250
@@ -1434,15 +1434,15 @@ focus = {
 				bonus = 1.0
 				uses = 2
 				category = light_air
-				
+
 			}
-		
-		
-		
+
+
+
 		}
 	}
-	
-	
+
+
 
 
 	focus = {
@@ -1464,7 +1464,7 @@ focus = {
 		}
 	}
 
-	
+
 
 	focus = {
 		id = SOV_transpolar_flights
@@ -1518,8 +1518,8 @@ focus = {
 		}
 	}
 
-	
-		focus = {
+
+	focus = {
 		id = SOV_expand_red_fleet
 		icon = GFX_goal_generic_build_navy
 		prerequisite = { focus = SOV_ocean_going_navy }
@@ -1595,10 +1595,10 @@ focus = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_super_heavy_1
-						creator = "SOV" 
+						creator = "SOV"
 						version_name = "Sovetsky Soyuz Class"
 					}
-					name = "Sovetsky Soyuz" 
+					name = "Sovetsky Soyuz"
 					requested_factories = 1
 					progress = 0.7
 					amount = 1
@@ -1606,26 +1606,26 @@ focus = {
 			}
 		}
 	}
-	
 
 
 
-	
+
+
 
 
 	focus = {
 		id = SOV_southern_thrust
 		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = SOV_peoples_commissariat }
-		
+
 		x = 1
 		y = 1
 		relative_position_id = SOV_peoples_commissariat
 		cost = 5
 
-	available = {
-				
-							}
+		available = {
+
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -1649,37 +1649,37 @@ focus = {
 
 		}
 		completion_reward = {
-				add_ideas = SOV_scientist_defect
-				310 = {
-				
-				
+			add_ideas = SOV_scientist_defect
+			310 = {
+
+
 			}
 		}
 	}
 
-	
-	
-	
 
-	
+
+
+
+
 	focus = {
 		id = SOV_great_purge
 		icon = GFX_focus_SOV_purge
 		available = {
-			
+
 		}
 		x = 10
 		y = 0
 		cost = 10
-	
+
 
 		completion_reward = {
-			
-					
+
+
 			swap_ideas = { remove_idea = trotskyite_plot
-			add_idea = trotskyite_plot_purged}
+				add_idea = trotskyite_plot_purged}
 			add_ideas = officers_purged
-			
+
 
 		}
 	}
@@ -1688,7 +1688,7 @@ focus = {
 		id = SOV_rehabilitated_military
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = SOV_great_purge }
-		
+
 		x = 7
 		y = 1
 		relative_position_id = SOV_great_purge
@@ -1734,7 +1734,7 @@ focus = {
 				uses = 2
 				category = land_doctrine
 			}
-			
+
 			add_tech_bonus = {
 				name = artillery
 				bonus = 1
@@ -1751,7 +1751,7 @@ focus = {
 		id = SOV_nkvd_primacy
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = SOV_great_purge }
-		
+
 		x = 9
 		y = 1
 		relative_position_id = SOV_great_purge
@@ -1763,8 +1763,8 @@ focus = {
 				any_claim = yes
 				has_war = yes
 			}
-		}	
-		
+		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1772,46 +1772,46 @@ focus = {
 			set_technology{motorized_rocket_unit=1}
 			custom_effect_tooltip = "Five fully equipped Katyusha-Divisions will spawn in Moscow."
 			hidden_effect={
-							division_template = {
-							name = "Katyusha Diviziya"			# Rifle Division
-							division_names_group = SOV_MEC_01
+				division_template = {
+					name = "Katyusha Diviziya"			# Rifle Division
+					division_names_group = SOV_MEC_01
 
-							regiments = {
-								motorized = { x = 0 y = 0 }
-								motorized = { x = 0 y = 1 }
-								motorized = { x = 0 y = 2 }
-								motorized = { x = 0 y = 3 }
-								motorized = { x = 1 y = 0 }
-								motorized = { x = 1 y = 1 }
-								motorized = { x = 1 y = 2 }
-								motorized_rocket_brigade= { x = 2 y = 1 }
-								motorized_rocket_brigade= { x = 2 y = 2 }
-								motorized_rocket_brigade= { x = 2 y = 3}
-								motorized_rocket_brigade= { x = 2 y = 4 }
-								motorized_rocket_brigade= { x = 2 y = 0 }
-								motorized_rocket_brigade= { x = 3 y = 1 }
-								motorized_rocket_brigade= { x = 3 y = 2 }
-								motorized_rocket_brigade= { x = 3 y = 3 }
-								mot_anti_air_brigade= { x = 3 y = 4 }
-								mot_anti_air_brigade= { x = 3 y = 0 }
+					regiments = {
+						motorized = { x = 0 y = 0 }
+						motorized = { x = 0 y = 1 }
+						motorized = { x = 0 y = 2 }
+						motorized = { x = 0 y = 3 }
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized_rocket_brigade= { x = 2 y = 1 }
+						motorized_rocket_brigade= { x = 2 y = 2 }
+						motorized_rocket_brigade= { x = 2 y = 3}
+						motorized_rocket_brigade= { x = 2 y = 4 }
+						motorized_rocket_brigade= { x = 2 y = 0 }
+						motorized_rocket_brigade= { x = 3 y = 1 }
+						motorized_rocket_brigade= { x = 3 y = 2 }
+						motorized_rocket_brigade= { x = 3 y = 3 }
+						mot_anti_air_brigade= { x = 3 y = 4 }
+						mot_anti_air_brigade= { x = 3 y = 0 }
 
-							}
-							support = {
-								recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
-								engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
-								artillery = { x = 0 y = 2 } 
-								logistics_company = { x = 0 y = 3 }
-								signal_company = { x = 0 y = 4 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
-							}
-							}
+					}
+					support = {
+						recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+						engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
+						artillery = { x = 0 y = 2 }
+						logistics_company = { x = 0 y = 3 }
+						signal_company = { x = 0 y = 4 }	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
+					}
+				}
 				327 = {
 					for_loop_effect = {
-					end = 5 				
-					create_unit = {
-						division = "name = \"Katyusha Diviziya\" division_template = \"Katyusha Diviziya\" start_experience_factor = 0.3" 
-						owner = SOV
+						end = 5
+						create_unit = {
+							division = "name = \"Katyusha Diviziya\" division_template = \"Katyusha Diviziya\" start_experience_factor = 0.3"
+							owner = SOV
 						}
-					}}
+						}}
 			}
 		}
 	}
@@ -1852,7 +1852,7 @@ focus = {
 		available = {
 			OR = {
 				date > 1940.1.1
-				
+
 			}
 		}
 		x = -1
@@ -1884,8 +1884,8 @@ focus = {
 				uses = 2
 				category = land_doctrine
 			}
-				
-				
+
+
 		}
 	}
 

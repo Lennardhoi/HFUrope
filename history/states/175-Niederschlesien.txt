@@ -7,20 +7,20 @@ state={
 		steel=50 # was: 110
 		aluminium=20 # was: 38
 	}
-	
+
 	state_category = large_city
 
 	history={
 		owner = GER
 		victory_points = {
-			2559 10 
+			2559 10
 		}
 		#victory_points = {
-		#	552 1
-		#}
+			#	552 1
+			#}
 		#victory_points = {
-		#	3545 1
-		#}
+			#	3545 1
+			#}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -38,6 +38,6 @@ state={
 	}
 
 	provinces={
-		2559 3802 3834 4000 4117 4681 5472 5858 5928 6013 7863 7872 7919 7926 7927 7938 7975 8026 8027 8028 8076 8108 8154 
+		2559 3802 3834 4000 4117 4681 5472 5858 5928 6013 7863 7872 7919 7926 7927 7938 7975 8026 8027 8028 8076 8108 8154
 	}
 }

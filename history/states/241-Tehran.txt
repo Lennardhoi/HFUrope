@@ -2,10 +2,10 @@ state={
 	id=241
 	name="Tehran"
 	provinces={
-		999 2379 3126 4650 10121 
+		999 2379 3126 4650 10121
 	}
 	manpower = 796396
-	
+
 	state_category = rural
 
 	history={
@@ -14,7 +14,7 @@ state={
 			infrastructure = 3
 		}
 		victory_points = {
-			3126 10 
+			3126 10
 		}
 		add_core_of = PER
 	}

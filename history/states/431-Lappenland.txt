@@ -9,17 +9,17 @@ state={
 		chromium = 70 # was: 40
 		aluminium = 2
 	}
-	
+
 	state_category = rural
 
 	history={
 		owner = SWE
 		victory_points = {
-			3503 1 
+			3503 1
 		}
 		buildings = {
 			infrastructure = 6
-			
+
 			3503 = {
 				naval_base = 2
 			}

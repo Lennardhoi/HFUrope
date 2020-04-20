@@ -2,7 +2,7 @@ state= {
 	id=208
 	name="STATE_2" # Latium
 	manpower = 2781971
-	
+
 	state_category = city
 
 	history=
@@ -30,5 +30,5 @@ state= {
 
 	provinces= {
 		2471 3123 3124 3329 3764 4213 4706 6413 6426 9667 9735 9755 9771 9742
- 	}
+	}
 }

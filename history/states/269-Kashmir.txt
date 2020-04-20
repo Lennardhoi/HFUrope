@@ -2,10 +2,10 @@ state={
 	id=269
 	name="Kashmir"
 	provinces={
-		490 1288 3067 3496 10266 
+		490 1288 3067 3496 10266
 	}
 	manpower = 2123700
-	
+
 	state_category = rural
 
 	history={

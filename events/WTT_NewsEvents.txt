@@ -8,11 +8,11 @@ news_event = {
 	title = wtt_news.18.t
 	desc = wtt_news.18.desc
 	picture = GFX_news_event_election_vote
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.18.a
 		trigger = {
@@ -57,7 +57,7 @@ news_event = {
 	picture = GFX_news_event_020
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.40.a
 		trigger = {
@@ -326,7 +326,7 @@ news_event = {
 	picture = GFX_news_event_020
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.42.a
 		trigger = {
@@ -391,7 +391,7 @@ news_event = {
 	picture = GFX_news_event_020
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.43.a
 		trigger = {
@@ -455,7 +455,7 @@ news_event = {
 	picture = GFX_news_event_generic_ruins
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.50.a
 		trigger = {
@@ -481,7 +481,7 @@ news_event = {
 		name = wtt_news.50.d
 		trigger = {
 			NOT = {
-			 	has_war_with = GER
+				has_war_with = GER
 			}
 			NOT = {
 				original_tag = GER
@@ -500,7 +500,7 @@ news_event = {
 	picture = GFX_news_event_generic_ruins
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.50.a
 		trigger = {
@@ -526,7 +526,7 @@ news_event = {
 		name = wtt_news.50.d
 		trigger = {
 			NOT = {
-			 	has_war_with = GER
+				has_war_with = GER
 			}
 			NOT = {
 				original_tag = GER
@@ -546,7 +546,7 @@ news_event = {
 	picture = GFX_news_event_generic_ruins
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = wtt_news.50.a
 		trigger = {
@@ -572,7 +572,7 @@ news_event = {
 		name = wtt_news.50.d
 		trigger = {
 			NOT = {
-			 	has_war_with = GER
+				has_war_with = GER
 			}
 			NOT = {
 				original_tag = GER
@@ -594,7 +594,7 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_for_sender = no
-	
+
 	option = {
 		name = wtt_news.1000.a
 		trigger = {
@@ -612,7 +612,7 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_for_sender = no
-	
+
 	option = {
 		name = wtt_news.1001.a
 		trigger = {

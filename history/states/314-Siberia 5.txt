@@ -3,7 +3,7 @@ state={
 	id=314
 	name="STATE_578" # Tomsk
 	manpower = 609304
-	
+
 	state_category = rural
 
 	history={
@@ -18,6 +18,6 @@ state={
 	}
 
 	provinces={
-		63 377 492 1014 3636 4466 7081 
+		63 377 492 1014 3636 4466 7081
 	}
 }

@@ -3,19 +3,19 @@ state={
 	id=206
 	name="STATE_162"
 	manpower = 3084933
-	
+
 	state_category = large_city
 
 	history={
 		owner = ITA
 		victory_points = {
-			9907 3 
+			9907 3
 		}
 		victory_points = {
-			9438 1 
+			9438 1
 		}
 		victory_points = {
-			4224 1 
+			4224 1
 		}
 		buildings = {
 			infrastructure = 8

@@ -2,9 +2,9 @@ state={
 	id=27
 	name="STATE_71"
 	manpower = 1197800
-	
+
 	state_category = rural
-	
+
 	history={
 		victory_points = {
 			8405 3

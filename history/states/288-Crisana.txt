@@ -3,7 +3,7 @@ state={
 	id=288
 	name="STATE_83"
 	manpower = 632900
-	
+
 	state_category = town
 
 	history={
@@ -13,12 +13,12 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			9062 1 
+			9062 1
 		}
 		add_core_of = ROM
 	}
 
 	provinces={
-		1074 3713 5936 6211 9007 9062 
+		1074 3713 5936 6211 9007 9062
 	}
 }

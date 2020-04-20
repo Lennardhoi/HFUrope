@@ -3,7 +3,7 @@ state=
 	id=192
 	name="STATE_182"
 	manpower = 387900
-	
+
 	state_category = rural
 	history=
 	{
@@ -29,5 +29,5 @@ state=
 	}
 	provinces=
 	{
-4056 5239 5448 10181 10203 10220 10228  	}
+		4056 5239 5448 10181 10203 10220 10228  	}
 }

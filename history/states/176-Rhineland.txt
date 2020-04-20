@@ -10,21 +10,21 @@ state={
 
 
 	state_category = metropolis
-	
+
 	history={
 		owner = GER
 		victory_points = {
-			8022 10 
+			8022 10
 		}
 		victory_points = {
-			5801 5 
+			5801 5
 		}
 		#victory_points = {
-		#	3444 5
-		#}
+			#	3444 5
+			#}
 		#victory_points = {
-		#	3547 1
-		#}
+			#	3547 1
+			#}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
@@ -40,17 +40,17 @@ state={
 				radar_station = 1
 			}
 		}
-	
+
 		set_demilitarized_zone = yes
-	
-	
+
+
 		1936.3.7 = {
 			set_demilitarized_zone = no
 		}
 	}
 
 	provinces={
-		2138 3602 4905 5801 7936 7970 7996 8022 8023 8074 8104 8164 8165 8172 
+		2138 3602 4905 5801 7936 7970 7996 8022 8023 8074 8104 8164 8165 8172
 	}
-	
+
 }

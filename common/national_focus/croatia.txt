@@ -1,15 +1,15 @@
 focus_tree = {
 	id = croatia_focus
-	
-    country = {
-        factor = 0
-        
-        modifier = {
-            add = 10
-            tag = CRO
-        }
-    }
-	
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = CRO
+		}
+	}
+
 	default = no
 	reset_on_civilwar = no
 
@@ -53,8 +53,8 @@ focus_tree = {
 			army_experience = 100
 
 		}
-	}	
-	
+	}
+
 	focus = {
 		id = CRO_mountain_brigades
 		icon = GFX_goal_generic_special_forces
@@ -91,18 +91,18 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = mountaineers_tech
-					custom_effect_tooltip = ROM_mountain_artillery_tech_tt
-			hidden_effect = { set_technology = { mountain_gun = 1 } }
+				custom_effect_tooltip = ROM_mountain_artillery_tech_tt
+				hidden_effect = { set_technology = { mountain_gun = 1 } }
 			}
 		}
 	}
-	
+
 	focus = {
 		id = CRO_special_forces
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = CRO_mountain_brigades }
-	
-		relative_position_id = CRO_officer_training		
+
+		relative_position_id = CRO_officer_training
 		x = 0
 		y = 2
 		cost = 10
@@ -119,17 +119,17 @@ focus_tree = {
 				technology = marines
 				technology = marines2
 				technology = tech_mountaineers3
-				
+
 			}
 		}
 	}
-	
+
 	focus = {
 		id = CRO_develop_tanks
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = CRO_special_forces }
-	
-		relative_position_id = CRO_officer_training		
+
+		relative_position_id = CRO_officer_training
 		x = 0
 		y = 3
 		cost = 10
@@ -145,7 +145,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = CRO_army_maneuvers
 		icon = GFX_goal_generic_army_doctrines
@@ -186,7 +186,7 @@ focus_tree = {
 		}
 	}
 
-focus = {
+	focus = {
 		id = CRO_proffesional_army
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = CRO_officer_training }
@@ -196,9 +196,9 @@ focus = {
 
 		cost = 10
 
-		
 
-		
+
+
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -217,7 +217,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = CRO_prepare_for_war
 		icon = GFX_goal_generic_small_arms
@@ -252,7 +252,7 @@ focus = {
 			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
-	
+
 	focus = {
 		id = CRO_small_arms
 		icon = GFX_goal_generic_small_arms
@@ -371,12 +371,12 @@ focus = {
 				category = cat_anti_tank
 			}
 		}
-	}	
-	
-	
+	}
 
 
-	
+
+
+
 
 
 
@@ -406,9 +406,9 @@ focus = {
 			modifier = {
 				factor = 0
 				date < 1939.1.1
-				OR = { 
+				OR = {
 					# we dont want chinese minors to go crazy on slots early since they get eaten
-					tag = GXC 
+					tag = GXC
 					tag = YUN
 					tag = SHX
 					tag = XSM
@@ -419,7 +419,7 @@ focus = {
 
 					# we also dont want tiny nations to go crazy with slots right away
 					num_of_controlled_states < 2
-				}				
+				}
 			}
 		}
 	}
@@ -437,12 +437,12 @@ focus = {
 		available_if_capitulated = yes
 
 
-		
+
 		ai_will_do = {
 			factor = 2
 		}
 
-		
+
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -450,12 +450,12 @@ focus = {
 				type = industrial_complex
 				level = 1
 				instant_build = yes
-			}			
+			}
 		}
 
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
-	}
+		}
 	}
 
 	focus = {
@@ -471,10 +471,10 @@ focus = {
 
 
 		ai_will_do = {
-			factor = 2			
+			factor = 2
 		}
 
-		
+
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -506,7 +506,7 @@ focus = {
 			factor = 2
 		}
 
-		
+
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -515,7 +515,7 @@ focus = {
 				level = 1
 				instant_build = yes
 			}
-		}		
+		}
 
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
@@ -538,7 +538,7 @@ focus = {
 			factor = 2
 		}
 
-		
+
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -547,14 +547,14 @@ focus = {
 				level = 1
 				instant_build = yes
 			}
-		}		
+		}
 
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
 
-	
+
 
 	focus = {
 		id = CRO_production_effort_3
@@ -572,7 +572,7 @@ focus = {
 			factor = 2
 		}
 
-		
+
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
@@ -581,13 +581,13 @@ focus = {
 				level = 1
 				instant_build = yes
 			}
-		}		
+		}
 
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
-	
+
 	focus = {
 		id = CRO_war_economy
 		icon = GFX_goal_generic_construct_mil_factory
@@ -608,9 +608,9 @@ focus = {
 			factor = 2
 		}
 
-		
 
-			
+
+
 
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 4 }
@@ -624,17 +624,17 @@ focus = {
 		icon = GFX_focus_research
 		prerequisite = { focus = CRO_industrial_effort }
 		relative_position_id = CRO_industrial_effort
-		
-		
+
+
 		x = 5
 		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
 
-		
 
-		
+
+
 
 		completion_reward = {
 			add_research_slot = 1
@@ -647,7 +647,7 @@ focus = {
 		prerequisite = { focus = CRO_construction_effort_2 }
 		relative_position_id = CRO_construction_effort
 		x = 0
-        y = 2
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -657,7 +657,7 @@ focus = {
 			factor = 2
 		}
 
-		
+
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 2
@@ -692,10 +692,10 @@ focus = {
 				uses = 2
 				category = rocketry
 			}
-			
+
 		}
 
-		
+
 	}
 
 	focus = {
@@ -713,7 +713,7 @@ focus = {
 			add_research_slot = 1
 		}
 	}
-	
+
 
 	focus = {
 		id = CRO_secret_weapons
@@ -733,11 +733,11 @@ focus = {
 				uses = 2
 				category = electronics
 				category = radar_tech
-				
+
 			}
 		}
 
-		
+
 	}
 
 	focus = {
@@ -746,81 +746,81 @@ focus = {
 		x = 18
 		y = 0
 		cost = 1
-available = {
+		available = {
 			has_war_with = YUG
 		}
 		available_if_capitulated = yes
 
 		completion_reward = {
 			custom_effect_tooltip = "Croatian soldiers and officers will rise up against the yugoslavians."
-			
-	        add_political_power = 150
-			
+
+			add_political_power = 150
+
 			hidden_effect={
-				
-                     CRO = {set_province_controller = 1595 }
+
+				CRO = {set_province_controller = 1595 }
 
 
 
 
-					division_template = {
-							name = "Home gaurd" # Rifle Division
-							
+				division_template = {
+					name = "Home gaurd" # Rifle Division
 
-							regiments = {
-								infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }
-		infantry = { x = 0 y = 4 }
-	infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-		infantry = { x = 1 y = 4 }
-	infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
-	artillery_brigade = { x = 3 y = 0 }
-	    artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 3 y = 3 }
 
-							}
-							support = {
-								recon = { x = 0 y = 0 } 		
-								engineer = { x = 0 y = 1 } 	
-								artillery = { x = 0 y = 2 } 
-								logistics_company = { x = 0 y = 3 }
-								signal_company = { x = 0 y = 4 }	
-							}
-							}
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+						infantry = { x = 2 y = 3 }
+						artillery_brigade = { x = 3 y = 0 }
+						artillery_brigade = { x = 3 y = 1 }
+						artillery_brigade = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
+
+					}
+					support = {
+						recon = { x = 0 y = 0 }
+						engineer = { x = 0 y = 1 }
+						artillery = { x = 0 y = 2 }
+						logistics_company = { x = 0 y = 3 }
+						signal_company = { x = 0 y = 4 }
+					}
+				}
 				455 = {
 					for_loop_effect = {
-					end = 5 				
-					create_unit = {
-						division = "name = \"Home gaurd\" division_template = \"Home gaurd\" start_experience_factor = 1.0" 
-						owner = CRO
+						end = 5
+						create_unit = {
+							division = "name = \"Home gaurd\" division_template = \"Home gaurd\" start_experience_factor = 1.0"
+							owner = CRO
 						}
-					}}
-					
-					491 = {
-					for_loop_effect = {
-					end = 2 				
-					create_unit = {
-						division = "name = \"Home gaurd\" division_template = \"Home gaurd\" start_experience_factor = 1.0" 
-						owner = CRO
-						}
-					}}
-			}
-		
-		
-		army_experience = 100
+						}}
 
-		
-		
-	
+				491 = {
+					for_loop_effect = {
+						end = 2
+						create_unit = {
+							division = "name = \"Home gaurd\" division_template = \"Home gaurd\" start_experience_factor = 1.0"
+							owner = CRO
+						}
+						}}
+			}
+
+
+			army_experience = 100
+
+
+
+
 		}
 	}
 
@@ -898,7 +898,7 @@ available = {
 			add_ideas = CRO_tomislav_II
 		}
 	}
-	
+
 	focus = {
 		id = CRO_militarism
 		icon = GFX_goal_CRO_ustasha_army
@@ -969,12 +969,12 @@ available = {
 				}
 			}
 		}
-	}	
+	}
 
 	focus = {
 		id = CRO_catholic_dominance_focus
 		icon = GFX_goal_christianity_and_state
-		prerequisite = { focus = CRO_nationalism_focus}		
+		prerequisite = { focus = CRO_nationalism_focus}
 		available = {
 			NOT = {
 				has_government = communism
@@ -995,7 +995,7 @@ available = {
 				any_neighbor_country = {
 					is_major = yes
 					has_government = fascism
-					
+
 				}
 				NOT = {
 					any_neighbor_country = {
@@ -1014,10 +1014,10 @@ available = {
 	focus = {
 		id = CRO_integrate_muslim_croats_focus
 		icon = GFX_goal_CRO_muslim_alliance
-		prerequisite = { focus = CRO_catholic_dominance_focus }	
+		prerequisite = { focus = CRO_catholic_dominance_focus }
 		prerequisite = { focus = CRO_a_king_for_our_people_focus }
 		prerequisite = { focus = CRO_militarism }
-		
+
 		relative_position_id = CRO_political_effort
 		x = 0
 		y = 3
@@ -1032,19 +1032,19 @@ available = {
 
 		completion_reward = {
 			add_ideas = CRO_croat_muslims_happy
-			if = { 
+			if = {
 				limit = {
 					controls_state = 104
-					}	
-					CRO = { add_state_core = 104}
-				}			
+				}
+				CRO = { add_state_core = 104}
+			}
 		}
 	}
 	focus = {
 		id = CRO_integrate_orthodox_croats_focus
 		icon = GFX_goal_CRO_reconcile_croatian_orthodox
-		prerequisite = { focus = CRO_military_youth }	
-		prerequisite = { focus = CRO_integrate_muslim_croats_focus }	
+		prerequisite = { focus = CRO_military_youth }
+		prerequisite = { focus = CRO_integrate_muslim_croats_focus }
 		relative_position_id = CRO_political_effort
 		x = 1
 		y = 4
@@ -1060,8 +1060,8 @@ available = {
 		completion_reward = {
 			add_political_power = 150
 		}
-	}	
-	
+	}
+
 
 	focus = {
 		id = CRO_paramilitarism
@@ -1098,8 +1098,8 @@ available = {
 			add_ideas = YUG_idea_serbian_general_staff
 
 		}
-	}	
-	
-	
+	}
+
+
 
 }

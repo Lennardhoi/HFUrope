@@ -5,7 +5,7 @@ crisis = {
 		icon = generic_civil_support
 
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -18,7 +18,7 @@ crisis = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -56,7 +56,7 @@ crisis = {
 				has_idea = draft_dodging_2
 				has_idea = draft_dodging_3
 			}
-									
+
 		}
 
 		complete_effect = {
@@ -69,7 +69,7 @@ crisis = {
 		icon = generic_civil_support
 
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -82,7 +82,7 @@ crisis = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -131,12 +131,12 @@ crisis = {
 			country_event = stability.22
 		}
 	}
-	
+
 	draft_dodging_mission = {
 
 		icon = generic_civil_support
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -149,7 +149,7 @@ crisis = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -180,7 +180,7 @@ crisis = {
 			}
 		}
 		complete_effect = {
-			
+
 		}
 		timeout_effect = {
 			if = {
@@ -200,7 +200,7 @@ crisis = {
 					has_idea = draft_dodging_3
 					has_stability < 0.21
 					has_government = communism
-					
+
 				}
 				start_civil_war = {
 					ideology = democratic
@@ -221,7 +221,7 @@ crisis = {
 					has_idea = draft_dodging_3
 					has_stability < 0.41
 					has_government = communism
-					
+
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
 			}
@@ -233,7 +233,7 @@ crisis = {
 				add_stability = -0.1
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = draft_dodging_2
 				}
 				swap_ideas = {
@@ -242,21 +242,21 @@ crisis = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = draft_dodging
 				}
 				swap_ideas = {
 					remove_idea = draft_dodging
 					add_idea = draft_dodging_2
 				}
-			}	
+			}
 		}
 	}
 	strikes_mission = {
 
 		icon = generic_civil_support
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -269,7 +269,7 @@ crisis = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -299,9 +299,9 @@ crisis = {
 		}
 		visible = {
 			OR = {
-				has_idea = strikes_1 
+				has_idea = strikes_1
 				has_idea = strikes_2
-				has_idea = strikes_3	
+				has_idea = strikes_3
 			}
 			OR = {
 				has_country_flag = crisis_in_progress
@@ -309,7 +309,7 @@ crisis = {
 			}
 		}
 		complete_effect = {
-			
+
 		}
 		timeout_effect = {
 			if = {
@@ -329,7 +329,7 @@ crisis = {
 					has_idea = strikes_3
 					has_stability < 0.21
 					has_government = communism
-					
+
 				}
 				start_civil_war = {
 					ideology = democratic
@@ -350,7 +350,7 @@ crisis = {
 					has_idea = strikes_3
 					has_stability < 0.41
 					has_government = communism
-					
+
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
 			}
@@ -362,7 +362,7 @@ crisis = {
 				add_stability = -0.1
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = strikes_2
 				}
 				swap_ideas = {
@@ -371,22 +371,22 @@ crisis = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = strikes_1
 				}
 				swap_ideas = {
 					remove_idea = strikes_1
 					add_idea = strikes_2
 				}
-			}	
+			}
 		}
 	}
 	mutiny_1 = {
 
 		icon = generic_civil_support
-		
+
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -399,7 +399,7 @@ crisis = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -444,7 +444,7 @@ crisis = {
 
 		icon = generic_civil_support
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -457,7 +457,7 @@ crisis = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -483,13 +483,13 @@ crisis = {
 			OR = {
 				has_country_flag = crisis_in_progress #needed to avoid doubling up with demob strikes
 				has_civil_war = yes
-			} 
+			}
 		}
 		visible = {
 			OR = {
-				has_idea = mutiny_1 
+				has_idea = mutiny_1
 				has_idea = mutiny_2
-				has_idea = mutiny_3	
+				has_idea = mutiny_3
 			}
 			OR = {
 				has_country_flag = crisis_in_progress #needed to avoid doubling up with demob strikes
@@ -497,7 +497,7 @@ crisis = {
 			}
 		}
 		complete_effect = {
-			
+
 		}
 		timeout_effect = {
 			if = {
@@ -517,7 +517,7 @@ crisis = {
 					has_idea = mutiny_3
 					has_stability < 0.21
 					has_government = communism
-					
+
 				}
 				start_civil_war = {
 					ideology = democratic
@@ -538,7 +538,7 @@ crisis = {
 					has_idea = mutiny_3
 					has_stability < 0.41
 					has_government = communism
-					
+
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
 			}
@@ -550,7 +550,7 @@ crisis = {
 				add_stability = -0.1
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = mutiny_2
 				}
 				swap_ideas = {
@@ -559,21 +559,21 @@ crisis = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = mutiny_1
 				}
 				swap_ideas = {
 					remove_idea = mutiny_1
 					add_idea = mutiny_2
 				}
-			}	
+			}
 		}
 	}
 }
 demobilization = {
 	demobilization_economic = {
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -586,12 +586,12 @@ demobilization = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
 		icon = generic_industry
-		
+
 		is_good = no
 
 		available = {
@@ -656,7 +656,7 @@ demobilization = {
 		ai_will_do = {
 			factor = 500 #should really get on this
 		}
-		
+
 	}
 	demob_economic_mission = {
 		available = {
@@ -666,7 +666,7 @@ demobilization = {
 			}
 		}
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -679,7 +679,7 @@ demobilization = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -729,7 +729,7 @@ demobilization = {
 					has_idea = strikes_3
 					has_stability < 0.21
 					has_government = communism
-					
+
 				}
 				start_civil_war = {
 					ideology = democratic
@@ -750,7 +750,7 @@ demobilization = {
 					has_idea = strikes_3
 					has_stability < 0.41
 					has_government = communism
-					
+
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
 			}
@@ -762,7 +762,7 @@ demobilization = {
 				add_stability = -0.1
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = strikes_2
 				}
 				swap_ideas = {
@@ -771,7 +771,7 @@ demobilization = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					has_idea = strikes_1
 				}
 				swap_ideas = {
@@ -780,8 +780,8 @@ demobilization = {
 				}
 			}
 			if = {
-				limit = { 
-					NOT = { 
+				limit = {
+					NOT = {
 						OR = {
 							has_idea = strikes_1
 							has_idea = strikes_2
@@ -790,11 +790,11 @@ demobilization = {
 					}
 				}
 				add_ideas = strikes_1
-			}	
+			}
 		}
 	}
 	demobilization_manpower = {
-		
+
 		icon = generic_prepare_civil_war
 
 		icon = revolt
@@ -806,7 +806,7 @@ demobilization = {
 		}
 
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -819,7 +819,7 @@ demobilization = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}
@@ -828,7 +828,7 @@ demobilization = {
 		ai_will_do = {
 			factor = 500
 		}
-		
+
 
 		visible = {
 			has_unsupported_manpower_law = yes
@@ -858,7 +858,7 @@ demobilization = {
 			}
 		}
 
-		
+
 
 	}
 	demob_manpower_mission = {
@@ -873,7 +873,7 @@ demobilization = {
 			}
 		}
 		allowed = {
-			OR = {	
+			OR = {
 				tag = SOV
 				tag = FRA
 				tag = RAJ
@@ -886,7 +886,7 @@ demobilization = {
 				tag = ENG
 				tag = USA
 				tag = CAN
-				tag = EFR	
+				tag = EFR
 				tag = CRO
 			}
 		}

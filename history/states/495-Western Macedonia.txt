@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		
+
 		owner = YUG
 		buildings = {
 			infrastructure = 4
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-	  4374 9761 4835 1523 9685 9681 9697 9691 1316 2717 5467
+		4374 9761 4835 1523 9685 9681 9697 9691 1316 2717 5467
 	}
 	manpower=75285
 	buildings_max_level_factor=1.000

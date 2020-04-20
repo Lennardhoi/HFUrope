@@ -3,9 +3,9 @@ state={
 	id=186
 	name="STATE_184"
 	manpower = 382500
-	
+
 	state_category = rural
-	
+
 	resources={
 		#chromium=11 moved to South Tyrol
 	}

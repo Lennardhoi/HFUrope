@@ -3,7 +3,7 @@ state={
 	name="STATE_141" # Svealand
 	manpower = 1
 	state_category = city
-	
+
 	resources={
 		#steel=24 # was: 40
 		#aluminium=2 # was: 4
@@ -12,11 +12,11 @@ state={
 	history={
 		owner = SWE
 		victory_points = {
-			318 20 
+			318 20
 		}
 		buildings = {
 			infrastructure = 7
-			
+
 			318 = {
 				naval_base = 5
 				coastal_bunker = 3

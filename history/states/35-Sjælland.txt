@@ -8,8 +8,8 @@ state= {
 	history=
 	{
 		owner = DEN
-		victory_points = { 
-			6151 20 
+		victory_points = {
+			6151 20
 		}
 		victory_points = {
 			4020 5

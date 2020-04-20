@@ -21,7 +21,7 @@ country_event = {
 		}
 	}
 	option = {
-		
+
 	}
 }
 add_namespace = lar_appeal_to_overseas_territories
@@ -34,20 +34,20 @@ country_event = {
 		if = {
 			limit = { has_legitimacy < 80 }
 			country_event = { id = lar_appeal_to_overseas_territories.4 days = 6 } #syria remains with Vichy
-		} else = {
+			} else = {
 			country_event = { id = lar_appeal_to_overseas_territories.5 days = 6 } #syria switches sides
 		}
 		if = {
 			limit = { has_legitimacy < 60 }
 			country_event = { id = lar_appeal_to_overseas_territories.8 days = 2 } #western africa remains with Vichy
-		} else = {
+			} else = {
 			country_event = { id = lar_appeal_to_overseas_territories.9 days = 2 } #western africa switches sides
 		}
-		
+
 	}
-	
+
 	option = {
-		
+
 	}
 }
 

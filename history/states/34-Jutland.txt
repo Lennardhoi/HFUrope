@@ -5,14 +5,14 @@ state={
 	resources={
 		aluminium=6 # was: 10
 	}
-	
+
 	state_category = town
 
 	history=
 	{
 		owner = DEN
 		victory_points = {
-			7090 3 
+			7090 3
 		}
 		buildings = {
 			infrastructure = 8
@@ -29,5 +29,5 @@ state={
 	}
 	provinces=
 	{
-738 1319 1857 2015 3362 4638 4814 7022 7090 7179 7194 7215 7221  	}
+		738 1319 1857 2015 3362 4638 4814 7022 7090 7179 7194 7215 7221  	}
 }

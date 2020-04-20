@@ -5,7 +5,7 @@ state={
 		208 798 2353 2390 2490 2603 2846 3495 3605 3715 6773 6823 1950
 	}
 	manpower = 255060
-	
+
 	state_category = rural
 
 	history={

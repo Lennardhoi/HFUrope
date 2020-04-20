@@ -6,7 +6,7 @@ operations = {
 
 		available = {
 			GER ={has_war_with = SOV}
-		
+
 		}
 
 		cost = 50
@@ -16,9 +16,9 @@ operations = {
 		}
 
 		visible = {
-			
+
 			GER ={has_war_with = SOV}
-			
+
 		}
 
 		complete_effect = {
@@ -26,63 +26,63 @@ operations = {
 		}
 	}
 	GER_fin = {
-	icon = generic_operation
-	fire_only_once = yes
-	allowed = {
-		tag = GER
+		icon = generic_operation
+		fire_only_once = yes
+		allowed = {
+			tag = GER
+		}
+		visible = {
+			Date > 1941.1.1
+		}
+
+		available = {
+			Date > 1941.6.1
+		}
+
+
+		complete_effect = {
+			GER =  { puppet = FIN}
+		}
 	}
-	visible = {	
-		Date > 1941.1.1
-	}
-	
-	available = {
-		Date > 1941.6.1	
-	}
-	
-	
-	complete_effect = {
-		GER =  { puppet = FIN}
-	}
-	}
-	
+
 	GER_Anton = {
-	
-	icon = generic_operation
-	
-	fire_only_once = yes
-	allowed = {
-		tag = GER
-	}
-	visible = {
-			
+
+		icon = generic_operation
+
+		fire_only_once = yes
+		allowed = {
+			tag = GER
+		}
+		visible = {
+
 			tag = GER
 			Date > 1940.1.1
 		}
-	
-	
-	available = {
+
+
+		available = {
 			tag = GER
 			EFR = { has_war_with = ENG }
 			EFR = { is_ai = yes }
 			Date > 1941.6.1
-			
+
 		}
-	
-	days_remove = 30
-	remove_effect = {
-		
-		annex_country = { target = EFR transfer_troops = yes }
-	
+
+		days_remove = 30
+		remove_effect = {
+
+			annex_country = { target = EFR transfer_troops = yes }
+
 		}
-	
+
 	}
-	
+
 	GER_seize_syria = {
-	
+
 		icon = generic_operation
-		
+
 		fire_only_once = yes
-		
+
 		allowed = {
 			tag = GER
 		}
@@ -98,9 +98,9 @@ operations = {
 				owns_state = 135
 			}
 		}
-	
+
 		days_remove = 10
-	
+
 		available = {
 			any_country = {
 				is_in_faction_with = ROOT
@@ -111,7 +111,7 @@ operations = {
 				controls_state = 63
 			}
 		}
-		
+
 		complete_effect = {
 			hidden_effect = {
 				every_enemy_country = {
@@ -120,9 +120,9 @@ operations = {
 						days = 0
 					}
 				}
-			}	
+			}
 		}
-	
+
 		remove_effect = {
 			transfer_state = 553
 			transfer_state = 554
@@ -142,7 +142,7 @@ operations = {
 			}
 		}
 	}
-	
+
 	GER_barbarossa_mission = {
 
 		icon = generic_operation
@@ -175,7 +175,7 @@ operations = {
 		}
 
 		timeout_effect = {
-			
+
 		}
 
 		ai_will_do = {
@@ -187,13 +187,13 @@ operations = {
 #Category only allowed for GER
 GER_military_buildup = {
 
-	
+
 }
 
 special_projects = {
 	GER_begin_heavy_water_production = {
-		allowed = { 
-			original_tag = GER 
+		allowed = {
+			original_tag = GER
 			has_dlc = "La Resistance"
 		}
 		available = {
@@ -209,7 +209,7 @@ special_projects = {
 		visible = {}
 		cost = 0
 		ai_will_do = {
-			factor = 5 
+			factor = 5
 		}
 		cancel_trigger = { NOT = { has_global_flag = GER_heavy_water_production_underway } } #can be removed via intelligence ops
 		days_remove = 365
@@ -227,10 +227,10 @@ special_projects = {
 
 		icon = generic_construction
 
-			allowed = { 
-		original_tag = GeR
+		allowed = {
+			original_tag = GeR
 		}
-		
+
 		available = {
 			#has_war = yes
 			controls_state = 113
@@ -265,16 +265,16 @@ special_projects = {
 			}
 		}
 		complete_effect = {
-					add_timed_idea = { idea = GER_dismantle_maginot days = 180 }
-	
+			add_timed_idea = { idea = GER_dismantle_maginot days = 180 }
+
 		}
-	}	
+	}
 	GER_dismantle_czechoslovakian_forts = {
 
 		icon = generic_construction
-		
-		allowed = { 
-		original_tag = GeR
+
+		allowed = {
+			original_tag = GeR
 		}
 
 		available = {
@@ -459,5 +459,5 @@ special_projects = {
 		complete_effect = {
 			add_timed_idea = { idea = GER_dismantle_czechoslovakian_forts days = 180 }
 		}
-	}	
+	}
 }

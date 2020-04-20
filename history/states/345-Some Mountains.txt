@@ -1,9 +1,9 @@
 state={
 	id=345
 	name="STATE_588"
-	
+
 	state_category = rural
-	
+
 	resources={
 		chromium=16 # was: 22.000
 	}

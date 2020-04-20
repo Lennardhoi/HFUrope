@@ -3,7 +3,7 @@ state={
 	id=312
 	name="STATE_403" # Tyumen
 	manpower = 939067
-	
+
 	state_category = city
 
 	history={
@@ -18,6 +18,6 @@ state={
 	}
 
 	provinces={
-		37 292 338 746 799 1398 6005 6167 
+		37 292 338 746 799 1398 6005 6167
 	}
 }

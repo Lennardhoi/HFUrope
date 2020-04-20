@@ -12,7 +12,7 @@ state={
 
 		}
 		victory_points = {
-			2466 15 
+			2466 15
 		}
 		add_core_of = YUG
 
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		821 2466 5125 5401 5809 5997 9378 9417 9418 9419 9430 9478 
+		821 2466 5125 5401 5809 5997 9378 9417 9418 9419 9430 9478
 	}
 	manpower=1279121
 	buildings_max_level_factor=1.000

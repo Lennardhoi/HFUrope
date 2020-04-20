@@ -1,13 +1,13 @@
 state={
 	id=98
 	name="STATE_191"
-	
+
 	state_category = rural
 
 	history={
 		owner = EST
 		victory_points = {
-			6883 1 
+			6883 1
 		}
 		buildings = {
 			infrastructure = 5

@@ -3,19 +3,19 @@ state={
 	id=86
 	name="Ceylon"
 	resources={
-rubber=160
-aluminium=30
-tungsten=80
-chromium=40
-}
-state_category=rural
-buildings_max_level_factor=1.000
-manpower = 5500000
+		rubber=160
+		aluminium=30
+		tungsten=80
+		chromium=40
+	}
+	state_category=rural
+	buildings_max_level_factor=1.000
+	manpower = 5500000
 	history={
 		owner = ENG
 		add_core_of = SWE
 		victory_points = {
-			4823 3 
+			4823 3
 		}
 		buildings = {
 			infrastructure = 3
@@ -36,6 +36,6 @@ manpower = 5500000
 	}
 
 	provinces={
-		1338 2149 2939 3352 4823 10888 10898 10906 
+		1338 2149 2939 3352 4823 10888 10898 10906
 	}
 }

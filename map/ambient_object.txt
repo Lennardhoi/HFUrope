@@ -6,10 +6,10 @@ type={
 	object={
 		name="frame_border_entity_top"
 		position={
-			0.000 0.000 1678.000 
+			0.000 0.000 1678.000
 		}
 		rotation={
-			0.000 0.000 0.000 
+			0.000 0.000 0.000
 		}
 	}
 }
@@ -21,10 +21,10 @@ type={
 	object={
 		name="frame_border_bottom_entity_bottom"
 		position={
-			0.000 0.000 -140.000 
+			0.000 0.000 -140.000
 		}
 		rotation={
-			0.000 0.000 0.000 
+			0.000 0.000 0.000
 		}
 	}
 }
@@ -36,10 +36,10 @@ type={
 	object={
 		name="frame_border_logo_entity_top"
 		position={
-			3000.000 0.000 1618.000 
+			3000.000 0.000 1618.000
 		}
 		rotation={
-			0.000 0.000 0.000 
+			0.000 0.000 0.000
 		}
 	}
 }

@@ -40,14 +40,14 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { 9907 }
 	is_disabled = {
 		NOT = {
 			tag=SPR
-		
+
 		}
-		
+
 	}
 }
 
@@ -84,14 +84,14 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { 1887 }
 	is_disabled = {
 		NOT = {
 			tag=SPR
-		
+
 		}
-		
+
 	}
 }
 #Suez Canal
@@ -127,7 +127,7 @@ adjacency_rule
 		submarine = no
 		trade = yes
 	}
-	
+
 	required_provinces = { 3262 4149 2678 10637 10668 5450 10732 10757 }
 
 	is_disabled = {
@@ -141,7 +141,7 @@ adjacency_rule
 		}
 		tooltip = disable_canal_tt
 	}
-		
+
 	icon = 10732
 	offset = { 0 0 0 }
 }
@@ -179,10 +179,10 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { 4231 }
-	
-	icon = 10170	
+
+	icon = 10170
 	offset = { 0 0 0 }
 	is_disabled = {
 		OR= {
@@ -231,9 +231,9 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { 7022 1857 7136 }
-	
+
 	icon = 7022
 	offset = { -10 0 10 }
 }
@@ -271,7 +271,7 @@ adjacency_rule
 		submarine = no
 		trade = yes
 	}
-	
+
 	required_provinces = { 11063 }
 
 	is_disabled = {
@@ -281,7 +281,7 @@ adjacency_rule
 		}
 		tooltip = disable_canal_tt
 	}
-		
+
 	icon = 11063
 	offset = { 0 0 0 }
 }
@@ -319,9 +319,9 @@ adjacency_rule
 		submarine = no
 		trade = yes
 	}
-	
+
 	required_provinces = { 5332 1902 }
-	
+
 	icon = 5332
 	offset = { 0 0 0 }
 }
@@ -359,9 +359,9 @@ adjacency_rule
 		submarine = no
 		trade = yes
 	}
-	
+
 	required_provinces = { 7277 4864 5647 6336 }
-		
+
 	icon = 7277
 	offset = { 0 0 0 }
 }
@@ -398,9 +398,9 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { }
-		
+
 	icon = 13055
 	offset = { 0 0 0 }
 }
@@ -437,9 +437,9 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { }
-		
+
 	icon = 6477
 	offset = { 0 0 0 }
 }
@@ -476,9 +476,9 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
+
 	required_provinces = { }
-		
+
 	icon = 13661
 	offset = { 0 0 0 }
 }

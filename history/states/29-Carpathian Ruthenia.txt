@@ -2,12 +2,12 @@ state={
 	id=29
 	name="STATE_73"
 	manpower = 854300
-	
+
 	state_category = city
-	
+
 	history={
 		victory_points = {
-			6254 1 
+			6254 1
 		}
 		owner = CZE
 		buildings = {
@@ -26,6 +26,6 @@ state={
 	}
 
 	provinces={
-		1235 1487 2596 3005 6254 8481 8516 8545 8608 8632 8651 8677 
+		1235 1487 2596 3005 6254 8481 8516 8545 8608 8632 8651 8677
 	}
 }

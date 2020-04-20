@@ -1,17 +1,17 @@
 
 state={
 	id=497
-	name="STATE_497" 
+	name="STATE_497"
 	manpower=2312500
-	
+
 	state_category = city
 
 	history={
 		owner = GRE
 		victory_points = {
-			10037 20 
+			10037 20
 		}
-		
+
 		buildings = {
 			infrastructure = 10
 			arms_factory = 2

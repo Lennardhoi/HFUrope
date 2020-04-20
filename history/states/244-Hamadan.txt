@@ -2,11 +2,11 @@ state={
 	id=244
 	name="Hamadan"
 	provinces={
-		892 1204 1545 3009 10210 10229 10300 
+		892 1204 1545 3009 10210 10229 10300
 	}
 	manpower = 3446250
 	state_category = town
-     impassable = yes
+	impassable = yes
 	history={
 		owner = PER
 		buildings = {

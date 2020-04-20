@@ -1,48 +1,48 @@
 focus_tree = {
 	id = ven_focus
-	
+
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
 			tag = VEN
-		
+
 		}
 	}
-	
-	
-		default = no
-     	
-		focus = { 
+
+
+	default = no
+
+	focus = {
 		id = VEN_remove_Atlantikwall
 		icon = GFX_goal_generic_SS_focus
 		available = {
-		GER={has_completed_focus=GER_atlantikwall OR={date>1942.1.1 NOT={214={is_controlled_by = ITA}}}}
-			
-		
-		
+			GER={has_completed_focus=GER_atlantikwall OR={date>1942.1.1 NOT={214={is_controlled_by = ITA}}}}
+
+
+
 		}
-		
+
 		x = 1
 		y = 1
 		cost = 5
-		
-	completion_reward = {
-	
-	 GER={FRA={ every_owned_state= {
-               limit={is_coastal=yes is_on_continent = europe }
-                add_state_modifier = {
-                    modifier = { max_dig_in=-10 }              
-                }}}
-		every_owned_state= {
-               limit={is_coastal=yes is_on_continent = europe  OR={is_core_of=HOL is_core_of=BEL is_core_of=DEN}}
-                add_state_modifier = {
-                    modifier = { max_dig_in=-10 }              
-                }}}
-	
-	}	
+
+		completion_reward = {
+
+			GER={FRA={ every_owned_state= {
+						limit={is_coastal=yes is_on_continent = europe }
+						add_state_modifier = {
+							modifier = { max_dig_in=-10 }
+							}}}
+				every_owned_state= {
+					limit={is_coastal=yes is_on_continent = europe  OR={is_core_of=HOL is_core_of=BEL is_core_of=DEN}}
+					add_state_modifier = {
+						modifier = { max_dig_in=-10 }
+						}}}
+
+		}
 	}
-		focus = {
+	focus = {
 		id = JAP_intervene_in_china
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = 3
@@ -50,12 +50,12 @@ focus_tree = {
 
 		cost = 5
 
-		available = { 
+		available = {
 			date > 1937.1.1
 		}
-		
 
-		
+
+
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -70,132 +70,132 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-	
-		
-		 add_threat = 7
-		SOV = { army_experience = 300
-		        air_experience = 200}
-		
-		USA = { add_war_support = 0.1
-		        army_experience = 100
-		        air_experience = 200}
-		
-		ENG = { add_war_support = 0.1
-		        army_experience = 100
-		        air_experience = 200}
-		
-		
-		CAN = { add_war_support = 0.1
-		        army_experience = 100
-		        air_experience = 200}
 
-		
-		RAJ = { add_war_support = 0.1
-		        army_experience = 100
-		        air_experience = 200}
-		
-		FRA = { add_war_support = 0.1
-		        army_experience = 100
-		        air_experience = 200}
-		
-		GER = { 
-		        army_experience = 150
-		        air_experience = 450}
-		
-		ITA = { 
-		        army_experience = 150
-		        air_experience = 200}
-		
-		HUN = { 
-		        army_experience = 150
-		        air_experience = 200}
-		
-		SPR = { 
-		        army_experience = 150
-		        air_experience = 200}
-		
-		BUL = { 
-		        army_experience = 150
-		        air_experience = 200}
-		
-		FIN = { 
-		        army_experience = 150
-		        air_experience = 200}
-		
-		ROM = { 
-		        army_experience = 150
-		        air_experience = 200}
-		
-		#}
-	}}
 
-	focus = {
-		id = JAP_war_of_resistance
-		icon = GFX_focus_attack_japan
-		prerequisite = { focus = JAP_intervene_in_china }
-		relative_position_id = JAP_intervene_in_china
-		x = 0
-		y = 1
-		
-		cost = 5
+			add_threat = 7
+			SOV = { army_experience = 300
+				air_experience = 200}
 
-		ai_will_do = {
-			factor = 4
-		}
+			USA = { add_war_support = 0.1
+				army_experience = 100
+				air_experience = 200}
 
-		available = {
-			date > 1939.1.1
-			
-		}
+			ENG = { add_war_support = 0.1
+				army_experience = 100
+				air_experience = 200}
 
-		
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+			CAN = { add_war_support = 0.1
+				army_experience = 100
+				air_experience = 200}
 
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
+
+			RAJ = { add_war_support = 0.1
+				army_experience = 100
+				air_experience = 200}
+
+			FRA = { add_war_support = 0.1
+				army_experience = 100
+				air_experience = 200}
+
+			GER = {
+				army_experience = 150
+				air_experience = 450}
+
+			ITA = {
+				army_experience = 150
+				air_experience = 200}
+
+			HUN = {
+				army_experience = 150
+				air_experience = 200}
+
+			SPR = {
+				army_experience = 150
+				air_experience = 200}
+
+			BUL = {
+				army_experience = 150
+				air_experience = 200}
+
+			FIN = {
+				army_experience = 150
+				air_experience = 200}
+
+			ROM = {
+				army_experience = 150
+				air_experience = 200}
+
+			#}
+		}}
+
+focus = {
+	id = JAP_war_of_resistance
+	icon = GFX_focus_attack_japan
+	prerequisite = { focus = JAP_intervene_in_china }
+	relative_position_id = JAP_intervene_in_china
+	x = 0
+	y = 1
+
+	cost = 5
+
+	ai_will_do = {
+		factor = 4
+	}
+
+	available = {
+		date > 1939.1.1
+
+	}
+
+
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	completion_reward = {
 		add_threat = 20
- 		}	
-			
 	}
-		focus = {
-		id = VEN_hurensohn_sealion
-		icon = GFX_goal_generic_consumer_goods
-	
-		x = 10
-		y = 0
-		cost = 1
-        ai_will_do = {
-			factor = 1
-		}	
-		available_if_capitulated = yes
-       	
-	available = { 
+
+}
+focus = {
+	id = VEN_hurensohn_sealion
+	icon = GFX_goal_generic_consumer_goods
+
+	x = 10
+	y = 0
+	cost = 1
+	ai_will_do = {
+		factor = 1
+	}
+	available_if_capitulated = yes
+
+	available = {
 		or = {
-		ENG = {NOT = {has_full_control_of_state = 50 }}
-		ENG = {NOT = {has_full_control_of_state = 52 }}
-		ENG = {NOT = {has_full_control_of_state = 53 }}
-		ENG = {NOT = {has_full_control_of_state = 51 }}
-		ENG = {NOT = {has_full_control_of_state = 46 }}
+			ENG = {NOT = {has_full_control_of_state = 50 }}
+			ENG = {NOT = {has_full_control_of_state = 52 }}
+			ENG = {NOT = {has_full_control_of_state = 53 }}
+			ENG = {NOT = {has_full_control_of_state = 51 }}
+			ENG = {NOT = {has_full_control_of_state = 46 }}
 		}
-	
+
 	}
-	
-		completion_reward = {
-		
-		
+
+	completion_reward = {
+
+
 		CAN = {add_ideas =  tot_economic_mobilisation}
 		RAJ = {add_ideas =  tot_economic_mobilisation}
 		ENG = {add_ideas =  tot_economic_mobilisation}
 		USA = {add_ideas =  tot_economic_mobilisation}
 		FRA = {add_ideas =  tot_economic_mobilisation}
-		
-		
-		
-   }
-		
-	
-		
+
+
+
 	}
+
+
+
+}

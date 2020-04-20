@@ -2,12 +2,12 @@ state={
 	id=440
 	name="Pennsylvania"
 	provinces={
-		181 447 686 1135 1702 1837 3369 4875 
+		181 447 686 1135 1702 1837 3369 4875
 	}
 	manpower = 9631346
-	
+
 	state_category = megalopolis
-	
+
 	resources={
 		steel=44 # was: 80
 	}

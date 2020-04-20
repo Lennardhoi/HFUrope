@@ -2,22 +2,22 @@ state={
 	id=135
 	name="Aleppo"
 	provinces={
-		2102 2546 2696 2787 2813 4352 5311 10134 10200 
+		2102 2546 2696 2787 2813 4352 5311 10134 10200
 	}
-manpower = 1325594
-state_category = town
-history={
-owner = FRA
-add_core_of=SWE
-victory_points = {
-5311 3
-}
-victory_points = {
-2546 1
-}
-buildings = {
-infrastructure = 3
-}
-}
+	manpower = 1325594
+	state_category = town
+	history={
+		owner = FRA
+		add_core_of=SWE
+		victory_points = {
+			5311 3
+		}
+		victory_points = {
+			2546 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
 	buildings_max_level_factor=1.000
 }

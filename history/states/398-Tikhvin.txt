@@ -4,13 +4,13 @@ state={
 	id=398
 	name="STATE_264"
 	manpower = 185559
-	
+
 	state_category = rural
 
 	history={
 		owner = SOV
 		victory_points = {
-			6198 1 
+			6198 1
 		}
 		buildings = {
 			infrastructure = 4

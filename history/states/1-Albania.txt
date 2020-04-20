@@ -7,9 +7,9 @@ state={
 		aluminium=2 # was: 3
 		chromium=2 # was: 3
 	}
-	
+
 	state_category = town
-	
+
 	history={
 		owner = ALB
 		victory_points = {
@@ -21,7 +21,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			air_base = 3
 			9891 = {
 				naval_base = 4
@@ -38,6 +38,6 @@ state={
 	}
 
 	provinces={
-		96 833 980 3617 3939 4738 5232 5256 5563 5764 5919 9709 9710 9718 9743 9757 9772 9776 9803 9877 9891 9896 9902 
+		96 833 980 3617 3939 4738 5232 5256 5563 5764 5919 9709 9710 9718 9743 9757 9772 9776 9803 9877 9891 9896 9902
 	}
 }

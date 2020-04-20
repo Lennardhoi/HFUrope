@@ -2,10 +2,10 @@ state={
 	id=445
 	name="North Carolina"
 	provinces={
-		166 894 1880 3049 5615 
+		166 894 1880 3049 5615
 	}
 	manpower = 3170274
-	
+
 	state_category = city
 
 	history={
@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			894 3 
+			894 3
 		}
 
 	}

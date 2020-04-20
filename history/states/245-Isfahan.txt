@@ -2,7 +2,7 @@ state={
 	id=245
 	name="Isfahan"
 	provinces={
-		120 178 182 235 795 1247 1539 1731 2386 3061 3109 3886 5362 6419 10356 10541 10542 10606 
+		120 178 182 235 795 1247 1539 1731 2386 3061 3109 3886 5362 6419 10356 10541 10542 10606
 	}
 	manpower = 885272
 	impassable = yes
@@ -10,7 +10,7 @@ state={
 		oil=0 # was: 12 (moved to Fars)
 	}
 	state_category = rural
-	
+
 
 	history={
 		owner = PER
@@ -18,7 +18,7 @@ state={
 			infrastructure = 2
 		}
 		victory_points = {
-			3886 1 
+			3886 1
 		}
 		add_core_of = PER
 	}

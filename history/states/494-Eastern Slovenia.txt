@@ -3,19 +3,19 @@ state=
 	id=494
 	name="STATE_494"
 	manpower = 43521
-	
+
 	state_category = large_town
-	
+
 	history =
 	{
 		owner = YUG
 		buildings = {
 			infrastructure = 6
 		}
-		
+
 		add_core_of = YUG
 	}
 	provinces={
-	     9015 9061 
-		}
+		9015 9061
 	}
+}

@@ -17,7 +17,7 @@ state={
 
 		}
 		victory_points = {
-			1240 3 
+			1240 3
 		}
 		add_core_of = SOV
 		1939.1.1 = {
@@ -30,8 +30,8 @@ state={
 
 	}
 
-provinces={
-		1240 3002 9509 
+	provinces={
+		1240 3002 9509
 	}
 	manpower=2563404
 	buildings_max_level_factor=1.000

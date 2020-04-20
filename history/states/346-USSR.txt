@@ -3,7 +3,7 @@ state={
 	id=346
 	name="STATE_40" # Barnaul
 	manpower = 2107451
-	
+
 	state_category = large_town
 
 	history={
@@ -24,6 +24,6 @@ state={
 	}
 
 	provinces={
-		525 1274 4009 
+		525 1274 4009
 	}
 }
