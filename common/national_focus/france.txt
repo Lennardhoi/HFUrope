@@ -40,7 +40,6 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_timed_idea = {
@@ -80,7 +79,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -256,8 +254,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_3
 		available = {
 		}
-		prerequisite = { focus = FRA_metropolitan_france}
-		prerequisite = {  focus = FRA_algerie_france }
+		prerequisite = { focus = FRA_metropolitan_france focus = FRA_algerie_france }
 		x = 0
 		y = 1
 		relative_position_id = FRA_metropolitan_france
@@ -271,7 +268,6 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		complete_tooltip = {
 			every_owned_state = {
 				limit = {
@@ -565,58 +561,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_invest_in_indochina
-		icon = GFX_focus_generic_industry_1
-		x = 2
-		y = 1
-		offset = {
-			x = 0
-			y = 0
-		}
-		prerequisite = { focus = FRA_invest_in_the_colonies }
-		mutually_exclusive = { }
-		relative_position_id = FRA_invest_in_the_colonies
-		cost = 3
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			FRA = {
-				controls_state = 483
-			}
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 483
-					}
-					OWNER = { is_owned_or_subject_trigger = yes }	
-					NOT = {
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				set_state_flag = FRA_colonial_industry_target
-			}
-		}
-	}
-	focus = {
 		id = FRA_invest_in_syria
 		icon = GFX_focus_generic_industry_1
-		x = 4
+		x = 2
 		y = 1
 		offset = {
 			x = 0
@@ -667,7 +614,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_3
 		available = {
 		}
-		prerequisite = { focus = FRA_algerie_france focus = FRA_invest_in_west_africa focus = FRA_invest_in_indochina focus = FRA_invest_in_syria }
+		prerequisite = { focus = FRA_algerie_france focus = FRA_invest_in_west_africa focus = FRA_invest_in_syria }
 		x = 2
 		y = 1
 		relative_position_id = FRA_algerie_france
@@ -773,7 +720,6 @@ focus_tree = {
 	
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 	
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -842,7 +788,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_ideas = FRA_firepower
@@ -876,7 +821,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_tech_bonus = {
@@ -957,7 +901,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -998,7 +941,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_ideas = { special_forces }
@@ -1048,7 +990,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			custom_effect_tooltip = available_theorist
@@ -1131,7 +1072,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_ideas = { FRA_air_dominance }
@@ -1187,7 +1127,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1259,7 +1198,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL  }
 		completion_reward = {
@@ -1306,7 +1244,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1349,7 +1286,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			add_stability = 0.05
@@ -1379,7 +1315,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_state_core = 134
@@ -1415,7 +1350,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_ideas = { FRA_expanded_citizenship }
@@ -1450,7 +1384,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			swap_ideas = {
@@ -1501,7 +1434,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			remove_worker_shortage_effect = yes
@@ -1536,7 +1468,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_popularity = { ideology = democratic popularity = 0.20 }
@@ -1572,7 +1503,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_ideas = { FRA_market_dynamism }
@@ -1602,7 +1532,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
 		completion_reward = {
 			add_ideas = { FRA_communism_banned }
@@ -1644,7 +1573,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			if = {
@@ -1686,7 +1614,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_to_tech_sharing_group = commonwealth_research
@@ -1745,7 +1672,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
@@ -1810,7 +1736,6 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_ideas = { FRA_entrepeneurship }
@@ -2031,7 +1956,6 @@ focus_tree = {
 		relative_position_id = FRA_capital_ship_focus
 		cost = 5
 
-		available_if_capitulated = no
 
 		completion_reward = {
 				add_equipment_production = {
@@ -2066,7 +1990,6 @@ focus_tree = {
 		relative_position_id = FRA_carrier_focus
 		cost = 5
 
-		available_if_capitulated = no
 
 		completion_reward = {
 			if = {
@@ -2228,7 +2151,7 @@ focus_tree = {
 		prerequisite = { 
 		}
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2357,7 +2280,7 @@ add_equipment_to_stockpile = {
 	focus = {
 		id = FRA_intervention_in_west_africa
 		icon = GFX_goal_generic_position_armies
-		x = -2
+		x = -1
 		y = 1
 		offset = {
 			x = 0
@@ -2396,7 +2319,7 @@ add_equipment_to_stockpile = {
 	focus = {
 		id = FRA_intervention_in_syria
 		icon = GFX_goal_generic_position_armies
-		x = 0
+		x = 1
 		y = 1
 		offset = {
 			x = 0
@@ -2433,50 +2356,6 @@ add_equipment_to_stockpile = {
 		}
 	}
 	focus = {
-		id = FRA_intervention_in_madagascar
-		icon = GFX_goal_generic_position_armies
-		x = 2
-		y = 1
-		offset = {
-			x = 0
-			y = 0
-		}
-		prerequisite = { 
-			focus = FRA_appeal_to_overseas_territories
-		}
-		relative_position_id = FRA_appeal_to_overseas_territories
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			483 = {
-				is_controlled_by = EFR
-			}
-		}
-		
-		bypass = {
-			NOT = {
-				483 = {
-					is_controlled_by = EFR
-				}
-			}
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			country_event = lar_appeal_to_overseas_territories.11
-			add_resource = {
- 			 	type = rubber
-   				amount = 30
-    			state = 483
-			}
-		}
-	}
-	focus = {
 		id = FRA_form_the_national_committee
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 0
@@ -2486,7 +2365,6 @@ add_equipment_to_stockpile = {
 			y = 0
 		}
 		prerequisite = { 
-			focus = FRA_intervention_in_madagascar
 			focus = FRA_intervention_in_syria
 			focus = FRA_intervention_in_west_africa
 		}
@@ -2720,7 +2598,7 @@ add_equipment_to_stockpile = {
 			SOV = {
 				add_equipment_to_stockpile = {
 					type = fighter_equipment
-					amount = 150
+					amount = 300
 					producer = SOV
 				}
 			}
@@ -2740,7 +2618,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_refus_absurde
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2784,7 +2662,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_refus_absurde
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2817,7 +2695,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_reach_out_to_trade_unions
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2859,7 +2737,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_refus_absurde
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2892,7 +2770,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_connections_to_industrialists
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2934,7 +2812,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_the_civil_and_military_organization
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2970,7 +2848,7 @@ add_equipment_to_stockpile = {
 		}
 		relative_position_id = FRA_national_council_of_the_resistance
 		
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
