@@ -39,17 +39,6 @@ country_event = {
 		}
 		if = {
 			limit = { has_legitimacy < 60 }
-			country_event = { id = lar_appeal_to_overseas_territories.10 days = 4 } #madagascar remains with Vichy
-		} else = {
-			country_event = { id = lar_appeal_to_overseas_territories.11 days = 4 } #madagascar switches sides
-			add_resource = {
- 			 	type = rubber
-   				amount = 30
-    			state = 483
-			}
-		}
-		if = {
-			limit = { has_legitimacy < 40 }
 			country_event = { id = lar_appeal_to_overseas_territories.8 days = 2 } #western africa remains with Vichy
 		} else = {
 			country_event = { id = lar_appeal_to_overseas_territories.9 days = 2 } #western africa switches sides
@@ -130,35 +119,5 @@ country_event = {
 		FRA = { transfer_state = 155 }
 		FRA = { transfer_state = 151 }
 		FRA = { transfer_state = 148 }
-	}
-}
-
-# madagascar remains with Vichy France
-country_event = {
-	id = lar_appeal_to_overseas_territories.10
-	title = lar_appeal_to_overseas_territories.10.t
-	desc = lar_appeal_to_overseas_territories.10.desc
-	picture = GFX_report_event_france_parade
-	is_triggered_only = yes
-	option = {
-		name = lar_appeal_to_overseas_territories.2.a #agree
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-#madagascar switches sides
-country_event = {
-	id = lar_appeal_to_overseas_territories.11
-	title = lar_appeal_to_overseas_territories.11.t
-	desc = lar_appeal_to_overseas_territories.11.desc
-	picture = GFX_report_event_felix_eboue
-	is_triggered_only = yes
-	option = {
-		name = lar_appeal_to_overseas_territories.3.a #agree
-		ai_chance = {
-			factor = 80
-		}
-		FRA = { transfer_state = 483 }
 	}
 }

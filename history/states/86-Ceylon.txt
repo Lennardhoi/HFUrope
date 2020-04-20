@@ -3,9 +3,12 @@ state={
 	id=86
 	name="Ceylon"
 	resources={
-		rubber=400.000
-	}
-
+rubber=160
+aluminium=30
+tungsten=80
+chromium=40
+}
+manpower = 5500000
 	history={
 		owner = ENG
 		add_core_of = SWE
@@ -33,7 +36,4 @@ state={
 	provinces={
 		1338 2149 2939 3352 4823 10888 10898 10906 
 	}
-	manpower=5500000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }
