@@ -124,13 +124,13 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			23 = {
-				add_building_construction = { type = bunker province = 6440 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 6418 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 6592 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 9414 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 3462 level = 3 instant_build = yes }
-			}
+			#23 = {
+			#	add_building_construction = { type = bunker province = 6440 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 6418 level = 3 instant_build = yes }
+			##	add_building_construction = { type = bunker province = 6592 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 9414 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 3462 level = 3 instant_build = yes }
+			#}
 		}
 	}
 
@@ -160,56 +160,7 @@ focus_tree = {
 			CZE = { controls_state = 22 }
 		}
 
-		bypass = {
-			NOT = {
-				22 = {
-					any_province_building_level = {
-						province = {
-							all_provinces = yes
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 3
-					}
-				}
-				23 = {
-					any_province_building_level = {
-						province = {
-							id = 445
-							id = 494
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 3
-					}
-				}
-				24 = {
-					any_province_building_level = {
-						province = {
-							id = 421
-							id = 6485
-							id = 3414
-							id = 3583
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 3
-					}
-				}
-				28 = {
-					any_province_building_level = {
-						province = {
-							id = 9539
-							id = 9692
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 3
-					}
-				}
-			}
-		}
-
+		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -220,8 +171,6 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			if = {
-				limit = { controls_state = 22 }
 				22 = {
 					set_building_level = {
 						type = bunker
@@ -232,58 +181,47 @@ focus_tree = {
 							level < 3
 						}
 					}
-				}
+				
 			}
 
-			if = {
-				limit = { controls_state = 23 }
 				23 = {
 					set_building_level = {
 						type = bunker
 						level = 3
 						province = {
-							id = 445
-							id = 494
+							all_provinces=yes
 							limit_to_border = yes
 							level < 3
 						}
 					}
 				}
-			}
+			
 
-			if = {
-				limit = { controls_state = 24 }
 				24 = {
 					set_building_level = {
 						type = bunker
 						level = 3
 						province = {
-							id = 421
-							id = 6485
-							id = 3414
-							id = 3583
+							all_provinces=yes
 							limit_to_border = yes
 							level < 3
 						}
 					}
 				}
-			}
+			
 
-			if = {
-				limit = { controls_state = 28 }
 				28 = {
 					set_building_level = {
 						type = bunker
 						level = 3
 						province = {
-							id = 9539
-							id = 9692
+							all_provinces=yes
 							limit_to_border = yes
 							level < 3
 						}
 					}
 				}
-			}
+			
 			swap_ideas = {
 				add_idea = CZE_fortification_focus2
 				remove_idea = CZE_fortification_focus
@@ -317,55 +255,6 @@ focus_tree = {
 			CZE = { controls_state = 22 }
 		}
 
-		bypass = {
-			NOT = {
-				22 = {
-					any_province_building_level = {
-						province = {
-							all_provinces = yes
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 5
-					}
-				}
-				23 = {
-					any_province_building_level = {
-						province = {
-							id = 445
-							id = 494
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 5
-					}
-				}
-				24 = {
-					any_province_building_level = {
-						province = {
-							id = 421
-							id = 6485
-							id = 3414
-							id = 3583
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 5
-					}
-				}
-				28 = {
-					any_province_building_level = {
-						province = {
-							id = 9539
-							id = 9692
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 5
-					}
-				}
-			}
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -392,55 +281,43 @@ focus_tree = {
 				}
 			}
 
-			if = {
-				limit = { controls_state = 23 }
 				23 = {
 					set_building_level = {
 						type = bunker
 						level = 5
 						province = {
-							id = 445
-							id = 494
+							all_provinces=yes
 							limit_to_border = yes
 							level < 5
 						}
 					}
 				}
-			}
+			
 
-			if = {
-				limit = { controls_state = 24 }
 				24 = {
 					set_building_level = {
 						type = bunker
 						level = 5
 						province = {
-							id = 421
-							id = 6485
-							id = 3414
-							id = 3583
+							all_provinces=yes
 							limit_to_border = yes
 							level < 5
 						}
 					}
 				}
-			}
-
-			if = {
-				limit = { controls_state = 28 }
+	
 				28 = {
 					set_building_level = {
 						type = bunker
 						level = 5
 						province = {
-							id = 9539
-							id = 9692
+							all_provinces=yes
 							limit_to_border = yes
 							level < 5
 						}
 					}
 				}
-			}
+			
 			swap_ideas = {
 				add_idea = CZE_fortification_focus3
 				remove_idea = CZE_fortification_focus2
@@ -474,55 +351,6 @@ focus_tree = {
 			CZE = { controls_state = 22 }
 		}
 
-		bypass = {
-			NOT = {
-				22 = {
-					any_province_building_level = {
-						province = {
-							all_provinces = yes
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 7
-					}
-				}
-				23 = {
-					any_province_building_level = {
-						province = {
-							id = 445
-							id = 494
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 7
-					}
-				}
-				24 = {
-					any_province_building_level = {
-						province = {
-							id = 421
-							id = 6485
-							id = 3414
-							id = 3583
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 7
-					}
-				}
-				28 = {
-					any_province_building_level = {
-						province = {
-							id = 9539
-							id = 9692
-							limit_to_border = yes
-						}
-						building = bunker
-						level < 7
-					}
-				}
-			}
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -534,8 +362,6 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			if = {
-				limit = { controls_state = 22 }
 				22 = {
 					set_building_level = {
 						type = bunker
@@ -547,57 +373,46 @@ focus_tree = {
 						}
 					}
 				}
-			}
+			
 
-			if = {
-				limit = { controls_state = 23 }
 				23 = {
 					set_building_level = {
 						type = bunker
 						level = 7
 						province = {
-							id = 445
-							id = 494
+							all_provinces=yes
 							limit_to_border = yes
 							level < 7
 						}
 					}
 				}
-			}
+			
 
-			if = {
-				limit = { controls_state = 24 }
 				24 = {
 					set_building_level = {
 						type = bunker
 						level = 7
 						province = {
-							id = 421
-							id = 6485
-							id = 3414
-							id = 3583
+							all_provinces=yes
 							limit_to_border = yes
 							level < 7
 						}
 					}
 				}
-			}
+			
 
-			if = {
-				limit = { controls_state = 28 }
 				28 = {
 					set_building_level = {
 						type = bunker
 						level = 7
 						province = {
-							id = 9539
-							id = 9692
+							all_provinces=yes
 							limit_to_border = yes
 							level < 7
 						}
 					}
 				}
-			}
+			
 			swap_ideas = {
 				add_idea = CZE_fortification_focus4
 				remove_idea = CZE_fortification_focus3
@@ -650,19 +465,19 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			30 = {
-				add_building_construction = { type = bunker province = 3565 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 3716 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 6561 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 6573 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 9537 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 11679 level = 3 instant_build = yes }
-			}
+			#30 = {
+			#	add_building_construction = { type = bunker province = 3565 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 3716 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 6561 level = 3 instant_build = yes }
+			##	add_building_construction = { type = bunker province = 6573 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 9537 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 11679 level = 3 instant_build = yes }
+			#}
 
-			29 = {
-				add_building_construction = { type = bunker province = 11691 level = 3 instant_build = yes }
-				add_building_construction = { type = bunker province = 3548 level = 3 instant_build = yes }
-			}
+			#29 = {
+			#	add_building_construction = { type = bunker province = 11691 level = 3 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 3548 level = 3 instant_build = yes }
+			#}
 		}
 	}
 
@@ -703,17 +518,17 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			25 = {
-				add_building_construction = { type = bunker province = 9567 level = 2 instant_build = yes }
-				add_building_construction = { type = bunker province = 9551 level = 2 instant_build = yes }
-			}
-			27 = {
-				add_building_construction = { type = bunker province = 581 level = 2 instant_build = yes }
-				add_building_construction = { type = bunker province = 3550 level = 2 instant_build = yes }
-				add_building_construction = { type = bunker province = 3581 level = 2 instant_build = yes }
-				add_building_construction = { type = bunker province = 6604 level = 2 instant_build = yes }
-				add_building_construction = { type = bunker province = 11554 level = 2 instant_build = yes }
-			}
+			#25 = {
+			#	add_building_construction = { type = bunker province = 9567 level = 2 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 9551 level = 2 instant_build = yes }
+			#}
+			#27 = {
+			#	add_building_construction = { type = bunker province = 581 level = 2 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 3550 level = 2 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 3581 level = 2 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 6604 level = 2 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 11554 level = 2 instant_build = yes }
+			#}
 		}
 	}
 
@@ -752,19 +567,19 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			30 = {
-				add_building_construction = { type = bunker province = 6573 level = 2 instant_build = yes }
-			}
-			28 = {
-				add_building_construction = { type = bunker province = 9692 level = 2 instant_build = yes }
-			}
-			26 = {
-				add_building_construction = { type = bunker province = 3569 level = 2 instant_build = yes }
-			}
-			23 = {
-				add_building_construction = { type = bunker province = 6418 level = 2 instant_build = yes }
-				add_building_construction = { type = bunker province = 11542 level = 3 instant_build = yes }
-			}
+			#30 = {
+			#	add_building_construction = { type = bunker province = 6573 level = 2 instant_build = yes }
+			#}
+			#28 = {
+			#	add_building_construction = { type = bunker province = 9692 level = 2 instant_build = yes }
+			#}
+			#26 = {
+			##	add_building_construction = { type = bunker province = 3569 level = 2 instant_build = yes }
+			#}
+			#23 = {
+			#	add_building_construction = { type = bunker province = 6418 level = 2 instant_build = yes }
+			#	add_building_construction = { type = bunker province = 11542 level = 3 instant_build = yes }
+			#}
 		}
 	}
 
