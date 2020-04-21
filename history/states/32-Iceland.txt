@@ -12,7 +12,8 @@ state={
 	history=
 	{
 		owner = DEN
-		victory_points = { 931 1 }
+		victory_points = { 931 5 }
+		victory_points = { 571 1 }
 		buildings = {
 			infrastructure = 2
 			931 ={
