@@ -60,6 +60,10 @@ sub_units = {
 		}
 		urban = {
 			attack = -0.6
+			defence = -0.3
+		}
+		sparse_urban = {
+			attack = -0.4
 			defence = -0.2
 		}
 		river = {

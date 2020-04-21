@@ -55,6 +55,10 @@ sub_units = {
 			attack = -0.4
 			defence = -0.1
 		}
+		sparse_urban = {
+			attack = -0.2
+			defence = -0.1
+		}
 		marsh = {
 			attack = 0.3
 		}

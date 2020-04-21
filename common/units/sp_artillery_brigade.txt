@@ -53,6 +53,10 @@ sub_units = {
 			attack = -0.4
 			defence = -0.1
 		}
+		sparse_urban = {
+			attack = -0.2
+			defence = -0.1
+		}
 		river = {
 			attack = -0.2
 			movement = -0.2
@@ -115,6 +119,10 @@ sub_units = {
 		}
 		urban = {
 			attack = -0.4
+			defence = -0.1
+		}
+		sparse_urban = {
+			attack = -0.2
 			defence = -0.1
 		}
 		river = {
@@ -182,6 +190,10 @@ sub_units = {
 			attack = -0.5
 			defence = -0.2
 		}
+		sparse_urban = {
+			attack = -0.4
+			defence = -0.1
+		}
 		river = {
 			attack = -0.4
 			movement = -0.4
@@ -248,6 +260,10 @@ sub_units = {
 			attack = -0.6
 			defence = -0.2
 		}
+		sparse_urban = {
+			attack = -0.5
+			defence = -0.1
+		}
 		river = {
 			attack = -0.5
 			movement = -0.5
@@ -311,6 +327,10 @@ sub_units = {
 		}
 		urban = {
 			attack = -0.4
+			defence = -0.1
+		}
+		sparse_urban = {
+			attack = -0.3
 			defence = -0.1
 		}
 		river = {

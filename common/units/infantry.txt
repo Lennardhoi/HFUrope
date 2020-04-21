@@ -106,6 +106,10 @@ sub_units = {
 		urban = {
 			movement = 0.2
 		}
+		
+		sparse_urban = {
+			movement = 0.2
+		}
 		desert = {
 			movement = 0.10
 		}
@@ -160,10 +164,7 @@ sub_units = {
 			infantry_equipment = 300
 		}
 		jungle = {
-
 			attack = 0.15
-
-
 		}
 		marsh = {
 			attack = 0.35
@@ -230,13 +231,6 @@ sub_units = {
 			defence = 0.1
 			movement = 0.2
 		}
-		urban = {
-
-			attack = 0.2
-
-		}
-
-
 	}
 
 	paratrooper = {
@@ -244,7 +238,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 
-		priority = 2
+		priority = 600
 		ai_priority = 2
 		active = no
 
@@ -277,6 +271,15 @@ sub_units = {
 
 		need = {
 			infantry_equipment = 175
+		}
+		
+		urban = {
+			attack = 0.25
+			defence = 0.1
+		}
+		sparse_urban = {
+			attack = 0.15
+			defence = 0.1
 		}
 	}
 
