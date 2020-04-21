@@ -94,6 +94,46 @@ adjacency_rule
 
 	}
 }
+#Road of life
+adjacency_rule
+{
+	name = "road_of_life"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+
+	required_provinces = { 10653 }
+	is_disabled = {
+		always = yes
+	}
+}
+
 #Suez Canal
 adjacency_rule
 {
