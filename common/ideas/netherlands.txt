@@ -64,6 +64,10 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			
+			cancel = {
+				has_capitulated = yes
+			}
 
 			allowed_civil_war = {
 				always = yes
@@ -72,9 +76,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = -0.5
-				industrial_capacity_factory = -0.25
-				industrial_capacity_dockyard = -0.1
+				industrial_capacity_factory = -0.15
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 			}
 		}
 
@@ -382,7 +386,8 @@ ideas = {
 
 			modifier = {
 				training_time_factor = -0.1
-				non_core_manpower = 0.02
+				non_core_manpower = 0.15
+				weekly_manpower = 2000
 			}
 		}
 
@@ -638,7 +643,7 @@ ideas = {
 			}
 
 			modifier = {
-				local_resources_factor = 0.1
+				local_resources_factor = 0.2
 			}
 		}
 
@@ -678,8 +683,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				license_infantry_eq_cost_factor = -1
-				license_artillery_eq_cost_factor = -1
 				license_infantry_eq_tech_difference_speed_factor = 0.5
 				license_artillery_eq_tech_difference_speed_factor = 0.5
 				license_infantry_eq_production_speed_factor = 0.25
@@ -703,9 +706,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				license_light_tank_eq_cost_factor = -1
 				license_light_tank_eq_tech_difference_speed_factor = 0.5
 				license_light_tank_eq_production_speed_factor = 0.25
+				license_medium_tank_eq_tech_difference_speed_factor = 0.5
+				license_medium_tank_eq_production_speed_factor = 0.25
+				license_heavy_tank_eq_tech_difference_speed_factor = 0.5
+				license_heavy_tank_eq_production_speed_factor = 0.25
 			}
 		}
 
@@ -725,7 +731,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				license_anti_tank_eq_cost_factor = -1
 				license_anti_tank_eq_tech_difference_speed_factor = 0.5
 				license_anti_tank_eq_production_speed_factor = 0.25
 			}
@@ -1939,81 +1944,6 @@ ideas = {
 	}
 
 	political_advisor = {
-
-		HOL_willem_schermerhorn = {
-
-			picture = generic_democratic_reformer_western_european_2d
-
-			allowed = {
-				original_tag = HOL
-			}
-
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = HOL_unity_through_democracy
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			traits = { democratic_reformer }
-
-		}
-
-		HOL_saul_de_groot = {
-
-			picture = generic_communist_revolutionary_western_european_2d
-
-			allowed = {
-				original_tag = HOL
-			}
-
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = HOL_legacy_of_the_de_zeven_provincien_mutiny
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			traits = { communist_revolutionary }
-
-		}
-
-		HOL_meinout_rost_van_tonningen = {
-
-			picture = generic_fascist_demagogue_western_european_2d
-
-			allowed = {
-				original_tag = HOL
-			}
-
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = HOL_volk_en_vaderland
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			traits = { fascist_demagogue }
-		}
-
 		HOL_jan_goudriaan = {
 
 			picture = generic_political_advisor_europe_2
@@ -2034,7 +1964,6 @@ ideas = {
 			}
 
 			available = {
-				has_government = fascism
 			}
 
 			traits = { prince_of_terror }
@@ -2049,10 +1978,6 @@ ideas = {
 			}
 
 			available = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
 			}
 
 			traits = { genial_anti_revolutionary }
@@ -2068,7 +1993,6 @@ ideas = {
 			}
 
 			available = {
-				has_government = communism
 			}
 
 			traits = { council_communist }
@@ -2083,11 +2007,6 @@ ideas = {
 			}
 
 			available = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-
 			}
 
 			traits = { war_industrialist }
@@ -2104,32 +2023,10 @@ ideas = {
 
 			available = {
 				has_capitulated = yes
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
 			}
 
 			traits = { resistance_banker }
 		}
-
-		HOL_anton_de_kom = {
-
-			picture = generic_communist_africa
-
-			allowed = {
-				original_tag = HOL
-				has_dlc = "Man the Guns"
-			}
-
-			available = {
-				has_government = communism
-				has_completed_focus = HOL_decolonization
-			}
-
-			traits = { colonial_communist }
-		}
-
 		HOL_prince_bernhard = {
 
 			picture = generic_political_advisor_europe_4
@@ -2227,7 +2124,6 @@ ideas = {
 			}
 
 			available = {
-				has_government = fascism
 			}
 
 			traits = { army_chief_offensive_2 }
@@ -2323,7 +2219,7 @@ ideas = {
 				original_tag = HOL
 			}
 
-			traits = { army_concealment_1 }
+			traits = { army_commando_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -2442,7 +2338,6 @@ ideas = {
 			picture = fokker
 
 			available = {
-				has_completed_focus = HOL_fokker
 			}
 
 			allowed = {
@@ -2549,60 +2444,6 @@ ideas = {
 	materiel_manufacturer = {
 
 		designer = yes
-
-		HOL_daf = {
-
-			picture = HOL_daf
-
-			available = {
-				has_completed_focus = HOL_daf
-			}
-
-			allowed = {
-				tag = HOL
-				has_dlc = "Man the Guns"
-			}
-
-			cost = 75
-
-			removal_cost = 10
-
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-
-			traits = { motorized_equipment_manufacturer }
-		}
-
-		artillerie_inrichtingen = {
-
-			picture = artillerie_inrichtingen
-
-			available = {
-				has_completed_focus = HOL_expand_the_artillerieinrichtingen
-			}
-
-			allowed = {
-				original_tag = HOL
-				has_dlc = "Man the Guns"
-			}
-
-			cost = 75
-
-			research_bonus = {
-				infantry_weapons = 0.15
-			}
-
-			equipment_bonus = {
-				# more research needed
-			}
-
-			traits = { infantry_equipment_manufacturer }
-
-			modifier = {
-			}
-		}
-
 		hih_siderius = {
 
 			picture = hih_siderius

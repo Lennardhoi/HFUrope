@@ -221,7 +221,6 @@ on_actions = {
 				limit = {
 					OR={
 						tag=BEL
-						tag=HOL
 						tag=DEN
 						tag=POL
 						tag=NOR

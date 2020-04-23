@@ -26,8 +26,6 @@ set_technology = {
 	fuel_refining = 1
 	marines = 1
 }
-
-add_timed_idea = { idea = no_training days= 730 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 3600
@@ -72,11 +70,6 @@ if = {
 
 # DIPLOMACY
 
-
-
-
-set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
-
 add_ideas = {
 	HOL_wilhelmina
 }
@@ -99,9 +92,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 4
-	communism = 3
+	democratic = 20
+	fascism = 20
+	communism = 20
 }
 
 set_convoys = 150

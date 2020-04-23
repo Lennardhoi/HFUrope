@@ -2,13 +2,12 @@
 state={
 	id=49
 	name="STATE_125"
-	manpower = 1363174
-
-	state_category = city
 
 	history={
 		owner = ENG
-		victory_points = { 5646 5 }
+		victory_points = {
+			5646 5 
+		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -18,12 +17,18 @@ state={
 			air_base = 10
 			5646 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = ENG
+
 	}
 
 	provinces={
-		1412 4487 5316 5501 5646 5921 6392 7525 7541 7582 7594 7619 7635 7648 7678 7687 7718 7737
+		1412 4487 5316 5501 5646 7525 7541 7582 7594 7619 7635 7678 7687 7718 7737 
 	}
+	manpower=1363174
+	buildings_max_level_factor=1.000
+	state_category=city
 }
