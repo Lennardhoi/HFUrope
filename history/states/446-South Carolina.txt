@@ -4,7 +4,7 @@ state={
 	provinces={
 		602 2457 3548 3604 9195  11495
 	}
-	manpower = 1738764
+	manpower = 1899804
 
 	state_category = city
 
@@ -12,7 +12,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 4
 			2457 = {
 				naval_base = 2
 

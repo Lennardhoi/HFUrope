@@ -4,7 +4,7 @@ state={
 	provinces={
 		181 447 686 1135 1702 1837 3369 4875
 	}
-	manpower = 9631346
+	manpower = 9900180
 
 	state_category = megalopolis
 
