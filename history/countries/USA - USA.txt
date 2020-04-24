@@ -114,19 +114,19 @@ if = {
 set_convoys = 700
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 106
+	amount = 350
 	producer = USA
 }
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 11111
+	amount = 5000
 	producer = USA
 }
 
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 344
+	amount = 420
 	producer = USA
 }
 
