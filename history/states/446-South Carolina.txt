@@ -2,7 +2,7 @@ state={
 	id=446
 	name="South Carolina"
 	provinces={
-		602 2457 3548 3604 9195  11495
+		602 2457 3548 3604 9195 11495
 	}
 	manpower = 1899804
 

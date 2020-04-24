@@ -2,7 +2,7 @@ state={
 	id=495
 	name="Western Macedonia"
 	resources={
-		#steel=3.000   moved to Campania
+		#steel=3.000 moved to Campania
 	}
 
 	history={

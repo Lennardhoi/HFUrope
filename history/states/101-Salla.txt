@@ -16,7 +16,7 @@ state=
 		add_core_of = FIN
 
 		victory_points = {
-			2708  1
+			2708 1
 		}
 	}
 

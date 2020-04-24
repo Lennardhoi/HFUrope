@@ -5,7 +5,7 @@ state={
 		owner = FRA
 		add_core_of=SWE
 		victory_points = {
-			10364   1
+			10364 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -17,7 +17,7 @@ state={
 	}
 	state_category = pastoral
 	provinces={
-		781 1766 1829 2014 2781           4136     4397         5349 5570 5720   6015 6080   6397 6457               10344         10364 10365                         10471       10530 10536     10621 11581 11580 10335
+		781 1766 1829 2014 2781 4136 4397 5349 5570 5720 6015 6080 6397 6457 10344 10364 10365 10471 10530 10536 10621 11581 11580 10335
 	}
 	manpower=427824
 	buildings_max_level_factor=1.000
