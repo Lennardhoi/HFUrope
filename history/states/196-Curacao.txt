@@ -5,13 +5,17 @@ state={
 		10973
 	}
 	manpower = 76299
-	state_category = rural
+	state_category = town
 	resources={
 		oil=35
 	}
 	history={
 		owner = HOL
 		add_core_of=SWE
+		add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 0.5
+					}}
 		victory_points = {
 			10973 1
 		}

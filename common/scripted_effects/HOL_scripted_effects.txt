@@ -1,12 +1,7 @@
 # Reduce De Crisisjaren
 HOL_de_crisisjaren_level_down = {
+	
 	if = {
-		limit = {
-			has_idea = HOL_de_crisisjaren_1
-		}
-		remove_ideas = HOL_de_crisisjaren_1
-	}
-	else_if = {
 		limit = {
 			has_idea = HOL_de_crisisjaren_2
 		}
