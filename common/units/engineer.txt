@@ -27,12 +27,12 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
+		manpower = 240
 		training_time = 120
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.02
+		supply_consumption = 0.012
 
 		entrenchment  = 5
 
@@ -48,8 +48,8 @@ sub_units = {
 		}
 
 		need = {
-			infantry_equipment = 10
-			support_equipment = 30
+			infantry_equipment = 6
+			support_equipment = 24
 		}
 
 		can_be_parachuted = yes
