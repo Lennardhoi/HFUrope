@@ -101,7 +101,7 @@ focus_tree = {
 					amount = 24
 				}
 
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -142,7 +142,7 @@ focus_tree = {
 					type = aluminium
 					amount = 36
 				}
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 10
 			}
 		}
 	}
@@ -213,23 +213,6 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = HOL_the_foundations_of_defense
-		available = {
-		}
-		prerequisite = { focus = HOL_colonial_shipbuilding }
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = -1
-		y = 1
-		relative_position_id = HOL_colonial_shipbuilding
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = HOL_the_foundations_of_defense
-		}
-	}
 
 	focus = {
 		id = HOL_sumatra
@@ -280,194 +263,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	##   ##  #  # ### ### #  # #  # ###     ### #  # ###     #   #  ##  ###      ### #  #     ###   ##  ###  ##  #   # ###  ##
-	#  # #  # ## #  #   #  ## # #  # #        #  #  # #       #   # #  # #  #      #  ## #     #  # #  #  #  #  # #   #  #  #  #
-	#    #  # # ##  #   #  # ## #  # ##       #  #### ##      # # # #### ###       #  # ##     ###  ####  #  ####  # #   #  ####
-	#  # #  # #  #  #   #  #  # #  # #        #  #  # #       # # # #  # #  #      #  #  #     #  # #  #  #  #  #  # #   #  #  #
-	##   ##  #  #  #  ### #  #  ##  ###      #  #  # ###      # #  #  # #  #     ### #  #     ###  #  #  #  #  #   #   ### #  #
-
-	focus = {
-		id = HOL_continue_the_war_in_batavia
-		prerequisite = { focus = HOL_the_zuiderzee_works }
-		available = {
-			has_capitulated = yes
-		}
-		icon = GFX_focus_hol_continue_the_war_in_batavia
-		x = 0
-		y = 1
-		relative_position_id = HOL_the_zuiderzee_works
-		cost = 1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			transfer_state = 506
-			add_state_core = 506
-			set_capital = 506
-			506 = {
-				set_state_name = "Dutch Embassy"
-				add_extra_state_shared_building_slots = 20
-			}
-		}
-	}
-
-	focus = {
-		id = HOL_a_western_capital
-		available = {
-		}
-		prerequisite = { focus = HOL_continue_the_war_in_batavia }
-		icon = GFX_focus_generic_industry_3
-		x = 1
-		y = 1
-		relative_position_id = HOL_continue_the_war_in_batavia
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			506 = {
-				add_extra_state_shared_building_slots = 8
-				add_building_construction = {
-					type = arms_factory
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 4
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = HOL_expand_the_colonial_army
-		prerequisite = { focus = HOL_continue_the_war_in_batavia }
-		icon = GFX_focus_generic_military_academy
-		x = -1
-		y = 1
-		relative_position_id = HOL_continue_the_war_in_batavia
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_manpower = 200000
-			add_ideas = HOL_expand_the_colonial_army
-		}
-	}
-
-	focus = {
-		id = HOL_colonial_shipbuilding
-		available = {
-
-		}
-		prerequisite = { focus = HOL_expand_the_colonial_army }
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = -1
-		y = 1
-		relative_position_id = HOL_expand_the_colonial_army
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_offsite_building = {
-				type = dockyard
-				level = 4
-			}
-		}
-	}
-
-	focus = {
-		id = HOL_the_east_indies_war_machine
-		available = {
-		}
-		prerequisite = { focus = HOL_a_western_capital }
-		prerequisite = { focus = HOL_expand_the_colonial_army }
-		icon = GFX_goal_generic_construct_mil_factory
-		x = -1
-		y = 1
-		relative_position_id = HOL_a_western_capital
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_offsite_building = {
-				type = arms_factory
-				level = 4
-			}
-		}
-	}
-
-	focus = {
-		id = HOL_prepare_for_our_return
-		available = {
-		}
-		bypass = {
-			controls_state = 194
-			controls_state = 195
-			controls_state = 193
-		}
-		prerequisite = { focus = HOL_colonial_shipbuilding }
-		prerequisite = { focus = HOL_the_east_indies_war_machine }
-		icon = GFX_goal_generic_amphibious_assault
-		x = 1
-		y = 1
-		relative_position_id = HOL_colonial_shipbuilding
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = HOL_prepare_for_our_return
-			add_tech_bonus = {
-				name = HOL_prepare_for_our_return
-				bonus = 1.0
-				uses = 1
-				category = marine_tech
-			}
-		}
-	}
-
-	focus = {
-		id = HOL_liberation
-		available = {
-			has_full_control_of_state = 194
-			has_full_control_of_state = 195
-			has_full_control_of_state = 193
-		}
-		prerequisite = { focus = HOL_prepare_for_our_return }
-		icon = GFX_focus_hol_liberation
-		x = 0
-		y = 1
-		relative_position_id = HOL_prepare_for_our_return
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			set_capital = 194
-			add_stability = 0.1
-			add_war_support = 0.05
-			add_manpower = 150000
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 10000
-				producer = HOL
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 500
-				producer = HOL
-			}
-			add_ideas = HOL_liberation
-		}
-	}
-
 	##  ###   ##  #  # ###   ##  #  #     ### #  # ###      ##   ##  #   ###       ## ###  ##  #  # ###   ##  ###  ###
 	#  # #  # #  # ## # #  # #  # ## #      #  #  # #       #    #  # #   #  #     #    #  #  # ## # #  # #  # #  # #  #
 	#### ###  #### # ## #  # #  # # ##      #  #### ##      # ## #  # #   #  #      #   #  #### # ## #  # #### ###  #  #
@@ -765,14 +560,231 @@ focus_tree = {
 
 		}
 	}
+	
 	focus = {
-		id = HOL_domestic_innovation
-		prerequisite = { focus = HOL_a_western_capital }
+		id = HOL_continue_the_war_in_batavia
+		prerequisite = { focus = HOL_the_zuiderzee_works }
+		available = {
+			has_capitulated = yes
+		}
+		icon = GFX_focus_hol_continue_the_war_in_batavia
+		x = 0
+		y = 1
+		relative_position_id = HOL_the_zuiderzee_works
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			transfer_state = 506
+			add_state_core = 506
+			set_capital = 506
+			506 = {
+				set_state_name = "Dutch Embassy"
+				add_extra_state_shared_building_slots = 20
+			}
+			ENG = { remove_state_core = 506 }
+		}
+	}
+
+	focus = {
+		id = HOL_a_western_capital
 		available = {
 		}
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		icon = GFX_focus_research
+		prerequisite = { focus = HOL_continue_the_war_in_batavia }
+		icon = GFX_focus_generic_industry_3
+		x = 1
+		y = 1
+		relative_position_id = HOL_continue_the_war_in_batavia
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			506 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_expand_the_colonial_army
+		prerequisite = { focus = HOL_continue_the_war_in_batavia }
+		icon = GFX_focus_generic_military_academy
+		x = -1
+		y = 1
+		relative_position_id = HOL_continue_the_war_in_batavia
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_manpower = 200000
+			add_ideas = HOL_expand_the_colonial_army
+			activate_mission = HOL_manpower
+		}
+	}
+
+	focus = {
+		id = HOL_colonial_shipbuilding
+		available = {
+
+		}
+		prerequisite = { focus = HOL_expand_the_colonial_army }
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = -1
+		y = 1
+		relative_position_id = HOL_expand_the_colonial_army
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_offsite_building = {
+				type = dockyard
+				level = 4
+			}
+		}
+	}
+	focus = {
+		id = HOL_the_foundations_of_defense
+		available = {
+		}
+		prerequisite = { focus = HOL_colonial_shipbuilding }
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		relative_position_id = HOL_colonial_shipbuilding
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HOL_the_foundations_of_defense
+		}
+	}
+
+	focus = {
+		id = HOL_the_east_indies_war_machine
+		available = {
+		}
+		prerequisite = { focus = HOL_a_western_capital }
+		prerequisite = { focus = HOL_expand_the_colonial_army }
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		relative_position_id = HOL_a_western_capital
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 4
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_prepare_for_our_return
+		available = {
+		}
+		bypass = {
+			controls_state = 194
+			controls_state = 195
+			controls_state = 193
+		}
+		prerequisite = { focus = HOL_the_east_indies_war_machine }
+		icon = GFX_goal_generic_amphibious_assault
+		x = 0
+		y = 1
+		relative_position_id = HOL_the_east_indies_war_machine
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HOL_prepare_for_our_return
+			add_tech_bonus = {
+				name = HOL_prepare_for_our_return
+				bonus = 1.0
+				uses = 1
+				category = marine_tech
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_liberation
+		available = {
+			has_full_control_of_state = 194
+			has_full_control_of_state = 195
+			has_full_control_of_state = 193
+		}
+		prerequisite = { focus = HOL_prepare_for_our_return }
+		icon = GFX_focus_hol_liberation
+		x = -1
+		y = 1
+		relative_position_id = HOL_prepare_for_our_return
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_capital = 194
+			add_stability = 0.1
+			add_war_support = 0.05
+			add_manpower = 150000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = HOL
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+				producer = HOL
+			}
+			add_ideas = HOL_liberation
+		}
+	}
+	
+	focus = {
+		id = HOL_benelux_union
+		available = {
+		}
+		prerequisite = { focus = HOL_prepare_for_our_return }
+		icon = GFX_focus_hol_united_netherlands
+		x = 1
+		y = 1
+		relative_position_id = HOL_prepare_for_our_return
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_state_core = 233
+			add_state_core = 6
+			add_state_core = 5
+		}
+	}
+
+
+	focus = {
+		id = HOL_make_use_of_our_riches
+		prerequisite = { focus = HOL_a_western_capital }
+		icon = GFX_goal_generic_construction2
 		x = 1
 		y = 1
 		relative_position_id = HOL_a_western_capital
@@ -781,22 +793,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
-		id = HOL_make_use_of_our_riches
-		prerequisite = { focus = HOL_domestic_innovation }
-		icon = GFX_goal_generic_construction2
-		x = -1
-		y = 1
-		relative_position_id = HOL_domestic_innovation
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
+			197 = {
+				add_resource = {
+					type = steel
+					amount = 40
+				}
+			}
+			196 = {
+				add_resource = {
+					type = rubber
+					amount = 20
+				}
+			}
 			add_tech_bonus = {
 				name = HOL_make_use_of_our_riches
 				bonus = 1.0
@@ -804,27 +812,6 @@ focus_tree = {
 				category = excavation_tech
 			}
 			add_ideas = HOL_make_use_of_our_riches
-		}
-	}
-
-	focus = {
-		id = HOL_the_ultimate_deterrent
-		prerequisite = { focus = HOL_domestic_innovation }
-		icon = GFX_focus_wonderweapons
-		x = 1
-		y = 1
-		relative_position_id = HOL_domestic_innovation
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = HOL_the_ultimate_deterrent
-				bonus = 1.0
-				uses = 1
-				category = nuclear
-			}
 		}
 	}
 
@@ -1194,7 +1181,7 @@ focus_tree = {
 					add_tech_bonus = {
 						name = HOL_anti_tank_guns_for_the_continent
 						bonus = 1.0
-						uses = 1
+						uses = 2
 						category = cat_anti_tank
 					}
 					custom_effect_tooltip = HOL_light_tanks_for_the_colonies_2tt
@@ -1211,7 +1198,7 @@ focus_tree = {
 				add_tech_bonus = {
 					name = HOL_anti_tank_guns_for_the_continent
 					bonus = 1.0
-					uses = 1
+					uses = 2
 					category = cat_anti_tank
 				}
 			}
@@ -1371,7 +1358,7 @@ focus_tree = {
 
 	focus = {
 		id = HOL_the_battlecruiser_plan
-		prerequisite = { focus = HOL_rely_on_submarines focus = HOL_modernize_the_cruiser_fleet focus = HOL_join_germany }
+		prerequisite = { focus = HOL_rely_on_submarines focus = HOL_modernize_the_cruiser_fleet }
 		available = {
 		}
 		bypass = {
@@ -1399,7 +1386,6 @@ focus_tree = {
 	focus = {
 		id = HOL_air_cover_for_the_new_fleet
 		prerequisite = { focus = HOL_the_battlecruiser_plan }
-		mutually_exclusive = { focus = HOL_unsinkable_aircraft_carriers }
 		icon = GFX_goal_generic_navy_carrier
 		x = -1
 		y = 1
@@ -1519,10 +1505,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = HOL_oranje_boven_1
-				add_idea = HOL_oranje_boven_2
-			}
+			add_ideas = HOL_oranje_boven_2
 		}
 	}
 
@@ -1671,6 +1654,47 @@ focus_tree = {
 			add_ideas = HOL_depillarization
 		}
 	}
+	
+	focus = {
+		id = HOL_domestic_innovation
+		prerequisite = { focus = HOL_depillarization }
+		available = {
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		icon = GFX_focus_research
+		x = 0
+		y = 1
+		relative_position_id = HOL_depillarization
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = HOL_the_ultimate_deterrent
+		prerequisite = { focus = HOL_domestic_innovation }
+		icon = GFX_focus_wonderweapons
+		x = 0
+		y = 1
+		relative_position_id = HOL_domestic_innovation
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_the_ultimate_deterrent
+				bonus = 1.0
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	
 	focus = {
 		id = HOL_royal_arms_purchases
 		available = {
@@ -1788,6 +1812,7 @@ focus_tree = {
 
 		completion_reward = {
 			transfer_state = 449
+			449 = {add_extra_state_shared_building_slots = 5}
 		}
 	}
 

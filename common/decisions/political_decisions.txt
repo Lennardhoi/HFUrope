@@ -345,6 +345,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {
@@ -407,6 +408,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {
@@ -457,6 +459,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		icon = generic_civil_support
@@ -511,6 +514,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		available = {
@@ -588,6 +592,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		available = {
@@ -665,6 +670,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		available = {
@@ -744,6 +750,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {
@@ -786,6 +793,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {
@@ -828,6 +836,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {
@@ -870,6 +879,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {

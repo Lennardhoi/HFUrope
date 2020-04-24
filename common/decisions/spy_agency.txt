@@ -14,6 +14,8 @@ spy_agency = {
 				tag = ENG
 				tag = USA
 				tag = CAN
+				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {
@@ -47,6 +49,8 @@ spy_agency = {
 				tag = ENG
 				tag = USA
 				tag = CAN
+				tag = CRO
+				tag = HOL
 			}
 		}
 		visible = {

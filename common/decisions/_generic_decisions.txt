@@ -21,6 +21,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 
@@ -80,6 +81,7 @@ political_actions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 
@@ -188,6 +190,7 @@ propaganda_efforts = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 			}		available = {
 			NOT = { has_country_flag = war_propaganda_campaign_running }
@@ -392,6 +395,7 @@ special_projects = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 
 			}
 		}
@@ -467,6 +471,7 @@ war_measures = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 		available = {
@@ -601,6 +606,7 @@ economy_decisions = {
 				tag = CAN
 				tag = EFR
 				tag = CRO
+				tag = HOL
 			}
 		}
 

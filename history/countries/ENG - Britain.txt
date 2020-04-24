@@ -18,7 +18,6 @@ set_research_slots = 4
 
 set_stability = 0.6
 set_war_support = 0.15
-add_ideas = reliance_on_natural_rubber
 add_ideas = peace_training
 
 # Starting tech
@@ -238,6 +237,7 @@ add_to_faction = ENG
 add_to_faction = FRA
 add_to_faction = CAN
 add_to_faction = USA
+add_to_faction = HOL
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet

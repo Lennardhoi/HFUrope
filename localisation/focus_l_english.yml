@@ -2491,5 +2491,7 @@
  ITA_transport_resc5:0 "Evacuate Libya"
  ITA_transport_resc6:0 "Finnish Moving Rubber Trees"
  RAJ_OP_Focus:0 "Declare Indepence"
-JAP_ussr_war_goal:0 "Honor the Tripartite Pact"
+ JAP_ussr_war_goal:0 "Honor the Tripartite Pact"
+ HOL_benelux_union:0 "Propose A Union"
+ HOL_benelux_union_desc:0 "With the chaos of the war, now is the perfect time to propose the creation of a unified benelux state"
  
