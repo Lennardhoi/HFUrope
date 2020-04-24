@@ -22,15 +22,15 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			light_tank_artillery_equipment = 36
+			light_tank_artillery_equipment = 22
 		}
-		manpower = 500
+		manpower = 300
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
 		training_time = 180
 		weight = 1
-		supply_consumption = 0.4
+		supply_consumption = 0.24
 
 		suppression = 2
 
@@ -87,15 +87,15 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			medium_tank_artillery_equipment = 36
+			medium_tank_artillery_equipment = 22
 		}
-		manpower = 500
+		manpower = 300
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
 		training_time = 180
 		weight = 1.25
-		supply_consumption = 0.44
+		supply_consumption = 0.264
 
 		suppression = 2
 
@@ -157,14 +157,14 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			heavy_tank_artillery_equipment = 24
+			heavy_tank_artillery_equipment = 14
 		}
-		manpower = 500
+		manpower = 300
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
 		weight = 1.5
-		supply_consumption = 0.6
+		supply_consumption = 0.36
 
 		suppression = 2
 
@@ -226,15 +226,15 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			super_heavy_tank_artillery_equipment = 24 #was 12, but IC was halved
+			super_heavy_tank_artillery_equipment = 14 #was 12, but IC was halved
 		}
-		manpower = 500
+		manpower = 300
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
 		training_time = 180
 		weight = 1.75
-		supply_consumption = 0.8
+		supply_consumption = 0.48
 
 		suppression = 2
 
@@ -303,7 +303,7 @@ sub_units = {
 		max_strength = 0.6
 		training_time = 180
 		weight = 1.5
-		supply_consumption = 0.5
+		supply_consumption = 0.3
 
 		suppression = 2
 
