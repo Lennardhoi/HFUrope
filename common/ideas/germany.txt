@@ -1310,7 +1310,7 @@ ideas = {
 			}
 			cost = 100
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = 0.20
 			}
 
 			equipment_bonus = {
@@ -1329,7 +1329,7 @@ ideas = {
 			}
 			cost = 100
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = 0.20
 			}
 
 			traits = { raiding_fleet_naval_manufacturer }

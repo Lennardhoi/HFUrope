@@ -2844,8 +2844,8 @@ focus_tree = {
 				transfer_state = 113
 			}
 			113 = { set_state_name = "Elsass-Lothringen" }
-			set_province_name = { id = 9503 name = "Strassburg" }
-			set_province_name = { id = 678 name = "Mulhausen" }
+			set_province_name = { id = 8532 name = "Straßburg" }
+			set_province_name = { id = 8780 name = "Mülhausen" }
 			FRA = {
 				country_event = { id = wtt_germany.63 }
 			}
@@ -3104,7 +3104,7 @@ focus_tree = {
 		id = GER_plan_z
 		icon = GFX_focus_GER_plan_z
 		prerequisite = { focus = GER_naval_effort }
-		mutually_exclusive = { focus = GER_u_boat_effort }
+		#mutually_exclusive = { focus = GER_u_boat_effort }
 
 		x = -1
 		y = 2
@@ -3126,14 +3126,14 @@ focus_tree = {
 					dockyard > 0
 					free_building_slots = {
 						building = dockyard
-						size > 1
+						size > 3
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = GER_plan_z_dockyards
@@ -3204,7 +3204,7 @@ focus_tree = {
 		id = GER_u_boat_effort
 		icon = GFX_focus_GER_sub_plan
 		prerequisite = { focus = GER_naval_effort }
-		mutually_exclusive = { focus = GER_plan_z }
+		#mutually_exclusive = { focus = GER_plan_z }
 		available={date>1941.1.1}
 		x = 1
 		y = 2

@@ -17,14 +17,14 @@ state={
 			8022 10
 		}
 		victory_points = {
-			5801 5
+			2138 10
 		}
-		#victory_points = {
-			#	3444 5
-			#}
-		#victory_points = {
-			#	3547 1
-			#}
+		victory_points = {
+			7970 5
+			}
+		victory_points = {
+			5801 5
+			}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3

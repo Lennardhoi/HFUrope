@@ -490,6 +490,11 @@ focus_tree = {
 					not = { is_core_of = ROOT }
 					not = { is_on_continent = europe }
 				}
+				add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 0.5
+					}
+				}
 				add_compliance = 10
 			}
 		}
@@ -2270,7 +2275,7 @@ focus_tree = {
 			custom_effect_tooltip = FRA_appeal_to_overseas_territories_tt
 			add_offsite_building = {
 				type = industrial_complex
-				level = 4
+				level = 5
 			}
 			hidden_effect = {
 				country_event = lar_appeal_to_overseas_territories.1
