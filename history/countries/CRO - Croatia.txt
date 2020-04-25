@@ -40,16 +40,48 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Slavko Stancer"
+	picture = "r56_portrait_CRO_slavko_stancer.dds"
+	traits = { infantry_leader organizer trait_engineer}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
 
 create_corps_commander = {
-	name = "Vladimir Čukavac"
-	gfx = "Portrait_Germany_Gerd_von_Rundstedt.dds"
-	traits = { trickster  }
-	skill = 3
-
-	attack_skill = 3
+	name = "Junuz Ajanovic"
+	picture = "r56_portrait_CRO_junuz_ajanovic.dds"
+	traits = { trickster infantry_leader trait_mountaineer }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 6
+ }
+ 
+ create_corps_commander = {
+	name = "Rafael Boban"
+	picture = "r56_portrait_CRO_Rafael_Boban.dds"
+	traits = { naval_invader infantry_leader commando }
+	skill = 4
+	attack_skill = 6
 	defense_skill = 2
 	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Franjo Simic"
+	picture = "r56_portrait_CRO_Franjo_Simic.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 3
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
 	logistics_skill = 3
 }
 

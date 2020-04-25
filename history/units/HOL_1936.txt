@@ -18,6 +18,13 @@
 
 
 units = {
+	division= {
+		name = "This is here so you can look at your generals"
+		location = 3037
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
 }
 
 ### Air Wings

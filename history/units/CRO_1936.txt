@@ -21,9 +21,14 @@
 	}
 }
 
+
 units = {
-	}  # Neboja if we get font support
-
-
-
+	division= {
+		name = "This is here so you can look at your generals"
+		location = 11497
+		division_template = "Pesadijska Divizija"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+}
 

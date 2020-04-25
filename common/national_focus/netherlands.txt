@@ -347,6 +347,7 @@ focus_tree = {
 				}
 			}
 			HOL_de_crisisjaren_level_down = yes
+
 		}
 	}
 
@@ -610,8 +611,41 @@ focus_tree = {
 			}
 			ENG = { remove_state_core = 506 }
 			hidden_effect={clr_country_flag=no_naval_base}
-		}
+    create_field_marshal = {
+	name = "Henri Winkelman"
+	picture = "r56_portrait_HOL_Henri_Winkelman.dds"
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected panzer_leader trait_mountaineer infantry_leader }
+	skill = 4
+	attack_skill = 7
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 4
 	}
+	
+	create_corps_commander = {
+	name = "Herman Van Vorst Tot Voorst"
+	picture = "r56_portrait_HOL_Herman_Van_Voorst_Tot_Voorst.dds"
+	traits = { old_guard infantry_officer naval_invader infantry_leader inflexible_strategist commando }
+	skill = 4
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+	}
+
+   create_corps_commander = {
+	name = "Petrus Wilhelmus Best"
+	picture = "r56_portrait_HOL_Petrus_Wilhelmus_Best.dds"
+	traits = {  trickster armor_officer infantry_leader naval_invader panzer_leader war_hero trait_reckless ranger }
+	skill = 6
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 6
+    }
+  }
+}
+
 
 	focus = {
 		id = HOL_a_western_capital
