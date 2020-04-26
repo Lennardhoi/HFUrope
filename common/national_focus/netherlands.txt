@@ -277,7 +277,7 @@ focus_tree = {
 	focus = {
 		id = HOL_abandon_the_gold_standard
 		icon = GFX_focus_hol_abandon_the_gold_standard
-		x = 10
+		x = 8
 		y = 0
 		relative_position_id = HOL_obtain_foreign_colonial_investments
 		cost = 5
@@ -308,10 +308,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_goal_generic_construction
-		x = -5
+		x = -2
 		y = 1
 		relative_position_id = HOL_abandon_the_gold_standard
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -366,7 +366,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = HOL_continue_the_public_works
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -409,7 +409,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_continue_the_public_works
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -458,7 +458,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_finish_the_noordoostpolder
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -492,11 +492,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_philips_focus
-		prerequisite = { focus = HOL_expand_the_artillerieinrichtingen }
+		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_focus_hol_philips
-		x = 1
+		x = -5
 		y = 1
-		relative_position_id = HOL_expand_the_artillerieinrichtingen
+		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 5
 
 		available_if_capitulated = yes
@@ -549,7 +549,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = HOL_expand_the_artillerieinrichtingen }
 		icon = GFX_focus_hol_the_zuiderzee_works
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = HOL_expand_the_artillerieinrichtingen
 		cost = 10
@@ -889,7 +889,7 @@ focus_tree = {
 		id = HOL_overturn_military_budget_cuts
 		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_goal_generic_army_doctrines
-		x = 3
+		x = 5
 		y = 1
 		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 10
@@ -1525,7 +1525,7 @@ focus_tree = {
 			has_capitulated = yes
 		}
 		icon = GFX_goal_generic_improve_relations
-		x = 14
+		x = 16
 		y = 0
 		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 5
@@ -1564,7 +1564,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = HOL_form_new_government
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
