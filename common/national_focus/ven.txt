@@ -195,7 +195,68 @@ focus = {
 
 
 	}
-
-
-
 }
+	focus = {
+		id = VEN_road_of_life_opens_41
+		icon = GFX_goal_generic_SS_focus
+		available = {
+			date>1941.11.19
+		}
+	
+		x = 5
+		y = 1
+		cost = 0.1
+
+		completion_reward = {
+			SOV = { set_province_controller = 10653 }
+		}
+	}
+	focus = {
+		id = VEN_road_of_life_closes_42
+		icon = GFX_goal_generic_SS_focus
+		available = {
+			date>1942.4.24
+		}
+		prerequisite = { focus = VEN_road_of_life_opens_41 }
+		relative_position_id = VEN_road_of_life_opens_41
+		x = 0
+		y = 1
+		cost = 0.1
+
+		completion_reward = {
+			GER = { set_province_controller = 10653 }
+		}
+	}
+	focus = {
+		id = VEN_road_of_life_opens_42
+		icon = GFX_goal_generic_SS_focus
+		available = {
+			date>1942.12.20
+		}
+		prerequisite = { focus = VEN_road_of_life_closes_42 }
+		relative_position_id = VEN_road_of_life_closes_42
+	
+		x = 0
+		y = 1
+		cost = 0.1
+
+		completion_reward = {
+			SOV = { set_province_controller = 10653 }
+		}
+	}
+	focus = {
+		id = VEN_road_of_life_closes_43
+		icon = GFX_goal_generic_SS_focus
+		available = {
+			date>1943.4.24
+		}
+		prerequisite = { focus = VEN_road_of_life_opens_42 }
+		relative_position_id = VEN_road_of_life_opens_42
+		x = 0
+		y = 1
+		cost = 0.1
+
+		completion_reward = {
+			GER = { set_province_controller = 10653 }
+		}
+	}
