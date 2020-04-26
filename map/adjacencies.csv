@@ -109,4 +109,54 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6349;5991;impassable;-1;-1;-1;-1;-1;;Spain
 6349;10319;impassable;-1;-1;-1;-1;-1;;Spain
 6349;1747;impassable;-1;-1;-1;-1;-1;;Spain
+
+6685;6689;impassable;-1;-1;-1;-1;-1;;Finland
+5396;6689;impassable;-1;-1;-1;-1;-1;;Finland
+5396;3305;impassable;-1;-1;-1;-1;-1;;Finland
+5396;6671;impassable;-1;-1;-1;-1;-1;;Finland
+270;6671;impassable;-1;-1;-1;-1;-1;;Finland
+270;5287;impassable;-1;-1;-1;-1;-1;;Finland
+270;3311;impassable;-1;-1;-1;-1;-1;;Finland
+923;3311;impassable;-1;-1;-1;-1;-1;;Finland
+923;1801;impassable;-1;-1;-1;-1;-1;;Finland
+923;146;impassable;-1;-1;-1;-1;-1;;Finland
+923;6228;impassable;-1;-1;-1;-1;-1;;Finland
+684;6228;impassable;-1;-1;-1;-1;-1;;Finland
+684;4200;impassable;-1;-1;-1;-1;-1;;Finland
+2423;4200;impassable;-1;-1;-1;-1;-1;;Finland
+2423;1009;impassable;-1;-1;-1;-1;-1;;Finland
+2737;1009;impassable;-1;-1;-1;-1;-1;;Finland
+47;1009;impassable;-1;-1;-1;-1;-1;;Finland
+47;6012;impassable;-1;-1;-1;-1;-1;;Finland
+5151;6012;impassable;-1;-1;-1;-1;-1;;Finland
+5151;3122;impassable;-1;-1;-1;-1;-1;;Finland
+5151;2145;impassable;-1;-1;-1;-1;-1;;Finland
+2877;2145;impassable;-1;-1;-1;-1;-1;;Finland
+639;6566;impassable;-1;-1;-1;-1;-1;;Finland
+639;6558;impassable;-1;-1;-1;-1;-1;;Finland
+2708;6558;impassable;-1;-1;-1;-1;-1;;Finland
+2708;6083;impassable;-1;-1;-1;-1;-1;;Finland
+2708;6524;impassable;-1;-1;-1;-1;-1;;Finland
+1454;6524;impassable;-1;-1;-1;-1;-1;;Finland
+6520;6524;impassable;-1;-1;-1;-1;-1;;Finland
+1509;6524;impassable;-1;-1;-1;-1;-1;;Finland
+1509;6506;impassable;-1;-1;-1;-1;-1;;Finland
+
+1757;2382;impassable;-1;-1;-1;-1;-1;;Spain Africa
+1757;6353;impassable;-1;-1;-1;-1;-1;;Spain Africa
+1757;10554;impassable;-1;-1;-1;-1;-1;;Spain Africa
+
+2022;400;impassable;-1;-1;-1;-1;-1;;Spain Africa
+755;400;impassable;-1;-1;-1;-1;-1;;Spain Africa
+
+11315;13259;impassable;-1;-1;-1;-1;-1;;Spain Africa
+11315;11840;impassable;-1;-1;-1;-1;-1;;Spain Africa
+11315;11335;impassable;-1;-1;-1;-1;-1;;Spain Africa
+11315;4290;impassable;-1;-1;-1;-1;-1;;Spain Africa
+11315;2803;impassable;-1;-1;-1;-1;-1;;Spain Africa
+11315;11307;impassable;-1;-1;-1;-1;-1;;Spain Africa
+11315;2662;impassable;-1;-1;-1;-1;-1;;Spain Africa
+2207;4290;impassable;-1;-1;-1;-1;-1;;Spain Africa
+2207;3687;impassable;-1;-1;-1;-1;-1;;Spain Africa
+2207;2662;impassable;-1;-1;-1;-1;-1;;Spain Africa
 -1;-1;;-1;-1;-1;-1;-1;-1

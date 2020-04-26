@@ -106,8 +106,8 @@ SOV_mrp = {
 		complete_effect = {
 			SOV = {
 				army_experience = 200
-				transfer_state = 146
-				transfer_state= 147
+				transfer_state = 104
+				transfer_state= 101
 				country_event = { id = finland.8 }
 				104 = { remove_core_of = FIN }
 				101 = { remove_core_of = FIN }

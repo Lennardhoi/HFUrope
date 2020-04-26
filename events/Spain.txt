@@ -17,7 +17,6 @@ country_event = {
 
 	option = { # Support Nationalists
 		name = spain.1.a
-		trigger = { is_ai = no }
 
 
 		if = {

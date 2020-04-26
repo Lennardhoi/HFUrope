@@ -22,7 +22,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state
 					target = FIN
-					generator = { 146 }
+					generator = { 104 }
 				}
 			}
 		}
