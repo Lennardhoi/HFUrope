@@ -2595,6 +2595,7 @@ focus_tree = {
 		ai_will_do = {
 		}
 		completion_reward = {
+			unlock_decision_tooltip=GER_benelux_invasion
 			custom_effect_tooltip = "Unlocks a decision to declare on the Benelux countries"
 			hidden_effect = {
 				news_event = { hours = 6 id = news.234 }

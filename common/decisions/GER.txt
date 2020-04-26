@@ -49,6 +49,13 @@ operations = {
 		}
 
 		complete_effect = {
+			
+			every_country={
+			limit={
+				is_in_faction_with=GER
+				has_war=yes
+			}
+			
 			declare_war_on = {
 				target = BEL
 				type = annex_everything
@@ -60,6 +67,8 @@ operations = {
 			declare_war_on = {
 				target = LUX
 				type = annex_everything
+			}
+			
 			}
 			add_named_threat = {
 				threat = 21

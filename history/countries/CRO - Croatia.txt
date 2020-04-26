@@ -4,7 +4,7 @@ oob = "CRO_1936"
 add_ideas = peace_training
 set_rule = {can_be_spymaster = no}
 
-set_research_slots = 2
+set_research_slots = 3
 set_stability = 0.90
 set_war_support = 0.6
 
