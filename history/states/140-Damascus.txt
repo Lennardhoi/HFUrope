@@ -2,7 +2,7 @@ state={
 	id=140
 	name="Damascus"
 	provinces={
-		2886 4258 5028 10315
+		2886 4258 5028 10315 10752
 	}
 	manpower = 547797
 	state_category = rural

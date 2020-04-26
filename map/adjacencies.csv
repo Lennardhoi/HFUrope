@@ -77,4 +77,36 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5769;3711;;-1;-1;-1;-1;-1;PACIFIC_ROUTE;Pacific naval route
 13055;12864;;-1;-1;-1;-1;-1;CAPE_ROUTE;Cape of Africa naval route
 4183;12943;;-1;-1;-1;-1;-1;SOUTH_AMERICAN_ROUTE;South American naval route
+5714;3057;impassable;-1;-1;-1;-1;-1;;IRAN
+2915;3057;impassable;-1;-1;-1;-1;-1;;IRAN
+2756;3057;impassable;-1;-1;-1;-1;-1;;IRAN
+1533;3057;impassable;-1;-1;-1;-1;-1;;IRAN
+1533;10109;impassable;-1;-1;-1;-1;-1;;IRAN
+5684;10109;impassable;-1;-1;-1;-1;-1;;IRAN
+5684;2764;impassable;-1;-1;-1;-1;-1;;IRAN
+5684;4899;impassable;-1;-1;-1;-1;-1;;IRAN
+9620;6257;impassable;-1;-1;-1;-1;-1;;Spain
+9620;9556;impassable;-1;-1;-1;-1;-1;;Spain
+9645;9556;impassable;-1;-1;-1;-1;-1;;Spain
+9645;9571;impassable;-1;-1;-1;-1;-1;;Spain
+9645;6294;impassable;-1;-1;-1;-1;-1;;Spain
+3679;6294;impassable;-1;-1;-1;-1;-1;;Spain
+3679;3685;impassable;-1;-1;-1;-1;-1;;Spain
+
+10170;12283;impassable;-1;-1;-1;-1;-1;;Spain
+10170;13138;impassable;-1;-1;-1;-1;-1;;Spain
+10207;12283;impassable;-1;-1;-1;-1;-1;;Spain
+10207;13138;impassable;-1;-1;-1;-1;-1;;Spain
+10207;10346;impassable;-1;-1;-1;-1;-1;;Spain
+10211;10346;impassable;-1;-1;-1;-1;-1;;Spain
+10211;12283;impassable;-1;-1;-1;-1;-1;;Spain
+10211;13500;impassable;-1;-1;-1;-1;-1;;Spain
+10211;10346;impassable;-1;-1;-1;-1;-1;;Spain
+10211;6372;impassable;-1;-1;-1;-1;-1;;Spain
+10211;5991;impassable;-1;-1;-1;-1;-1;;Spain
+
+6349;13500;impassable;-1;-1;-1;-1;-1;;Spain
+6349;5991;impassable;-1;-1;-1;-1;-1;;Spain
+6349;10319;impassable;-1;-1;-1;-1;-1;;Spain
+6349;1747;impassable;-1;-1;-1;-1;-1;;Spain
 -1;-1;;-1;-1;-1;-1;-1;-1

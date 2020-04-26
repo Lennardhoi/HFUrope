@@ -55,6 +55,10 @@ country_event = {
 			transfer_state = 248
 			transfer_state = 246
 			transfer_state = 249
+			transfer_state = 508
+			508 = {
+				add_compliance = 100
+			}
 			247 = {
 				add_compliance = 100
 			}

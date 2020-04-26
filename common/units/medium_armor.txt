@@ -62,7 +62,7 @@ sub_units = {
 		}
 		urban = {
 			attack = -0.55
-			defence = -0.3
+			defence = -0.4
 		}
 		sparse_urban = {
 			attack = -0.3

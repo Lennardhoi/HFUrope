@@ -2,7 +2,7 @@ state={
 	id=247
 	name="Khuzestan"
 	provinces={
-		312 959 4514 10616
+		312 959 4514 10616 10816
 	}
 	manpower = 797356
 	resources={

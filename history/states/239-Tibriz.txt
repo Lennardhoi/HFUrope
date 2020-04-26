@@ -5,7 +5,6 @@ state={
 		801 1244 2069 2374 2764 3057 6406 10109 11578
 	}
 	manpower = 1431714
-
 	state_category = rural
 	history={
 		owner = PER
