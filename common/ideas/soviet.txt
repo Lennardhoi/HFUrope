@@ -181,9 +181,10 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				consumer_goods_factor=-0.05
-				production_speed_arms_factory_factor = 0.15
+				consumer_goods_factor=-0.1
+				production_speed_arms_factory_factor = 0.2
 				industry_repair_factor = 1
+				conscription = 0.03
 			}
 
 
