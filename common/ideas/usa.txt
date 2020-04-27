@@ -1092,7 +1092,7 @@ ideas = {
 
 			modifier = {
 				min_export = -0.3
-				global_building_slots_factor = 3
+				global_building_slots_factor = 1.5
 				operative_slot = 2
 				agency_upgrade_time = -0.30
 				industrial_capacity_dockyard = -0.6
