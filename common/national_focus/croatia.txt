@@ -613,8 +613,8 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 4 }
-			add_offsite_building = { type = industrial_complex level= 4 }
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level= 3 }
 			add_ideas = CRO_war_production
 		}
 	}
@@ -800,7 +800,7 @@ focus_tree = {
 					for_loop_effect = {
 						end = 5
 						create_unit = {
-							division = "name = \"Home guard\" division_template = \"Home gaurd\" start_experience_factor = 1.0"
+							division = "name = \"Home guard\" division_template = \"Home guard\" start_experience_factor = 0.0"
 							owner = CRO
 						}
 						}}
@@ -809,7 +809,7 @@ focus_tree = {
 					for_loop_effect = {
 						end = 2
 						create_unit = {
-							division = "name = \"Home guard\" division_template = \"Home gaurd\" start_experience_factor = 1.0"
+							division = "name = \"Home guard\" division_template = \"Home guard\" start_experience_factor = 0.0"
 							owner = CRO
 						}
 						}}
