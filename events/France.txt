@@ -80,7 +80,7 @@ country_event = {
 				limit = { is_core_of = FRA }
 				add_core_of = EFR
 			}
-			set_capital = 26
+			set_capital = 121
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no

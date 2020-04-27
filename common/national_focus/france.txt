@@ -2209,7 +2209,7 @@ focus_tree = {
 				add_manpower = 100000
 				add_legitimacy = 15
 			}
-
+			country_event = {id=france.12}
 			add_equipment_to_stockpile = {
 				type = convoy
 				amount = 200

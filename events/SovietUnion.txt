@@ -482,6 +482,7 @@ country_event ={
 	}
 	option = {
 		name = soviet.1488.a
+		
 		create_field_marshal = {
 			name = "Konstantin Rokossovsky"
 			id = 1488
@@ -489,7 +490,7 @@ country_event ={
 			traits = {  winter_specialist  brilliant_strategist panzer_leader panzer_expert ranger organizer  logistics_wizard aggressive_assaulter organisational_leader inspirational_leader }
 			skill = 7
 
-			attack_skill = 7
+			attack_skill = 8
 			defense_skill = 6
 			planning_skill = 5
 			logistics_skill = 5
@@ -501,7 +502,7 @@ country_event ={
 			traits = { winter_specialist panzer_leader panzer_expert winter_expert trickster expert_improviser scavenger ranger }
 			skill = 7
 			attack_skill = 7
-			defense_skill = 5
+			defense_skill = 6
 			planning_skill = 3
 			logistics_skill = 5
 		}
@@ -512,7 +513,7 @@ country_event ={
 			traits = { winter_specialist winter_expert ranger infantry_leader infantry_expert scavenger trickster skilled_staffer }
 			skill = 7
 
-			attack_skill = 3
+			attack_skill = 5
 			defense_skill = 6
 			planning_skill = 3
 			logistics_skill = 6

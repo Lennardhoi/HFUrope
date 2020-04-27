@@ -187,7 +187,7 @@ create_corps_commander = {
 	skill = 6
 
 
-	attack_skill = 4
+	attack_skill = 5
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 5
@@ -200,7 +200,7 @@ create_corps_commander = {
 	traits = { winter_specialist winter_expert armor_officer trait_cautious brilliant_strategist panzer_leader ranger }
 	skill = 6
 
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 4
