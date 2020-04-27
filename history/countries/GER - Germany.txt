@@ -192,6 +192,7 @@ add_to_faction = ITA
 add_to_faction = HUN
 add_to_faction = BUL
 add_to_faction = SPR
+add_to_faction = CRO
 
 
 add_ideas = {

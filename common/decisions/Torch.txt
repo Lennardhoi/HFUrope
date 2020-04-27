@@ -49,8 +49,8 @@ operations = {
 		days_remove = 15
 		complete_effect = {
 
-			FRA = {transfer_state = 461
-				transfer_state = 462
+			FRA = {transfer_state = 137
+				transfer_state = 141
 			}
 			hidden_effect = {
 				EFR={
