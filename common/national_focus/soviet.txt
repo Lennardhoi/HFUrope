@@ -801,17 +801,22 @@ focus_tree = {
 			army_experience = 20
 			399={set_building_level = {
 					type = air_base
-					level = 20
+					level = 30
 					instant_build = yes
 					}}
 			317={set_building_level = {
 					type = air_base
-					level = 20
+					level = 30
 					instant_build = yes
 					}}
 			323={set_building_level = {
 					type = air_base
-					level = 20
+					level = 30
+					instant_build = yes
+					}}
+			327={set_building_level = {
+					type = air_base
+					level = 30
 					instant_build = yes
 					}}
 			327 = {

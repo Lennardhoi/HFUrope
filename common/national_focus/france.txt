@@ -2201,6 +2201,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			country_event = france.12
 			if = {
 				limit = { not = { has_dlc = "Man the Guns" } }
 				add_manpower = 10000

@@ -78,8 +78,8 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_factory = -0.15
-				army_attack_factor = -0.15
-				army_defence_factor = -0.15
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
 				conversion_cost_civ_to_mil_factor = 10
 				conversion_cost_mil_to_civ_factor = 10
 			}

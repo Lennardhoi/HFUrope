@@ -86,4 +86,24 @@ political_actions = {
 			activate_mission = HOL_manpower
 		}
 	}
+	HOL_embassy_capital = {
+		icon = generic_industry
+
+		allowed = {
+			tag = HOL
+		}
+		available = {
+			has_full_control_of_state = 506
+			506 = { is_capital = no }
+		}
+		visible = {
+			has_capitulated = yes
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			set_capital = 506
+		}
+	}
 }

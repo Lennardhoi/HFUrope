@@ -92,16 +92,16 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.4.26"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
+	democratic = 25
 	fascism = 20
 	communism = 20
-	neutrality = 40
+	neutrality = 35
 }
 
 set_convoys = 150
@@ -113,7 +113,7 @@ create_country_leader = {
 	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
 	picture = "GFX_portrait_holland_hendrikus_colijn"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = centrism
 	traits = {
 		strict_austerity_adherent
 	}
@@ -141,7 +141,16 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 }
-
+create_navy_leader = {
+	name = "Johannes Theodorus Furstner"
+	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
+	traits = { spotter fly_swatter blockade_runner }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 1
+	maneuvering_skill = 9
+	coordination_skill = 6
+}
 
 ### VARIANTS ###
 # 1936 Start #
