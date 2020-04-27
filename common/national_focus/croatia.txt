@@ -700,7 +700,7 @@ focus_tree = {
 
 	#focus = {
 	#	id = CRO_extra_tech_slot
-		icon = GFX_focus_research
+	#	icon = GFX_focus_research
 	#	prerequisite = { focus = CRO_Science }
 	#	relative_position_id = CRO_Science
 	#	x = 0
