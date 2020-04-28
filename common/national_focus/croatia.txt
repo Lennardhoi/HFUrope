@@ -189,7 +189,7 @@ focus_tree = {
 	focus = {
 		id = CRO_proffesional_army
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = CRO_officer_training }
+		prerequisite = { focus = CRO_army_maneuvers }
 		x = 2
 		y = 2
 		relative_position_id = CRO_officer_training
@@ -221,7 +221,7 @@ focus_tree = {
 	focus = {
 		id = CRO_prepare_for_war
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = CRO_officer_training }
+		prerequisite = { focus = CRO_proffesional_army }
 		x = 2
 		y = 3
 		relative_position_id = CRO_officer_training

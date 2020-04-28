@@ -262,10 +262,10 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Philippe Leclerc"
 	picture = "portrait_france_philippe_leclerc.dds"
-	traits = {  armor_officer trait_reckless panzer_leader }
+	traits = {  armor_officer trait_reckless panzer_leader desert_fox }
 	skill = 3
 	attack_skill = 4
-	defense_skill = 2
+	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 3
 }
