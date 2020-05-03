@@ -1,6 +1,6 @@
 state={
 	id=108
-	name="St Pierre and Miquelon"
+	name="Alpha Island"
 	provinces={
 		11478
 	}

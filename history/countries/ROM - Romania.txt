@@ -183,8 +183,8 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Ion Antonescu"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	name = "Chairman Alpha"
+	picture = "portrait_ROM_Alpha.dds"
 	traits = { infantry_leader organizer panzer_leader trait_engineer}
 	skill = 6
 	attack_skill = 5
