@@ -634,14 +634,7 @@ on_actions = {
 	# From is owner country
 
 
-	on_army_leader_promoted = {
-		effect = {
-			# add_timed_unit_leader_trait = {
-				#	trait = recently_promoted
-				#	days = 100
-				#}
-		}
-	}
+	
 
 	# root country that invades
 	# scope state that is invaded
@@ -655,27 +648,6 @@ on_actions = {
 	# root country that paradrops
 	# scope state that is paradroped into
 	# from scope state that the paradrop started
-	on_paradrop = {
-		effect = {
-			set_country_flag = has_paradropped_flag
-		}
-	}
-	on_ruling_party_change = {
-		effect = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					NOT = {
-						is_core_of = ROOT
-					}
-				}
-
-				set_temp_variable = { comp_change = random }
-				multiply_temp_variable = { comp_change = -15 }
-				add_to_temp_variable = { comp_change = -10 }
-
-				add_compliance = comp_change
-			}
-		}
-	}
+	
+	
 }

@@ -1531,7 +1531,7 @@ focus_tree = {
 		completion_reward = {
 			# Balance research bonus for 2 techs under land_doctrine
 
-			army_experience = 40
+			army_experience = 100
 
 			add_tech_bonus = {
 				name = at
@@ -1662,7 +1662,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			# Balance research bonus to 2 techs in land_doctrine
-			army_experience = 50
+			army_experience = 150
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0

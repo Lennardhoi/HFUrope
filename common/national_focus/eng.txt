@@ -688,7 +688,7 @@ focus_tree = {
 
 
 			add_tech_bonus = {
-				bonus = 2.0
+				bonus = 1.5
 				uses = 10
 				category = air_doctrine
 			}
