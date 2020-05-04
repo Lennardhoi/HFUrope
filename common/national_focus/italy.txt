@@ -2067,22 +2067,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		available={date>1940.6.1
+			OR={
+			has_tech=fighter2
+			has_tech=CAS2
+			}
+		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 1
-				category = light_fighter
+			air_experience=200
+			set_technology = {CAS2 = 1
 			}
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1.0
-				uses = 2
-				category = air_doctrine
+			set_technology = {fighter2 = 1
 			}
 		}
 	}

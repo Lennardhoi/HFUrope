@@ -313,7 +313,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 46 }
+				prioritize = { 292 }
 				limit = {
 					free_building_slots = {
 						building = infrastructure
@@ -328,7 +328,7 @@ focus_tree = {
 				set_state_flag = ROM_danubian_transport_network_Inf
 			}
 			random_owned_controlled_state = {
-				prioritize = { 81 }
+				prioritize = { 293 }
 				limit = {
 					free_building_slots = {
 						building = infrastructure
@@ -343,7 +343,7 @@ focus_tree = {
 				set_state_flag = ROM_danubian_transport_network_Inf_2
 			}
 			random_owned_controlled_state = {
-				prioritize = { 82 }
+				prioritize = { 291 }
 				limit = {
 					free_building_slots = {
 						building = infrastructure
