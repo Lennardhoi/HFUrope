@@ -3424,3 +3424,7 @@
  lar_test.1.d:0 "TODO_LAR_BC: this is a test\nThis:[This.GetName]\nFrom:[From.GetName]\nFrom.From:[From.From.GetName]\nRoot:[Root.GetName]\n"
  lar_collab_gov.1.t:0 "[From.GetAdjective] Partisans in [Root.GetNameDef]"
  lar_collab_gov.1.d:0 "[From.GetNameDefCap] have recently increased their efforts to build collaboration within our nation. A number of [This.GetAdjective] politicians have started speaking rather sympathetically about the [From.GetAdjective] regime, and many partisans within our nation are turning their [From.GetRulingIdeology] sentiment into direct support for [From.GetNameDef].\n\nThe growing [From.GetAdjective] influence in our nation will undoubtedly lower [Root.GetAdjective] resistance and may even lead to a new [From.GetRulingIdeology] government in collaboration with [From.GetNameDef] in the event that [Root.GetNameDef] should capitulate."
+ raj.flag.t:0 "A new flag?"
+ raj.flag.d:0 "Maybe we should get a new flag, so we don't get confused with Canada."
+ raj.flag.a:0 "Yes, a new flag!"
+ raj.flag.b:0 "Keep the old one"

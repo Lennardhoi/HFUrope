@@ -674,6 +674,7 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+		
 		}
 	}
 
@@ -1376,6 +1377,7 @@ focus_tree = {
 				}
 				set_state_flag = RAJ_great_indian_peninsula_railway_Inf3
 			}
+			country_event = raj.flag
 		}
 	}
 	focus = {
