@@ -605,6 +605,13 @@ focus_tree = {
 			transfer_state = 506
 			add_state_core = 506
 			set_capital = 506
+			hidden_effect={
+				GER={
+					transfer_state = 193 
+					transfer_state = 194
+					transfer_state = 195
+				}
+			}
 			506 = {
 				set_state_name = "Dutch Embassy"
 				add_extra_state_shared_building_slots = 20

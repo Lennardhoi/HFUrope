@@ -333,7 +333,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_army_manpower = { size > 100000 }
+			#has_army_manpower = { size > 100000 }
 		}
 
 		bypass = {

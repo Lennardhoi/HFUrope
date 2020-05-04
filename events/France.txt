@@ -151,6 +151,7 @@ country_event = {
 			transfer_state = 7
 			transfer_state = 9
 			transfer_state = 10
+			transfer_state = 108
 			set_cosmetic_tag = FRA_FREE
 			clr_country_flag = no_naval_base
 			remove_ideas = FRA_protected_by_the_maginot_line

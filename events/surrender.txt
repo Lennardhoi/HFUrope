@@ -38,7 +38,7 @@ country_event = {
 					}
 				}
 				GER={
-					set_state_owner=PREV
+					transfer_state = PREV
 				}
 			}
 			if={

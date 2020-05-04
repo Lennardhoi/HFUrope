@@ -2,7 +2,7 @@ state={
 	id=273
 	name="Baluchistan"
 	provinces={
-		243 373 929 1562 2525 4122 10987
+		243 373 449 929 1562 2525 4122 10987
 	}
 	manpower = 463500
 	state_category = wasteland

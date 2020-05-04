@@ -51,7 +51,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			date > 1937.8.1
+			date > 1937.10.1
 		}
 
 
@@ -93,6 +93,9 @@ focus_tree = {
 			RAJ = { add_war_support = 0.1
 				army_experience = 100
 				air_experience = 200}
+			HOL = { add_war_support = 0.1
+				army_experience = 100
+				air_experience = 200}
 
 			FRA = { add_war_support = 0.1
 				army_experience = 100
@@ -126,8 +129,8 @@ focus_tree = {
 				army_experience = 150
 				air_experience = 200}
 
-			#}
-		}}
+		}
+	}
 
 focus = {
 	id = JAP_war_of_resistance

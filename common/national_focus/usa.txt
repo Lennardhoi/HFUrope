@@ -604,7 +604,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		available = {OR={
-				date > 1940.1.1 has_war=yes}
+				date > 1940.6.1 VEN={has_completed_focus=VEN_hurensohn_sealion}}
 		}
 		continue_if_invalid = yes
 		x = 0
@@ -622,14 +622,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 25 }
+			add_offsite_building = { type = arms_factory level = 10 }
 			if = {
 				limit = {
 					NOT = { has_idea = undisturbed_isolation }
 					NOT = { has_idea = isolation }
 					NOT = { has_country_flag = USA_the_giant_wakes_added_civ_eco }
 				}
-				add_political_power = 100
+				
 			}
 			if = {
 				limit = {
@@ -712,7 +712,7 @@ focus_tree = {
 		relative_position_id = USA_the_giant_wakes
 		cost = 5
 		available = {OR={
-				date > 1940.10.1 has_war=yes}
+				date > 1941.1.1 VEN={has_completed_focus=VEN_hurensohn_sealion}}
 		}
 		ai_will_do = {
 			factor = 1
