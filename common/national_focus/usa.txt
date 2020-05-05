@@ -604,7 +604,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		available = {OR={
-				date > 1940.6.1 VEN={has_completed_focus=VEN_hurensohn_sealion}}
+				date > 1940.2.1 VEN={has_completed_focus=VEN_hurensohn_sealion}}
 		}
 		continue_if_invalid = yes
 		x = 0
