@@ -570,13 +570,13 @@ ideas = {
 		RAJ_mehar_singh = {
 			ledger = air
 
-			picture = generic_air_arab_1
+			picture = generic_army_arab_1
 
 			allowed = {
 				original_tag = RAJ
 			}
-
-			traits = { air_close_air_support_3 }
+			available={date>1941.1.1}
+			traits = { army_commando_1 }
 
 			ai_will_do = {
 				factor = 1

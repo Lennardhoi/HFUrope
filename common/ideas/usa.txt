@@ -1579,7 +1579,7 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-
+			available={date>1941.6.1}
 
 
 			traits = { army_commando_2 }
