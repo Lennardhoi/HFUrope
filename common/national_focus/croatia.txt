@@ -637,6 +637,7 @@ focus_tree = {
 
 
 		completion_reward = {
+		add_to_tech_sharing_group = axis_research
 			add_research_slot = 1
 		}
 	}
