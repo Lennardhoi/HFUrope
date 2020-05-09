@@ -19,6 +19,8 @@
  FRA_claim_vichy_territory:0 "Reclaim Vichy-Territory"
  USA_execute_operation_torch:0 "Operation Torch"
  prepare_operation_torch:0 "Prepare Operation Torch"
+ ITA_enable_ll:0 "Enable Plane Lend Lease to Germany"
+ ITA_disable_ll:0 "Disable Plane Lend Lease to Germany"
  SOV_relocation:0 "Industry Relocation"
  SOV_relocation2:0 "Industry Relocation"
  SOV_relocation3:0 "Industry Relocation"
