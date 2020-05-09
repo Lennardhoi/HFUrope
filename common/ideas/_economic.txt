@@ -1,5 +1,13 @@
 ideas = {
 	country={
+		tradeback_is_cancer = {
+			allowed = {
+				always = no # Added via focus
+			}
+			picture = GFX_idea_cancer
+			removal_cost=-1
+		modifier={min_export=-0.5}
+		}
 		wartime_economy = {
 			removal_cost = -1
 
@@ -309,7 +317,7 @@ ideas = {
 			removal_cost = -1
 
 			available = {
-				always=yes
+				NOT={tag=GER}
 			}
 
 			modifier = {
@@ -332,17 +340,12 @@ ideas = {
 
 					OR = {
 						tag = PER
-						tag = IRQ
+					
 					}
 					is_in_faction = no
 				}
 
-				modifier = {
-					factor = 300
-
-					tag = BRA
-					date > 1943.1.1 # at this point we can probably cash in on rubber lack in the world
-				}
+				
 
 				# Oil for hitlers oil throne!
 				modifier = {
