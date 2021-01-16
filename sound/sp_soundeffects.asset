@@ -1,0 +1,70 @@
+
+soundeffect = {
+	name = "sp_ger_goebbels"
+	sounds = {
+		sound = sp_ger_goebbels
+	}
+	volume = 3
+	
+}
+soundeffect = {
+	name = "sp_usa_roosevelt"
+	sounds = {
+		sound = sp_usa_roosevelt
+	}
+	volume = 3
+	
+}
+
+soundeffect = {
+	name = "sp_jap_banzai"
+	sounds = {
+		sound = sp_jap_banzai
+	}
+	volume = 3
+	
+}
+soundeffect = {
+	name = "sp_ita_musso"
+	sounds = {
+		sound = sp_ita_musso
+	}
+	volume = 3
+	
+}
+soundeffect = {
+	name = "sp_uk_chur"
+	sounds = {
+		sound = sp_uk_chur
+	}
+	volume = 3
+	
+}
+soundeffect = {
+	name = "sp_sov_stalin"
+	sounds = {
+		sound = sp_sov_stalin
+	}
+	volume = 3
+	
+}
+soundeffect = {
+	name = "sp_sacred_war"
+	sounds = {
+		sound = sp_sacred_war
+	}
+	volume = 2
+	fade_out = 30
+	fade_in  = 10
+	
+}
+soundeffect = {
+	name = "sp_von_finnland"
+	sounds = {
+		sound = sp_von_finnland
+	}
+	volume = 2
+	fade_out = 30
+	fade_in  = 10
+	
+}

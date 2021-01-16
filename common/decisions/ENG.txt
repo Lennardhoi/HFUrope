@@ -57,6 +57,62 @@ ENG_imperial_conference_decision = {
 
 political_actions = {
 
+	ENG_annex_can = {
+		icon = generic_operation
+		available = {
+			CAN = { is_ai = yes }
+			date>1936.1.1
+		}
+		allowed = {
+			tag = ENG
+		}
+		cost = 0
+		visible = {
+			CAN= { is_ai = yes }
+		}
+		fire_only_once = yes
+		complete_effect = {
+			CAN = {
+				every_owned_state={
+					limit={is_core_of=PREV}
+					add_core_of = ENG
+				}
+			}
+			ENG = {
+				annex_country = {
+					target = CAN
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+	
+		ENG_annex_raj = {
+		icon = generic_operation
+		available = {
+			RAJ = { is_ai = yes }
+			date>1936.1.1
+		}
+		allowed = {
+			tag = ENG
+		}
+		cost = 0
+		visible = {
+			RAJ= { is_ai = yes }
+		}
+		fire_only_once = yes
+		complete_effect = {
+			ENG = {
+				annex_country = {
+					target = RAJ
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+
+
+
 	hold_blood_toil_tears_sweat_speech = {
 
 		icon = generic_political_discourse

@@ -1,9 +1,5 @@
 #reload countrycolors
 
-CRO = {
-	color = rgb { 70  35  180 }
-	color_ui = rgb { 70  35  180 }
-}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -13,7 +9,7 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
+	color = rgb { 156 47 38 }
 	color_ui = rgb { 163 17 31 }
 }
 SWE = {
@@ -62,7 +58,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
+	color = rgb { 242 205 50 }
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
@@ -77,7 +73,6 @@ YUG = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
-
 GRE = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }
@@ -106,13 +101,10 @@ HUN = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
-
 CAN = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
 }
-
-
 PER = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 92 147 126 }
@@ -126,9 +118,6 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 RAJ = {
-	color = rgb { 204 102 0 }
+	color = rgb { 240 133 30 }
 	color_ui = rgb { 255 128 0 }
-}
-
-
 }
