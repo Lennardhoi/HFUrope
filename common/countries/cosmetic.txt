@@ -10,7 +10,12 @@ RSI = {
 }
 
 RAJ_UK = {
-	color = rgb { 240 133 30 }
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+
+RAJ_UK1 = {
+	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }
 }
 
@@ -167,19 +172,6 @@ GER_german_empire = {
 GER_german_monarchy = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 115 115 115 }
-}
-
-CHI_warlord_leader = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
-}
-MAN_restored = {
-	color = rgb { 237 152 18 }
-	color_ui = rgb { 224 139 5 }
-}
-JAP_showa_restoration = {
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
 }
 
 GER_greater_german_reich = {

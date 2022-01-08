@@ -10,7 +10,6 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_w_close"
 		}
-		
 		instantTextboxType = {
 			name = "title"
 			position = {x=20 y=13}
