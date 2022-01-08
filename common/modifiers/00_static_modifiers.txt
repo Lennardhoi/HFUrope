@@ -100,14 +100,17 @@ weather_extreme_hot = { # on Province
 	army_attack_factor = -0.1
 }
 weather_ground_snow_medium = { # on Province
-	army_attack_factor = -0.3
-	army_speed_factor = -0.2
-	winter_attrition = 0.3
+	army_attack_factor = -0.2
+	army_speed_factor = -0.05
+	winter_attrition = 0.2
+	attrition = 0.05
+
 }
 weather_ground_snow_high = { # on Province
-	army_speed_factor = -0.4
-	army_attack_factor = -0.4
-	winter_attrition = 0.5
+	army_speed_factor = -0.1
+	army_attack_factor = -0.3
+	winter_attrition = 0.4
+
 }
 
 flooded = { # on Province
@@ -120,17 +123,6 @@ unplanned_offensive = { # on Province
 	army_speed_factor = -0.75
 	army_attack_factor = -0.9
 	local_org_regain = -0.5
-}
-
-soviet_hero_city = { # on Province
-	local_org_regain = 1
-	dig_in_speed_factor = 0.2
-	pocket_penalty = -0.30
-}
-
-german_OWK_plan = { # on Province
-	army_core_attack_factor = -0.05
-	army_core_defence_factor = -0.1
 }
 
 night = { # On province. Multiplied by amount of darkness.
@@ -288,12 +280,13 @@ Stahlpakt = {
 	trade_cost_for_target_factor=-0.5}
 tradeback_is_cancer = {
 	valid_relation_trigger = {
-		has_idea=tradeback_is_cancer
-	}
-
+			has_idea=tradeback_is_cancer
+		}
+	
 
 	extra_trade_to_target_factor=0.5
 }
+
 free_license = {
 	valid_relation_trigger = {
 		FROM = {
@@ -305,42 +298,32 @@ free_license = {
 
 # applies when stability > 50%
 stability_good_modifier = {
-	#production_speed_buildings_factor = 0.25
-	#army_core_attack_factor = 0.1
-	#army_core_defence_factor = 0.1
+	industrial_capacity_factory = 0.20
+	industrial_capacity_dockyard = 0.20
 	consumer_goods_factor = -0.05
 	political_power_factor = 0.1
-	industrial_capacity_factory = 0.1
-	industrial_capacity_dockyard = 0.1
 }
 
 # applies when stability < 50%
 stability_bad_modifier = {
-	#production_speed_buildings_factor = -0.25
-	#army_core_attack_factor = -0.1
-	#army_core_defence_factor = -0.1
+	industrial_capacity_factory = -0.50
+	industrial_capacity_dockyard = -0.50
 	political_power_factor = -0.2
-	industrial_capacity_factory = -0.1
-	industrial_capacity_dockyard = -0.1
 }
 
 war_support_good_modifier = {
 	mobilization_speed = 0.30 #in 1/1000 of 1 %
-	#industrial_capacity_factory = 0.25
-	#industrial_capacity_dockyard = 0.25
-	army_attack_factor = 0.05
-	army_defence_factor = 0.05
-	resistance_target = -0.1
+	#army_core_attack_factor = 0.1
+	#army_core_defence_factor = 0.1
 	command_power_gain_mult = 0.5
 }
 
 war_support_bad_modifier = {
 	mobilization_speed = -0.500 # Reduce mobilization speed by half.
-	resistance_target = 0.2
-	army_attack_factor = -0.05  # Attacking or defending on non-core takes a huge penalty.
-	army_defence_factor = -0.05
+	#army_noncore_attack_factor = -0.50  # Attacking or defending on non-core takes a huge penalty.
+	#army_noncore_defence_factor = -0.50
 	command_power_gain_mult = -0.95
-	surrender_limit = -0.5
+	surrender_limit = -0.3
 }
 
 
@@ -481,7 +464,7 @@ active_decryption_modifier = {
 	defense_bonus_against = 0.05
 	breakthrough_bonus_against = 0.05
 	naval_invasion_prep_speed = 0.2
-	naval_invasion_penalty = -0.05
+	naval_invasion_penalty = -0.10
 	planning_speed = 0.3
 	civilian_intel_decryption_bonus = 30
 	army_intel_decryption_bonus = 10
@@ -491,6 +474,7 @@ active_decryption_modifier = {
 
 # modifiers applied to allied divisions entering the intel network
 intel_network_state_level_bonus = {
+	amphibious_invasion_defence = 1
 	planning_speed = 0.5
 }
 
@@ -568,16 +552,6 @@ japan_armor_sharing = {
 	}
 
 	license_armor_purchase_cost = -1 #base cost reduction
-	license_production_speed = 0.20 #speed  increase for being a license
-	license_tech_difference_speed = 0.5 #less cost increase for each tech level between the license and own tech level
-}
-ita_air_sharing = {
-	valid_relation_trigger = {
-		date<1941.6.1
-	}
-
-	license_air_purchase_cost = -1 #base cost reduction
-	license_armor_purchase_cost = 20 #base cost reduction
 	license_production_speed = 0.20 #speed  increase for being a license
 	license_tech_difference_speed = 0.5 #less cost increase for each tech level between the license and own tech level
 }

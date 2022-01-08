@@ -1,23 +1,31 @@
 ideas = {
+
 	mobilization_laws = {
 		law = yes
-		use_list_view = yes
+
 		disarmed_nation = {
+
 			cost = 150
 			removal_cost = -1
 			level = 7
+
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
 			}
+
 			modifier = {
 				conscription = 0.01
 			}
+
 			cancel_if_invalid = no
 		}
+
 		volunteer_only = {
+
 			cost = 150
 			removal_cost = -1
 			level = 6
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 				if = {
@@ -30,32 +38,58 @@ ideas = {
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 			}
+
 			ai_will_do = {
 				factor = 1
+
 				modifier = {
 					factor = 60 # being disarmed is bad in a wargame yo
 					has_idea = disarmed_nation
 				}
 			}
+
 			modifier = {
 				conscription = 0.015
 			}
+
 			default = yes
+
 			cancel_if_invalid = no
 		}
+
 		limited_conscription = {
+
 			cost = 150
 			removal_cost = -1
 			level = 5
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = CAN_commit_to_the_war
+				}
+
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
 			}
+
 			modifier = {
 				conscription = 0.025
 			}
+
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -69,9 +103,12 @@ ideas = {
 					factor = 20
 				}
 			}
+
 			cancel_if_invalid = no
 		}
+
 		extensive_conscription = {
+
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
@@ -96,6 +133,8 @@ ideas = {
 					}
 					has_completed_focus = CAN_commit_to_the_war
 				}
+
+
 				if = {
 					limit = {
 						original_tag = HUN
@@ -104,6 +143,7 @@ ideas = {
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
+
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -111,24 +151,26 @@ ideas = {
 					factor = 20
 					manpower_per_military_factory <  800
 				}
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-					tag = CHI
-					has_manpower < 200000
-				}
+
 			}
+
 			cost = 150
 			removal_cost = -1
 			level = 4
+
 			modifier = {
 				conscription = 0.05
 				#industrial_capacity_factory = -0.1
 				#production_speed_buildings_factor = -0.1
 				training_time_factor = 0.1
 			}
+
 			cancel_if_invalid = no
 		}
+
 		service_by_requirement = {
+
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
@@ -149,9 +191,14 @@ ideas = {
 					has_war_support > 0.6
 					surrender_progress > 0
 				}
+
 				AND = {
+
+
 					not = {has_completed_focus = GER_endsieg}
+
 				}
+
 				if = {
 					limit = {
 						original_tag = CAN
@@ -166,6 +213,7 @@ ideas = {
 					}
 					is_subject = no
 				}
+
 				if = {
 					limit = {
 						original_tag = HUN
@@ -174,6 +222,7 @@ ideas = {
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
+
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -189,17 +238,14 @@ ideas = {
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
-					NOT = { tag = CHI }
 					NOT = { tag = SOV }
 					manpower_per_military_factory >  3000
 				}
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-					tag = CHI
-					has_manpower < 200000
-				}
+
+
 				modifier = { # germany needs this before russia, badly
 					factor = 10
+
 					original_tag = GER
 					has_manpower < 2000000
 				}
@@ -208,20 +254,27 @@ ideas = {
 					original_tag = SOV
 					check_variable = { manpower_k < 3000 }
 				}
+
 			}
+
 			cost = 150
 			removal_cost = -1
 			level = 3
+
 			modifier = {
 				conscription = 0.1
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.05
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
 				training_time_factor = 0.2
 			}
+
 			cancel_if_invalid = no
 		}
+
 		all_adults_serve = {
+
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
@@ -236,12 +289,15 @@ ideas = {
 						#		ratio > 0.75
 						#	}
 					#}
+
 				if = {
 					limit = {
 						original_tag = CAN
 						has_dlc = "Together for Victory"
 					}
+
 					has_completed_focus = CAN_compromise_with_quebec
+
 				}
 				if = {
 					limit = {
@@ -250,6 +306,7 @@ ideas = {
 					}
 					is_subject = no
 				}
+
 				if = {
 					limit = {
 						original_tag = HUN
@@ -258,6 +315,7 @@ ideas = {
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
+
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -271,37 +329,32 @@ ideas = {
 					manpower_per_military_factory >  1000
 				}
 				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					NOT = { tag = CHI }
-					manpower_per_military_factory >  5000
-				}
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-					tag = CHI
-					has_manpower < 200000
-				}
-				modifier = {
 					factor = 10
 					original_tag = SOV
 					date > 1943.1.1
 					has_manpower < 2000000
 				}
 			}
+
 			cost = 150
 			removal_cost = -1
 			level = 2
+
 			modifier = {
 				conscription = 0.2
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_speed_buildings_factor = -0.4
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
 				#XP from reinforcement penalty (small)
 				training_time_factor = 0.3
 			}
+
 			cancel_if_invalid = no
 		}
+
 		scraping_the_barrel = {
+
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
@@ -316,12 +369,15 @@ ideas = {
 						#		ratio > 1
 						#	}
 					#}
+
 				if = {
 					limit = {
 						original_tag = CAN
 						has_dlc = "Together for Victory"
 					}
+
 					has_completed_focus = CAN_compromise_with_quebec
+
 				}
 				if = {
 					limit = {
@@ -330,6 +386,7 @@ ideas = {
 					}
 					is_subject = no
 				}
+
 				if = {
 					limit = {
 						original_tag = HUN
@@ -338,6 +395,7 @@ ideas = {
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
+
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -356,9 +414,11 @@ ideas = {
 					manpower_per_military_factory >  5000
 				}
 			}
+
 			cost = 150
 			removal_cost = -1
 			level = 1
+
 			modifier = {
 				conscription = 0.25
 				industrial_capacity_factory = -0.4
@@ -366,8 +426,8 @@ ideas = {
 				production_speed_buildings_factor = -0.4
 				training_time_factor = 0.5
 			}
+
 			cancel_if_invalid = no
 		}
 	}
 }
-
